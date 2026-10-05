@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/BluePrints/GameplayObjects/Turret/MAT_TechTurret01.MAT_TechTurret01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/BluePrints/GameplayObjects/Turret/MAT_TechTurret01.MAT_TechTurret01'
+        MaterialSlotName = MAT_TechTurret01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 196.628, 291.632, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.159058, Y=-7.85233, Z=15.5508 }
+    BoxExtent = { X=37.8715, Y=45.5648, Z=15.5521 }
+    SphereRadius = 55.9548
+}

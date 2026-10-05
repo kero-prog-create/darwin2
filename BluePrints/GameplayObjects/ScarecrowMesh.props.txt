@@ -1,0 +1,169 @@
+Materials[13] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/BluePrints/Character/Materials/BasicGuySkinV1_Inst.BasicGuySkinV1_Inst'
+    Materials[1] = Material3'/Game/BluePrints/Character/Materials/DarwinIrisMat.DarwinIrisMat'
+    Materials[2] = MaterialInstanceConstant'/Game/BluePrints/Character/Materials/BasicGuySkinV1_Inst.BasicGuySkinV1_Inst'
+    Materials[3] = MaterialInstanceConstant'/Game/BluePrints/Character/Materials/BasicGuySkinV1_Inst.BasicGuySkinV1_Inst'
+    Materials[4] = MaterialInstanceConstant'/Game/BluePrints/Character/Materials/BasicGuySkinV1_Inst.BasicGuySkinV1_Inst'
+    Materials[5] = MaterialInstanceConstant'/Game/BluePrints/Character/Materials/BasicGuyClothesV1_Inst.BasicGuyClothesV1_Inst'
+    Materials[6] = MaterialInstanceConstant'/Game/BluePrints/Character/Materials/BasicGuyClothesV1_Inst.BasicGuyClothesV1_Inst'
+    Materials[7] = MaterialInstanceConstant'/Game/BluePrints/Character/Materials/BasicGuyClothesV1_Inst.BasicGuyClothesV1_Inst'
+    Materials[8] = Material3'/Game/BluePrints/Character/Materials/DarwinAxeMat.DarwinAxeMat'
+    Materials[9] = Material3'/Game/BluePrints/Character/BasicGuy/Materials/MT_bow.MT_bow'
+    Materials[10] = Material3'/Game/BluePrints/Character/Materials/Bow/DarwinBowMat.DarwinBowMat'
+    Materials[11] = Material3'/Game/BluePrints/Character/BasicGuy/Materials/MT_arrow.MT_arrow'
+}
+SourceModels[0] = {}
+StaticMaterials[13] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/BluePrints/Character/Materials/BasicGuySkinV1_Inst.BasicGuySkinV1_Inst'
+        MaterialSlotName = BasicGuySkinV1_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 94.5867, 471.742, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/BluePrints/Character/Materials/DarwinIrisMat.DarwinIrisMat'
+        MaterialSlotName = DarwinIrisMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1.97457, 379.423, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/BluePrints/Character/Materials/BasicGuySkinV1_Inst.BasicGuySkinV1_Inst'
+        MaterialSlotName = BasicGuySkinV1_Inst_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 187.012, 428.333, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/BluePrints/Character/Materials/BasicGuySkinV1_Inst.BasicGuySkinV1_Inst'
+        MaterialSlotName = BasicGuySkinV1_Inst_1_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1.72774, 375.256, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/BluePrints/Character/Materials/BasicGuySkinV1_Inst.BasicGuySkinV1_Inst'
+        MaterialSlotName = BasicGuySkinV1_Inst_1_2_3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 131.894, 429.841, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/BluePrints/Character/Materials/BasicGuyClothesV1_Inst.BasicGuyClothesV1_Inst'
+        MaterialSlotName = BasicGuyClothesV1_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 96.9854, 427.93, 0, 0 }
+        }
+    }
+    StaticMaterials[6] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/BluePrints/Character/Materials/BasicGuyClothesV1_Inst.BasicGuyClothesV1_Inst'
+        MaterialSlotName = BasicGuyClothesV1_Inst_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 154.996, 408.109, 0, 0 }
+        }
+    }
+    StaticMaterials[7] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/BluePrints/Character/Materials/BasicGuyClothesV1_Inst.BasicGuyClothesV1_Inst'
+        MaterialSlotName = BasicGuyClothesV1_Inst_1_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 206.304, 412.425, 0, 0 }
+        }
+    }
+    StaticMaterials[8] =
+    {
+        MaterialInterface = Material3'/Game/BluePrints/Character/Materials/DarwinAxeMat.DarwinAxeMat'
+        MaterialSlotName = DarwinAxeMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 236.377, 421.4, 0, 0 }
+        }
+    }
+    StaticMaterials[9] =
+    {
+        MaterialInterface = Material3'/Game/BluePrints/Character/BasicGuy/Materials/MT_bow.MT_bow'
+        MaterialSlotName = MT_bow
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 113, 416.512, 0, 0 }
+        }
+    }
+    StaticMaterials[10] =
+    {
+        MaterialInterface = Material3'/Game/BluePrints/Character/Materials/Bow/DarwinBowMat.DarwinBowMat'
+        MaterialSlotName = DarwinBowMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 35.8171, 431.293, 0, 0 }
+        }
+    }
+    StaticMaterials[11] =
+    {
+        MaterialInterface = Material3'/Game/BluePrints/Character/BasicGuy/Materials/MT_arrow.MT_arrow'
+        MaterialSlotName = MT_arrow
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 44.0398, 228.6, 0, 0 }
+        }
+    }
+    StaticMaterials[12] =
+    {
+        MaterialInterface = None
+        MaterialSlotName = MaterialSlot
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 111.499, 433.04, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.48367, Y=0.980736, Z=107.451 }
+    BoxExtent = { X=68.4519, Y=44.5182, Z=115.067 }
+    SphereRadius = 133.299
+}

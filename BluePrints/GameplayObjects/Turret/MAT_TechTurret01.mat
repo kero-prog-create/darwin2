@@ -1,0 +1,4 @@
+Diffuse=T_TechTurret01_BaseColor
+Normal=T_TechTurret01_Normal
+Emissive=T_TechTurret01_Emissive
+Other[0]=T_TechTurret01_OcclusionRoughnessMetallic
