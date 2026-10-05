@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = Material3'/Game/_PlaceholderAssets/Vegetation/Trees/ChristmasTree/ChristmasTree_Branches_Mat.ChristmasTree_Branches_Mat'
+    Materials[1] = Material3'/Game/_PlaceholderAssets/Vegetation/Trees/ChristmasTree/ChristmasTree_Leaves_Mat.ChristmasTree_Leaves_Mat'
+    Materials[2] = Material3'/Game/_PlaceholderAssets/Vegetation/Trees/ChristmasTree/ChristmasTree_Billboard_Mat.ChristmasTree_Billboard_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/_PlaceholderAssets/Vegetation/Trees/ChristmasTree/ChristmasTree_Branches_Mat.ChristmasTree_Branches_Mat'
+        MaterialSlotName = ChristmasTree_Branches_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 35.9675, 3927.24, 0, 3.12859 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/_PlaceholderAssets/Vegetation/Trees/ChristmasTree/ChristmasTree_Leaves_Mat.ChristmasTree_Leaves_Mat'
+        MaterialSlotName = ChristmasTree_Leaves_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 265.367, 6295.81, 0, 17.7729 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/_PlaceholderAssets/Vegetation/Trees/ChristmasTree/ChristmasTree_Billboard_Mat.ChristmasTree_Billboard_Mat'
+        MaterialSlotName = ChristmasTree_Billboard_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 4076.88, 4076.88, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=15.2681, Y=29.3563, Z=556.045 }
+    BoxExtent = { X=408.466, Y=407.569, Z=791.552 }
+    SphereRadius = 890.592
+}
