@@ -1,0 +1,64 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+    ReferencedTextures[1] = Texture2D'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Textures/Tile/T_Black_32.T_Black_32'
+}
+Expressions[8] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/Masters/M_Trans_Sprite_Master_Decal.MaterialExpressionTextureSampleParameter2D_15'
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/Masters/M_Trans_Sprite_Master_Decal.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[5] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/Masters/M_Trans_Sprite_Master_Decal.MaterialExpressionScalarParameter_0'
+    Expressions[7] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/Masters/M_Trans_Sprite_Master_Decal.MaterialExpressionScalarParameter_1'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Textures/Tile/T_Black_32.T_Black_32'
+        Name = DIFF
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = NORM
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=21, Name=Brightness, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Desaturation, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

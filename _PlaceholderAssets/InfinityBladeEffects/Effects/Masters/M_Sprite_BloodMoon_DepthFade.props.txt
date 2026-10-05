@@ -1,0 +1,55 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Elemental/Effects/FX_Distortion/ParticleSystems/T_Fire_SmokeWisps_Tile_Dup.T_Fire_SmokeWisps_Tile_Dup'
+    ReferencedTextures[1] = Texture2D'/Game/Env/Infil1_Background/Texture/Gischt.Gischt'
+}
+Expressions[37] =
+{
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/Masters/M_Sprite_BloodMoon_DepthFade.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[5] = MaterialExpressionTextureSample'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/Masters/M_Sprite_BloodMoon_DepthFade.MaterialExpressionTextureSample_8'
+    Expressions[6] = MaterialExpressionTextureSample'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/Masters/M_Sprite_BloodMoon_DepthFade.MaterialExpressionTextureSample_9'
+    Expressions[23] = MaterialExpressionTextureSample'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/Masters/M_Sprite_BloodMoon_DepthFade.MaterialExpressionTextureSample_14'
+    Expressions[24] = MaterialExpressionTextureSample'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/Masters/M_Sprite_BloodMoon_DepthFade.MaterialExpressionTextureSample_15'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Textures/Gradient/T_GlowNoise_Circular_02.T_GlowNoise_Circular_02'
+        Name = DIFF
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
