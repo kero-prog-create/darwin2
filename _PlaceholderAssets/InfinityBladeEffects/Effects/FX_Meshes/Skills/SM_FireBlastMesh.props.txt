@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/ExampleContent/Effects/Materials/M_TestUV.M_TestUV'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/ExampleContent/Effects/Materials/M_TestUV.M_TestUV'
+        MaterialSlotName = M_TestUV
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 217.71, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.67183, Y=1.41676, Z=44.554 }
+    BoxExtent = { X=179.565, Y=183.871, Z=43.8412 }
+    SphereRadius = 192.2
+}
