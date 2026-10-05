@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = Material3'/Game/_PlaceholderAssets/Vegetation/Trees/ClassicPine/ClassicPine_Branches_Mat.ClassicPine_Branches_Mat'
+    Materials[1] = Material3'/Game/_PlaceholderAssets/Vegetation/Trees/ClassicPine/ClassicPine_Leaves_Mat.ClassicPine_Leaves_Mat'
+    Materials[2] = Material3'/Game/_PlaceholderAssets/Vegetation/Trees/ClassicPine/ClassicPine_Leaves_2_Mat.ClassicPine_Leaves_2_Mat'
+    Materials[3] = Material3'/Game/_PlaceholderAssets/Vegetation/Trees/ClassicPine/ClassicPine_Billboard_Mat.ClassicPine_Billboard_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/_PlaceholderAssets/Vegetation/Trees/ClassicPine/ClassicPine_Branches_Mat.ClassicPine_Branches_Mat'
+        MaterialSlotName = ClassicPine_Branches_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 82.1275, 5152.75, 0, 4.97092 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/_PlaceholderAssets/Vegetation/Trees/ClassicPine/ClassicPine_Leaves_Mat.ClassicPine_Leaves_Mat'
+        MaterialSlotName = ClassicPine_Leaves_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 270.902, 4793.4, 0, 10.9871 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/_PlaceholderAssets/Vegetation/Trees/ClassicPine/ClassicPine_Leaves_2_Mat.ClassicPine_Leaves_2_Mat'
+        MaterialSlotName = ClassicPine_Leaves_2_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 455.665, 4514.7, 0, 1.7019 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/_PlaceholderAssets/Vegetation/Trees/ClassicPine/ClassicPine_Billboard_Mat.ClassicPine_Billboard_Mat'
+        MaterialSlotName = ClassicPine_Billboard_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = true
+            LocalUVDensities[4] = { 3918.69, 3918.69, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=22.836, Y=-8.33609, Z=884.174 }
+    BoxExtent = { X=361.072, Y=346.011, Z=933.247 }
+    SphereRadius = 938.002
+}
