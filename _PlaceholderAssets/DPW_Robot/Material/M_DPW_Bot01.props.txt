@@ -1,0 +1,227 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/_PlaceholderAssets/DPW_Robot/Texture/T_DPW_Bot_Var.T_DPW_Bot_Var'
+}
+Expressions[126] =
+{
+    Expressions[5] = MaterialExpressionTextureSampleParameter2D'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[7] = MaterialExpressionTextureSampleParameter2D'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[12] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionScalarParameter_2'
+    Expressions[14] = MaterialExpressionTextureSample'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionTextureSample_1'
+    Expressions[18] = MaterialExpressionTextureSampleParameter2D'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[24] = MaterialExpressionTextureSample'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionTextureSample_5'
+    Expressions[30] = MaterialExpressionVectorParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionVectorParameter_5'
+    Expressions[34] = MaterialExpressionTextureSample'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionTextureSample_3'
+    Expressions[36] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionScalarParameter_1'
+    Expressions[39] = MaterialExpressionVectorParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionVectorParameter_3'
+    Expressions[41] = MaterialExpressionVectorParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionVectorParameter_2'
+    Expressions[44] = MaterialExpressionTextureSample'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionTextureSample_7'
+    Expressions[50] = MaterialExpressionVectorParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionVectorParameter_9'
+    Expressions[51] = MaterialExpressionTextureSample'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionTextureSample_6'
+    Expressions[60] = MaterialExpressionTextureSampleParameter2D'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionTextureSampleParameter2D_8'
+    Expressions[62] = MaterialExpressionTextureSampleParameter2D'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionTextureSampleParameter2D_7'
+    Expressions[71] = MaterialExpressionTextureSampleParameter2D'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionTextureSampleParameter2D_6'
+    Expressions[73] = MaterialExpressionVectorParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionVectorParameter_4'
+    Expressions[74] = MaterialExpressionVectorParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionVectorParameter_6'
+    Expressions[75] = MaterialExpressionTextureSampleParameter2D'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[79] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionScalarParameter_0'
+    Expressions[80] = MaterialExpressionTextureSampleParameter2D'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[82] = MaterialExpressionTextureSampleParameter2D'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[84] = MaterialExpressionVectorParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionVectorParameter_0'
+    Expressions[90] = MaterialExpressionVectorParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionVectorParameter_1'
+    Expressions[92] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionScalarParameter_3'
+    Expressions[93] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionScalarParameter_5'
+    Expressions[94] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionScalarParameter_7'
+    Expressions[95] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionScalarParameter_9'
+    Expressions[96] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionScalarParameter_10'
+    Expressions[97] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionScalarParameter_12'
+    Expressions[98] = MaterialExpressionVectorParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionVectorParameter_7'
+    Expressions[100] = MaterialExpressionVectorParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionVectorParameter_8'
+    Expressions[102] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionScalarParameter_13'
+    Expressions[103] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionScalarParameter_15'
+    Expressions[108] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionScalarParameter_17'
+    Expressions[112] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionScalarParameter_18'
+    Expressions[121] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionScalarParameter_20'
+    Expressions[122] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionScalarParameter_21'
+    Expressions[123] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/DPW_Robot/Material/M_DPW_Bot01.MaterialExpressionScalarParameter_22'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[9] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/_PlaceholderAssets/DPW_Robot/Texture/T_DPW_Bot01_N.T_DPW_Bot01_N'
+        Name = Normal Map
+        Group = Textures
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/_PlaceholderAssets/DPW_Robot/Texture/T_DPW_Bot01_MatBlend.T_DPW_Bot01_MatBlend'
+        Name = Mat Blend
+        Group = Textures
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/_PlaceholderAssets/DPW_Robot/Texture/T_DPW_Bot01_Detail.T_DPW_Bot01_Detail'
+        Name = Detail Mask
+        Group = Textures
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/_PlaceholderAssets/DPW_Robot/Texture/T_DPW_Bot01_MatBlend.T_DPW_Bot01_MatBlend'
+        Name = Mat Blend
+        Group = Textures
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/_PlaceholderAssets/DPW_Robot/Texture/T_DPW_Bot01_Detail.T_DPW_Bot01_Detail'
+        Name = Detail
+        Group = Textures
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/_PlaceholderAssets/DPW_Robot/Texture/T_DPW_Bot01_Detail.T_DPW_Bot01_Detail'
+        Name = Detail
+        Group = Textures
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/_PlaceholderAssets/DPW_Robot/Texture/T_DPW_Bot01_Shade.T_DPW_Bot01_Shade'
+        Name = Shade Mask
+        Group = Textures
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/_PlaceholderAssets/DPW_Robot/Texture/T_DPW_Bot01_Decal.T_DPW_Bot01_Decal'
+        Name = Decal Texture
+        Group = Textures
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Game/_PlaceholderAssets/DPW_Robot/Texture/T_DPW_Bot01_MatBlend.T_DPW_Bot01_MatBlend'
+        Name = Mat Blend
+        Group = Textures
+    }
+}
+CollectedScalarParameters[16] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0.2
+        Name = Base Scratch Roughness
+        Group = None
+    }
+    CollectedScalarParameters[1] =
+    {
+        Value = 1
+        Name = Paint Color Variation Scale
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=3, Name=AO Power, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Paint Metal, Group=None }
+    CollectedScalarParameters[4] = { Value=0.5, Name=Paint Roughness, Group=None }
+    CollectedScalarParameters[5] = { Value=0.4, Name=Base Roughness, Group=None }
+    CollectedScalarParameters[6] = { Value=0.956, Name=Base Metal, Group=None }
+    CollectedScalarParameters[7] = { Value=0.95, Name=Chrome Metal, Group=None }
+    CollectedScalarParameters[8] = { Value=0.1, Name=Chrome Roughness, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=OPACITY Paint, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=OPACITY Chrome, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=OPACITY Paint, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=Lens Brightness, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=Paint Normal Flaten, Group=None }
+    CollectedScalarParameters[14] = { Value=5, Name=Paint UV Tile, Group=None }
+    CollectedScalarParameters[15] = { Value=15, Name=Base UV Tile, Group=None }
+}
+CollectedVectorParameters[10] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Secondary Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.789933, G=0.82, B=0.656, A=1 }
+        Name = Paint Color 02
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.6, G=0.5925, B=0.51, A=1 }
+        Name = Paint Color 01
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.256637, G=0.068163, B=0.0374188, A=1 }
+        Name = Lens Color
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.501552, G=0.889185, B=1, A=1 }
+        Name = Core Light Color Minor
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.00527868, G=0.111696, B=0.300885, A=1 }
+        Name = Core Light Color Major
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0.00884953, G=0.0066973, B=0.0056201, A=0.75 }
+        Name = Cavity Color
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0.079646, G=0.0530482, B=0.0466422, A=1 }
+        Name = AO Color
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0.488139, G=0.520252, B=0.530973, A=1 }
+        Name = Chrome Color 01
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=0.274336, G=0.229296, B=0.132209, A=1 }
+        Name = Chrome Color 02
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
