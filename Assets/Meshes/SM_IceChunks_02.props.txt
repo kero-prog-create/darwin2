@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Assets/Materials/M_IceChunks_01.M_IceChunks_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Assets/Materials/M_IceChunks_01.M_IceChunks_01'
+        MaterialSlotName = M_IceChunks_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 561.084, 182.714, 692.413, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-29.0461, Y=8.4576, Z=-7.27799 }
+    BoxExtent = { X=153.648, Y=163.799, Z=28.405 }
+    SphereRadius = 169.13
+}
