@@ -1,0 +1,105 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Textures/Noise/T_Tile_Noise_Tendril_01.T_Tile_Noise_Tendril_01'
+    ReferencedTextures[1] = Texture2D'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Textures/Gradient/T_Targeting_01.T_Targeting_01'
+    ReferencedTextures[2] = Texture2D'/Game/Fx/Textures/T_TilingNoise03.T_TilingNoise03'
+    ReferencedTextures[3] = Texture2D'/Game/Elemental/Effects/FX_Interaction_Effects/Textures/T_Thick_Smoke_Tile.T_Thick_Smoke_Tile'
+    ReferencedTextures[4] = Texture2D'/Game/Elemental/Effects/FX_Distortion/ParticleSystems/T_Fire_SmokeWisps_Tile_Dup.T_Fire_SmokeWisps_Tile_Dup'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Holograms/Textures/T_Hologram_Text_01.T_Hologram_Text_01'
+}
+Expressions[177] =
+{
+    Expressions[12] = MaterialExpressionTextureSample'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionTextureSample_4'
+    Expressions[15] = MaterialExpressionTextureSample'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionTextureSample_0'
+    Expressions[17] = MaterialExpressionVectorParameter'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionVectorParameter_0'
+    Expressions[20] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionScalarParameter_0'
+    Expressions[21] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionScalarParameter_1'
+    Expressions[28] = MaterialExpressionStaticBoolParameter'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionStaticBoolParameter_0'
+    Expressions[30] = MaterialExpressionStaticBoolParameter'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionStaticBoolParameter_1'
+    Expressions[47] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionScalarParameter_5'
+    Expressions[50] = MaterialExpressionStaticBoolParameter'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionStaticBoolParameter_2'
+    Expressions[51] = MaterialExpressionStaticBoolParameter'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionStaticBoolParameter_3'
+    Expressions[60] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionScalarParameter_2'
+    Expressions[68] = MaterialExpressionTextureSample'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionTextureSample_7'
+    Expressions[69] = MaterialExpressionTextureSample'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionTextureSample_1'
+    Expressions[77] = MaterialExpressionTextureSample'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionTextureSample_2'
+    Expressions[86] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionScalarParameter_13'
+    Expressions[87] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionScalarParameter_14'
+    Expressions[89] = MaterialExpressionTextureSample'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionTextureSample_3'
+    Expressions[91] = MaterialExpressionTextureSample'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionTextureSample_8'
+    Expressions[92] = MaterialExpressionTextureSample'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionTextureSample_19'
+    Expressions[98] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionScalarParameter_15'
+    Expressions[99] = MaterialExpressionTextureSample'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionTextureSample_20'
+    Expressions[107] = MaterialExpressionTextureSample'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionTextureSample_21'
+    Expressions[143] = MaterialExpressionStaticBoolParameter'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionStaticBoolParameter_4'
+    Expressions[157] = MaterialExpressionVectorParameter'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionVectorParameter_1'
+    Expressions[163] = MaterialExpressionTextureSample'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionTextureSample_22'
+    Expressions[166] = MaterialExpressionVectorParameter'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionVectorParameter_2'
+    Expressions[168] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionScalarParameter_11'
+    Expressions[175] = MaterialExpressionScalarParameter'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Materials/Misc/M_HoloBeam.MaterialExpressionScalarParameter_3'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=Tile_Horizontal, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Tile_Vertical, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Attenuation, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Attenuation_Y, Group=None }
+    CollectedScalarParameters[4] = { Value=0.01, Name=Min, Group=None }
+    CollectedScalarParameters[5] = { Value=0.99, Name=Max, Group=None }
+    CollectedScalarParameters[6] = { Value=0.618, Name=Mul, Group=None }
+    CollectedScalarParameters[7] = { Value=0.21, Name=TextSpeed, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=OpacityPower, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.1, G=8, B=21, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=21, G=21, B=0, A=0 }
+        Name = TilingNoise
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = TextTiling
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
