@@ -1,0 +1,4 @@
+Diffuse=SM_Jumbotron_A_BaseColor
+Normal=SM_Jumbotron_A_Normal
+Emissive=SM_Jumbotron_A_Emissive
+Other[0]=SM_Jumbotron_A_OcclusionRoughnessMetallic

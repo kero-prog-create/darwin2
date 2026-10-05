@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/BluePrints/Environment/M_SM_StadiumBottomBorderTowers.M_M_SM_StadiumBottomBorderTowers'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/BluePrints/Environment/M_SM_StadiumBottomBorderTowers.M_M_SM_StadiumBottomBorderTowers'
+        MaterialSlotName = M_M_SM_StadiumBottomBorderTowers
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 105765, 43916.9, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=8888.2, Y=4269.37, Z=-1911.68 }
+    BoxExtent = { X=9463.68, Y=4269.39, Z=2009.17 }
+    SphereRadius = 10561.9
+}

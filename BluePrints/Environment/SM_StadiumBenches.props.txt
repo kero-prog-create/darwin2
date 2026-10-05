@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/BluePrints/Environment/M_SM_StadiumBenches.M_M_SM_StadiumBenches'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/BluePrints/Environment/M_SM_StadiumBenches.M_M_SM_StadiumBenches'
+        MaterialSlotName = M_M_SM_StadiumBenches
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 14762.5, 17819.1, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=8431.5, Y=-1261.45, Z=1100.78 }
+    BoxExtent = { X=8431.5, Y=1264.3, Z=1100.78 }
+    SphereRadius = 8596.11
+}

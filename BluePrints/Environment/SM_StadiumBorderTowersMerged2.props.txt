@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/BluePrints/Environment/M_SM_StadiumBorderTowersMerged2.M_M_SM_StadiumBorderTowersMerged2'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/BluePrints/Environment/M_SM_StadiumBorderTowersMerged2.M_M_SM_StadiumBorderTowersMerged2'
+        MaterialSlotName = M_M_SM_StadiumBorderTowersMerged2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 102029, 102029, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=8.59375, Y=2042.96, Z=2044.62 }
+    BoxExtent = { X=9257.43, Y=3241.75, Z=4364.63 }
+    SphereRadius = 10317.9
+}

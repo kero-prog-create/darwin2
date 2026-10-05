@@ -1,0 +1,6 @@
+Diffuse=M_SM_StadiumBottomBorderTowers_Diffuse
+Normal=M_SM_StadiumBottomBorderTowers_Normal
+Other[0]=BaseFlattenDiffuseMap
+Other[1]=BaseFlattenEmissiveMap
+Other[2]=BaseFlattenGrayScaleMap
+Other[3]=BaseFlattenNormalMap

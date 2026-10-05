@@ -1,0 +1,38 @@
+Skeleton = Skeleton'/Game/BluePrints/Environment/InGameScreens/3D/SM_Jumbotron_Anim_Skeleton.SM_Jumbotron_Anim_Skeleton'
+bHasVertexColors = false
+LODInfo[2] =
+{
+    LODInfo[0] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0.02
+        LODMaterialMap[0] = {}
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[0] = {}
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+    LODInfo[1] =
+    {
+        DisplayFactor = 0
+        LODHysteresis = 0
+        LODMaterialMap[8] = { 2, 1, 3, 7, 0, 4, 6, 5 }
+        bEnableShadowCasting[0] = {}
+        BonesToRemove[0] = {}
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = "D:/Perforce/RawData/Tech/TechScreens/Jumbotron/SM_Jumbotron_Anim_LOD1.fbx"
+    }
+}
+MorphTargets[0] = {}
+Sockets[0] = {}
+SamplingInfo =
+{
+    Regions[0] = {}
+    BuiltData =
+    {
+        WholeMeshBuiltData[2] = { ,  }
+        RegionBuiltData[0] = {}
+    }
+}
+SkinWeightProfiles[0] = {}
+NumVertexColorChannels = 0
