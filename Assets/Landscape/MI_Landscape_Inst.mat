@@ -1,0 +1,11 @@
+Diffuse=T_Road_01_height
+Normal=Procedural_Forest_Mud_normal
+Other[0]=T_Cliff_01_baseColor
+Other[1]=T_Cliff_01_normal
+Other[2]=snow_CO
+Other[3]=snow_NM
+Other[4]=T_Road_01_roughness
+Other[5]=T_TilingNoise06
+Other[6]=Procedural_Forest_Mud_Height
+Other[7]=Procedural_Forest_Mud_basecolor
+Other[8]=Procedural_Forest_Mud_roughness

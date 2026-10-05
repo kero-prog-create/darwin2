@@ -1,0 +1,141 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Assets/Landscape/Road/T_Road_01_height.T_Road_01_height'
+    ReferencedTextures[1] = Texture2D'/Game/Assets/Landscape/Road/T_Road_01_roughness.T_Road_01_roughness'
+    ReferencedTextures[2] = Texture2D'/Game/KiteDemo/Environments/Atmospherics/T_TilingNoise06.T_TilingNoise06'
+    ReferencedTextures[3] = Texture2D'/Game/Assets/Landscape/ForestMud/Procedural_Forest_Mud_Height.Procedural_Forest_Mud_Height'
+    ReferencedTextures[4] = Texture2D'/Game/Assets/Landscape/ForestMud/Procedural_Forest_Mud_basecolor.Procedural_Forest_Mud_basecolor'
+    ReferencedTextures[5] = Texture2D'/Game/Assets/Landscape/ForestMud/Procedural_Forest_Mud_normal.Procedural_Forest_Mud_normal'
+    ReferencedTextures[6] = Texture2D'/Game/Assets/Landscape/ForestMud/Procedural_Forest_Mud_roughness.Procedural_Forest_Mud_roughness'
+}
+Expressions[186] =
+{
+    Expressions[10] = MaterialExpressionScalarParameter'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionScalarParameter_10'
+    Expressions[11] = MaterialExpressionScalarParameter'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionScalarParameter_4'
+    Expressions[16] = MaterialExpressionVectorParameter'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionVectorParameter_1'
+    Expressions[17] = MaterialExpressionScalarParameter'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionScalarParameter_9'
+    Expressions[18] = MaterialExpressionScalarParameter'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionScalarParameter_5'
+    Expressions[21] = MaterialExpressionScalarParameter'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionScalarParameter_28'
+    Expressions[22] = MaterialExpressionScalarParameter'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionScalarParameter_29'
+    Expressions[24] = MaterialExpressionVectorParameter'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionVectorParameter_4'
+    Expressions[25] = MaterialExpressionScalarParameter'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionScalarParameter_59'
+    Expressions[28] = MaterialExpressionScalarParameter'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionScalarParameter_11'
+    Expressions[29] = MaterialExpressionScalarParameter'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionScalarParameter_12'
+    Expressions[30] = MaterialExpressionVectorParameter'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionVectorParameter_6'
+    Expressions[38] = MaterialExpressionScalarParameter'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionScalarParameter_3'
+    Expressions[46] = MaterialExpressionTextureSample'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionTextureSample_2'
+    Expressions[47] = MaterialExpressionTextureSample'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionTextureSample_3'
+    Expressions[53] = MaterialExpressionScalarParameter'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionScalarParameter_17'
+    Expressions[54] = MaterialExpressionScalarParameter'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionScalarParameter_18'
+    Expressions[58] = MaterialExpressionScalarParameter'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionScalarParameter_19'
+    Expressions[60] = MaterialExpressionVectorParameter'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionVectorParameter_7'
+    Expressions[64] = MaterialExpressionTextureSample'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionTextureSample_16'
+    Expressions[65] = MaterialExpressionScalarParameter'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionScalarParameter_20'
+    Expressions[77] = MaterialExpressionScalarParameter'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionScalarParameter_7'
+    Expressions[88] = MaterialExpressionScalarParameter'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionScalarParameter_6'
+    Expressions[89] = MaterialExpressionTextureSample'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionTextureSample_0'
+    Expressions[121] = MaterialExpressionTextureSample'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionTextureSample_4'
+    Expressions[129] = MaterialExpressionTextureSample'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionTextureSample_1'
+    Expressions[145] = MaterialExpressionScalarParameter'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionScalarParameter_0'
+    Expressions[147] = MaterialExpressionScalarParameter'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionScalarParameter_1'
+    Expressions[153] = MaterialExpressionScalarParameter'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionScalarParameter_8'
+    Expressions[156] = MaterialExpressionTextureSample'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionTextureSample_5'
+    Expressions[157] = MaterialExpressionTextureSample'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionTextureSample_6'
+    Expressions[158] = MaterialExpressionTextureSample'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionTextureSample_7'
+    Expressions[159] = MaterialExpressionTextureSample'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionTextureSample_8'
+    Expressions[163] = MaterialExpressionScalarParameter'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionScalarParameter_2'
+    Expressions[168] = MaterialExpressionScalarParameter'/Game/Assets/Landscape/M_Landscape_Master.MaterialExpressionScalarParameter_13'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[21] =
+{
+    CollectedScalarParameters[0] = { Value=3500, Name=Far Blend Distance, Group=None }
+    CollectedScalarParameters[1] = { Value=8, Name=Rock Tile Near, Group=None }
+    CollectedScalarParameters[2] = { Value=2, Name=Snow Tile Far, Group=None }
+    CollectedScalarParameters[3] = { Value=16, Name=Snow Tile Near, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 1
+        Name = Snow Near Normal Intensity
+        Group = None
+    }
+    CollectedScalarParameters[5] =
+    {
+        Value = 1
+        Name = Snow Far Normal Intensity
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=1, Name=Snow Normal Tiling, Group=None }
+    CollectedScalarParameters[7] = { Value=0.4, Name=Roughness min, Group=None }
+    CollectedScalarParameters[8] = { Value=0.9, Name=Roughness max, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=FlakesNormals, Group=None }
+    CollectedScalarParameters[10] = { Value=0.4, Name=MinSnowRoughness, Group=None }
+    CollectedScalarParameters[11] = { Value=0.7, Name=MaxSnowRoughness, Group=None }
+    CollectedScalarParameters[12] = { Value=0.333, Name=Substance_tiling, Group=None }
+    CollectedScalarParameters[13] = { Value=0.333, Name=Substance_metalic, Group=None }
+    CollectedScalarParameters[14] = { Value=2, Name=SnowBlendPower, Group=None }
+    CollectedScalarParameters[15] = { Value=0.618, Name=Road Tile, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=SnowBlendBias, Group=None }
+    CollectedScalarParameters[17] = { Value=11, Name=SnowBlendScale, Group=None }
+    CollectedScalarParameters[18] = { Value=0.02, Name=POMHeightRatio, Group=None }
+    CollectedScalarParameters[19] = { Value=2, Name=Road Tile_1, Group=None }
+    CollectedScalarParameters[20] = { Value=0.0333, Name=POMHeightRatio_1, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=0.75 }
+        Name = Snow Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = RockShinyColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Snow Spec Color
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Glitter Spec Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

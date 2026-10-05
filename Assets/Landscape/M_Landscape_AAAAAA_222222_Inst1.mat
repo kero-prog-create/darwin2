@@ -1,0 +1,17 @@
+Diffuse=snow_CO
+Normal=snow_NM
+Other[0]=T_Ground_01Alt02_basecolor
+Other[1]=T_Ground_01_normal
+Other[2]=Rock_Ground_2_basecolor
+Other[3]=Rock_Ground_2_normal
+Other[4]=Rock_Ground_2_roughness
+Other[5]=Rock_Ground_height
+Other[6]=T_Ground_01Alt03_basecolor
+Other[7]=T_Ground_01_roughness
+Other[8]=T_Ground_01VariationA_height
+Other[9]=T_Road_01_height
+Other[10]=T_Road_01_roughness
+Other[11]=Procedural_Forest_Mud_basecolor
+Other[12]=Procedural_Forest_Mud_normal
+Other[13]=Procedural_Forest_Mud_roughness
+Other[14]=noise_glitter

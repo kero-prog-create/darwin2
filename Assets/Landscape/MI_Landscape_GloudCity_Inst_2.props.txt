@@ -1,0 +1,338 @@
+Parent = Material3'/Game/Assets/Landscape/M_Landscape_Tile_Master.M_Landscape_Tile_Master'
+ScalarParameterValues[34] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Substance_metalic }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=FirstHeight }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=SecondHeight }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=ThirdHeightAdd }
+        ParameterValue = 0.6
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=ThirdHeightMul }
+        ParameterValue = 0.707
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=ThirdHeightTweak }
+        ParameterValue = 0.382
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=ThirdHeightTweakIntensity }
+        ParameterValue = 2.618
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=FourthDiffuseAdd }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=FourthDiffuseMul }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=FourthHeightAdd }
+        ParameterValue = -1
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=FourthHeightMul }
+        ParameterValue = 3.1415
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=FourthHeightPow }
+        ParameterValue = 1.618
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=FourthRoughnessAdd }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=FourthRoughnessMul }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=EmissiveShininess }
+        ParameterValue = 0.618
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=Base Tile Near }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=Base Tile Far }
+        ParameterValue = 55
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=Base Normal Tiling }
+        ParameterValue = 0.23066
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=Base Near Normal Intensity }
+        ParameterValue = 0.618
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=Base Far Normal Intensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=Base Roughness }
+        ParameterValue = 0.618
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=BaseFlakesNormals }
+        ParameterValue = 2.618
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=NoiseRelativeTiling }
+        ParameterValue = 0.001
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=NoiseWorldTiling }
+        ParameterValue = 0.001
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=Noise Power }
+        ParameterValue = 0.05
+        ParameterName = None
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = { Name=Noise PrePower }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = { Name=Noise Speed }
+        ParameterValue = 0.0333
+        ParameterName = None
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = { Name=Second Tile Near }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = { Name=SecondRoughness }
+        ParameterValue = 0.95
+        ParameterName = None
+    }
+    ScalarParameterValues[29] =
+    {
+        ParameterInfo = { Name=Third Layer Tiling }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[30] =
+    {
+        ParameterInfo = { Name=ThirdLayerPOMHeightRatio }
+        ParameterValue = 0.0333
+        ParameterName = None
+    }
+    ScalarParameterValues[31] =
+    {
+        ParameterInfo = { Name=Fourth Layer Tiling }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[32] =
+    {
+        ParameterInfo = { Name=FourthLayerPOMHeightRatio }
+        ParameterValue = 0.037
+        ParameterName = None
+    }
+    ScalarParameterValues[33] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[12] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseColor }
+        ParameterValue = Texture2D'/Game/Textures/snow_CO.snow_CO'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=BaseNormal }
+        ParameterValue = Texture2D'/Game/Textures/snow_NM.snow_NM'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=SecondColor }
+        ParameterValue = Texture2D'/Game/Darwin/Graphics/Ground_01/T_Ground_Halset01_basecolor.T_Ground_Halset01_basecolor'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=SecondNormal }
+        ParameterValue = Texture2D'/Game/Darwin/Graphics/Ground_01/T_Ground_Halset01_normal.T_Ground_Halset01_normal'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=ThirdColor }
+        ParameterValue = Texture2D'/Game/Darwin/Graphics/Ground_01/T_Ground_Halset02_basecolor.T_Ground_Halset02_basecolor'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=ThirdNormal }
+        ParameterValue = Texture2D'/Game/Darwin/Graphics/Ground_01/T_Ground_Halset02_normal.T_Ground_Halset02_normal'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=ThirdRoughness }
+        ParameterValue = Texture2D'/Game/Darwin/Graphics/Ground_01/T_Ground_Halset02_roughness.T_Ground_Halset02_roughness'
+        ParameterName = None
+    }
+    TextureParameterValues[7] =
+    {
+        ParameterInfo = { Name=ThirdHeight }
+        ParameterValue = Texture2D'/Game/Darwin/Graphics/Ground_01/T_Ground_Halset02_height.T_Ground_Halset02_height'
+        ParameterName = None
+    }
+    TextureParameterValues[8] =
+    {
+        ParameterInfo = { Name=FourthColor }
+        ParameterValue = Texture2D'/Game/Darwin/Graphics/Bricks_02/T_Bricks_02_HalsetGround01_basecolor.T_Bricks_02_HalsetGround01_basecolor'
+        ParameterName = None
+    }
+    TextureParameterValues[9] =
+    {
+        ParameterInfo = { Name=FourthNormal }
+        ParameterValue = Texture2D'/Game/Darwin/Graphics/Bricks_02/T_Bricks_02_HalsetGround01_normal.T_Bricks_02_HalsetGround01_normal'
+        ParameterName = None
+    }
+    TextureParameterValues[10] =
+    {
+        ParameterInfo = { Name=FourthRoughness }
+        ParameterValue = Texture2D'/Game/Darwin/Graphics/Bricks_02/T_Bricks_02_HalsetGround01_roughness.T_Bricks_02_HalsetGround01_roughness'
+        ParameterName = None
+    }
+    TextureParameterValues[11] =
+    {
+        ParameterInfo = { Name=FourthHeight }
+        ParameterValue = Texture2D'/Game/Darwin/Graphics/Bricks_02/T_Bricks_02_HalsetGround01_height.T_Bricks_02_HalsetGround01_height'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseThirtHeightTweak }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseCustomBlending }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.125
+        UVChannelIndex = 0
+        TextureName = Snow_basecolor
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.015625
+        UVChannelIndex = 0
+        TextureName = snow_CO
+    }
+}

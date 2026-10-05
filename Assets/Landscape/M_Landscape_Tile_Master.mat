@@ -1,0 +1,6 @@
+Diffuse=T_Road_01_height
+Normal=Procedural_Forest_Mud_normal
+Other[0]=T_Road_01_roughness
+Other[1]=Procedural_Forest_Mud_basecolor
+Other[2]=Procedural_Forest_Mud_roughness
+Other[3]=noise_glitter
