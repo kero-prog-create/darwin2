@@ -1,0 +1,60 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/BluePrints/Base/UI/AssetsMenu/MenuSeptember/PlayCards/PlayCards_Footer.PlayCards_Footer'
+    ReferencedTextures[1] = Texture2D'/Game/BluePrints/Base/UI/AssetsMenu/MenuSeptember/PlayCards/PlayCards_Mask.PlayCards_Mask'
+}
+Expressions[12] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'/Game/BluePrints/Base/UI/AssetsMenu/MenuSeptember/PlayCards/PlayCards_Footer_Mat.MaterialExpressionTextureSample_0'
+    Expressions[1] = MaterialExpressionVectorParameter'/Game/BluePrints/Base/UI/AssetsMenu/MenuSeptember/PlayCards/PlayCards_Footer_Mat.MaterialExpressionVectorParameter_1'
+    Expressions[4] = MaterialExpressionTextureSample'/Game/BluePrints/Base/UI/AssetsMenu/MenuSeptember/PlayCards/PlayCards_Footer_Mat.MaterialExpressionTextureSample_1'
+    Expressions[5] = MaterialExpressionVectorParameter'/Game/BluePrints/Base/UI/AssetsMenu/MenuSeptember/PlayCards/PlayCards_Footer_Mat.MaterialExpressionVectorParameter_0'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0.004777, B=0.011612, A=1 }
+        Name = GradientColorBottom
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0.016807, B=0.127438, A=1 }
+        Name = GradientColorTop
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

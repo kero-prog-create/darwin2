@@ -1,0 +1,48 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/BluePrints/Base/UI/AssetsMenu/MenuSeptember/PlayCards/PlayCards_DuoIllu.PlayCards_DuoIllu'
+    ReferencedTextures[1] = Texture2D'/Game/BluePrints/Base/UI/AssetsMenu/MenuSeptember/PlayCards/PlayCards_Mask.PlayCards_Mask'
+}
+Expressions[16] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'/Game/BluePrints/Base/UI/AssetsMenu/MenuSeptember/PlayCards/PlayCards_DuoIllu_Mat.MaterialExpressionTextureSample_0'
+    Expressions[2] = MaterialExpressionScalarParameter'/Game/BluePrints/Base/UI/AssetsMenu/MenuSeptember/PlayCards/PlayCards_DuoIllu_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[6] = MaterialExpressionTextureSample'/Game/BluePrints/Base/UI/AssetsMenu/MenuSeptember/PlayCards/PlayCards_DuoIllu_Mat.MaterialExpressionTextureSample_2'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Scale, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
