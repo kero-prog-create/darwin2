@@ -1,0 +1,73 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Assets/Texture/T_Water_Ripple_Directional_Noise.T_Water_Ripple_Directional_Noise'
+    ReferencedTextures[1] = Texture2D'/Game/Assets/Texture/T_Foam_D.T_Foam_D'
+}
+Expressions[43] =
+{
+    Expressions[5] = MaterialExpressionTextureSample'/Game/Assets/Materials/M_Water_01.MaterialExpressionTextureSample_0'
+    Expressions[11] = MaterialExpressionTextureSample'/Game/Assets/Materials/M_Water_01.MaterialExpressionTextureSample_2'
+    Expressions[15] = MaterialExpressionVectorParameter'/Game/Assets/Materials/M_Water_01.MaterialExpressionVectorParameter_0'
+    Expressions[16] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Water_01.MaterialExpressionScalarParameter_0'
+    Expressions[17] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Water_01.MaterialExpressionScalarParameter_1'
+    Expressions[18] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Water_01.MaterialExpressionScalarParameter_2'
+    Expressions[19] = MaterialExpressionVectorParameter'/Game/Assets/Materials/M_Water_01.MaterialExpressionVectorParameter_1'
+    Expressions[20] = MaterialExpressionTextureSample'/Game/Assets/Materials/M_Water_01.MaterialExpressionTextureSample_5'
+    Expressions[21] = MaterialExpressionTextureSample'/Game/Assets/Materials/M_Water_01.MaterialExpressionTextureSample_3'
+    Expressions[29] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Water_01.MaterialExpressionScalarParameter_3'
+    Expressions[37] = MaterialExpressionTextureSample'/Game/Assets/Materials/M_Water_01.MaterialExpressionTextureSample_6'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=Emissive Power, Group=None }
+    CollectedScalarParameters[1] = { Value=0.1, Name=Panning Speed, Group=None }
+    CollectedScalarParameters[2] = { Value=14, Name=Wave Scale, Group=None }
+    CollectedScalarParameters[3] = { Value=14, Name=Wave Scale, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.0051, G=0.009127, B=0.01, A=0 }
+        Name = Water_Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.3, G=0.3, B=1, A=1 }
+        Name = Normal power
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

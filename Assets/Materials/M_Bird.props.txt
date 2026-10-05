@@ -1,0 +1,112 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Assets/Textures/T_Bird_N.T_Bird_N'
+    ReferencedTextures[1] = Texture2D'/Game/Assets/Textures/T_Bird_D.T_Bird_D'
+}
+Expressions[103] =
+{
+    Expressions[3] = MaterialExpressionTextureSample'/Game/Assets/Materials/M_Bird.MaterialExpressionTextureSample_1'
+    Expressions[11] = MaterialExpressionTextureSample'/Game/Assets/Materials/M_Bird.MaterialExpressionTextureSample_0'
+    Expressions[12] = MaterialExpressionVectorParameter'/Game/Assets/Materials/M_Bird.MaterialExpressionVectorParameter_0'
+    Expressions[13] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Bird.MaterialExpressionScalarParameter_2'
+    Expressions[14] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Bird.MaterialExpressionScalarParameter_3'
+    Expressions[17] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Bird.MaterialExpressionScalarParameter_12'
+    Expressions[19] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Bird.MaterialExpressionScalarParameter_4'
+    Expressions[29] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Bird.MaterialExpressionScalarParameter_5'
+    Expressions[32] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Bird.MaterialExpressionScalarParameter_6'
+    Expressions[34] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Bird.MaterialExpressionScalarParameter_9'
+    Expressions[39] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Bird.MaterialExpressionScalarParameter_10'
+    Expressions[45] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Bird.MaterialExpressionScalarParameter_13'
+    Expressions[51] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Bird.MaterialExpressionScalarParameter_14'
+    Expressions[54] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Bird.MaterialExpressionScalarParameter_15'
+    Expressions[56] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Bird.MaterialExpressionScalarParameter_16'
+    Expressions[79] = MaterialExpressionVectorParameter'/Game/Assets/Materials/M_Bird.MaterialExpressionVectorParameter_11'
+    Expressions[80] = MaterialExpressionVectorParameter'/Game/Assets/Materials/M_Bird.MaterialExpressionVectorParameter_12'
+    Expressions[81] = MaterialExpressionVectorParameter'/Game/Assets/Materials/M_Bird.MaterialExpressionVectorParameter_13'
+    Expressions[89] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Bird.MaterialExpressionScalarParameter_7'
+    Expressions[90] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Bird.MaterialExpressionScalarParameter_8'
+    Expressions[99] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Bird.MaterialExpressionScalarParameter_0'
+    Expressions[100] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Bird.MaterialExpressionScalarParameter_1'
+    Expressions[101] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Bird.MaterialExpressionScalarParameter_11'
+    Expressions[102] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Bird.MaterialExpressionScalarParameter_17'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[18] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=RoughnessHigh, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=RoughnessLOW, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Speed, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Rotate Amount, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Forward rotate Amount, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Forward Rotate Delay, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Speed, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Rotation Angle Bias, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Speed, Group=None }
+    CollectedScalarParameters[9] = { Value=128, Name=Macro Wave Frequency, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=Macro Wave scale, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=Macro Time Bias, Group=None }
+    CollectedScalarParameters[12] = { Value=2000, Name=AppearDistance, Group=None }
+    CollectedScalarParameters[13] = { Value=10000, Name=FadeTransition, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=DPBias, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=DPSpeed, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=DP3, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=DP4, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.515, G=0.515, B=0.515, A=1 }
+        Name = Color1
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Color2
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = LightVector
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

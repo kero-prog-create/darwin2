@@ -1,0 +1,5 @@
+Diffuse=T_LS_Snow_01_D_Disp
+Normal=T_Glacier_CliffSide_N
+Other[0]=T_Ice_Noise_N
+Other[1]=T_Gradient
+Other[2]=T_Rock_M

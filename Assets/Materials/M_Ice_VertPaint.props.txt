@@ -1,0 +1,86 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Assets/Textures/T_LS_Grass_01_D.T_LS_Grass_01_D'
+    ReferencedTextures[1] = Texture2D'/Game/Assets/Textures/T_Ice_Crystal_D_02.T_Ice_Crystal_D_02'
+    ReferencedTextures[2] = Texture2D'/Game/Assets/Textures/T_IceSurface_ComplexNormal.T_IceSurface_ComplexNormal'
+    ReferencedTextures[3] = Texture2D'/Game/Assets/Textures/T_SnowTop_N.T_SnowTop_N'
+    ReferencedTextures[4] = Texture2D'/Game/Assets/Textures/SnowMound_01_N.SnowMound_01_N'
+    ReferencedTextures[5] = TextureCube4'/Game/Assets/Textures/T_Env_Cube.T_Env_Cube'
+}
+Expressions[64] =
+{
+    Expressions[15] = MaterialExpressionTextureSample'/Game/Assets/Materials/M_Ice_VertPaint.MaterialExpressionTextureSample_8'
+    Expressions[20] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Ice_VertPaint.MaterialExpressionScalarParameter_3'
+    Expressions[23] = MaterialExpressionTextureSample'/Game/Assets/Materials/M_Ice_VertPaint.MaterialExpressionTextureSample_7'
+    Expressions[24] = MaterialExpressionTextureSample'/Game/Assets/Materials/M_Ice_VertPaint.MaterialExpressionTextureSample_6'
+    Expressions[27] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Ice_VertPaint.MaterialExpressionScalarParameter_8'
+    Expressions[28] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Ice_VertPaint.MaterialExpressionScalarParameter_9'
+    Expressions[30] = MaterialExpressionTextureSample'/Game/Assets/Materials/M_Ice_VertPaint.MaterialExpressionTextureSample_12'
+    Expressions[32] = MaterialExpressionTextureSample'/Game/Assets/Materials/M_Ice_VertPaint.MaterialExpressionTextureSample_14'
+    Expressions[36] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Ice_VertPaint.MaterialExpressionScalarParameter_29'
+    Expressions[37] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Ice_VertPaint.MaterialExpressionScalarParameter_28'
+    Expressions[39] = MaterialExpressionTextureSample'/Game/Assets/Materials/M_Ice_VertPaint.MaterialExpressionTextureSample_3'
+    Expressions[40] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Ice_VertPaint.MaterialExpressionScalarParameter_5'
+    Expressions[41] = MaterialExpressionTextureSample'/Game/Assets/Materials/M_Ice_VertPaint.MaterialExpressionTextureSample_16'
+    Expressions[52] = MaterialExpressionVectorParameter'/Game/Assets/Materials/M_Ice_VertPaint.MaterialExpressionVectorParameter_1'
+    Expressions[53] = MaterialExpressionVectorParameter'/Game/Assets/Materials/M_Ice_VertPaint.MaterialExpressionVectorParameter_0'
+    Expressions[55] = MaterialExpressionScalarParameter'/Game/Assets/Materials/M_Ice_VertPaint.MaterialExpressionScalarParameter_32'
+    Expressions[56] = MaterialExpressionTextureSample'/Game/Assets/Materials/M_Ice_VertPaint.MaterialExpressionTextureSample_4'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=8, Name=Snow Tile, Group=None }
+    CollectedScalarParameters[1] = { Value=64, Name=Ice Max, Group=None }
+    CollectedScalarParameters[2] = { Value=-0.5, Name=Ice Min, Group=None }
+    CollectedScalarParameters[3] = { Value=8, Name=Reflection Tile Y, Group=None }
+    CollectedScalarParameters[4] = { Value=8, Name=Reflection Tile X, Group=None }
+    CollectedScalarParameters[5] = { Value=8, Name=Snow Normal Tile, Group=None }
+    CollectedScalarParameters[6] = { Value=2, Name=Ice Brightness, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.68625, G=0.704441, B=0.75, A=0 }
+        Name = SnowColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.173186, G=0.243973, B=0.336283, A=0 }
+        Name = IceColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
