@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/_PlaceholderAssets/InfinityBladeEffects/Environments/Breakables/Materials/M_Breakables_Pots_Red.M_Breakables_Pots_Red'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/_PlaceholderAssets/InfinityBladeEffects/Environments/Breakables/Materials/M_Breakables_Pots_Red.M_Breakables_Pots_Red'
+        MaterialSlotName = M_Breakables_Pots_Red
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 365.468, 58.2355, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=0 }
+    BoxExtent = { X=14.8415, Y=18.3281, Z=7.3777 }
+    SphereRadius = 21.8527
+}
