@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Materials/Aurora_Mat.Aurora_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Materials/Aurora_Mat.Aurora_Mat'
+        MaterialSlotName = Aurora_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2119.37, 2152.29, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=71.387, Y=165.489, Z=250 }
+    BoxExtent = { X=621.707, Y=3842.04, Z=250 }
+    SphereRadius = 3850.62
+}

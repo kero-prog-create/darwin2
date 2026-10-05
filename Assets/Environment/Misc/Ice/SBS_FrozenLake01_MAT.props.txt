@@ -1,0 +1,100 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Textures/snow_NM.snow_NM'
+    ReferencedTextures[1] = Texture2D'/Game/Textures/snow_CO.snow_CO'
+    ReferencedTextures[2] = Texture2D'/Game/Textures/snow_CO_New.snow_CO_New'
+}
+Expressions[33] =
+{
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'/Game/Assets/Environment/Misc/Ice/SBS_FrozenLake01_MAT.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[3] = MaterialExpressionTextureSampleParameter2D'/Game/Assets/Environment/Misc/Ice/SBS_FrozenLake01_MAT.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'/Game/Assets/Environment/Misc/Ice/SBS_FrozenLake01_MAT.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[5] = MaterialExpressionTextureSampleParameter2D'/Game/Assets/Environment/Misc/Ice/SBS_FrozenLake01_MAT.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[8] = MaterialExpressionScalarParameter'/Game/Assets/Environment/Misc/Ice/SBS_FrozenLake01_MAT.MaterialExpressionScalarParameter_0'
+    Expressions[16] = MaterialExpressionVectorParameter'/Game/Assets/Environment/Misc/Ice/SBS_FrozenLake01_MAT.MaterialExpressionVectorParameter_11'
+    Expressions[18] = MaterialExpressionVectorParameter'/Game/Assets/Environment/Misc/Ice/SBS_FrozenLake01_MAT.MaterialExpressionVectorParameter_10'
+    Expressions[20] = MaterialExpressionTextureSample'/Game/Assets/Environment/Misc/Ice/SBS_FrozenLake01_MAT.MaterialExpressionTextureSample_12'
+    Expressions[21] = MaterialExpressionTextureSample'/Game/Assets/Environment/Misc/Ice/SBS_FrozenLake01_MAT.MaterialExpressionTextureSample_11'
+    Expressions[25] = MaterialExpressionScalarParameter'/Game/Assets/Environment/Misc/Ice/SBS_FrozenLake01_MAT.MaterialExpressionScalarParameter_14'
+    Expressions[27] = MaterialExpressionScalarParameter'/Game/Assets/Environment/Misc/Ice/SBS_FrozenLake01_MAT.MaterialExpressionScalarParameter_17'
+    Expressions[31] = MaterialExpressionTextureSample'/Game/Assets/Environment/Misc/Ice/SBS_FrozenLake01_MAT.MaterialExpressionTextureSample_14'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Assets/Environment/Misc/Ice/T_FrozenLake01_basecolor.T_FrozenLake01_basecolor'
+        Name = basecolor
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Assets/Environment/Misc/Ice/T_FrozenLake01_metallic.T_FrozenLake01_metallic'
+        Name = metallic
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Assets/Environment/Misc/Ice/T_FrozenLake01_roughness.T_FrozenLake01_roughness'
+        Name = roughness
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Assets/Environment/Misc/Ice/T_FrozenLake01_normal.T_FrozenLake01_normal'
+        Name = normal
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=3, Name=Tiling, Group=None }
+    CollectedScalarParameters[1] = { Value=5, Name=SnowTiling, Group=None }
+    CollectedScalarParameters[2] = { Value=10, Name=Substance_tiling, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.562376, G=0.622431, B=1, A=1 }
+        Name = SnowColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.562376, G=0.622431, B=1, A=1 }
+        Name = Snow Spec Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
