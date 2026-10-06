@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/BluePrints/Zombie/Deer/Materials/M_Red_Deer_Buck.M_Red_Deer_Buck'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/BluePrints/Zombie/Deer/Materials/M_Red_Deer_Buck.M_Red_Deer_Buck'
+        MaterialSlotName = M_Red_Deer_Buck
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 191.211, 85.8196, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0761566, Y=-4.6616, Z=37.697 }
+    BoxExtent = { X=90.1788, Y=61.9941, Z=60.8838 }
+    SphereRadius = 125.229
+}
