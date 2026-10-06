@@ -1,0 +1,5 @@
+Diffuse=T_BLTRCH02_SpecularRoughnessMetallic
+Normal=T_BLTRCH02_Normal
+SpecPower=T_BLTRCH02_SpecularRoughnessMetallic
+Other[0]=T_BLTRCH02_BaseColor
+Other[1]=T_Black_32
