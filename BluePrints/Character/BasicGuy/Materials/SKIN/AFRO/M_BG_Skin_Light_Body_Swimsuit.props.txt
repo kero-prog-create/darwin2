@@ -1,0 +1,214 @@
+Parent = Material3'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.DarwinBaseCharacterMat'
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[8] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseTexture }
+        ParameterValue = Texture2D'/Game/BluePrints/Character/BasicGuy/Textures/SKIN/AFRO/Light/Male_African_Body_BaseColor.Male_African_Body_BaseColor'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=IDTextureSubsurface }
+        ParameterValue = Texture2D'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Textures/Tile/T_Black_32.T_Black_32'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=NormalTexture }
+        ParameterValue = Texture2D'/Game/BluePrints/Character/BasicGuy/Textures/SKIN/AFRO/Light/Male_African_Body_Normal.Male_African_Body_Normal'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=OcclusionRoughnessMetalicMap }
+        ParameterValue = Texture2D'/Game/BluePrints/Character/BasicGuy/Textures/SKIN/AFRO/Light/Male_African_OcclusionRoughnessMetallic.Male_African_OcclusionRoughnessMetallic'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=SpecularRoughnessMetallic }
+        ParameterValue = Texture2D'/Game/BluePrints/Character/BasicGuy/Textures/SKIN/AFRO/Light/Male_African_Body_SpecularRoughnessMetallic.Male_African_Body_SpecularRoughnessMetallic'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=FacePaintTextureColor }
+        ParameterValue = Texture2D'/Game/BluePrints/Character/BasicGuy/Textures/NAKED/SwimsuitM_BaseColor.SwimsuitM_BaseColor'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=FacePaintTextureNormal }
+        ParameterValue = Texture2D'/Game/Textures/Dev/dev_normal_a.dev_normal_a'
+        ParameterName = None
+    }
+    TextureParameterValues[7] =
+    {
+        ParameterInfo = { Name=FacePaintTextureSRM }
+        ParameterValue = Texture2D'/Game/BluePrints/Character/BasicGuy/Textures/NAKED/SwimsuitM_SpecularRoughnessMetallic.SwimsuitM_SpecularRoughnessMetallic'
+        ParameterName = None
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=IDSubsurface }
+        ParameterValue = { R=0, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=SubsurfaceColor }
+        ParameterValue = { R=0.01459, G=0.004225, B=0.003191, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0
+}
+StaticParameters =
+{
+    StaticSwitchParameters[6] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=SRGB_Normals }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseAOMap }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseOcclusionRoughnessMetallicMap }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseSpecularRoughnessMetallic }
+            bOverride = true
+        }
+        StaticSwitchParameters[4] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseSubSurface }
+            bOverride = true
+        }
+        StaticSwitchParameters[5] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseSwimsuit }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[12] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = dev_black
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = dev_normal_a
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 64
+        UVChannelIndex = 0
+        TextureName = Hex-1-01
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = ice_stylized_diffuse
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = ice_stylized_height
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = ice_stylized_normal
+    }
+    TextureStreamingData[6] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = ice_stylized_roughness
+    }
+    TextureStreamingData[7] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Male_African_Body_BaseColor
+    }
+    TextureStreamingData[8] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Male_African_Body_Normal
+    }
+    TextureStreamingData[9] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Male_African_Body_SpecularRoughnessMetallic
+    }
+    TextureStreamingData[10] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = SwimsuitM_SpecularRoughnessMetallic
+    }
+    TextureStreamingData[11] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = T_TilingNoise03
+    }
+}

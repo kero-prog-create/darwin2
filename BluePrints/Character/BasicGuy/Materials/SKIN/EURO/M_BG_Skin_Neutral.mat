@@ -1,0 +1,9 @@
+Normal=Male_European_Normal
+Other[0]=Color_White
+Other[1]=Male_European_BaseColor
+Other[2]=T_Black_32
+Other[3]=Male_European_OcclusionRoughnessMetallic
+Other[4]=basicGuy_clothes_normal
+Other[5]=T_TilingNoise03
+Other[6]=basicGuy_clothes_AO
+Other[7]=basicGuy_clothes_mask
