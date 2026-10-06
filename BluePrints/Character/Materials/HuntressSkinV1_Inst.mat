@@ -1,0 +1,7 @@
+Normal=HT_body_normal_v2
+Other[0]=HT_body_ao
+Other[1]=HT_body_colorMap_v2
+Other[2]=basicGuy_clothes_normal
+Other[3]=T_TilingNoise03
+Other[4]=basicGuy_clothes_AO
+Other[5]=basicGuy_clothes_mask
