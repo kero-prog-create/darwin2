@@ -1,0 +1,4 @@
+Diffuse=T_MET_SamaritanBot_Body_D
+Normal=T_MET_SamaritanBot_Body_N
+Emissive=Emissivemask
+Other[0]=T_TilingNoise03

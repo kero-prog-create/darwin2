@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/BluePrints/ShowDirector/MegaDrone/MiniBot01_ID1.MiniBot01_ID1'
+    Materials[1] = Material3'/Game/BluePrints/ShowDirector/MegaDrone/MiniBot01_ID3.MiniBot01_ID3'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/BluePrints/ShowDirector/MegaDrone/MiniBot01_ID1.MiniBot01_ID1'
+        MaterialSlotName = MiniBot01_ID1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 712.759, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/BluePrints/ShowDirector/MegaDrone/MiniBot01_ID3.MiniBot01_ID3'
+        MaterialSlotName = MiniBot01_ID3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 394.206, 0, 0, 0 }
+        }
+    }
+}
+Sockets[7] = {  }
+ExtendedBounds =
+{
+    Origin = { X=0.4589, Y=72.3476, Z=9.07084 }
+    BoxExtent = { X=101.392, Y=138.27, Z=129.756 }
+    SphereRadius = 171.999
+}
