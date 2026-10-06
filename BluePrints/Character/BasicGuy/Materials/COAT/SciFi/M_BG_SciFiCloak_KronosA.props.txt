@@ -1,0 +1,184 @@
+Parent = Material3'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.DarwinBaseCharacterMat'
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[6] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=AOTexture }
+        ParameterValue = Texture2D'/Game/BluePrints/Character/BasicGuy/Textures/basicGuy_clothes_AO.basicGuy_clothes_AO'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=BaseTexture }
+        ParameterValue = Texture2D'/Game/BluePrints/Character/BasicGuy/Textures/COAT/SciFi/KronosA/SciFiCloak_BaseColor.SciFiCloak_BaseColor'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=EmissiveTexture }
+        ParameterValue = Texture2D'/Game/BluePrints/Character/BasicGuy/Textures/COAT/SciFi/KronosA/SciFiCloak_Emissive.SciFiCloak_Emissive'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=IDTextureColor }
+        ParameterValue = Texture2D'/Game/_PlaceholderAssets/InfinityBladeEffects/Effects/FX_Textures/Tile/T_Black_32.T_Black_32'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=NormalTexture }
+        ParameterValue = Texture2D'/Game/BluePrints/Character/BasicGuy/Textures/COAT/SciFi/KronosA/SciFiCloak_Normal.SciFiCloak_Normal'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=OcclusionRoughnessMetalicMap }
+        ParameterValue = Texture2D'/Game/BluePrints/Character/BasicGuy/Textures/COAT/SciFi/KronosA/SciFiCloak_SpecularRoughnessMetallic.SciFiCloak_SpecularRoughnessMetallic'
+        ParameterName = None
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=IDColorMod }
+        ParameterValue = { R=0, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=BaseColor }
+        ParameterValue = { R=3.1415, G=3.1415, B=3.1415, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = true
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0
+}
+StaticParameters =
+{
+    StaticSwitchParameters[3] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseAOMap }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseColor }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseOcclusionRoughnessMetallicMap }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[12] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = DefaultFacePaint
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = dev_normal_a
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 64
+        UVChannelIndex = 0
+        TextureName = Hex-1-01
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = ice_stylized_diffuse
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = ice_stylized_height
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = ice_stylized_normal
+    }
+    TextureStreamingData[6] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = ice_stylized_roughness
+    }
+    TextureStreamingData[7] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = SciFiCloak_BaseColor
+    }
+    TextureStreamingData[8] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = SciFiCloak_Emissive
+    }
+    TextureStreamingData[9] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = SciFiCloak_Normal
+    }
+    TextureStreamingData[10] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = SciFiCloak_SpecularRoughnessMetallic
+    }
+    TextureStreamingData[11] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = T_TilingNoise03
+    }
+}

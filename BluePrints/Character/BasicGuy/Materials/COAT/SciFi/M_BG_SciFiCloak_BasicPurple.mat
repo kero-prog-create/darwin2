@@ -1,0 +1,9 @@
+Diffuse=T_Black_32
+Normal=SciFiCloak_Normal
+Emissive=SciFiCloak_Emissive
+Other[0]=basicGuy_clothes_AO
+Other[1]=SciFiCloak_BaseColor
+Other[2]=SciFiCloak_SpecularRoughnessMetallic
+Other[3]=basicGuy_clothes_normal
+Other[4]=T_TilingNoise03
+Other[5]=basicGuy_clothes_mask
