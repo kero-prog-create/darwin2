@@ -1,0 +1,10 @@
+Diffuse=T_Black_32
+Normal=Cloak_Normal
+Emissive=Color_Black
+Other[0]=basicGuy_clothes_AO
+Other[1]=Cloack_BaseColor
+Other[2]=Cloack_Emissive
+Other[3]=basicGuy_clothes_mask
+Other[4]=Cloak_SpecularRoughnessMetallic
+Other[5]=basicGuy_clothes_normal
+Other[6]=T_TilingNoise03
