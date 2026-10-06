@@ -1,0 +1,62 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/BluePrints/ShowDirector/UI/Habillage/HealthGage75px.HealthGage75px'
+}
+Expressions[12] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'/Game/BluePrints/ShowDirector/UI/Habillage/HealthGage75px_Mat.MaterialExpressionTextureSample_0'
+    Expressions[8] = MaterialExpressionScalarParameter'/Game/BluePrints/ShowDirector/UI/Habillage/HealthGage75px_Mat.MaterialExpressionScalarParameter_5'
+    Expressions[10] = MaterialExpressionVectorParameter'/Game/BluePrints/ShowDirector/UI/Habillage/HealthGage75px_Mat.MaterialExpressionVectorParameter_4'
+    Expressions[11] = MaterialExpressionVectorParameter'/Game/BluePrints/ShowDirector/UI/Habillage/HealthGage75px_Mat.MaterialExpressionVectorParameter_5'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.95
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Percent, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.174647, B=0, A=1 }
+        Name = GradientColorTop
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = GradientColorBottom
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
