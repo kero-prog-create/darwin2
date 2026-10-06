@@ -1,0 +1,63 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/BluePrints/ShowDirector/UI/Powers/PogsAssets/SparksFB.SparksFB'
+}
+Expressions[12] =
+{
+    Expressions[2] = MaterialExpressionScalarParameter'/Game/BluePrints/ShowDirector/UI/Powers/PogsAssets/SparksFB_Mat.MaterialExpressionScalarParameter_6'
+    Expressions[3] = MaterialExpressionScalarParameter'/Game/BluePrints/ShowDirector/UI/Powers/PogsAssets/SparksFB_Mat.MaterialExpressionScalarParameter_7'
+    Expressions[8] = MaterialExpressionVectorParameter'/Game/BluePrints/ShowDirector/UI/Powers/PogsAssets/SparksFB_Mat.MaterialExpressionVectorParameter_4'
+    Expressions[9] = MaterialExpressionVectorParameter'/Game/BluePrints/ShowDirector/UI/Powers/PogsAssets/SparksFB_Mat.MaterialExpressionVectorParameter_5'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=4, Name=NumberOfColumns, Group=None }
+    CollectedScalarParameters[1] = { Value=8, Name=NumberOfRows, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0, B=0.064803, A=0 }
+        Name = GradientColorTop
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0.150029, B=0, A=1 }
+        Name = GradientColorBottom
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
