@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/BluePrints/Character/Bags/MAT_HealthBag01_Inst.MAT_HealthBag01_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/BluePrints/Character/Bags/MAT_HealthBag01_Inst.MAT_HealthBag01_Inst'
+        MaterialSlotName = MAT_HealthBag01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 32.686, 37.4288, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.131278, Y=0.0196323, Z=8.56662 }
+    BoxExtent = { X=6.41955, Y=4.15143, Z=9.42021 }
+    SphereRadius = 11.3094
+}

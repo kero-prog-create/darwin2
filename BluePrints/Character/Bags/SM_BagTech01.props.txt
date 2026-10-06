@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/BluePrints/Character/Bags/MAT_TechBag01.MAT_TechBag01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/BluePrints/Character/Bags/MAT_TechBag01.MAT_TechBag01'
+        MaterialSlotName = MAT_TechBag01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 38.1755, 51.8677, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.167232, Y=-0.185075, Z=11.3287 }
+    BoxExtent = { X=6.1431, Y=3.53055, Z=11.5346 }
+    SphereRadius = 12.3798
+}

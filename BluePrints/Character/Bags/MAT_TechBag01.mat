@@ -1,0 +1,6 @@
+Diffuse=T_BagTech01_BaseColor
+Normal=T_BagTech01_Normal
+Emissive=T_BagTech01_Emissive
+Other[0]=T_BagTech01_OcclusionRoughnessMetallic
+Other[1]=T_Consumable_HealthPack_Mask
+Other[2]=T_BagTech01_Emissive_Lvl0

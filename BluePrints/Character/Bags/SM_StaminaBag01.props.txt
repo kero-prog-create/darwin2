@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/BluePrints/Character/Bags/MAT_StaminaBag01.MAT_StaminaBag01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/BluePrints/Character/Bags/MAT_StaminaBag01.MAT_StaminaBag01'
+        MaterialSlotName = MAT_StaminaBag01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 34.5274, 33.7485, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.167232, Y=0.0196338, Z=10.8695 }
+    BoxExtent = { X=5.2212, Y=5.2212, Z=10.8185 }
+    SphereRadius = 11.7552
+}

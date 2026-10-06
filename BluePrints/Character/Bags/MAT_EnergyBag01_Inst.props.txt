@@ -1,0 +1,94 @@
+Parent = Material3'/Game/BluePrints/Character/Bags/MAT_EnergyBag01.MAT_EnergyBag01'
+ScalarParameterValues[2] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=OpacityPower }
+        ParameterValue = 0.001
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[8] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = ice_stylized_diffuse
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = ice_stylized_height
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = ice_stylized_normal
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = ice_stylized_roughness
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_EnergyBag01_BaseColor
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_EnergyBag01_Normal
+    }
+    TextureStreamingData[6] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_EnergyBag01_OcclusionRoughnessMetallic
+    }
+    TextureStreamingData[7] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = T_TilingNoise03
+    }
+}
