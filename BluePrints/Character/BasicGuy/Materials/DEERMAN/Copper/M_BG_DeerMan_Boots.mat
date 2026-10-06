@@ -1,0 +1,7 @@
+Normal=Boots_Normal
+SpecPower=Boots_SpecularRoughnessMetallic
+Other[0]=Boots_BaseColor
+Other[1]=basicGuy_clothes_normal
+Other[2]=T_TilingNoise03
+Other[3]=basicGuy_clothes_AO
+Other[4]=basicGuy_clothes_mask
