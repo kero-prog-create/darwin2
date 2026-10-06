@@ -1,0 +1,77 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/BluePrints/Character/WingMan/Textures/Jetpack_SpecularRoughnessMetallic.Jetpack_SpecularRoughnessMetallic'
+    ReferencedTextures[1] = Texture2D'/Game/Darwin/VFX/Characters/AirMaster/Textures/VFX_T_Jetpack_Burn_01.VFX_T_Jetpack_Burn_01'
+    ReferencedTextures[2] = Texture2D'/Game/Darwin/VFX/Environment/Lava/Textures/VFX_T_AssortedLUTs_01.VFX_T_AssortedLUTs_01'
+}
+Expressions[84] =
+{
+    Expressions[8] = MaterialExpressionTextureSample'/Game/BluePrints/Character/WingMan/M_JetPack.MaterialExpressionTextureSample_0'
+    Expressions[9] = MaterialExpressionTextureSample'/Game/BluePrints/Character/WingMan/M_JetPack.MaterialExpressionTextureSample_1'
+    Expressions[10] = MaterialExpressionTextureSample'/Game/BluePrints/Character/WingMan/M_JetPack.MaterialExpressionTextureSample_2'
+    Expressions[11] = MaterialExpressionTextureSample'/Game/BluePrints/Character/WingMan/M_JetPack.MaterialExpressionTextureSample_3'
+    Expressions[14] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/WingMan/M_JetPack.MaterialExpressionScalarParameter_0'
+    Expressions[16] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/WingMan/M_JetPack.MaterialExpressionScalarParameter_1'
+    Expressions[17] = MaterialExpressionVectorParameter'/Game/BluePrints/Character/WingMan/M_JetPack.MaterialExpressionVectorParameter_0'
+    Expressions[20] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/WingMan/M_JetPack.MaterialExpressionScalarParameter_3'
+    Expressions[30] = MaterialExpressionVectorParameter'/Game/BluePrints/Character/WingMan/M_JetPack.MaterialExpressionVectorParameter_1'
+    Expressions[46] = MaterialExpressionTextureSample'/Game/BluePrints/Character/WingMan/M_JetPack.MaterialExpressionTextureSample_4'
+    Expressions[49] = MaterialExpressionTextureSample'/Game/BluePrints/Character/WingMan/M_JetPack.MaterialExpressionTextureSample_5'
+    Expressions[60] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/WingMan/M_JetPack.MaterialExpressionScalarParameter_2'
+    Expressions[83] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/WingMan/M_JetPack.MaterialExpressionScalarParameter_4'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=11, Name=EmissiveIntensity, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Fuel, Group=None }
+    CollectedScalarParameters[2] = { Value=0.7, Name=OOBSpeed, Group=None }
+    CollectedScalarParameters[3] = { Value=-5, Name=InjectedTime, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=None, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=500, G=10.1546, B=5.18095, A=0 }
+        Name = OutOfBreathColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.009134, G=0.597202, B=0.799103, A=1 }
+        Name = ActiveColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
