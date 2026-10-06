@@ -1,0 +1,8 @@
+Normal=T_HockeyPants01_Normal
+SpecPower=T_HockeyPants01_SpecularRoughnessMetallic
+Other[0]=T_HockeyPants01_BaseColor
+Other[1]=Pants_OcclusionRoughnessMetallic
+Other[2]=basicGuy_clothes_normal
+Other[3]=T_TilingNoise03
+Other[4]=basicGuy_clothes_AO
+Other[5]=basicGuy_clothes_mask
