@@ -1,0 +1,8 @@
+Diffuse=T_Black_32
+Normal=T_ThinCloak_Normal
+Other[0]=basicGuy_clothes_AO
+Other[1]=T_ThinCloak_BaseColor
+Other[2]=T_ThinCloak_SpecularRoughnessMetallic
+Other[3]=basicGuy_clothes_normal
+Other[4]=T_TilingNoise03
+Other[5]=basicGuy_clothes_mask
