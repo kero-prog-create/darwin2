@@ -1,0 +1,6 @@
+Diffuse=T_Doe_D
+Normal=T_Deer_N
+SpecPower=T_Deer_S
+Cube=T_Deer_R
+Other[0]=T_Deer_Ao
+Other[1]=T_Deer_D

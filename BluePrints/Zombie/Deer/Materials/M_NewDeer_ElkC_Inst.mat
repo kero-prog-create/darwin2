@@ -1,0 +1,5 @@
+Diffuse=T_ElkC_BaseColor
+Normal=T_ElkC_Normal
+SpecPower=T_ElkC_SpecularRoughnessMetallic
+Other[0]=T_Deer_DeadMask
+Other[1]=T_DeerSpDiff

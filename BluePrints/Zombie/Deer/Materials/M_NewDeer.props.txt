@@ -1,0 +1,73 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/BluePrints/Zombie/Deer/Textures/T_Deer_DeadMask.T_Deer_DeadMask'
+    ReferencedTextures[1] = Texture2D'/Game/BluePrints/Zombie/Deer/Textures/T_DeerSpDiff.T_DeerSpDiff'
+}
+Expressions[28] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'/Game/BluePrints/Zombie/Deer/Materials/M_NewDeer.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'/Game/BluePrints/Zombie/Deer/Materials/M_NewDeer.MaterialExpressionTextureSampleParameter2D_6'
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'/Game/BluePrints/Zombie/Deer/Materials/M_NewDeer.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[6] = MaterialExpressionScalarParameter'/Game/BluePrints/Zombie/Deer/Materials/M_NewDeer.MaterialExpressionScalarParameter_6'
+    Expressions[7] = MaterialExpressionTextureSample'/Game/BluePrints/Zombie/Deer/Materials/M_NewDeer.MaterialExpressionTextureSample_0'
+    Expressions[10] = MaterialExpressionScalarParameter'/Game/BluePrints/Zombie/Deer/Materials/M_NewDeer.MaterialExpressionScalarParameter_7'
+    Expressions[25] = MaterialExpressionTextureSample'/Game/BluePrints/Zombie/Deer/Materials/M_NewDeer.MaterialExpressionTextureSample_1'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/BluePrints/Zombie/Deer/Textures/Elks/T_ElkA_BaseColor.T_ElkA_BaseColor'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/BluePrints/Zombie/Deer/Textures/Elks/T_ElkA_SpecularRoughnessMetallic.T_ElkA_SpecularRoughnessMetallic'
+        Name = SpecRoughMet
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/BluePrints/Zombie/Deer/Textures/Elks/T_ElkA_Normal.T_ElkA_Normal'
+        Name = Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=DeadOpacity, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
