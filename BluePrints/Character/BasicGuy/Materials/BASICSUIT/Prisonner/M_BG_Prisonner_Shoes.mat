@@ -1,0 +1,8 @@
+Normal=Shoes_Normal
+SpecPower=Shoes_SpecularRoughnessMetallic
+Other[0]=basicGuy_clothes_AO
+Other[1]=Shoes_BaseColor
+Other[2]=Shoes_OcclusionRoughnessMetallic
+Other[3]=basicGuy_clothes_normal
+Other[4]=T_TilingNoise03
+Other[5]=basicGuy_clothes_mask
