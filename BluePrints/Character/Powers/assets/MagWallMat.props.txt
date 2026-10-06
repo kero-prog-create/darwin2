@@ -1,0 +1,116 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Textures/Hex-1-01.Hex-1-01'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Holograms/Textures/T_Hologram_Text_01.T_Hologram_Text_01'
+    ReferencedTextures[2] = Texture2D'/Game/Fx/Textures/T_TilingNoise03.T_TilingNoise03'
+    ReferencedTextures[3] = Texture2D'/Game/Elemental/Environment/Throne_Interior/Texture/T_ThroneRoom_PillarCracks_E.T_ThroneRoom_PillarCracks_E'
+}
+Expressions[189] =
+{
+    Expressions[19] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionScalarParameter_1'
+    Expressions[28] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionTextureSample_17'
+    Expressions[43] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionTextureSample_3'
+    Expressions[61] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionTextureSample_13'
+    Expressions[63] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionTextureSample_14'
+    Expressions[65] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionTextureSample_15'
+    Expressions[77] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionTextureSample_18'
+    Expressions[90] = MaterialExpressionVectorParameter'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionVectorParameter_2'
+    Expressions[121] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionTextureSample_6'
+    Expressions[132] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionTextureSample_5'
+    Expressions[137] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionScalarParameter_0'
+    Expressions[138] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionScalarParameter_2'
+    Expressions[139] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionScalarParameter_3'
+    Expressions[140] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionScalarParameter_4'
+    Expressions[142] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionScalarParameter_6'
+    Expressions[150] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionScalarParameter_5'
+    Expressions[151] = MaterialExpressionVectorParameter'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionVectorParameter_0'
+    Expressions[153] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionTextureSample_0'
+    Expressions[154] = MaterialExpressionVectorParameter'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionVectorParameter_4'
+    Expressions[155] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionScalarParameter_7'
+    Expressions[158] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionScalarParameter_8'
+    Expressions[159] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionScalarParameter_9'
+    Expressions[167] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionTextureSample_7'
+    Expressions[168] = MaterialExpressionVectorParameter'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionVectorParameter_5'
+    Expressions[169] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionScalarParameter_16'
+    Expressions[172] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionScalarParameter_17'
+    Expressions[173] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionScalarParameter_18'
+    Expressions[182] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionScalarParameter_10'
+    Expressions[183] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Powers/assets/MagWallMat.MaterialExpressionScalarParameter_11'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[15] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=CamoMaxValue, Group=None }
+    CollectedScalarParameters[2] = { Value=2.333, Name=CamoMultiply, Group=None }
+    CollectedScalarParameters[3] = { Value=0.5, Name=CamoTextureMultiply, Group=None }
+    CollectedScalarParameters[4] = { Value=0.5, Name=CamoSubtract, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=OpacityFx, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=HueShift, Group=None }
+    CollectedScalarParameters[7] = { Value=300, Name=Impact1Opacity, Group=None }
+    CollectedScalarParameters[8] = { Value=1.4, Name=Impact1Diameter, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=Impact1Time, Group=None }
+    CollectedScalarParameters[10] = { Value=300, Name=Impact2Opacity, Group=None }
+    CollectedScalarParameters[11] = { Value=1.4, Name=Impact2Diameter, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=Impact2Time, Group=None }
+    CollectedScalarParameters[13] = { Value=6180, Name=FadeNearDistance, Group=None }
+    CollectedScalarParameters[14] = { Value=10000, Name=FadeFarDistance, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=2, G=1, B=1, A=1 }
+        Name = TexScale
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=33, B=333, A=0 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=2720, G=6760, B=-1e+06, A=0 }
+        Name = Impact1Location
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=2720, G=6760, B=-1e+06, A=0 }
+        Name = Impact2Location
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
