@@ -1,0 +1,44 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] = { Texture2D'/Game/Textures/Hex-1-01.Hex-1-01' }
+Expressions[24] =
+{
+    Expressions[4] = MaterialExpressionTextureSample'/Game/BluePrints/Character/MiniDrone/ActivationSphereMat.MaterialExpressionTextureSample_1'
+    Expressions[5] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/MiniDrone/ActivationSphereMat.MaterialExpressionScalarParameter_1'
+    Expressions[12] = MaterialExpressionTextureSample'/Game/BluePrints/Character/MiniDrone/ActivationSphereMat.MaterialExpressionTextureSample_2'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=10, Name=Opacity, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
