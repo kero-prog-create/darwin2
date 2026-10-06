@@ -1,0 +1,62 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/BluePrints/Zombie/EfectoGuy/Mat/MaleHead_BC.MaleHead_BC'
+    ReferencedTextures[1] = Texture2D'/Game/BluePrints/Zombie/EfectoGuy/Mat/MaleHead_Layered.MaleHead_Layered'
+    ReferencedTextures[2] = Texture2D'/Game/BluePrints/Zombie/EfectoGuy/Mat/MaleHead_N.MaleHead_N'
+    ReferencedTextures[3] = Texture2D'/Game/Fx/Textures/T_TilingNoise03.T_TilingNoise03'
+}
+Expressions[72] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'/Game/BluePrints/Zombie/EfectoGuy/Mat/M_MaleHead.MaterialExpressionTextureSample_5'
+    Expressions[1] = MaterialExpressionTextureSample'/Game/BluePrints/Zombie/EfectoGuy/Mat/M_MaleHead.MaterialExpressionTextureSample_9'
+    Expressions[2] = MaterialExpressionTextureSample'/Game/BluePrints/Zombie/EfectoGuy/Mat/M_MaleHead.MaterialExpressionTextureSample_8'
+    Expressions[3] = MaterialExpressionVectorParameter'/Game/BluePrints/Zombie/EfectoGuy/Mat/M_MaleHead.MaterialExpressionVectorParameter_0'
+    Expressions[10] = MaterialExpressionTextureSample'/Game/BluePrints/Zombie/EfectoGuy/Mat/M_MaleHead.MaterialExpressionTextureSample_13'
+    Expressions[28] = MaterialExpressionTextureSample'/Game/BluePrints/Zombie/EfectoGuy/Mat/M_MaleHead.MaterialExpressionTextureSample_12'
+    Expressions[69] = MaterialExpressionScalarParameter'/Game/BluePrints/Zombie/EfectoGuy/Mat/M_MaleHead.MaterialExpressionScalarParameter_5'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=opacity, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.64, G=0.64, B=0.64, A=0 }
+        Name = None
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

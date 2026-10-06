@@ -1,0 +1,4 @@
+Diffuse=MaleBody_BC
+Normal=MaleBody_N
+Other[0]=MaleBody_Layered
+Other[1]=T_TilingNoise03
