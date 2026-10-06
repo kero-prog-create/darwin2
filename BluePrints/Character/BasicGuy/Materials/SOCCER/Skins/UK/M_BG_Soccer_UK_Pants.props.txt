@@ -1,0 +1,128 @@
+Parent = Material3'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.DarwinBaseCharacterMat'
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseTexture }
+        ParameterValue = Texture2D'/Game/BluePrints/Character/BasicGuy/Textures/SOCCER/Skins/UK/Pants_BaseColor.Pants_BaseColor'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=NormalTexture }
+        ParameterValue = Texture2D'/Game/BluePrints/Character/BasicGuy/Textures/SOCCER/Skins/Pants_Normal.Pants_Normal'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=OcclusionRoughnessMetalicMap }
+        ParameterValue = Texture2D'/Game/BluePrints/Character/BasicGuy/Textures/BASICSUIT/Pants_OcclusionRoughnessMetallic.Pants_OcclusionRoughnessMetallic'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=SpecularRoughnessMetallic }
+        ParameterValue = Texture2D'/Game/BluePrints/Character/BasicGuy/Textures/SOCCER/Skins/UK/Pants_SpecularRoughnessMetallic.Pants_SpecularRoughnessMetallic'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = true
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0
+}
+StaticParameters =
+{
+    StaticSwitchParameters[3] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseAOMap }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseOcclusionRoughnessMetallicMap }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseSpecularRoughnessMetallic }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[7] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Black
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = dev_black
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 64
+        UVChannelIndex = 0
+        TextureName = Hex-1-01
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Pants_BaseColor
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Pants_Normal
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Pants_SpecularRoughnessMetallic
+    }
+    TextureStreamingData[6] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = T_TilingNoise03
+    }
+}
