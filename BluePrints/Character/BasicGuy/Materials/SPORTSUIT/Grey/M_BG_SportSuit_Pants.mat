@@ -1,0 +1,10 @@
+Normal=Pants_Normal
+SpecPower=Pants_SpecularRoughnessMetallic
+Emissive=Color_Black
+Other[0]=Pants_BaseColor
+Other[1]=Pants_Emissive
+Other[2]=Pants_OcclusionRoughnessMetallic
+Other[3]=basicGuy_clothes_normal
+Other[4]=T_TilingNoise03
+Other[5]=basicGuy_clothes_AO
+Other[6]=basicGuy_clothes_mask
