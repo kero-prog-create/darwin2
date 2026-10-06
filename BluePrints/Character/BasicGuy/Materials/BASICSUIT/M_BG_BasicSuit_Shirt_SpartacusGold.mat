@@ -1,0 +1,8 @@
+Normal=Shirt_Normal
+SpecPower=Shirt_SpecularRoughnessMetallic
+Other[0]=Shirt_BaseColor
+Other[1]=T_M_MaintenanceShirt_OcclusionRoughnessMetallic
+Other[2]=basicGuy_clothes_normal
+Other[3]=T_TilingNoise03
+Other[4]=basicGuy_clothes_AO
+Other[5]=basicGuy_clothes_mask

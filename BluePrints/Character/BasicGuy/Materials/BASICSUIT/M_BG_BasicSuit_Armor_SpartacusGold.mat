@@ -1,0 +1,7 @@
+Normal=Armor_Normal
+SpecPower=Armor_OcclusionRoughnessMetallic
+Other[0]=basicGuy_clothes_AO
+Other[1]=Armor_BaseColor
+Other[2]=basicGuy_clothes_normal
+Other[3]=T_TilingNoise03
+Other[4]=basicGuy_clothes_mask
