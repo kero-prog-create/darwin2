@@ -1,0 +1,7 @@
+Normal=T_BirdHat_Normal
+Other[0]=T_BirdHat01_BaseColor
+Other[1]=T_BirdHat_SpecularRoughnessMetallic
+Other[2]=basicGuy_clothes_normal
+Other[3]=T_TilingNoise03
+Other[4]=basicGuy_clothes_AO
+Other[5]=basicGuy_clothes_mask

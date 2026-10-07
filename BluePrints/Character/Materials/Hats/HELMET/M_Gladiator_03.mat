@@ -1,0 +1,9 @@
+Normal=GladiatorHelmet03_Normal
+SpecPower=GladiatorHelmet03_SpecularRoughnessMetallic
+Emissive=dev_black
+Other[0]=GladiatorHelmet03_BaseColor
+Other[1]=basicGuy_clothes_mask
+Other[2]=T_MaintenanceHat01_OcclusionRoughnessMetallic
+Other[3]=basicGuy_clothes_normal
+Other[4]=T_TilingNoise03
+Other[5]=basicGuy_clothes_AO
