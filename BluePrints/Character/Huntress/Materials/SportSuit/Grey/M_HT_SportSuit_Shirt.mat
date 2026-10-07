@@ -1,0 +1,10 @@
+Normal=Shirt_Normal
+SpecPower=Shirt_SpecularRoughnessMetallic
+Emissive=Color_Black
+Other[0]=Shirt_BaseColor
+Other[1]=Shirt_Emissive
+Other[2]=Shirt_OcclusionRoughnessMetallic
+Other[3]=basicGuy_clothes_normal
+Other[4]=T_TilingNoise03
+Other[5]=basicGuy_clothes_AO
+Other[6]=basicGuy_clothes_mask
