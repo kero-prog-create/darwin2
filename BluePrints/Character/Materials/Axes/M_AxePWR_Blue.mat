@@ -1,0 +1,5 @@
+Diffuse=Bake_AxePWR05_low_AxePWR00_BaseColor
+Normal=Bake_AxePWR05_low_AxePWR00_Normal
+Emissive=T_Black_32
+Other[0]=Bake_AxePWR05_low_AxePWR00_SpecularRoughnessMetallic
+Other[1]=T_AxeTech01_BaseColor

@@ -1,0 +1,5 @@
+Diffuse=T_AxePWR03_BaseColor
+Normal=T_AxePWR03_Normal
+SpecPower=T_AxePWR03_SpecularRoughnessMetallic
+Emissive=T_AxePWR03_Emissive
+Other[0]=T_AxeTech01_BaseColor

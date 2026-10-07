@@ -1,0 +1,4 @@
+Diffuse=T_AxeFire03_BaseColor
+Normal=T_AxeFire03_Normal
+Other[0]=T_AxeFire03_OcclusionRoughnessMetallic
+Other[1]=T_AxeTech01_BaseColor
