@@ -1,0 +1,4 @@
+Diffuse=T_Consumable_HealthPack
+Normal=T_ConsumableBag01_Normal
+Other[0]=T_ConsumableBag01_OcclusionRoughnessMetallic
+Other[1]=T_Consumable_HealthPack_Mask

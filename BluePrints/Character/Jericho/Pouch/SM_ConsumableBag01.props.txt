@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/BluePrints/Character/Jericho/Pouch/M_leather.M_Leather'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/BluePrints/Character/Jericho/Pouch/M_leather.M_Leather'
+        MaterialSlotName = leather
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 13.2218, 13.7578, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.149354, Y=1.06022, Z=-2.52632 }
+    BoxExtent = { X=2.47423, Y=1.58995, Z=3.68363 }
+    SphereRadius = 4.03303
+}
