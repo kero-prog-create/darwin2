@@ -1,0 +1,114 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/BluePrints/Character/Textures/Bows/Bow_Mat_Emissive_Blue.Bow_Mat_Emissive_Blue'
+    ReferencedTextures[1] = Texture2D'/Game/BluePrints/Character/Textures/Axes/AxeTech/T_AxeTech01_BaseColor.T_AxeTech01_BaseColor'
+}
+Expressions[56] =
+{
+    Expressions[4] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Materials/Bow/BowMaterial.MaterialExpressionTextureSample_2'
+    Expressions[5] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Materials/Bow/BowMaterial.MaterialExpressionTextureSample_6'
+    Expressions[6] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Materials/Bow/BowMaterial.MaterialExpressionTextureSample_7'
+    Expressions[12] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Materials/Bow/BowMaterial.MaterialExpressionTextureSample_5'
+    Expressions[16] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Materials/Bow/BowMaterial.MaterialExpressionTextureSample_8'
+    Expressions[21] = MaterialExpressionStaticBoolParameter'/Game/BluePrints/Character/Materials/Bow/BowMaterial.MaterialExpressionStaticBoolParameter_5'
+    Expressions[24] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Materials/Bow/BowMaterial.MaterialExpressionTextureSample_0'
+    Expressions[28] = MaterialExpressionStaticBoolParameter'/Game/BluePrints/Character/Materials/Bow/BowMaterial.MaterialExpressionStaticBoolParameter_1'
+    Expressions[29] = MaterialExpressionVectorParameter'/Game/BluePrints/Character/Materials/Bow/BowMaterial.MaterialExpressionVectorParameter_0'
+    Expressions[31] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Materials/Bow/BowMaterial.MaterialExpressionScalarParameter_1'
+    Expressions[35] = MaterialExpressionVectorParameter'/Game/BluePrints/Character/Materials/Bow/BowMaterial.MaterialExpressionVectorParameter_2'
+    Expressions[41] = MaterialExpressionStaticBoolParameter'/Game/BluePrints/Character/Materials/Bow/BowMaterial.MaterialExpressionStaticBoolParameter_6'
+    Expressions[42] = MaterialExpressionVectorParameter'/Game/BluePrints/Character/Materials/Bow/BowMaterial.MaterialExpressionVectorParameter_1'
+    Expressions[43] = MaterialExpressionStaticBoolParameter'/Game/BluePrints/Character/Materials/Bow/BowMaterial.MaterialExpressionStaticBoolParameter_8'
+    Expressions[44] = MaterialExpressionVectorParameter'/Game/BluePrints/Character/Materials/Bow/BowMaterial.MaterialExpressionVectorParameter_3'
+    Expressions[45] = MaterialExpressionVectorParameter'/Game/BluePrints/Character/Materials/Bow/BowMaterial.MaterialExpressionVectorParameter_4'
+    Expressions[50] = MaterialExpressionVectorParameter'/Game/BluePrints/Character/Materials/Bow/BowMaterial.MaterialExpressionVectorParameter_7'
+    Expressions[52] = MaterialExpressionVectorParameter'/Game/BluePrints/Character/Materials/Bow/BowMaterial.MaterialExpressionVectorParameter_8'
+    Expressions[54] = MaterialExpressionVectorParameter'/Game/BluePrints/Character/Materials/Bow/BowMaterial.MaterialExpressionVectorParameter_5'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=21, Name=EmissiveIntensity, Group=None }
+}
+CollectedVectorParameters[8] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = EmissiveColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0.5, B=0, A=1 }
+        Name = NewColor1
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0.111372, B=1, A=1 }
+        Name = NewColor2
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = IDColor1
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0.111372, B=1, A=1 }
+        Name = IDColor2
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = RecolorPow
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = RecolorMul
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = RecolorAdd
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

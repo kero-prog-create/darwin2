@@ -1,0 +1,126 @@
+Parent = Material3'/Game/BluePrints/Character/Materials/Bow/BowMaterial.BowMaterial'
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseColor }
+        ParameterValue = Texture2D'/Game/BluePrints/Character/Textures/Bows/BowMBP/Blue/T_BowMBP02C_BaseColor.T_BowMBP02C_BaseColor'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Emissive }
+        ParameterValue = Texture2D'/Game/BluePrints/Character/Textures/Bows/BowMBP/Blue/T_BowMBP02C_Emissive.T_BowMBP02C_Emissive'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Normal }
+        ParameterValue = Texture2D'/Game/BluePrints/Character/Textures/Bows/BowMBP/Blue/T_BowMBP02C_Normal.T_BowMBP02C_Normal'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=OcclusionRoughnessMetalic }
+        ParameterValue = Texture2D'/Game/BluePrints/Character/Textures/Bows/BowMBP/Blue/T_BowMBP02C_SpecularRoughnessMetallic.T_BowMBP02C_SpecularRoughnessMetallic'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[10] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 64
+        UVChannelIndex = 0
+        TextureName = Hex-1-01
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = ice_stylized_diffuse
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = ice_stylized_height
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = ice_stylized_normal
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = ice_stylized_roughness
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_BowMBP02C_BaseColor
+    }
+    TextureStreamingData[6] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_BowMBP02C_Emissive
+    }
+    TextureStreamingData[7] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_BowMBP02C_Normal
+    }
+    TextureStreamingData[8] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_BowMBP02C_SpecularRoughnessMetallic
+    }
+    TextureStreamingData[9] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = T_TilingNoise03
+    }
+}

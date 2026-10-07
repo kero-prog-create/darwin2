@@ -1,0 +1,6 @@
+Diffuse=T_BowMBP02C_BaseColor
+Normal=T_BowMBP02C_Normal
+Emissive=T_BowMBP02C_Emissive
+Other[0]=T_BowMBP02C_SpecularRoughnessMetallic
+Other[1]=Bow_Mat_Emissive_Blue
+Other[2]=T_AxeTech01_BaseColor
