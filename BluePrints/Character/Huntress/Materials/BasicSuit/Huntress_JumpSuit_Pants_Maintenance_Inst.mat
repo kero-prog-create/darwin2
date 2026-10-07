@@ -1,0 +1,8 @@
+Normal=T_F_MaintenancePants_Normal
+Other[0]=HT_body_ao
+Other[1]=T_F_MaintenancePants_BaseColor
+Other[2]=T_F_MaintenancePants_OcclusionRoughnessMetallic
+Other[3]=basicGuy_clothes_normal
+Other[4]=T_TilingNoise03
+Other[5]=basicGuy_clothes_AO
+Other[6]=basicGuy_clothes_mask
