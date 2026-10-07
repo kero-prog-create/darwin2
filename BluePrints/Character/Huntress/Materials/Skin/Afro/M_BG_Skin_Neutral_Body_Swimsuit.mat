@@ -1,0 +1,11 @@
+Diffuse=SwimsuitF_BaseColor
+Normal=Female_African_Body_Normal
+SpecPower=Female_African_Body_SpecularRoughnessMetallic
+Other[0]=Female_African_Body_BaseColor
+Other[1]=T_Black_32
+Other[2]=SwimsuitF_Normal
+Other[3]=SwimsuitF_SpecularRoughnessMetallic
+Other[4]=basicGuy_clothes_normal
+Other[5]=T_TilingNoise03
+Other[6]=basicGuy_clothes_AO
+Other[7]=basicGuy_clothes_mask
