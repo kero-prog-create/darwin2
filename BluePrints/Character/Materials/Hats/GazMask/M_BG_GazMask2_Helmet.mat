@@ -1,0 +1,9 @@
+Normal=T_GasMask02_Normal
+SpecPower=T_HockeyHelmetTWITCH01_SpecularRoughnessMetallic
+Emissive=T_GasMask02_Emissive
+Other[0]=basicGuy_clothes_AO
+Other[1]=T_GasMask02_BaseColor
+Other[2]=T_GasMask02_OcclusionRoughnessMetallic
+Other[3]=basicGuy_clothes_normal
+Other[4]=T_TilingNoise03
+Other[5]=basicGuy_clothes_mask
