@@ -1,0 +1,5 @@
+Diffuse=Iris_BaseColor_Brown
+Normal=Iris_Normal
+Other[0]=Iris_OcclusionRoughnessMetallic
+Other[1]=EyeMagnified
+Other[2]=Hex-1-01
