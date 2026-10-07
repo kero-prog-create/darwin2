@@ -1,0 +1,146 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/BluePrints/Character/BasicGuy/Textures/basicGuy_clothes_normal.basicGuy_clothes_normal'
+    ReferencedTextures[1] = Texture2D'/Game/Fx/Textures/T_TilingNoise03.T_TilingNoise03'
+    ReferencedTextures[2] = Texture2D'/Game/BluePrints/Character/BasicGuy/Textures/basicGuy_clothes_AO.basicGuy_clothes_AO'
+    ReferencedTextures[3] = Texture2D'/Game/BluePrints/Character/BasicGuy/Textures/basicGuy_clothes_mask.basicGuy_clothes_mask'
+}
+Expressions[218] =
+{
+    Expressions[3] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionTextureSample_3'
+    Expressions[4] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionTextureSample_1'
+    Expressions[11] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionTextureSample_11'
+    Expressions[29] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionTextureSample_10'
+    Expressions[70] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionScalarParameter_4'
+    Expressions[73] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionTextureSample_6'
+    Expressions[74] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionTextureSample_2'
+    Expressions[79] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionScalarParameter_0'
+    Expressions[80] = MaterialExpressionStaticBoolParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionStaticBoolParameter_12'
+    Expressions[83] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionTextureSample_7'
+    Expressions[86] = MaterialExpressionStaticBoolParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionStaticBoolParameter_13'
+    Expressions[90] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionTextureSample_4'
+    Expressions[93] = MaterialExpressionStaticBoolParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionStaticBoolParameter_14'
+    Expressions[96] = MaterialExpressionVectorParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionVectorParameter_0'
+    Expressions[101] = MaterialExpressionVectorParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionVectorParameter_3'
+    Expressions[107] = MaterialExpressionStaticBoolParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionStaticBoolParameter_15'
+    Expressions[110] = MaterialExpressionVectorParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionVectorParameter_1'
+    Expressions[116] = MaterialExpressionVectorParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionVectorParameter_4'
+    Expressions[124] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionTextureSample_0'
+    Expressions[126] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionTextureSample_5'
+    Expressions[128] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionTextureSample_8'
+    Expressions[132] = MaterialExpressionStaticBoolParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionStaticBoolParameter_0'
+    Expressions[133] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionTextureSample_9'
+    Expressions[138] = MaterialExpressionStaticBoolParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionStaticBoolParameter_4'
+    Expressions[141] = MaterialExpressionStaticBoolParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionStaticBoolParameter_5'
+    Expressions[144] = MaterialExpressionStaticBoolParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionStaticBoolParameter_9'
+    Expressions[148] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionTextureSample_12'
+    Expressions[149] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionScalarParameter_2'
+    Expressions[150] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionScalarParameter_3'
+    Expressions[153] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionScalarParameter_5'
+    Expressions[154] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionScalarParameter_6'
+    Expressions[156] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionScalarParameter_7'
+    Expressions[158] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionScalarParameter_8'
+    Expressions[160] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionScalarParameter_9'
+    Expressions[162] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionScalarParameter_10'
+    Expressions[165] = MaterialExpressionStaticBoolParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionStaticBoolParameter_8'
+    Expressions[177] = MaterialExpressionStaticBoolParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionStaticBoolParameter_10'
+    Expressions[179] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionScalarParameter_11'
+    Expressions[184] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionTextureSample_13'
+    Expressions[197] = MaterialExpressionStaticBoolParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionStaticBoolParameter_1'
+    Expressions[199] = MaterialExpressionStaticBoolParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionStaticBoolParameter_2'
+    Expressions[202] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionTextureSample_14'
+    Expressions[204] = MaterialExpressionStaticBoolParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionStaticBoolParameter_3'
+    Expressions[207] = MaterialExpressionVectorParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionVectorParameter_2'
+    Expressions[209] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionScalarParameter_1'
+    Expressions[214] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionScalarParameter_13'
+    Expressions[215] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionScalarParameter_14'
+    Expressions[217] = MaterialExpressionVectorParameter'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.MaterialExpressionVectorParameter_5'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[14] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=opacity, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=Specular, Group=None }
+    CollectedScalarParameters[2] = { Value=0.4, Name=MinRoughness, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=RoughnessMul, Group=None }
+    CollectedScalarParameters[4] = { Value=8, Name=EmissiveIntensity, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=RoughnessOffset, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=MetallicMul, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=MetallicOffset, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=SpecularMul, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=SpecularOffset, Group=None }
+    CollectedScalarParameters[10] = { Value=0.1, Name=MinColorLength, Group=None }
+    CollectedScalarParameters[11] = { Value=0.0235, Name=EngineRadius, Group=None }
+    CollectedScalarParameters[12] = { Value=-0.8, Name=EngineSpeed, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=ForceNoCamo, Group=None }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = BaseColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=1, B=0.4, A=0 }
+        Name = IDColorMod
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.16, G=0.037863, B=0.031494, A=0 }
+        Name = SubsurfaceColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=1, B=0.4, A=0 }
+        Name = IDSubsurface
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.0529, G=0.1163, B=0, A=0 }
+        Name = DarwinEngine
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=33, B=333, A=0 }
+        Name = CamoEmissive
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
