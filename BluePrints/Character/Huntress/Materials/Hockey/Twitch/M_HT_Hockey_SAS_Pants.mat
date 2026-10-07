@@ -1,0 +1,8 @@
+Normal=T_GoaliePantsTWITCH01_Normal
+SpecPower=T_HockeyPants02_SpecularRoughnessMetallic
+Other[0]=T_GoaliePantsTWITCH01_BaseColor
+Other[1]=T_GoaliePantsTWITCH01_OcclusionRoughnessMetallic
+Other[2]=basicGuy_clothes_normal
+Other[3]=T_TilingNoise03
+Other[4]=basicGuy_clothes_AO
+Other[5]=basicGuy_clothes_mask
