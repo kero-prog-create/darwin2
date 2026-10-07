@@ -1,0 +1,9 @@
+Normal=T_trashLidHat02_Normal
+SpecPower=T_trashLidHat02_SpecularRoughnessMetallic
+Emissive=T_trashLidHat02_Emissive
+Other[0]=basicGuy_clothes_AO
+Other[1]=T_trashLidHat02_BaseColor
+Other[2]=Armor_OcclusionRoughnessMetallic
+Other[3]=basicGuy_clothes_normal
+Other[4]=T_TilingNoise03
+Other[5]=basicGuy_clothes_mask
