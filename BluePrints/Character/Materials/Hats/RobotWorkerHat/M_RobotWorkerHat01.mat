@@ -1,0 +1,9 @@
+Normal=RobotWorkerHat_Normal
+SpecPower=RobotWorkerHat_SpecularRoughnessMetallic
+Emissive=Helmet_Emissive
+Other[0]=basicGuy_clothes_AO
+Other[1]=RobotWorkerHat_BaseColor
+Other[2]=Armor_OcclusionRoughnessMetallic
+Other[3]=basicGuy_clothes_normal
+Other[4]=T_TilingNoise03
+Other[5]=basicGuy_clothes_mask
