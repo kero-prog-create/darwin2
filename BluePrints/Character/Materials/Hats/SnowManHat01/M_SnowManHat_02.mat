@@ -1,0 +1,8 @@
+Normal=T_SnowManHat02_Normal
+SpecPower=T_SantaHat03_SpecularRoughnessMetallic
+Other[0]=basicGuy_clothes_AO
+Other[1]=T_SnowManHat02_BaseColor
+Other[2]=T_SnowManHat02_OcclusionRoughnessMetallic
+Other[3]=basicGuy_clothes_normal
+Other[4]=T_TilingNoise03
+Other[5]=basicGuy_clothes_mask
