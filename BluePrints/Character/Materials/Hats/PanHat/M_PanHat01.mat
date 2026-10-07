@@ -1,0 +1,9 @@
+Normal=T_PanHat01_Normal
+SpecPower=T_BoxBoyHat01_OcclusionRoughnessMetallic
+Emissive=dev_black
+Other[0]=basicGuy_clothes_AO
+Other[1]=T_PanHat01_BaseColor
+Other[2]=T_PanHat01_OcclusionRoughnessMetallic
+Other[3]=basicGuy_clothes_normal
+Other[4]=T_TilingNoise03
+Other[5]=basicGuy_clothes_mask
