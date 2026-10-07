@@ -1,0 +1,7 @@
+Diffuse=T_SNMB01_BaseColor
+Normal=T_SNMB01_Normal
+SpecPower=T_BowCLMB02_SpecularRoughnessMetallic
+Emissive=T_Black_32
+Other[0]=T_SNMB01_OcclusionRoughnessMetallic
+Other[1]=Bow_Mat_Emissive_Blue
+Other[2]=T_AxeTech01_BaseColor
