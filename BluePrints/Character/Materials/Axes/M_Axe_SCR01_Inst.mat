@@ -1,0 +1,7 @@
+Diffuse=T_AxeSCR01_BaseColor
+Normal=T_AxeSCR01_Normal
+SpecPower=T_AxeSCR01_SpecularRoughnessMetallic
+Other[0]=T_AxeBasic01_BaseColor
+Other[1]=T_AxeBasic01_Normal
+Other[2]=T_AxeBasic01_OcclusionRoughnessMetallic
+Other[3]=T_AxeTech01_BaseColor
