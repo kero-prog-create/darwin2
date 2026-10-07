@@ -1,0 +1,23 @@
+Materials[1] = {  }
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = None
+        MaterialSlotName = MaterialSlot
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 40.2694, 20.1373, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.06692e-05, Y=3.14713e-05, Z=22.546 }
+    BoxExtent = { X=0.686522, Y=4.57754, Z=22.5986 }
+    SphereRadius = 23.0576
+}
