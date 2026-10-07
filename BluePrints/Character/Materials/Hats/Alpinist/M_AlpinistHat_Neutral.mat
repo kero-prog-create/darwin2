@@ -1,0 +1,8 @@
+Normal=Helmet_Normal
+SpecPower=T_BoxBoyHat01_OcclusionRoughnessMetallic
+Other[0]=basicGuy_clothes_AO
+Other[1]=Helmet_BaseColor
+Other[2]=Helmet_SpecularRoughnessMetallic
+Other[3]=basicGuy_clothes_normal
+Other[4]=T_TilingNoise03
+Other[5]=basicGuy_clothes_mask
