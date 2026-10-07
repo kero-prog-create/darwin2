@@ -1,0 +1,146 @@
+Parent = Material3'/Game/BluePrints/Character/Materials/DarwinBaseCharacterMat.DarwinBaseCharacterMat'
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=AOTexture }
+        ParameterValue = Texture2D'/Game/BluePrints/Character/BasicGuy/Textures/basicGuy_clothes_AO.basicGuy_clothes_AO'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=BaseTexture }
+        ParameterValue = Texture2D'/Game/BluePrints/Character/Textures/Armors/LobsterArmor/LobsterArmor_Orange/LobsterArmor_BaseColor.LobsterArmor_BaseColor'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=NormalTexture }
+        ParameterValue = Texture2D'/Game/BluePrints/Character/Textures/Armors/LobsterArmor/LobsterArmor_Red/LobsterArmor_Normal.LobsterArmor_Normal'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=OcclusionRoughnessMetalicMap }
+        ParameterValue = Texture2D'/Game/BluePrints/Character/BasicGuy/Textures/BASICSUIT/ARMOR/Armor_OcclusionRoughnessMetallic.Armor_OcclusionRoughnessMetallic'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=SpecularRoughnessMetallic }
+        ParameterValue = Texture2D'/Game/BluePrints/Character/Textures/Armors/LobsterArmor/LobsterArmor_Red/LobsterArmor_SpecularRoughnessMetallic.LobsterArmor_SpecularRoughnessMetallic'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[4] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseAOMap }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseOcclusionRoughnessMetallicMap }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseSpecularRoughnessMetallic }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseSubSurface }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[8] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = dev_black
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = ice_stylized_diffuse
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = ice_stylized_height
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = ice_stylized_normal
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = ice_stylized_roughness
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = LobsterArmor_BaseColor
+    }
+    TextureStreamingData[6] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = LobsterArmor_Normal
+    }
+    TextureStreamingData[7] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = T_TilingNoise03
+    }
+}
