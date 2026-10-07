@@ -1,0 +1,8 @@
+Normal=T_LobsterCageHat01_Normal
+SpecPower=T_LobsterCageHat01_SpecularRoughnessMetallic
+Emissive=dev_black
+Other[0]=basicGuy_clothes_AO
+Other[1]=T_LobsterCageHat01_BaseColor
+Other[2]=basicGuy_clothes_normal
+Other[3]=T_TilingNoise03
+Other[4]=basicGuy_clothes_mask
