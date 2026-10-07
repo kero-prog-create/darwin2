@@ -1,0 +1,8 @@
+Normal=easterEggHat_Normal
+SpecPower=easterEggHat_SpecularRoughnessMetallic
+Other[0]=basicGuy_clothes_AO
+Other[1]=easterEggHat_BaseColor
+Other[2]=Armor_OcclusionRoughnessMetallic
+Other[3]=basicGuy_clothes_normal
+Other[4]=T_TilingNoise03
+Other[5]=basicGuy_clothes_mask
