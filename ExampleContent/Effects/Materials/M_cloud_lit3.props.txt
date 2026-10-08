@@ -1,0 +1,53 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/smoothNormalSphere.smoothNormalSphere'
+    ReferencedTextures[1] = Texture2D'/Game/ExampleContent/Effects/Textures/T_Smoke_Tiled_D.T_Smoke_Tiled_D'
+}
+Expressions[12] =
+{
+    Expressions[1] = MaterialExpressionTextureSample'/Game/ExampleContent/Effects/Materials/M_cloud_lit3.MaterialExpressionTextureSample_2'
+    Expressions[8] = MaterialExpressionVectorParameter'/Game/ExampleContent/Effects/Materials/M_cloud_lit3.MaterialExpressionVectorParameter_0'
+    Expressions[11] = MaterialExpressionTextureSample'/Game/ExampleContent/Effects/Materials/M_cloud_lit3.MaterialExpressionTextureSample_1'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.05, G=0.075, B=0.1, A=1 }
+        Name = emissive_color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
