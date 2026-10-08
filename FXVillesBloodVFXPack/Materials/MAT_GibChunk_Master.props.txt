@@ -1,0 +1,82 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/FXVillesBloodVFXPack/Textures/T_Gib_Red_C.T_Gib_Red_C'
+    ReferencedTextures[1] = Texture2D'/Game/FXVillesBloodVFXPack/Textures/T_Gib_Red_N.T_Gib_Red_N'
+}
+Expressions[29] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'/Game/FXVillesBloodVFXPack/Materials/MAT_GibChunk_Master.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[1] = MaterialExpressionScalarParameter'/Game/FXVillesBloodVFXPack/Materials/MAT_GibChunk_Master.MaterialExpressionScalarParameter_0'
+    Expressions[2] = MaterialExpressionScalarParameter'/Game/FXVillesBloodVFXPack/Materials/MAT_GibChunk_Master.MaterialExpressionScalarParameter_1'
+    Expressions[3] = MaterialExpressionStaticSwitchParameter'/Game/FXVillesBloodVFXPack/Materials/MAT_GibChunk_Master.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'/Game/FXVillesBloodVFXPack/Materials/MAT_GibChunk_Master.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[10] = MaterialExpressionScalarParameter'/Game/FXVillesBloodVFXPack/Materials/MAT_GibChunk_Master.MaterialExpressionScalarParameter_4'
+    Expressions[11] = MaterialExpressionScalarParameter'/Game/FXVillesBloodVFXPack/Materials/MAT_GibChunk_Master.MaterialExpressionScalarParameter_5'
+    Expressions[14] = MaterialExpressionTextureSampleParameter2D'/Game/FXVillesBloodVFXPack/Materials/MAT_GibChunk_Master.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[18] = MaterialExpressionScalarParameter'/Game/FXVillesBloodVFXPack/Materials/MAT_GibChunk_Master.MaterialExpressionScalarParameter_8'
+    Expressions[24] = MaterialExpressionScalarParameter'/Game/FXVillesBloodVFXPack/Materials/MAT_GibChunk_Master.MaterialExpressionScalarParameter_9'
+    Expressions[28] = MaterialExpressionScalarParameter'/Game/FXVillesBloodVFXPack/Materials/MAT_GibChunk_Master.MaterialExpressionScalarParameter_24'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/FXVillesBloodVFXPack/Textures/T_Gib_Red_C.T_Gib_Red_C'
+        Name = Base_Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/FXVillesBloodVFXPack/Textures/T_Gib_Red_N.T_Gib_Red_N'
+        Name = BaseNormal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/FXVillesBloodVFXPack/Textures/T_Gib_Red_N.T_Gib_Red_N'
+        Name = DetailNormal
+        Group = None
+    }
+}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=0.6, Name=Specular, Group=None }
+    CollectedScalarParameters[1] = { Value=0.2, Name=Roughness, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Detail U Tiling, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Detail V Tiling, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Detail Strength, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Normal Strength, Group=None }
+    CollectedScalarParameters[6] = { Value=0.8, Name=Metallic Value, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

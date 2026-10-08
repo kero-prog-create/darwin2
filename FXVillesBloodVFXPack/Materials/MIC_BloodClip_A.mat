@@ -1,0 +1,4 @@
+Diffuse=T_Blood_Clip_A
+Normal=T_Blood_Clip_N
+Cube=T_Blood_Reflection
+Other[0]=T_Noise_N_02

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/FXVillesBloodVFXPack/Materials/MAT_GibChunk_Skull.MAT_GibChunk_Skull'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/FXVillesBloodVFXPack/Materials/MAT_GibChunk_Skull.MAT_GibChunk_Skull'
+        MaterialSlotName = MAT_GibChunk_Skull
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 45.4325, 44.2516, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0770807, Y=0.313534, Z=2.02629 }
+    BoxExtent = { X=11.6467, Y=11.4308, Z=2.49179 }
+    SphereRadius = 13.7014
+}
