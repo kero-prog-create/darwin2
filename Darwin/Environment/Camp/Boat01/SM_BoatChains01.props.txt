@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Camp/Boat01/MAT_BoatProps01.MAT_BoatProps01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Camp/Boat01/MAT_BoatProps01.MAT_BoatProps01'
+        MaterialSlotName = 05 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 679.328, 1179.19, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=585.856, Y=174.166, Z=146.173 }
+    BoxExtent = { X=164.942, Y=343.782, Z=273.349 }
+    SphereRadius = 431.42
+}
