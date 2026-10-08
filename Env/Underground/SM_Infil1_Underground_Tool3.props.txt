@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Env/Underground/M_Infil1_Underground_toolbox.M_Infil1_Underground_toolbox'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Env/Underground/M_Infil1_Underground_toolbox.M_Infil1_Underground_toolbox'
+        MaterialSlotName = M_Infil1_Underground_toolbox
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 193.685, 41.8669, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.42902, Y=-2.08897, Z=0.854649 }
+    BoxExtent = { X=20.994, Y=4.98231, Z=1.33278 }
+    SphereRadius = 21.0753
+}

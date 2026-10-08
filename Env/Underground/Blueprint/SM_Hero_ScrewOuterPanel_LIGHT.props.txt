@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Env/Underground/Blueprint/M_LightEmissive.M_LightEmissive'
+    Materials[1] = Material3'/Game/Env/Underground/Blueprint/M_LightMetal.M_LightMetal'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Env/Underground/Blueprint/M_LightEmissive.M_LightEmissive'
+        MaterialSlotName = M_LightEmissive
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 34.2168, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Env/Underground/Blueprint/M_LightMetal.M_LightMetal'
+        MaterialSlotName = M_LightMetal
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 46.5769, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.00162315, Y=-0.000227928, Z=9.77934 }
+    BoxExtent = { X=8.44719, Y=8.44719, Z=12.0221 }
+    SphereRadius = 14.6931
+}
