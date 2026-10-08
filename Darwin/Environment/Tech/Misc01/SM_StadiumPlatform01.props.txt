@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/Metal_01/MAT_Metal_01.MAT_Metal_01'
+    Materials[1] = Material3'/Game/Darwin/Graphics/Paint_01/MAT_Paint_02.MAT_Paint_02'
+    Materials[2] = Material3'/Game/Darwin/Graphics/Paint_01/MAT_Paint_01.MAT_Paint_01'
+    Materials[3] = Material3'/Game/Darwin/Graphics/Emissive_01/Mat_Emissive_01.Mat_Emissive_01'
+    Materials[4] = Material3'/Game/Darwin/Environment/Trees/TEMPSnow_Opaque.TEMPSnow_Opaque'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Metal_01/MAT_Metal_01.MAT_Metal_01'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 888.039, 175364, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Paint_01/MAT_Paint_02.MAT_Paint_02'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1117.94, 204439, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Paint_01/MAT_Paint_01.MAT_Paint_01'
+        MaterialSlotName = MAT_Paint01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 578.188, 71296.1, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Emissive_01/Mat_Emissive_01.Mat_Emissive_01'
+        MaterialSlotName = Emissive
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1107.69, 167659, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Trees/TEMPSnow_Opaque.TEMPSnow_Opaque'
+        MaterialSlotName = SNOW
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 4.06665, 205791, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=671.73 }
+    BoxExtent = { X=255.152, Y=255.152, Z=971.73 }
+    SphereRadius = 1024.67
+}

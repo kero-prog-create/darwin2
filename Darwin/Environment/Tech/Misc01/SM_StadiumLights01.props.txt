@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Tech/GiantSpotlight_01/MAT_TopLamp_02.MAT_TopLamp_02'
+    Materials[1] = Material3'/Game/Darwin/Graphics/Metal_01/MAT_Metal_01.MAT_Metal_01'
+    Materials[2] = Material3'/Game/Darwin/Graphics/Emissive_01/Mat_Emissive_02.Mat_Emissive_02'
+    Materials[3] = Material3'/Game/Darwin/Graphics/Metal_01/MAT_Metal_01.MAT_Metal_01'
+    Materials[4] = Material3'/Game/Darwin/Graphics/Paint_01/MAT_Paint_02.MAT_Paint_02'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Tech/GiantSpotlight_01/MAT_TopLamp_02.MAT_TopLamp_02'
+        MaterialSlotName = MAT_TopLamp01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1021.53, 29860.8, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Metal_01/MAT_Metal_01.MAT_Metal_01'
+        MaterialSlotName = MAT_Metal_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1562.47, 29592.8, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Emissive_01/Mat_Emissive_02.Mat_Emissive_02'
+        MaterialSlotName = MAT_Emissive_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1735.57, 28970.9, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Metal_01/MAT_Metal_01.MAT_Metal_01'
+        MaterialSlotName = MAT_Metal_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 3303.7, 32008.5, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Paint_01/MAT_Paint_02.MAT_Paint_02'
+        MaterialSlotName = MAT_Paint_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1474.23, 29363.4, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=69.0686, Z=916.323 }
+    BoxExtent = { X=1053.09, Y=163.53, Z=916.364 }
+    SphereRadius = 1384.61
+}

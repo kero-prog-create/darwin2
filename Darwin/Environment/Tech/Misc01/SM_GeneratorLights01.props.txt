@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/Metal_01/MAT_Metal_01.MAT_Metal_01'
+    Materials[1] = Material3'/Game/Darwin/Graphics/Paint_01/MAT_Paint_02.MAT_Paint_02'
+    Materials[2] = Material3'/Game/Darwin/Graphics/Paint_01/MAT_Paint_01.MAT_Paint_01'
+    Materials[3] = Material3'/Game/Darwin/Graphics/Emissive_01/Mat_Emissive_01.Mat_Emissive_01'
+    Materials[4] = Material3'/Game/Darwin/Graphics/Wiring_01/Mat_Wiring_01.Mat_Wiring_01'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Metal_01/MAT_Metal_01.MAT_Metal_01'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 630.038, 1949.27, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Paint_01/MAT_Paint_02.MAT_Paint_02'
+        MaterialSlotName = MAT_Paint02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 575.441, 1959.97, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Paint_01/MAT_Paint_01.MAT_Paint_01'
+        MaterialSlotName = MAT_Paint01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 651.219, 1926.88, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Emissive_01/Mat_Emissive_01.Mat_Emissive_01'
+        MaterialSlotName = Emissive
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 618.082, 1901.27, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Wiring_01/Mat_Wiring_01.Mat_Wiring_01'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 640.314, 1975.52, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-11.2094, Y=-31.468, Z=417.272 }
+    BoxExtent = { X=203.456, Y=203.985, Z=428.129 }
+    SphereRadius = 465.618
+}

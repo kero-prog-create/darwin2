@@ -1,0 +1,4 @@
+Diffuse=T_Mushroom_01_BaseColor
+Normal=T_Mushroom_01_Normal
+Emissive=T_Mushroom_01_Emissive
+Other[0]=T_Mushroom_01_OcclusionRoughnessMetallic

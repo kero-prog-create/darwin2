@@ -1,0 +1,4 @@
+Diffuse=T_Torch01_BaseColor
+Normal=T_Torch01_Normal
+Emissive=T_Torch01_Emissive
+Other[0]=T_Torch01_OcclusionRoughnessMetallic

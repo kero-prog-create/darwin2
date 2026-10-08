@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Tech/Torch01/MAT_Torch01.MAT_Torch01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Tech/Torch01/MAT_Torch01.MAT_Torch01'
+        MaterialSlotName = MAT_Torch01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 212.173, 245.28, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-5.72205e-06, Y=1.14441e-05, Z=218.023 }
+    BoxExtent = { X=17.4709, Y=17.4709, Z=250.342 }
+    SphereRadius = 250.672
+}

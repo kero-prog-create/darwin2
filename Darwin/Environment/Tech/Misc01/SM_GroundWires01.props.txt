@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/Wiring_01/Mat_Wiring_01.Mat_Wiring_01'
+    Materials[1] = Material3'/Game/Darwin/Graphics/Flag_01/MAT_TriFlag_01.MAT_TriFlag_01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Wiring_01/Mat_Wiring_01.Mat_Wiring_01'
+        MaterialSlotName = MAT_BarbedWire_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Flag_01/MAT_TriFlag_01.MAT_TriFlag_01'
+        MaterialSlotName = MAT_TriFlag03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-13.4712, Y=-12.6899, Z=23.5258 }
+    BoxExtent = { X=228.959, Y=186.966, Z=33.0765 }
+    SphereRadius = 244.242
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Tech/Player_Drone_01/MAT_PlayerDrone_01.MAT_PlayerDrone_01'
+    Materials[1] = Material3'/Game/Darwin/Environment/Tech/Player_Drone_01/MAT_PlayerDroneCustom_01.MAT_PlayerDroneCustom_01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Tech/Player_Drone_01/MAT_PlayerDrone_01.MAT_PlayerDrone_01'
+        MaterialSlotName = Mat_PlayerDrone_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 195.224, 389.764, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Tech/Player_Drone_01/MAT_PlayerDroneCustom_01.MAT_PlayerDroneCustom_01'
+        MaterialSlotName = Mat_PlayerDroneCustom_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 194.9, 391.096, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.169678, Y=-14.3506, Z=-5.291 }
+    BoxExtent = { X=60.7872, Y=47.0332, Z=50.9082 }
+    SphereRadius = 72.6236
+}

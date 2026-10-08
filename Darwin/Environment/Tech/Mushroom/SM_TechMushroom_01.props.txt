@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Tech/Mushroom/MAT_TechMushroom_01.MAT_TechMushroom_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Tech/Mushroom/MAT_TechMushroom_01.MAT_TechMushroom_01'
+        MaterialSlotName = M_TechMushroom
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 544.487, 496.679, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.05176e-05, Y=-0.591942, Z=55.5944 }
+    BoxExtent = { X=97.8646, Y=98.5767, Z=55.6021 }
+    SphereRadius = 100.412
+}

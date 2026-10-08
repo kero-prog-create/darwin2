@@ -1,0 +1,52 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Darwin/Environment/Tech/Mushroom/T_Mushroom_01_BaseColor.T_Mushroom_01_BaseColor'
+    ReferencedTextures[1] = Texture2D'/Game/Darwin/Environment/Tech/Mushroom/T_Mushroom_01_OcclusionRoughnessMetallic.T_Mushroom_01_OcclusionRoughnessMetallic'
+    ReferencedTextures[2] = Texture2D'/Game/Darwin/Environment/Tech/Mushroom/T_Mushroom_01_Normal.T_Mushroom_01_Normal'
+    ReferencedTextures[3] = Texture2D'/Game/Darwin/Environment/Tech/Mushroom/T_Mushroom_01_Emissive.T_Mushroom_01_Emissive'
+}
+Expressions[40] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'/Game/Darwin/Environment/Tech/Mushroom/MAT_TechMushroom_01.MaterialExpressionTextureSample_0'
+    Expressions[1] = MaterialExpressionTextureSample'/Game/Darwin/Environment/Tech/Mushroom/MAT_TechMushroom_01.MaterialExpressionTextureSample_4'
+    Expressions[2] = MaterialExpressionTextureSample'/Game/Darwin/Environment/Tech/Mushroom/MAT_TechMushroom_01.MaterialExpressionTextureSample_2'
+    Expressions[6] = MaterialExpressionTextureSample'/Game/Darwin/Environment/Tech/Mushroom/MAT_TechMushroom_01.MaterialExpressionTextureSample_1'
+    Expressions[27] = MaterialExpressionScalarParameter'/Game/Darwin/Environment/Tech/Mushroom/MAT_TechMushroom_01.MaterialExpressionScalarParameter_0'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=ImpactTime, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
