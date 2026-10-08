@@ -1,0 +1,109 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/BluePrints/Character/Falcon/Art/Drone_LVL01_BaseColor.Drone_LVL01_BaseColor'
+    ReferencedTextures[1] = Texture2D'/Game/BluePrints/Character/Falcon/Art/Drone_LVL01_SpecularRoughnessMetallic.Drone_LVL01_SpecularRoughnessMetallic'
+    ReferencedTextures[2] = Texture2D'/Game/BluePrints/Character/Falcon/Art/Drone_LVL01_Normal.Drone_LVL01_Normal'
+    ReferencedTextures[3] = Texture2D'/Game/BluePrints/Character/Falcon/Art/Drone_LVL01_Emissive.Drone_LVL01_Emissive'
+    ReferencedTextures[4] = Texture2D'/Game/Materials/Rainbow_gradient_90.Rainbow_gradient_90'
+    ReferencedTextures[5] = Texture2D'/Game/StarterContent/Textures/T_Tech_Hex_Tile_M.T_Tech_Hex_Tile_M'
+    ReferencedTextures[6] = Texture2D'/Game/WaterPlane/Lake/Textures/T_MediumWaves_H.T_MediumWaves_H'
+    ReferencedTextures[7] = Texture2D'/Game/Elemental/Environment/ThroneRoom_Surfaces02/Textures/T_PillarCracks_N.T_PillarCracks_N'
+}
+Expressions[129] =
+{
+    Expressions[1] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Falcon/Art/Drone_Material.MaterialExpressionTextureSample_0'
+    Expressions[2] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Falcon/Art/Drone_Material.MaterialExpressionTextureSample_3'
+    Expressions[3] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Falcon/Art/Drone_Material.MaterialExpressionTextureSample_2'
+    Expressions[5] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Falcon/Art/Drone_Material.MaterialExpressionTextureSample_1'
+    Expressions[10] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Falcon/Art/Drone_Material.MaterialExpressionTextureSample_4'
+    Expressions[28] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Falcon/Art/Drone_Material.MaterialExpressionScalarParameter_0'
+    Expressions[32] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Falcon/Art/Drone_Material.MaterialExpressionScalarParameter_1'
+    Expressions[43] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Falcon/Art/Drone_Material.MaterialExpressionScalarParameter_2'
+    Expressions[47] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Falcon/Art/Drone_Material.MaterialExpressionScalarParameter_3'
+    Expressions[51] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Falcon/Art/Drone_Material.MaterialExpressionScalarParameter_4'
+    Expressions[54] = MaterialExpressionVectorParameter'/Game/BluePrints/Character/Falcon/Art/Drone_Material.MaterialExpressionVectorParameter_0'
+    Expressions[56] = MaterialExpressionVectorParameter'/Game/BluePrints/Character/Falcon/Art/Drone_Material.MaterialExpressionVectorParameter_1'
+    Expressions[61] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Falcon/Art/Drone_Material.MaterialExpressionTextureSample_5'
+    Expressions[68] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Falcon/Art/Drone_Material.MaterialExpressionTextureSample_6'
+    Expressions[72] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Falcon/Art/Drone_Material.MaterialExpressionScalarParameter_5'
+    Expressions[78] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Falcon/Art/Drone_Material.MaterialExpressionTextureSample_11'
+    Expressions[87] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Falcon/Art/Drone_Material.MaterialExpressionScalarParameter_7'
+    Expressions[116] = MaterialExpressionTextureSample'/Game/BluePrints/Character/Falcon/Art/Drone_Material.MaterialExpressionTextureSample_7'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.0111
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0.382
+        Name = RainbowEmissiveIntensity
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=21, Name=EmissiveIntensity, Group=None }
+    CollectedScalarParameters[2] = { Value=-2, Name=VFX_FetchTimeStart, Group=None }
+    CollectedScalarParameters[3] = { Value=1.75, Name=FetchFadeFactor, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 500
+        Name = FetchEmissiveIntensity
+        Group = None
+    }
+    CollectedScalarParameters[5] =
+    {
+        Value = 0
+        Name = VFX_PassiveUpgradeClueTime
+        Group = None
+    }
+    CollectedScalarParameters[6] =
+    {
+        Value = -100
+        Name = VFX_DamagedTimeStamp
+        Group = None
+    }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = VFX_DarwinColorGradientColorA
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = VFX_DarwinColorGradientColorB
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

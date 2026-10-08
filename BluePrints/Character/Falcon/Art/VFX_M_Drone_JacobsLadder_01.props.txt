@@ -1,0 +1,59 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Darwin/VFX/Characters/TrackMaster/Textures/VFX_T_Electricity_01.VFX_T_Electricity_01'
+}
+Expressions[40] =
+{
+    Expressions[4] = MaterialExpressionScalarParameter'/Game/BluePrints/Character/Falcon/Art/VFX_M_Drone_JacobsLadder_01.MaterialExpressionScalarParameter_0'
+    Expressions[27] = MaterialExpressionVectorParameter'/Game/BluePrints/Character/Falcon/Art/VFX_M_Drone_JacobsLadder_01.MaterialExpressionVectorParameter_0'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = -1
+        Name = JacobsLadderInitiateTime
+        Group = None
+    }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = VFX_DarwinColorGradientColorA
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

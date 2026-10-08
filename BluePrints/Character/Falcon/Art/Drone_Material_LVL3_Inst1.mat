@@ -1,0 +1,12 @@
+Diffuse=Drone_LVL02_03_BaseColor
+Normal=Drone_LVL02_03_Normal
+SpecPower=Drone_LVL02_03_SpecularRoughnessMetallic
+Emissive=Drone_LVL02_03_Emissive
+Other[0]=Drone_LVL01_BaseColor
+Other[1]=Drone_LVL01_SpecularRoughnessMetallic
+Other[2]=Drone_LVL01_Normal
+Other[3]=Drone_LVL01_Emissive
+Other[4]=Rainbow_gradient_90
+Other[5]=T_Tech_Hex_Tile_M
+Other[6]=T_MediumWaves_H
+Other[7]=T_PillarCracks_N
