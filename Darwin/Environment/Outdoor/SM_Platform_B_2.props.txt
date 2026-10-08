@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/WoodBeam_02/MAT_WoodBeam_02.MAT_WoodBeam_02'
+    Materials[1] = Material3'/Game/Darwin/Graphics/WoodEnds_01/MAT_WoodEnds_01.MAT_WoodEnds_01'
+    Materials[2] = Material3'/Game/Darwin/Graphics/Rope_01/MAT_Rope_01.MAT_Rope_01'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/WoodBeam_02/MAT_WoodBeam_02.MAT_WoodBeam_02'
+        MaterialSlotName = Material #1855
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 160.447, 511.278, 108.212, 108.212 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/WoodEnds_01/MAT_WoodEnds_01.MAT_WoodEnds_01'
+        MaterialSlotName = 08 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 124.368, 495.068, 141.695, 141.695 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Rope_01/MAT_Rope_01.MAT_Rope_01'
+        MaterialSlotName = Material #246478
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 113.855, 478.729, 148.601, 148.601 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.6636, Y=195.545, Z=-99.0526 }
+    BoxExtent = { X=36.3473, Y=211.851, Z=122.446 }
+    SphereRadius = 240.571
+}

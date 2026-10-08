@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/WoodBeam_01/MAT_WoodBeam_01.MAT_WoodBeam_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/WoodBeam_01/MAT_WoodBeam_01.MAT_WoodBeam_01'
+        MaterialSlotName = Material #314938
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 222.02, 610.971, 81.3713, 81.3713 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.53957, Y=0.986771, Z=2.04422 }
+    BoxExtent = { X=114.233, Y=168.704, Z=10.3518 }
+    SphereRadius = 198.065
+}
