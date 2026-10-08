@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Trees/TEMPSnow.TEMPSnow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Trees/TEMPSnow.TEMPSnow'
+        MaterialSlotName = M_GDC_Landscape_Mesh_SnowyRock_Base_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 3.05899, 2.20156, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.13677, Y=0.111626, Z=0.383729 }
+    BoxExtent = { X=0.911798, Y=1.0135, Z=0.347063 }
+    SphereRadius = 1.35978
+}
