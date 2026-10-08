@@ -1,0 +1,71 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Textures/HoloMap/Heightmap1024.Heightmap1024'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Holograms/Textures/T_Hologram_Text_01.T_Hologram_Text_01'
+    ReferencedTextures[2] = Texture2D'/Game/Textures/UIDev/MapBg2048px.MapBg2048px'
+}
+Expressions[129] =
+{
+    Expressions[6] = MaterialExpressionScalarParameter'/Game/Effects/HoloMap/M_HoloLandscape.MaterialExpressionScalarParameter_0'
+    Expressions[7] = MaterialExpressionVectorParameter'/Game/Effects/HoloMap/M_HoloLandscape.MaterialExpressionVectorParameter_1'
+    Expressions[20] = MaterialExpressionTextureSample'/Game/Effects/HoloMap/M_HoloLandscape.MaterialExpressionTextureSample_4'
+    Expressions[32] = MaterialExpressionTextureSample'/Game/Effects/HoloMap/M_HoloLandscape.MaterialExpressionTextureSample_5'
+    Expressions[33] = MaterialExpressionTextureSample'/Game/Effects/HoloMap/M_HoloLandscape.MaterialExpressionTextureSample_6'
+    Expressions[65] = MaterialExpressionTextureSample'/Game/Effects/HoloMap/M_HoloLandscape.MaterialExpressionTextureSample_11'
+    Expressions[74] = MaterialExpressionScalarParameter'/Game/Effects/HoloMap/M_HoloLandscape.MaterialExpressionScalarParameter_5'
+    Expressions[82] = MaterialExpressionScalarParameter'/Game/Effects/HoloMap/M_HoloLandscape.MaterialExpressionScalarParameter_3'
+    Expressions[83] = MaterialExpressionScalarParameter'/Game/Effects/HoloMap/M_HoloLandscape.MaterialExpressionScalarParameter_4'
+    Expressions[111] = MaterialExpressionTextureSample'/Game/Effects/HoloMap/M_HoloLandscape.MaterialExpressionTextureSample_1'
+    Expressions[126] = MaterialExpressionScalarParameter'/Game/Effects/HoloMap/M_HoloLandscape.MaterialExpressionScalarParameter_1'
+    Expressions[128] = MaterialExpressionScalarParameter'/Game/Effects/HoloMap/M_HoloLandscape.MaterialExpressionScalarParameter_2'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.05
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Intensity, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[2] = { Value=84, Name=Height, Group=None }
+    CollectedScalarParameters[3] = { Value=-50, Name=HeightOffset, Group=None }
+    CollectedScalarParameters[4] = { Value=0.5, Name=MaxOpacity, Group=None }
+    CollectedScalarParameters[5] = { Value=0.5, Name=MulOpacity, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.1, G=0.333, B=1, A=0 }
+        Name = None
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

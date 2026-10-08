@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Effects/Lights/M_Searchlight_Base.M_Searchlight_Base'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Effects/Lights/M_Searchlight_Base.M_Searchlight_Base'
+        MaterialSlotName = M_Searchlight_Base
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 645.855, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=390 }
+    BoxExtent = { X=142.518, Y=142.518, Z=390 }
+    SphereRadius = 415.224
+}

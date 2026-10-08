@@ -1,0 +1,89 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Holograms/Textures/T_Hologram_Text_01.T_Hologram_Text_01'
+}
+Expressions[58] =
+{
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'/Game/Effects/HoloMap/M_HoloMap.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[5] = MaterialExpressionScalarParameter'/Game/Effects/HoloMap/M_HoloMap.MaterialExpressionScalarParameter_0'
+    Expressions[6] = MaterialExpressionVectorParameter'/Game/Effects/HoloMap/M_HoloMap.MaterialExpressionVectorParameter_1'
+    Expressions[8] = MaterialExpressionScalarParameter'/Game/Effects/HoloMap/M_HoloMap.MaterialExpressionScalarParameter_1'
+    Expressions[15] = MaterialExpressionScalarParameter'/Game/Effects/HoloMap/M_HoloMap.MaterialExpressionScalarParameter_2'
+    Expressions[17] = MaterialExpressionTextureSampleParameter2D'/Game/Effects/HoloMap/M_HoloMap.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[18] = MaterialExpressionTextureSampleParameter2D'/Game/Effects/HoloMap/M_HoloMap.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[47] = MaterialExpressionTextureSample'/Game/Effects/HoloMap/M_HoloMap.MaterialExpressionTextureSample_10'
+    Expressions[57] = MaterialExpressionVectorParameter'/Game/Effects/HoloMap/M_HoloMap.MaterialExpressionVectorParameter_2'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Textures/HoloMap/ArrowsHoloMap1024px.ArrowsHoloMap1024px'
+        Name = MaterialExpressionTextureSampleParameter2D_0
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Textures/HoloMap/ArrowsHoloMap1024px.ArrowsHoloMap1024px'
+        Name = MaterialExpressionTextureSampleParameter2D_0
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Textures/HoloMap/ArrowsHoloMap1024px.ArrowsHoloMap1024px'
+        Name = MaterialExpressionTextureSampleParameter2D_0
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Intensity, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Rotate, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Opacity, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.1, G=0.333, B=1, A=0 }
+        Name = None
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0, B=0.065, A=0 }
+        Name = None
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
