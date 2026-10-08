@@ -1,0 +1,147 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/RandomAngles.RandomAngles'
+}
+Expressions[75] =
+{
+    Expressions[1] = MaterialExpressionScalarParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionScalarParameter_1'
+    Expressions[4] = MaterialExpressionVectorParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionVectorParameter_2'
+    Expressions[5] = MaterialExpressionScalarParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionScalarParameter_11'
+    Expressions[8] = MaterialExpressionScalarParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionScalarParameter_6'
+    Expressions[10] = MaterialExpressionVectorParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionVectorParameter_5'
+    Expressions[11] = MaterialExpressionScalarParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionScalarParameter_8'
+    Expressions[13] = MaterialExpressionVectorParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionVectorParameter_33'
+    Expressions[15] = MaterialExpressionScalarParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionScalarParameter_3'
+    Expressions[17] = MaterialExpressionScalarParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionScalarParameter_16'
+    Expressions[22] = MaterialExpressionVectorParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionVectorParameter_30'
+    Expressions[23] = MaterialExpressionScalarParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionScalarParameter_70'
+    Expressions[26] = MaterialExpressionScalarParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionScalarParameter_69'
+    Expressions[27] = MaterialExpressionScalarParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionScalarParameter_68'
+    Expressions[29] = MaterialExpressionVectorParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionVectorParameter_29'
+    Expressions[34] = MaterialExpressionTextureSample'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionTextureSample_1'
+    Expressions[38] = MaterialExpressionScalarParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionScalarParameter_67'
+    Expressions[42] = MaterialExpressionScalarParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionScalarParameter_18'
+    Expressions[43] = MaterialExpressionScalarParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionScalarParameter_15'
+    Expressions[44] = MaterialExpressionScalarParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionScalarParameter_23'
+    Expressions[46] = MaterialExpressionScalarParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionScalarParameter_0'
+    Expressions[47] = MaterialExpressionTextureSampleParameter2D'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[50] = MaterialExpressionStaticBoolParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionStaticBoolParameter_3'
+    Expressions[53] = MaterialExpressionStaticBoolParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionStaticBoolParameter_30'
+    Expressions[54] = MaterialExpressionStaticBoolParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionStaticBoolParameter_4'
+    Expressions[59] = MaterialExpressionScalarParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionScalarParameter_4'
+    Expressions[62] = MaterialExpressionScalarParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionScalarParameter_12'
+    Expressions[65] = MaterialExpressionStaticBoolParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionStaticBoolParameter_2'
+    Expressions[67] = MaterialExpressionTextureSampleParameter2D'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[72] = MaterialExpressionScalarParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionScalarParameter_10'
+    Expressions[73] = MaterialExpressionScalarParameter'/Game/Materials/CarPaint/M_Carpaint.MaterialExpressionScalarParameter_9'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Textures/CarbonFiber/T_MetalFlakes_N.T_MetalFlakes_N'
+        Name = Metal Flake Normal
+        Group = MASTER ONLY
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Textures/CarPaint/T_Bump_N.T_Bump_N'
+        Name = Orange Peel Normal
+        Group = Orange Peel
+    }
+}
+CollectedScalarParameters[18] =
+{
+    CollectedScalarParameters[0] = { Value=0.8, Name=Metallic, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0
+        Name = Clear Coat Top Roughness
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=0.8, Name=Bottom Roughness_02, Group=None }
+    CollectedScalarParameters[3] = { Value=0.2, Name=Bottom Roughness_01, Group=None }
+    CollectedScalarParameters[4] = { Value=5, Name=Flake Color Power, Group=None }
+    CollectedScalarParameters[5] = { Value=3, Name=Flake Distribution, Group=None }
+    CollectedScalarParameters[6] = { Value=2, Name=Flake Movement Speed, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=2nd Flake Intensity, Group=None }
+    CollectedScalarParameters[8] = { Value=0.5, Name=3rd Flake Intensity, Group=None }
+    CollectedScalarParameters[9] = { Value=64, Name=Sparkle Colors Scale, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=Final Flake Brightness, Group=None }
+    CollectedScalarParameters[11] = { Value=4, Name=Flake Scale, Group=None }
+    CollectedScalarParameters[12] = { Value=16, Name=Flake Normal Scale, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=Flake Color Variation, Group=None }
+    CollectedScalarParameters[14] =
+    {
+        Value = 0.3
+        Name = Flake Normal Strength
+        Group = None
+    }
+    CollectedScalarParameters[15] = { Value=0, Name=Transition, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=Orange Peel Scale, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=Orange Peel Strength, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Emissive Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.018125, G=0.087192, B=0.22, A=0 }
+        Name = Base Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Flake Color Alpha
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=286.265, G=218.168, B=0, A=0 }
+        Name = Offset 1
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=15865.6, G=2.6868, B=0, A=0 }
+        Name = Offset 2
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

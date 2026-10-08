@@ -1,0 +1,6 @@
+Diffuse=metal_01_d
+Normal=dev_normal_a
+Other[0]=metal_01_masks
+Other[1]=dev_black
+Other[2]=Dev_Grey_A
+Other[3]=dev_white_a

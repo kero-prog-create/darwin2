@@ -1,0 +1,116 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/BluePrints/Base/UI/Icons/Icons256px/Fire.Fire'
+    ReferencedTextures[1] = Texture2D'/Game/Darwin/VFX/Environment/Lava/Textures/T_Lava02_basecolor.T_Lava02_basecolor'
+    ReferencedTextures[2] = Texture2D'/Game/Darwin/VFX/Environment/Lava/Textures/VFX_T_DistortionNoise_01.VFX_T_DistortionNoise_01'
+    ReferencedTextures[3] = Texture2D'/Game/Darwin/VFX/Environment/Lava/Textures/VFX_T_LavaNoise_02.VFX_T_LavaNoise_02'
+}
+Expressions[284] =
+{
+    Expressions[8] = MaterialExpressionScalarParameter'/Game/Materials/LavaPostProcess/M_PostProcess_Lava_Tile_5.MaterialExpressionScalarParameter_24'
+    Expressions[19] = MaterialExpressionScalarParameter'/Game/Materials/LavaPostProcess/M_PostProcess_Lava_Tile_5.MaterialExpressionScalarParameter_2'
+    Expressions[21] = MaterialExpressionVectorParameter'/Game/Materials/LavaPostProcess/M_PostProcess_Lava_Tile_5.MaterialExpressionVectorParameter_2'
+    Expressions[22] = MaterialExpressionVectorParameter'/Game/Materials/LavaPostProcess/M_PostProcess_Lava_Tile_5.MaterialExpressionVectorParameter_3'
+    Expressions[23] = MaterialExpressionVectorParameter'/Game/Materials/LavaPostProcess/M_PostProcess_Lava_Tile_5.MaterialExpressionVectorParameter_4'
+    Expressions[24] = MaterialExpressionVectorParameter'/Game/Materials/LavaPostProcess/M_PostProcess_Lava_Tile_5.MaterialExpressionVectorParameter_5'
+    Expressions[27] = MaterialExpressionScalarParameter'/Game/Materials/LavaPostProcess/M_PostProcess_Lava_Tile_5.MaterialExpressionScalarParameter_3'
+    Expressions[28] = MaterialExpressionScalarParameter'/Game/Materials/LavaPostProcess/M_PostProcess_Lava_Tile_5.MaterialExpressionScalarParameter_4'
+    Expressions[41] = MaterialExpressionScalarParameter'/Game/Materials/LavaPostProcess/M_PostProcess_Lava_Tile_5.MaterialExpressionScalarParameter_5'
+    Expressions[48] = MaterialExpressionScalarParameter'/Game/Materials/LavaPostProcess/M_PostProcess_Lava_Tile_5.MaterialExpressionScalarParameter_7'
+    Expressions[49] = MaterialExpressionVectorParameter'/Game/Materials/LavaPostProcess/M_PostProcess_Lava_Tile_5.MaterialExpressionVectorParameter_6'
+    Expressions[97] = MaterialExpressionScalarParameter'/Game/Materials/LavaPostProcess/M_PostProcess_Lava_Tile_5.MaterialExpressionScalarParameter_8'
+    Expressions[99] = MaterialExpressionScalarParameter'/Game/Materials/LavaPostProcess/M_PostProcess_Lava_Tile_5.MaterialExpressionScalarParameter_9'
+    Expressions[147] = MaterialExpressionScalarParameter'/Game/Materials/LavaPostProcess/M_PostProcess_Lava_Tile_5.MaterialExpressionScalarParameter_15'
+    Expressions[149] = MaterialExpressionTextureSampleParameter2D'/Game/Materials/LavaPostProcess/M_PostProcess_Lava_Tile_5.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[169] = MaterialExpressionScalarParameter'/Game/Materials/LavaPostProcess/M_PostProcess_Lava_Tile_5.MaterialExpressionScalarParameter_0'
+    Expressions[209] = MaterialExpressionScalarParameter'/Game/Materials/LavaPostProcess/M_PostProcess_Lava_Tile_5.MaterialExpressionScalarParameter_10'
+    Expressions[253] = MaterialExpressionScalarParameter'/Game/Materials/LavaPostProcess/M_PostProcess_Lava_Tile_5.MaterialExpressionScalarParameter_1'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/BluePrints/Base/UI/Icons/Icons256px/Fire.Fire'
+        Name = MaterialExpressionTextureSampleParameter2D_1
+        Group = None
+    }
+}
+CollectedScalarParameters[12] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Intensity, Group=None }
+    CollectedScalarParameters[1] = { Value=2.618, Name=NoiseSpeed, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Height, Group=None }
+    CollectedScalarParameters[3] = { Value=1312, Name=HeightTransition, Group=None }
+    CollectedScalarParameters[4] = { Value=99999, Name=DisappearanceDist, Group=None }
+    CollectedScalarParameters[5] = { Value=0.173517, Name=HeightPower, Group=None }
+    CollectedScalarParameters[6] = { Value=1618, Name=MaxDistFromLine, Group=None }
+    CollectedScalarParameters[7] = { Value=26100, Name=MinDistFromLine, Group=None }
+    CollectedScalarParameters[8] = { Value=0.707, Name=DistFromLinePower, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=InsideZoneValue, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=InsideZone, Group=None }
+    CollectedScalarParameters[11] = { Value=10800, Name=LavaDist, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1.618, G=-0.618, B=-1.618, A=1 }
+        Name = Color1
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=5, G=3, B=0.333, A=1 }
+        Name = Color2
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=34, G=5, B=-1, A=1 }
+        Name = Color3
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=-1, G=-1, B=-3.1415, A=1 }
+        Name = Color4
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = HexagonLocation
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
