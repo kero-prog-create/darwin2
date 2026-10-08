@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Darwin/Environment/Houses/MI_HouseExterior.MI_HouseExterior'
+    Materials[1] = MaterialInstanceConstant'/Game/Darwin/Environment/Houses/MI_HouseInterior.MI_HouseInterior'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Environment/Houses/MI_HouseExterior.MI_HouseExterior'
+        MaterialSlotName = default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1021.28, 8977.59, 13104, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Environment/Houses/MI_HouseInterior.MI_HouseInterior'
+        MaterialSlotName = _Game_Environment_Materials_Misc_M_Cave_WoodStruts__M_Cave_WoodStruts_
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 725.733, 8844.14, 12982.1, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=66.4949, Y=4.73041, Z=322.173 }
+    BoxExtent = { X=858.676, Y=650.458, Z=419.725 }
+    SphereRadius = 1049.1
+}

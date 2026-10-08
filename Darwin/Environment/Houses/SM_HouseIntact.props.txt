@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Darwin/Environment/Houses/MI_HouseExterior.MI_HouseExterior'
+    Materials[1] = MaterialInstanceConstant'/Game/Darwin/Environment/Houses/MI_HouseInterior.MI_HouseInterior'
+    Materials[2] = Material3'/Game/Darwin/Environment/Houses/SNOW_HOUSE_SHADER.SNOW_HOUSE_SHADER'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Environment/Houses/MI_HouseExterior.MI_HouseExterior'
+        MaterialSlotName = Exterior
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 974.76, 8362.56, 11552.1, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Environment/Houses/MI_HouseInterior.MI_HouseInterior'
+        MaterialSlotName = Interior
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 720.939, 8255.17, 11398.3, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Houses/SNOW_HOUSE_SHADER.SNOW_HOUSE_SHADER'
+        MaterialSlotName = Snow
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1922.33, 10172.6, 12032, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=67.4915, Y=-12.7882, Z=380.843 }
+    BoxExtent = { X=857.68, Y=648.805, Z=478.395 }
+    SphereRadius = 1079.53
+}

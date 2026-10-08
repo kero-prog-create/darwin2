@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Houses/BODY_HOUSE_SHADER.BODY_HOUSE_SHADER'
+    Materials[1] = Material3'/Game/Darwin/Environment/Houses/ROOF_HOUSE_SHADER.ROOF_HOUSE_SHADER'
+    Materials[2] = Material3'/Game/Darwin/Environment/Houses/FOUNDATION_HOUSE_SHADER.FOUNDATION_HOUSE_SHADER'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Houses/BODY_HOUSE_SHADER.BODY_HOUSE_SHADER'
+        MaterialSlotName = BODY_HOUSE_SHADER
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1615.22, 30144.8, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Houses/ROOF_HOUSE_SHADER.ROOF_HOUSE_SHADER'
+        MaterialSlotName = ROOF_HOUSE_SHADER
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1470.18, 29674.6, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Houses/FOUNDATION_HOUSE_SHADER.FOUNDATION_HOUSE_SHADER'
+        MaterialSlotName = FOUNDATION_HOUSE_SHADER
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1803.72, 29706.5, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=9.54907, Y=-8.71094, Z=669.21 }
+    BoxExtent = { X=1140.83, Y=1318.8, Z=734.265 }
+    SphereRadius = 1717.25
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Darwin/Environment/Houses/MI_HouseExterior.MI_HouseExterior'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Environment/Houses/MI_HouseExterior.MI_HouseExterior'
+        MaterialSlotName = Exterior
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 329.085, 8346.59, 219.296, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.20909, Y=0.336933, Z=0.504002 }
+    BoxExtent = { X=5.04683, Y=42.9576, Z=61.1066 }
+    SphereRadius = 72.4426
+}
