@@ -1,0 +1,6 @@
+Diffuse=easterEgg_BaseColor
+Normal=easterEgg_Normal
+SpecPower=easterEgg_SpecularRoughnessMetallic
+Other[0]=easterEgg_BaseColor
+Other[1]=easterEgg_Normal
+Other[2]=easterEgg_SpecularRoughnessMetallic

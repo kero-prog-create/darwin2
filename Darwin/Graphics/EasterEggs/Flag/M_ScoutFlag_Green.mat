@@ -1,0 +1,6 @@
+Diffuse=T_ScoutFlag01_BaseColor
+Normal=T_ScoutFlag01_Normal
+SpecPower=T_ScoutFlag01_SpecularRoughnessMetallic
+Other[0]=easterEgg_BaseColor
+Other[1]=easterEgg_Normal
+Other[2]=easterEgg_SpecularRoughnessMetallic
