@@ -1,0 +1,70 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Darwin/Gameplay/Flag_Ally/Flag_Ally_OcclusionRoughnessMetallic.Flag_Ally_OcclusionRoughnessMetallic'
+    ReferencedTextures[1] = Texture2D'/Game/Darwin/Gameplay/Flag_Ally/Flag_Ally_Normal.Flag_Ally_Normal'
+    ReferencedTextures[2] = Texture2D'/Game/Darwin/Gameplay/Flag_Ally/Flag_Ally_BaseColor.Flag_Ally_BaseColor'
+    ReferencedTextures[3] = Texture2D'/Game/Darwin/Gameplay/Flag_Ally/Flag_Ally_Emissive.Flag_Ally_Emissive'
+    ReferencedTextures[4] = Texture2D'/Game/Darwin/Gameplay/Flag_Ally/Flag_Ally_Alpha_02.Flag_Ally_Alpha_02'
+    ReferencedTextures[5] = Texture2D'/Game/BluePrints/Base/IconsBase/CamoIcons/CamoIcon256px.CamoIcon256px'
+    ReferencedTextures[6] = Texture2D'/Game/Darwin/Gameplay/Flag_Ally/Flag_Ally_Alpha_01.Flag_Ally_Alpha_01'
+}
+Expressions[25] =
+{
+    Expressions[1] = MaterialExpressionTextureSample'/Game/Darwin/Gameplay/Flag_Ally/Flag_Ally_Mat.MaterialExpressionTextureSample_1'
+    Expressions[2] = MaterialExpressionTextureSample'/Game/Darwin/Gameplay/Flag_Ally/Flag_Ally_Mat.MaterialExpressionTextureSample_0'
+    Expressions[4] = MaterialExpressionTextureSample'/Game/Darwin/Gameplay/Flag_Ally/Flag_Ally_Mat.MaterialExpressionTextureSample_2'
+    Expressions[5] = MaterialExpressionTextureSample'/Game/Darwin/Gameplay/Flag_Ally/Flag_Ally_Mat.MaterialExpressionTextureSample_3'
+    Expressions[6] = MaterialExpressionTextureSample'/Game/Darwin/Gameplay/Flag_Ally/Flag_Ally_Mat.MaterialExpressionTextureSample_4'
+    Expressions[8] = MaterialExpressionTextureSample'/Game/Darwin/Gameplay/Flag_Ally/Flag_Ally_Mat.MaterialExpressionTextureSample_7'
+    Expressions[13] = MaterialExpressionVectorParameter'/Game/Darwin/Gameplay/Flag_Ally/Flag_Ally_Mat.MaterialExpressionVectorParameter_2'
+    Expressions[14] = MaterialExpressionVectorParameter'/Game/Darwin/Gameplay/Flag_Ally/Flag_Ally_Mat.MaterialExpressionVectorParameter_3'
+    Expressions[18] = MaterialExpressionTextureSample'/Game/Darwin/Gameplay/Flag_Ally/Flag_Ally_Mat.MaterialExpressionTextureSample_8'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=1, B=1, A=0 }
+        Name = TopColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=1, A=0 }
+        Name = BottomColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

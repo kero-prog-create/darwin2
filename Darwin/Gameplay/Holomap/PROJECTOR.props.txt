@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Gameplay/Holomap/PROJECTOR_SHADER.PROJECTOR_SHADER'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Gameplay/Holomap/PROJECTOR_SHADER.PROJECTOR_SHADER'
+        MaterialSlotName = PROJECTOR_SHADER
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 50.3086, 62.8772, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.90735e-06, Y=5.34323, Z=3.1845 }
+    BoxExtent = { X=24.5515, Y=21.3898, Z=3.1845 }
+    SphereRadius = 30.3818
+}

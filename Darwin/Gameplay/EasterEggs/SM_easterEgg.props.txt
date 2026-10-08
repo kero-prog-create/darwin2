@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Gameplay/EasterEggs/M_EasterEgg.M_EasterEgg'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Gameplay/EasterEggs/M_EasterEgg.M_EasterEgg'
+        MaterialSlotName = easterEgg
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 5.48166, 5.6434, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.19209e-07, Y=1.19209e-07, Z=1.34372 }
+    BoxExtent = { X=1.03106, Y=1.00521, Z=1.332 }
+    SphereRadius = 1.332
+}
