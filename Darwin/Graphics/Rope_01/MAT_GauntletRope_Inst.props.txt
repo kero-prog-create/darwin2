@@ -1,0 +1,118 @@
+Parent = Material3'/Game/Darwin/Graphics/Rope_01/MAT_HookRope.MAT_HookRope'
+ScalarParameterValues[11] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=ColorLengthMax }
+        ParameterValue = 3.1415
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=ColorLengthMin }
+        ParameterValue = 0.618
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Desaturation }
+        ParameterValue = 1.333
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=DiffuseMul }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=HighlightIntensity }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=MaxEnvLighting }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Metallic }
+        ParameterValue = 0.94
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=RoughnessIntensity }
+        ParameterValue = 0.382
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=RoughnessPower }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Specular }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=HighlightColor }
+        ParameterValue = { R=1, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=OpacityTiling }
+        ParameterValue = { R=0.25, G=0.125, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Tiling }
+        ParameterValue = { R=1, G=0.8, B=0, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = true
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = true
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

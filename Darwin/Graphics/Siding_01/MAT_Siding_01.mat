@@ -1,0 +1,4 @@
+Diffuse=T_Siding01_basecolor
+Normal=T_Siding01_normal
+Other[0]=T_Siding01_roughness
+Other[1]=T_Siding01_metallic
