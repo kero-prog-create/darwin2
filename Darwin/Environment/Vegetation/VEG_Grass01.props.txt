@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/Vegetation_01/MAT_GenericGrass01.MAT_GenericGrass01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Vegetation_01/MAT_GenericGrass01.MAT_GenericGrass01'
+        MaterialSlotName = MAT_Grass01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 121.601, 478.365, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-6.97867, Y=-18.4989, Z=52.03 }
+    BoxExtent = { X=132.128, Y=108.367, Z=52.0301 }
+    SphereRadius = 147.528
+}
