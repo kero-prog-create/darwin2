@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Elemental/Environment/Throne_Warspoils/Material/M_ShieldBreastplate.M_ShieldBreastplate'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Elemental/Environment/Throne_Warspoils/Material/M_ShieldBreastplate.M_ShieldBreastplate'
+        MaterialSlotName = M_ShieldBreastplate
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 69.828, 50.4933, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=0 }
+    BoxExtent = { X=11.2278, Y=7.16187, Z=13.9545 }
+    SphereRadius = 16.6052
+}

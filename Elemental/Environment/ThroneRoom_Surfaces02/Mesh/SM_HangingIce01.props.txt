@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Elemental/Environment/ThroneRoom_Surfaces02/Material/M_HangingIce.M_HangingIce'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Elemental/Environment/ThroneRoom_Surfaces02/Material/M_HangingIce.M_HangingIce'
+        MaterialSlotName = M_HangingIce
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 174.368, 113.922, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.52548, Y=1.5272, Z=-22.555 }
+    BoxExtent = { X=15.9884, Y=4.02751, Z=41.9217 }
+    SphereRadius = 42.3411
+}

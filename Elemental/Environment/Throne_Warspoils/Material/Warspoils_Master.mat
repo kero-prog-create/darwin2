@@ -1,0 +1,5 @@
+Diffuse=T_damagetile01
+Normal=T_blend01_N
+SpecPower=T_breastplate_S
+Other[0]=T_breastplate_AO
+Other[1]=T_breastplate_N

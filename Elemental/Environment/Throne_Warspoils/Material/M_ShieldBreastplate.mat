@@ -1,0 +1,8 @@
+Diffuse=T_shieldbreastplate_AO
+Normal=T_shieldbreastplate_N
+SpecPower=T_shieldbreastplate_S
+Other[0]=T_damagetile01
+Other[1]=T_blend01_N
+Other[2]=T_breastplate_AO
+Other[3]=T_breastplate_N
+Other[4]=T_breastplate_S
