@@ -1,0 +1,57 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Darwin/Environment/JailCell01/LootDoor01/T_LootDoor01_BaseColor.T_LootDoor01_BaseColor'
+    ReferencedTextures[1] = Texture2D'/Game/Darwin/Environment/JailCell01/LootDoor01/T_LootDoor01_OcclusionRoughnessMetallic.T_LootDoor01_OcclusionRoughnessMetallic'
+    ReferencedTextures[2] = Texture2D'/Game/Darwin/Environment/JailCell01/LootDoor01/T_LootDoor01_Normal.T_LootDoor01_Normal'
+    ReferencedTextures[3] = Texture2D'/Game/Darwin/Environment/JailCell01/LootDoor01/T_LootDoor01_Emissive.T_LootDoor01_Emissive'
+}
+Expressions[7] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'/Game/Darwin/Environment/JailCell01/LootDoor01/MAT_LootDoor01.MaterialExpressionTextureSample_0'
+    Expressions[1] = MaterialExpressionTextureSample'/Game/Darwin/Environment/JailCell01/LootDoor01/MAT_LootDoor01.MaterialExpressionTextureSample_2'
+    Expressions[2] = MaterialExpressionTextureSample'/Game/Darwin/Environment/JailCell01/LootDoor01/MAT_LootDoor01.MaterialExpressionTextureSample_1'
+    Expressions[5] = MaterialExpressionVectorParameter'/Game/Darwin/Environment/JailCell01/LootDoor01/MAT_LootDoor01.MaterialExpressionVectorParameter_0'
+    Expressions[6] = MaterialExpressionTextureSample'/Game/Darwin/Environment/JailCell01/LootDoor01/MAT_LootDoor01.MaterialExpressionTextureSample_3'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.1, G=0.880283, B=1, A=24 }
+        Name = None
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

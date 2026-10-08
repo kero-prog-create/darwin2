@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Trees/TEMPSnow_Opaque.TEMPSnow_Opaque'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Trees/TEMPSnow_Opaque.TEMPSnow_Opaque'
+        MaterialSlotName = TEMPSnow_Opaque
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 399.488, 1544.73, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.393097, Y=120.809, Z=26.1262 }
+    BoxExtent = { X=361.35, Y=481.713, Z=61.6902 }
+    SphereRadius = 602.779
+}

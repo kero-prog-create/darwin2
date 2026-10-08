@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/JailCell01/JailWalls01/MAT_JailWalls01.MAT_JailWalls01'
+    Materials[1] = Material3'/Game/Darwin/Graphics/Emissive_01/Mat_Emissive_01.Mat_Emissive_01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/JailCell01/JailWalls01/MAT_JailWalls01.MAT_JailWalls01'
+        MaterialSlotName = 03 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 646.224, 952.472, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Emissive_01/Mat_Emissive_01.Mat_Emissive_01'
+        MaterialSlotName = MAT_Emissive01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0.727925, 728.859, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-7.64141, Z=330 }
+    BoxExtent = { X=350, Y=13.2637, Z=330 }
+    SphereRadius = 481.199
+}

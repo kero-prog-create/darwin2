@@ -1,0 +1,4 @@
+Diffuse=T_LootDoor01_BaseColor
+Normal=T_LootDoor01_Normal
+Emissive=T_LootDoor01_Emissive
+Other[0]=T_LootDoor01_OcclusionRoughnessMetallic
