@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/KiteDemo/Environments/Foliage/Clover/M_Clover_01_Inst.M_Clover_01_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/KiteDemo/Environments/Foliage/Clover/M_Clover_01_Inst.M_Clover_01_Inst'
+        MaterialSlotName = M_Clover_01_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 17.197, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.260443, Y=-1.81372, Z=3.48795 }
+    BoxExtent = { X=16.0875, Y=16.4033, Z=3.61694 }
+    SphereRadius = 20.2999
+}

@@ -1,0 +1,6 @@
+Diffuse=T_Clover_01_D
+Normal=T_Clover_01_N
+Other[0]=T_Perlin_Noise_M
+Other[1]=T_Ice_Noise_N
+Other[2]=T_TilingNoise06_N
+Other[3]=LS_Snow_01_D

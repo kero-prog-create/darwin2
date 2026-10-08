@@ -1,0 +1,144 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/KiteDemo/Environments/Atmospherics/T_Ice_Noise.T_Ice_Noise'
+}
+Expressions[96] =
+{
+    Expressions[0] = MaterialExpressionStaticSwitchParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[4] = MaterialExpressionScalarParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionScalarParameter_15'
+    Expressions[5] = MaterialExpressionScalarParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionScalarParameter_16'
+    Expressions[8] = MaterialExpressionScalarParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionScalarParameter_17'
+    Expressions[17] = MaterialExpressionStaticBoolParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionStaticBoolParameter_1'
+    Expressions[20] = MaterialExpressionScalarParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionScalarParameter_1'
+    Expressions[27] = MaterialExpressionScalarParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionScalarParameter_4'
+    Expressions[29] = MaterialExpressionScalarParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionScalarParameter_5'
+    Expressions[32] = MaterialExpressionStaticSwitchParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[33] = MaterialExpressionVectorParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionVectorParameter_1'
+    Expressions[38] = MaterialExpressionScalarParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionScalarParameter_0'
+    Expressions[42] = MaterialExpressionScalarParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionScalarParameter_8'
+    Expressions[46] = MaterialExpressionTextureSampleParameter2D'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[47] = MaterialExpressionTextureSampleParameter2D'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[48] = MaterialExpressionTextureSampleParameter2D'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[50] = MaterialExpressionScalarParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionScalarParameter_9'
+    Expressions[52] = MaterialExpressionScalarParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionScalarParameter_10'
+    Expressions[54] = MaterialExpressionStaticSwitchParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[57] = MaterialExpressionScalarParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionScalarParameter_11'
+    Expressions[59] = MaterialExpressionScalarParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionScalarParameter_13'
+    Expressions[60] = MaterialExpressionScalarParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionScalarParameter_14'
+    Expressions[62] = MaterialExpressionScalarParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionScalarParameter_18'
+    Expressions[65] = MaterialExpressionVectorParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionVectorParameter_3'
+    Expressions[67] = MaterialExpressionTextureSample'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionTextureSample_0'
+    Expressions[70] = MaterialExpressionStaticBoolParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionStaticBoolParameter_0'
+    Expressions[75] = MaterialExpressionVectorParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionVectorParameter_4'
+    Expressions[79] = MaterialExpressionScalarParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionScalarParameter_19'
+    Expressions[81] = MaterialExpressionStaticBoolParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionStaticBoolParameter_4'
+    Expressions[86] = MaterialExpressionStaticBoolParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionStaticBoolParameter_5'
+    Expressions[88] = MaterialExpressionScalarParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionScalarParameter_22'
+    Expressions[89] = MaterialExpressionScalarParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionScalarParameter_23'
+    Expressions[93] = MaterialExpressionStaticSwitchParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[95] = MaterialExpressionScalarParameter'/Game/KiteDemo/Environments/Materials/M_Photoscan_Master.MaterialExpressionScalarParameter_26'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/Black.Black'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/KiteDemo/Environments/Rocks/SmallRocks_01/T_CliffRockTile_01_N.T_CliffRockTile_01_N'
+        Name = DetailNormal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Engine/EngineMaterials/FlatNormal.FlatNormal'
+        Name = Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[18] =
+{
+    CollectedScalarParameters[0] = { Value=-4, Name=WorldBlendMin, Group=None }
+    CollectedScalarParameters[1] = { Value=2, Name=WorldBlendMax, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Blend Normal, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 1
+        Name = Grass Grass Paint Strength
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=0, Name=Wetness Z Height, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Wetness Z Length, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=GrassDesat, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 0.75
+        Name = Detail Normal Strength
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=1, Name=Brightness, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=Desaturation, Group=None }
+    CollectedScalarParameters[10] = { Value=0.1, Name=RoughnessContrast, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Roughness_Max, Group=None }
+    CollectedScalarParameters[12] = { Value=0.6, Name=Roughness_Min, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=Darken, Group=None }
+    CollectedScalarParameters[14] = { Value=0.75, Name=OverallBrightness, Group=None }
+    CollectedScalarParameters[15] = { Value=0.01, Name=MinSpec, Group=None }
+    CollectedScalarParameters[16] = { Value=0.4, Name=MaxSpec, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=SpecSubtractAmt, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = GrassTint
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=1 }
+        Name = TintColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Uvs
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
