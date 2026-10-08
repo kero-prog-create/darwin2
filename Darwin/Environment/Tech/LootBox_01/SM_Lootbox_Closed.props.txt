@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Tech/LootBox_01/MAT_LootBox_01.MAT_LootBox_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Tech/LootBox_01/MAT_LootBox_01.MAT_LootBox_01'
+        MaterialSlotName = MAT_LootBox_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 159.661, 259.224, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=4.95911e-05, Y=2.04931, Z=32.3806 }
+    BoxExtent = { X=25.3607, Y=19.1197, Z=32.3807 }
+    SphereRadius = 41.1809
+}

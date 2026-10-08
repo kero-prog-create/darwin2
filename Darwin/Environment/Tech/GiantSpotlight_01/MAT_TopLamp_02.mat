@@ -1,0 +1,4 @@
+Diffuse=T_TopLamp01_BaseColor
+Normal=T_TopLamp01_Normal
+Emissive=T_TopLamp01_Emissive
+Other[0]=T_TopLamp01_OcclusionRoughnessMetallic
