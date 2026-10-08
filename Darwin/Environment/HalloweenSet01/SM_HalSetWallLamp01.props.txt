@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/HalloweenSet01/MAT_HalSetLamp01.MAT_HalSetLamp01'
+    Materials[1] = MaterialInstanceConstant'/Game/Darwin/Graphics/Windows01/MAT_Windows01_Light02_Inst.MAT_Windows01_Light02_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/HalloweenSet01/MAT_HalSetLamp01.MAT_HalSetLamp01'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 238.083, 185.173, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Graphics/Windows01/MAT_Windows01_Light02_Inst.MAT_Windows01_Light02_Inst'
+        MaterialSlotName = MAT_Windows
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 236.93, 185.458, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.90735e-06, Y=63.0768, Z=-56.6853 }
+    BoxExtent = { X=23.7276, Y=62.7865, Z=73.9071 }
+    SphereRadius = 96.8995
+}

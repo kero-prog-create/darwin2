@@ -1,0 +1,98 @@
+Materials[7] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/Bricks_02/MAT_Bricks_02_Halset04_Trim01.MAT_Bricks_02_Halset04_Trim01'
+    Materials[1] = Material3'/Game/Darwin/Graphics/Bricks_02/MAT_Bricks_02_Halset05.MAT_Bricks_02_Halset05'
+    Materials[2] = Material3'/Game/Darwin/Graphics/Bricks_02/MAT_Bricks_02_Halset04.MAT_Bricks_02_Halset04'
+    Materials[3] = Material3'/Game/Darwin/Graphics/Bricks_02/MAT_Bricks_02_HalsetGround01.MAT_Bricks_02_HalsetGround01'
+    Materials[4] = Material3'/Game/Darwin/Graphics/Bricks_02/MAT_Bricks_02_Halset05.MAT_Bricks_02_Halset05'
+    Materials[5] = Material3'/Game/Darwin/Graphics/Metal_01/MAT_Metal_03.MAT_Metal_03'
+    Materials[6] = Material3'/Game/Darwin/Graphics/Concrete_01/MAT_Concrete_Clean02.MAT_Concrete_Clean02'
+}
+SourceModels[0] = {}
+StaticMaterials[7] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Bricks_02/MAT_Bricks_02_Halset04_Trim01.MAT_Bricks_02_Halset04_Trim01'
+        MaterialSlotName = 12 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 772.792, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Bricks_02/MAT_Bricks_02_Halset05.MAT_Bricks_02_Halset05'
+        MaterialSlotName = MAT_Metal01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 432.538, 312497, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Bricks_02/MAT_Bricks_02_Halset04.MAT_Bricks_02_Halset04'
+        MaterialSlotName = 24 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 427.658, 6.11196e+06, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Bricks_02/MAT_Bricks_02_HalsetGround01.MAT_Bricks_02_HalsetGround01'
+        MaterialSlotName = 18 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1975.17, 6.21538e+06, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Bricks_02/MAT_Bricks_02_Halset05.MAT_Bricks_02_Halset05'
+        MaterialSlotName = 24 - Defaultaaasas
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 338.419, 6.36148e+06, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Metal_01/MAT_Metal_03.MAT_Metal_03'
+        MaterialSlotName = MAT_Metal02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1.30593, 2843.25, 0, 0 }
+        }
+    }
+    StaticMaterials[6] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Concrete_01/MAT_Concrete_Clean02.MAT_Concrete_Clean02'
+        MaterialSlotName = 12 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 578.568, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.000366211, Y=-0.874268, Z=1600.06 }
+    BoxExtent = { X=1293.86, Y=3390.96, Z=1850.42 }
+    SphereRadius = 3957.35
+}

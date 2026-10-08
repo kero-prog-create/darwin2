@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/HalloweenSet01/MAT_Tombstone.MAT_Tombstone'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/HalloweenSet01/MAT_Tombstone.MAT_Tombstone'
+        MaterialSlotName = blinn1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 920.587, 452.716, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.23412, Y=0, Z=156.657 }
+    BoxExtent = { X=97.7427, Y=36.9572, Z=156.657 }
+    SphereRadius = 188.31
+}

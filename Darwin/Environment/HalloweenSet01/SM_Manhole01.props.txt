@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/Bricks_02/MAT_Bricks_02_Halset02_Trim01.MAT_Bricks_02_Halset02_Trim01'
+    Materials[1] = Material3'/Game/Darwin/Environment/HalloweenSet01/MAT_Manhole01.MAT_Manhole01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Bricks_02/MAT_Bricks_02_Halset02_Trim01.MAT_Bricks_02_Halset02_Trim01'
+        MaterialSlotName = 20 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 220.005, 485.798, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/HalloweenSet01/MAT_Manhole01.MAT_Manhole01'
+        MaterialSlotName = MAT_Metal01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 219.465, 159.117, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.255051, Y=0.042511, Z=2.93182 }
+    BoxExtent = { X=80.0485, Y=79.921, Z=5.76252 }
+    SphereRadius = 80.9748
+}

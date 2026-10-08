@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/HalloweenSet01/MAT_HalSetClothesline01.MAT_HalSetClothesline01'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Common/Rubber/Rubber_Matte_Black_A.Rubber_Matte_Black_A'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/HalloweenSet01/MAT_HalSetClothesline01.MAT_HalSetClothesline01'
+        MaterialSlotName = Cloth01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 366.501, 407.126, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Common/Rubber/Rubber_Matte_Black_A.Rubber_Matte_Black_A'
+        MaterialSlotName = MAT_WindowOff
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1.30129, 643.244, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=241.147, Y=-9.53674e-06, Z=-64.6685 }
+    BoxExtent = { X=241.568, Y=5.37624, Z=66.7002 }
+    SphereRadius = 249.798
+}
