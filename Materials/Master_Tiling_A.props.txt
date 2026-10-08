@@ -1,0 +1,149 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Textures/Dev/dev_black.dev_black'
+    ReferencedTextures[1] = Texture2D'/Game/Textures/Dev/dev_grey_a.Dev_Grey_A'
+    ReferencedTextures[2] = Texture2D'/Game/Textures/Dev/dev_normal_a.dev_normal_a'
+    ReferencedTextures[3] = Texture2D'/Game/Textures/Dev/dev_white_a.dev_white_a'
+}
+Expressions[52] =
+{
+    Expressions[3] = MaterialExpressionStaticSwitchParameter'/Game/Materials/Master_Tiling_A.MaterialExpressionStaticSwitchParameter_7'
+    Expressions[4] = MaterialExpressionStaticSwitchParameter'/Game/Materials/Master_Tiling_A.MaterialExpressionStaticSwitchParameter_10'
+    Expressions[5] = MaterialExpressionStaticSwitchParameter'/Game/Materials/Master_Tiling_A.MaterialExpressionStaticSwitchParameter_5'
+    Expressions[6] = MaterialExpressionStaticSwitchParameter'/Game/Materials/Master_Tiling_A.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[7] = MaterialExpressionStaticSwitchParameter'/Game/Materials/Master_Tiling_A.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[8] = MaterialExpressionStaticSwitchParameter'/Game/Materials/Master_Tiling_A.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[11] = MaterialExpressionTextureSampleParameter2D'/Game/Materials/Master_Tiling_A.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[12] = MaterialExpressionStaticSwitchParameter'/Game/Materials/Master_Tiling_A.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[13] = MaterialExpressionTextureSampleParameter2D'/Game/Materials/Master_Tiling_A.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[14] = MaterialExpressionTextureSampleParameter2D'/Game/Materials/Master_Tiling_A.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[16] = MaterialExpressionScalarParameter'/Game/Materials/Master_Tiling_A.MaterialExpressionScalarParameter_1'
+    Expressions[17] = MaterialExpressionScalarParameter'/Game/Materials/Master_Tiling_A.MaterialExpressionScalarParameter_4'
+    Expressions[18] = MaterialExpressionScalarParameter'/Game/Materials/Master_Tiling_A.MaterialExpressionScalarParameter_5'
+    Expressions[20] = MaterialExpressionScalarParameter'/Game/Materials/Master_Tiling_A.MaterialExpressionScalarParameter_2'
+    Expressions[21] = MaterialExpressionTextureSampleParameter2D'/Game/Materials/Master_Tiling_A.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[22] = MaterialExpressionScalarParameter'/Game/Materials/Master_Tiling_A.MaterialExpressionScalarParameter_7'
+    Expressions[26] = MaterialExpressionTextureSampleParameter2D'/Game/Materials/Master_Tiling_A.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[28] = MaterialExpressionScalarParameter'/Game/Materials/Master_Tiling_A.MaterialExpressionScalarParameter_11'
+    Expressions[29] = MaterialExpressionScalarParameter'/Game/Materials/Master_Tiling_A.MaterialExpressionScalarParameter_12'
+    Expressions[31] = MaterialExpressionTextureSampleParameter2D'/Game/Materials/Master_Tiling_A.MaterialExpressionTextureSampleParameter2D_6'
+    Expressions[32] = MaterialExpressionStaticSwitchParameter'/Game/Materials/Master_Tiling_A.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[34] = MaterialExpressionScalarParameter'/Game/Materials/Master_Tiling_A.MaterialExpressionScalarParameter_3'
+    Expressions[35] = MaterialExpressionVectorParameter'/Game/Materials/Master_Tiling_A.MaterialExpressionVectorParameter_0'
+    Expressions[36] = MaterialExpressionTextureSampleParameter2D'/Game/Materials/Master_Tiling_A.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[38] = MaterialExpressionScalarParameter'/Game/Materials/Master_Tiling_A.MaterialExpressionScalarParameter_0'
+    Expressions[43] = MaterialExpressionVectorParameter'/Game/Materials/Master_Tiling_A.MaterialExpressionVectorParameter_5'
+    Expressions[45] = MaterialExpressionScalarParameter'/Game/Materials/Master_Tiling_A.MaterialExpressionScalarParameter_8'
+    Expressions[46] = MaterialExpressionScalarParameter'/Game/Materials/Master_Tiling_A.MaterialExpressionScalarParameter_16'
+    Expressions[48] = MaterialExpressionStaticSwitchParameter'/Game/Materials/Master_Tiling_A.MaterialExpressionStaticSwitchParameter_6'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[7] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Textures/Dev/dev_normal_a.dev_normal_a'
+        Name = NormalMap
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Textures/Dev/dev_grey_a.Dev_Grey_A'
+        Name = DiffMap
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Textures/Dev/dev_grey_a.Dev_Grey_A'
+        Name = MaskMap
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Textures/Dev/dev_black.dev_black'
+        Name = EmissiveMap
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Textures/Dev/dev_normal_a.dev_normal_a'
+        Name = DetailNormalMap
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Textures/Dev/dev_grey_a.Dev_Grey_A'
+        Name = HeightMap
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Textures/Dev/dev_white_a.dev_white_a'
+        Name = DetailRoughnessMap
+        Group = None
+    }
+}
+CollectedScalarParameters[11] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=OcclusionValue, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=MetallicValue, Group=None }
+    CollectedScalarParameters[2] = { Value=0.4, Name=RoughnessValue, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=OcclusionMultiply, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=EmissiveScale, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=DetailTiling, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=DetailNormalStrength, Group=None }
+    CollectedScalarParameters[7] = { Value=0.02, Name=ParallaxDepth, Group=None }
+    CollectedScalarParameters[8] =
+    {
+        Value = 1
+        Name = DetailRoughnessStrength
+        Group = None
+    }
+    CollectedScalarParameters[9] = { Value=1, Name=DiffuseMultiply, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=RoughnessMultiply, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=1 }
+        Name = DiffuseValue
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = DiffTint
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

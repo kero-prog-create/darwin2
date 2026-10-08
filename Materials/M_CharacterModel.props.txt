@@ -1,0 +1,67 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Darwin/Graphics/DamagedMetal01/T_DamagedMetal01_normal.T_DamagedMetal01_normal'
+    ReferencedTextures[1] = Texture2D'/Game/Darwin/Graphics/DamagedMetal01/T_DamagedMetal01_roughness.T_DamagedMetal01_roughness'
+    ReferencedTextures[2] = Texture2D'/Game/Darwin/Graphics/DamagedMetal01/T_DamagedMetal01_basecolor.T_DamagedMetal01_basecolor'
+    ReferencedTextures[3] = Texture2D'/Game/Darwin/Graphics/DamagedMetal01/T_DamagedMetal01_metallic.T_DamagedMetal01_metallic'
+}
+Expressions[46] =
+{
+    Expressions[5] = MaterialExpressionTextureSample'/Game/Materials/M_CharacterModel.MaterialExpressionTextureSample_0'
+    Expressions[7] = MaterialExpressionTextureSample'/Game/Materials/M_CharacterModel.MaterialExpressionTextureSample_2'
+    Expressions[8] = MaterialExpressionTextureSample'/Game/Materials/M_CharacterModel.MaterialExpressionTextureSample_3'
+    Expressions[9] = MaterialExpressionTextureSample'/Game/Materials/M_CharacterModel.MaterialExpressionTextureSample_4'
+    Expressions[12] = MaterialExpressionScalarParameter'/Game/Materials/M_CharacterModel.MaterialExpressionScalarParameter_0'
+    Expressions[14] = MaterialExpressionScalarParameter'/Game/Materials/M_CharacterModel.MaterialExpressionScalarParameter_1'
+    Expressions[15] = MaterialExpressionScalarParameter'/Game/Materials/M_CharacterModel.MaterialExpressionScalarParameter_2'
+    Expressions[17] = MaterialExpressionScalarParameter'/Game/Materials/M_CharacterModel.MaterialExpressionScalarParameter_3'
+    Expressions[18] = MaterialExpressionScalarParameter'/Game/Materials/M_CharacterModel.MaterialExpressionScalarParameter_4'
+    Expressions[19] = MaterialExpressionScalarParameter'/Game/Materials/M_CharacterModel.MaterialExpressionScalarParameter_5'
+    Expressions[22] = MaterialExpressionTextureSample'/Game/Materials/M_CharacterModel.MaterialExpressionTextureSample_5'
+    Expressions[24] = MaterialExpressionTextureSample'/Game/Materials/M_CharacterModel.MaterialExpressionTextureSample_6'
+    Expressions[26] = MaterialExpressionTextureSample'/Game/Materials/M_CharacterModel.MaterialExpressionTextureSample_8'
+    Expressions[29] = MaterialExpressionTextureSample'/Game/Materials/M_CharacterModel.MaterialExpressionTextureSample_13'
+    Expressions[42] = MaterialExpressionStaticBoolParameter'/Game/Materials/M_CharacterModel.MaterialExpressionStaticBoolParameter_2'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=Tiling, Group=None }
+    CollectedScalarParameters[1] = { Value=0.1459, Name=ColorMul, Group=None }
+    CollectedScalarParameters[2] = { Value=0.9, Name=Flatten, Group=None }
+    CollectedScalarParameters[3] = { Value=0.382, Name=ColorAdd, Group=None }
+    CollectedScalarParameters[4] = { Value=1.618, Name=RoughnessMul, Group=None }
+    CollectedScalarParameters[5] = { Value=0.1, Name=MetallicMul, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

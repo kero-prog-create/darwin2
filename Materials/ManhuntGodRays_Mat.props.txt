@@ -1,0 +1,61 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Materials/GodrayTexture.GodrayTexture'
+    ReferencedTextures[1] = Texture2D'/Game/Fx/Textures/T_TilingNoise03.T_TilingNoise03'
+}
+Expressions[125] =
+{
+    Expressions[8] = MaterialExpressionTextureSample'/Game/Materials/ManhuntGodRays_Mat.MaterialExpressionTextureSample_5'
+    Expressions[11] = MaterialExpressionScalarParameter'/Game/Materials/ManhuntGodRays_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[12] = MaterialExpressionScalarParameter'/Game/Materials/ManhuntGodRays_Mat.MaterialExpressionScalarParameter_1'
+    Expressions[16] = MaterialExpressionTextureSample'/Game/Materials/ManhuntGodRays_Mat.MaterialExpressionTextureSample_6'
+    Expressions[22] = MaterialExpressionTextureSample'/Game/Materials/ManhuntGodRays_Mat.MaterialExpressionTextureSample_7'
+    Expressions[25] = MaterialExpressionTextureSample'/Game/Materials/ManhuntGodRays_Mat.MaterialExpressionTextureSample_8'
+    Expressions[40] = MaterialExpressionScalarParameter'/Game/Materials/ManhuntGodRays_Mat.MaterialExpressionScalarParameter_2'
+    Expressions[57] = MaterialExpressionTextureSample'/Game/Materials/ManhuntGodRays_Mat.MaterialExpressionTextureSample_10'
+    Expressions[91] = MaterialExpressionTextureSample'/Game/Materials/ManhuntGodRays_Mat.MaterialExpressionTextureSample_14'
+    Expressions[93] = MaterialExpressionTextureSample'/Game/Materials/ManhuntGodRays_Mat.MaterialExpressionTextureSample_13'
+    Expressions[95] = MaterialExpressionTextureSample'/Game/Materials/ManhuntGodRays_Mat.MaterialExpressionTextureSample_12'
+    Expressions[100] = MaterialExpressionScalarParameter'/Game/Materials/ManhuntGodRays_Mat.MaterialExpressionScalarParameter_3'
+    Expressions[103] = MaterialExpressionTextureSample'/Game/Materials/ManhuntGodRays_Mat.MaterialExpressionTextureSample_9'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=3333, Name=DepthFade, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=OpacityMax, Group=None }
+    CollectedScalarParameters[2] = { Value=21, Name=Intensity, Group=None }
+    CollectedScalarParameters[3] = { Value=0.1, Name=None, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

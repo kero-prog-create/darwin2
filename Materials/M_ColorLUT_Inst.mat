@@ -1,0 +1,5 @@
+Diffuse=RGBTable16x1_LC3DL_Fuji3513LUM
+Other[0]=RGBTable16x1_LC3DL_Fuji3510LUM
+Other[1]=RGBTable16x1_Kdx-log
+Other[2]=RGBTable16x1_Vision6-log
+Other[3]=RGBTable16x1_VisionX-log

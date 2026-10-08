@@ -1,0 +1,63 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Materials/GodrayTexture.GodrayTexture'
+}
+Expressions[76] =
+{
+    Expressions[7] = MaterialExpressionTextureSample'/Game/Materials/DeliveryDroneRays_Mat.MaterialExpressionTextureSample_5'
+    Expressions[10] = MaterialExpressionScalarParameter'/Game/Materials/DeliveryDroneRays_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[11] = MaterialExpressionScalarParameter'/Game/Materials/DeliveryDroneRays_Mat.MaterialExpressionScalarParameter_1'
+    Expressions[15] = MaterialExpressionTextureSample'/Game/Materials/DeliveryDroneRays_Mat.MaterialExpressionTextureSample_6'
+    Expressions[21] = MaterialExpressionTextureSample'/Game/Materials/DeliveryDroneRays_Mat.MaterialExpressionTextureSample_8'
+    Expressions[24] = MaterialExpressionTextureSample'/Game/Materials/DeliveryDroneRays_Mat.MaterialExpressionTextureSample_1'
+    Expressions[39] = MaterialExpressionScalarParameter'/Game/Materials/DeliveryDroneRays_Mat.MaterialExpressionScalarParameter_2'
+    Expressions[57] = MaterialExpressionTextureSample'/Game/Materials/DeliveryDroneRays_Mat.MaterialExpressionTextureSample_2'
+    Expressions[75] = MaterialExpressionVectorParameter'/Game/Materials/DeliveryDroneRays_Mat.MaterialExpressionVectorParameter_0'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=333, Name=DepthFade, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=OpacityMax, Group=None }
+    CollectedScalarParameters[2] = { Value=108, Name=Intensity, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=3, G=333, B=33, A=0 }
+        Name = EmissiveColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
