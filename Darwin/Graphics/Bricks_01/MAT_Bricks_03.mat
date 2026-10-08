@@ -1,0 +1,6 @@
+Diffuse=T_Bricks_01_Halset02_basecolor
+Normal=T_Bricks_01_Halset02_normal
+Other[0]=T_Bricks_01_Halset02_roughness
+Other[1]=T_Bricks_01_Halset01_normal
+Other[2]=T_Bricks_01_Halset01_roughness
+Other[3]=T_Bricks_01_Halset01_basecolor

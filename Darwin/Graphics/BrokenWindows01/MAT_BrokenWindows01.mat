@@ -1,0 +1,5 @@
+Diffuse=T_BrokenWindows01_basecolor
+Normal=T_BrokenWindows01_normal
+Other[0]=T_BrokenWindows01_mask
+Other[1]=T_BrokenWindows01_metallic
+Other[2]=T_BrokenWindows01_roughness
