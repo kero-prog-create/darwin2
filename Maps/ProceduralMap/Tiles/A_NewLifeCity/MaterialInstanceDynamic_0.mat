@@ -1,0 +1,4 @@
+Diffuse=T_DropPodCapsule_01_BaseColor
+Normal=T_DropPodCapsule_01_Normal
+Emissive=T_DropPodCapsule_01_Emissive
+Other[0]=T_DropPodCapsule_01_OcclusionRougnessMetallic
