@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Ice/ENV_ICE_FrozenBlock01.ENV_ICE_FrozenBlock01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Ice/ENV_ICE_FrozenBlock01.ENV_ICE_FrozenBlock01'
+        MaterialSlotName = blinn2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1835.9, 1148.89, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.47145, Y=-6.36267, Z=156.394 }
+    BoxExtent = { X=166.189, Y=250.703, Z=166.768 }
+    SphereRadius = 313.907
+}

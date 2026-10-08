@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/ConstructionSite/MAT_TelecopeLight.MAT_TelecopeLight'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/ConstructionSite/MAT_TelecopeLight.MAT_TelecopeLight'
+        MaterialSlotName = blinn3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1284.7, 344.595, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.52588e-05, Y=7.01326, Z=68.1423 }
+    BoxExtent = { X=76.1565, Y=60.341, Z=68.1423 }
+    SphereRadius = 117.756
+}
