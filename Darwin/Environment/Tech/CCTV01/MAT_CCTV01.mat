@@ -1,0 +1,4 @@
+Diffuse=CCTV01_BaseColor
+Normal=CCTV01_Normal
+Emissive=CCTV01_Emissive
+Other[0]=CCTV01_OcclusionRoughnessMetallic
