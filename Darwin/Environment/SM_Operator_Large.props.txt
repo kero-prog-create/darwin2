@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/ConstructionSite/MAT_Crane.MAT_Crane'
+    Materials[1] = Material3'/Game/Darwin/Graphics/Glass_01/MAT_Glass_01.MAT_Glass_01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/ConstructionSite/MAT_Crane.MAT_Crane'
+        MaterialSlotName = text
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2600.87, 5444.37, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Glass_01/MAT_Glass_01.MAT_Glass_01'
+        MaterialSlotName = glass_ncl1_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 3108.11, 5526.95, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=7.68256, Y=-119.839, Z=519.44 }
+    BoxExtent = { X=351.148, Y=690.18, Z=280.399 }
+    SphereRadius = 807.004
+}

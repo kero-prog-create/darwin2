@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/ConstructionSite/MAT_Shovel.MAT_Shovel'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/ConstructionSite/MAT_Shovel.MAT_Shovel'
+        MaterialSlotName = blinn1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1723.49, 2355.25, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-105.95, Y=652.691, Z=22.6398 }
+    BoxExtent = { X=175.744, Y=722.369, Z=180.188 }
+    SphereRadius = 741.548
+}

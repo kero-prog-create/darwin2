@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/Bricks_01/MAT_Bricks_01.MAT_Bricks_01'
+    Materials[1] = Material3'/Game/Darwin/Graphics/Bricks_02/MAT_Bricks_02.MAT_Bricks_02'
+    Materials[2] = Material3'/Game/Darwin/Environment/Trees/TEMPSnow_Opaque.TEMPSnow_Opaque'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Bricks_01/MAT_Bricks_01.MAT_Bricks_01'
+        MaterialSlotName = MAT_Bricks_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 334.022, 2993.8, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Bricks_02/MAT_Bricks_02.MAT_Bricks_02'
+        MaterialSlotName = MAT_Bricks_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 545.982, 1931.04, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Trees/TEMPSnow_Opaque.TEMPSnow_Opaque'
+        MaterialSlotName = MAT_GreyMetal01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 350.929, 1043.3, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.52588e-05, Y=-1.52588e-05, Z=1136.63 }
+    BoxExtent = { X=250.904, Y=247.092, Z=1336.63 }
+    SphereRadius = 1359.98
+}

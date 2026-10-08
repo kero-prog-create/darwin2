@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/Paint_01/MAT_Paint_03.MAT_Paint_03'
+    Materials[1] = Material3'/Game/Darwin/Graphics/Paint_01/MAT_Paint_02.MAT_Paint_02'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Paint_01/MAT_Paint_03.MAT_Paint_03'
+        MaterialSlotName = Mat_Metal01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 6.17557, 266.463, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Paint_01/MAT_Paint_02.MAT_Paint_02'
+        MaterialSlotName = MAT_Paint_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 3.40125, 313.035, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0342102, Y=-68.9829, Z=80.1383 }
+    BoxExtent = { X=93.8129, Y=81.5495, Z=88.3488 }
+    SphereRadius = 148.693
+}
