@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/DeerFactory01/Materials/MAT_RobotDeer.MAT_RobotDeer'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/DeerFactory01/Materials/MAT_RobotDeer.MAT_RobotDeer'
+        MaterialSlotName = MAT_RobotDeer
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 288.359, 608.66, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-10.0508, Y=2.69563, Z=17.9366 }
+    BoxExtent = { X=82.0831, Y=50.5257, Z=22.5843 }
+    SphereRadius = 87.939
+}

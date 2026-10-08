@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/MechanicalRug01/MAT_MechanicalRug01.MAT_MechanicalRug01'
+    Materials[1] = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric04_TRIM.MAT_PaintedMetalGeneric04_TRIM'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/MechanicalRug01/MAT_MechanicalRug01.MAT_MechanicalRug01'
+        MaterialSlotName = MAT_MechanicalRug01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 5299.23, 6957.98, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric04_TRIM.MAT_PaintedMetalGeneric04_TRIM'
+        MaterialSlotName = MAT_PaintedMetalGeneric02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2168.76, 3284.11, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2943.44, Y=0.391113, Z=122.707 }
+    BoxExtent = { X=1045.04, Y=280.262, Z=336.125 }
+    SphereRadius = 1083.26
+}
