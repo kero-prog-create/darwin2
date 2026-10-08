@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/StoneCobbered_01/MAT_StoneClobbered_01.MAT_StoneClobbered_01'
+    Materials[1] = Material3'/Game/Darwin/Environment/Trees/TEMPSnow.TEMPSnow'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/StoneCobbered_01/MAT_StoneClobbered_01.MAT_StoneClobbered_01'
+        MaterialSlotName = Material #280113
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 863.434, 1146.48, 6.33913, 6.33913 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Trees/TEMPSnow.TEMPSnow'
+        MaterialSlotName = Material #283482
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 318.643, 1159.85, 2.82851, 2.82851 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-421.359, Y=-442.221, Z=830.952 }
+    BoxExtent = { X=148.528, Y=151, Z=237.565 }
+    SphereRadius = 301.463
+}

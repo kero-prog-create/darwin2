@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/WoodBeam_02/MAT_WoodBeam_02.MAT_WoodBeam_02'
+    Materials[1] = Material3'/Game/Darwin/Graphics/WoodPlank_01/MAT_WoodPlank_01.MAT_WoodPlank_01'
+    Materials[2] = Material3'/Game/Darwin/Graphics/StoneCobbered_01/MAT_StoneClobbered_01.MAT_StoneClobbered_01'
+    Materials[3] = Material3'/Game/Darwin/Environment/Trees/TEMPSnow.TEMPSnow'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/WoodBeam_02/MAT_WoodBeam_02.MAT_WoodBeam_02'
+        MaterialSlotName = Material #1855
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 240.327, 4086.54, 2.58447, 2.58447 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/WoodPlank_01/MAT_WoodPlank_01.MAT_WoodPlank_01'
+        MaterialSlotName = Material #280113
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 420.453, 3909.82, 1.26544, 1.26544 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/StoneCobbered_01/MAT_StoneClobbered_01.MAT_StoneClobbered_01'
+        MaterialSlotName = Material #1855_ncl1_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 701.379, 3925.35, 2.74103, 2.74103 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Trees/TEMPSnow.TEMPSnow'
+        MaterialSlotName = Material #280113
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 109.427, 3998.89, 1.76583, 1.76583 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.97345, Y=0, Z=77.7586 }
+    BoxExtent = { X=973.647, Y=719.253, Z=187.152 }
+    SphereRadius = 1194.79
+}

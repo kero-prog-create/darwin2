@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/BurntBark01/BurntBark01.BurntBark01'
+    Materials[1] = Material3'/Game/Darwin/Graphics/WoodPlank_01/MAT_WoodPlankBurnt_02.MAT_WoodPlankBurnt_02'
+    Materials[2] = Material3'/Game/Darwin/Graphics/Rope_01/MAT_RopeBurnt_01.MAT_RopeBurnt_01'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BurntBark01/BurntBark01.BurntBark01'
+        MaterialSlotName = Default_Material
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 360.936, 12485.9, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/WoodPlank_01/MAT_WoodPlankBurnt_02.MAT_WoodPlankBurnt_02'
+        MaterialSlotName = MAT_WoodPlank_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 582.056, 12382.9, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Rope_01/MAT_RopeBurnt_01.MAT_RopeBurnt_01'
+        MaterialSlotName = MAT_Rope_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 183.045, 12337.8, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.484985, Y=-2.21454, Z=669.178 }
+    BoxExtent = { X=1017.99, Y=862.965, Z=250.911 }
+    SphereRadius = 1337.95
+}
