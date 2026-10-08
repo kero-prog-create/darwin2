@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/VFX/Characters/AirMaster/Materials/VFX_M_AirMaster_Electricity_01.VFX_M_AirMaster_Electricity_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Characters/AirMaster/Materials/VFX_M_AirMaster_Electricity_01.VFX_M_AirMaster_Electricity_01'
+        MaterialSlotName = constant
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.0392638, Y=3.45218, Z=-0.0973091 }
+    BoxExtent = { X=0.779418, Y=3.85212, Z=0.807682 }
+    SphereRadius = 3.86618
+}

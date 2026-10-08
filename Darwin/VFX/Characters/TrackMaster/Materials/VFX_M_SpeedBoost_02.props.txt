@@ -1,0 +1,61 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Holograms/Textures/T_Hologram_Text_01.T_Hologram_Text_01'
+    ReferencedTextures[1] = Texture2D'/Game/Env/Materials/Textures/Wet/T_Environment_Materials_Wet_TilingFlow02.T_Environment_Materials_Wet_TilingFlow02'
+}
+Expressions[55] =
+{
+    Expressions[3] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_SpeedBoost_02.MaterialExpressionTextureSample_2'
+    Expressions[7] = MaterialExpressionScalarParameter'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_SpeedBoost_02.MaterialExpressionScalarParameter_0'
+    Expressions[10] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_SpeedBoost_02.MaterialExpressionTextureSample_6'
+    Expressions[14] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_SpeedBoost_02.MaterialExpressionTextureSample_8'
+    Expressions[26] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_SpeedBoost_02.MaterialExpressionTextureSample_9'
+    Expressions[29] = MaterialExpressionVectorParameter'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_SpeedBoost_02.MaterialExpressionVectorParameter_0'
+    Expressions[32] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_SpeedBoost_02.MaterialExpressionTextureSample_10'
+    Expressions[39] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_SpeedBoost_02.MaterialExpressionTextureSample_12'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=OffsetSplitFactor, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.203378, G=0.79646, B=0.578135, A=1 }
+        Name = None
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

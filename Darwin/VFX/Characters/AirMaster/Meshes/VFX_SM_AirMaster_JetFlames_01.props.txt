@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Darwin/VFX/Characters/AirMaster/Materials/VFX_M_DarwinFlameOutter_01_Inst.VFX_M_DarwinFlameOutter_01_Inst'
+    Materials[1] = MaterialInstanceConstant'/Game/Darwin/VFX/Characters/AirMaster/Materials/VFX_M_DarwinFlameInner_01_Inst.VFX_M_DarwinFlameInner_01_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/VFX/Characters/AirMaster/Materials/VFX_M_DarwinFlameOutter_01_Inst.VFX_M_DarwinFlameOutter_01_Inst'
+        MaterialSlotName = diffuse
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1.68405, 2.80591, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/VFX/Characters/AirMaster/Materials/VFX_M_DarwinFlameInner_01_Inst.VFX_M_DarwinFlameInner_01_Inst'
+        MaterialSlotName = diffuse1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1.91413, 2.73613, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=0.546 }
+    BoxExtent = { X=0.5, Y=0.5, Z=0.546 }
+    SphereRadius = 0.740349
+}

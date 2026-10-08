@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/VFX/Characters/Materials/VFX_M_MatchStart_TeleportTrail_01.VFX_M_MatchStart_TeleportTrail_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Characters/Materials/VFX_M_MatchStart_TeleportTrail_01.VFX_M_MatchStart_TeleportTrail_01'
+        MaterialSlotName = constant
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1.65835, Y=-1.12717, Z=3.8147e-06 }
+    BoxExtent = { X=35.4265, Y=35.6, Z=27.4146 }
+    SphereRadius = 46.7677
+}

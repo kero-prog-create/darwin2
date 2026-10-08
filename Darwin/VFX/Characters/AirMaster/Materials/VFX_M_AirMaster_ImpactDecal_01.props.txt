@@ -1,0 +1,58 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Darwin/Graphics/BurntBark01/BurntBarkA_roughness.BurntBarkA_roughness'
+    ReferencedTextures[1] = Texture2D'/Game/Darwin/VFX/Characters/AirMaster/Textures/VFX_T_BrokenGround_01.VFX_T_BrokenGround_01'
+    ReferencedTextures[2] = Texture2D'/Game/Darwin/VFX/Characters/AirMaster/Textures/VFX_T_BrokenGround_N_01.VFX_T_BrokenGround_N_01'
+    ReferencedTextures[3] = Texture2D'/Game/Elemental/Environment/TilingClouds/Textures/T_TilingNoise06_N.T_TilingNoise06_N'
+    ReferencedTextures[4] = Texture2D'/Game/Darwin/Graphics/BurntBark01/BurntBarkA_basecolor.BurntBarkA_basecolor'
+    ReferencedTextures[5] = Texture2D'/Game/Darwin/Graphics/BurntBark01/BurntBarkA_specular.BurntBarkA_specular'
+    ReferencedTextures[6] = Texture2D'/Game/Darwin/Graphics/BurntBark01/BurntBarkA_normal.BurntBarkA_normal'
+}
+Expressions[31] =
+{
+    Expressions[2] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Characters/AirMaster/Materials/VFX_M_AirMaster_ImpactDecal_01.MaterialExpressionTextureSample_19'
+    Expressions[7] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Characters/AirMaster/Materials/VFX_M_AirMaster_ImpactDecal_01.MaterialExpressionTextureSample_0'
+    Expressions[8] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Characters/AirMaster/Materials/VFX_M_AirMaster_ImpactDecal_01.MaterialExpressionTextureSample_1'
+    Expressions[9] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Characters/AirMaster/Materials/VFX_M_AirMaster_ImpactDecal_01.MaterialExpressionTextureSample_2'
+    Expressions[16] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Characters/AirMaster/Materials/VFX_M_AirMaster_ImpactDecal_01.MaterialExpressionTextureSample_12'
+    Expressions[17] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Characters/AirMaster/Materials/VFX_M_AirMaster_ImpactDecal_01.MaterialExpressionTextureSample_20'
+    Expressions[23] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Characters/AirMaster/Materials/VFX_M_AirMaster_ImpactDecal_01.MaterialExpressionTextureSample_16'
+    Expressions[30] = MaterialExpressionScalarParameter'/Game/Darwin/VFX/Characters/AirMaster/Materials/VFX_M_AirMaster_ImpactDecal_01.MaterialExpressionScalarParameter_0'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Rotate, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

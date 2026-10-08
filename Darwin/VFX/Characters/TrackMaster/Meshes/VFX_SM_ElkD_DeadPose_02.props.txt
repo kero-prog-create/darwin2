@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_FalconScanable_01.VFX_M_FalconScanable_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_FalconScanable_01.VFX_M_FalconScanable_01'
+        MaterialSlotName = M_NewDeer_ElkD_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 3371.7, 3702.56, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=280.954, Y=772.891, Z=777.547 }
+    BoxExtent = { X=613.095, Y=927.318, Z=1041.97 }
+    SphereRadius = 1324.47
+}

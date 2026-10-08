@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_FalconScanable_01.VFX_M_FalconScanable_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_FalconScanable_01.VFX_M_FalconScanable_01'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=5.50342, Y=-0.558105, Z=2.25522 }
+    BoxExtent = { X=28.3418, Y=27.1235, Z=154.076 }
+    SphereRadius = 154.356
+}

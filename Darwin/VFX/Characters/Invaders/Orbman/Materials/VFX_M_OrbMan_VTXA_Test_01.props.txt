@@ -1,0 +1,72 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Darwin/VFX/Characters/Invaders/Orbman/Textures/VFX_T_OrbMan_pos.VFX_T_OrbMan_pos'
+}
+Expressions[46] =
+{
+    Expressions[0] = MaterialExpressionVectorParameter'/Game/Darwin/VFX/Characters/Invaders/Orbman/Materials/VFX_M_OrbMan_VTXA_Test_01.MaterialExpressionVectorParameter_0'
+    Expressions[8] = MaterialExpressionScalarParameter'/Game/Darwin/VFX/Characters/Invaders/Orbman/Materials/VFX_M_OrbMan_VTXA_Test_01.MaterialExpressionScalarParameter_174'
+    Expressions[9] = MaterialExpressionScalarParameter'/Game/Darwin/VFX/Characters/Invaders/Orbman/Materials/VFX_M_OrbMan_VTXA_Test_01.MaterialExpressionScalarParameter_175'
+    Expressions[12] = MaterialExpressionScalarParameter'/Game/Darwin/VFX/Characters/Invaders/Orbman/Materials/VFX_M_OrbMan_VTXA_Test_01.MaterialExpressionScalarParameter_176'
+    Expressions[13] = MaterialExpressionScalarParameter'/Game/Darwin/VFX/Characters/Invaders/Orbman/Materials/VFX_M_OrbMan_VTXA_Test_01.MaterialExpressionScalarParameter_177'
+    Expressions[14] = MaterialExpressionTextureSampleParameter2D'/Game/Darwin/VFX/Characters/Invaders/Orbman/Materials/VFX_M_OrbMan_VTXA_Test_01.MaterialExpressionTextureSampleParameter2D_102'
+    Expressions[41] = MaterialExpressionScalarParameter'/Game/Darwin/VFX/Characters/Invaders/Orbman/Materials/VFX_M_OrbMan_VTXA_Test_01.MaterialExpressionScalarParameter_0'
+    Expressions[44] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Characters/Invaders/Orbman/Materials/VFX_M_OrbMan_VTXA_Test_01.MaterialExpressionTextureSample_0'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Darwin/VFX/Characters/Invaders/Orbman/Textures/VFX_T_OrbMan_pos.VFX_T_OrbMan_pos'
+        Name = Position Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=21.0512, Name=Bounding Max, Group=None }
+    CollectedScalarParameters[1] = { Value=-20.9797, Name=Bounding Min, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Speed, Group=None }
+    CollectedScalarParameters[3] = { Value=179, Name=Number Of Frames, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=camouflage, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.389676, G=20, B=0, A=0 }
+        Name = Orb Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

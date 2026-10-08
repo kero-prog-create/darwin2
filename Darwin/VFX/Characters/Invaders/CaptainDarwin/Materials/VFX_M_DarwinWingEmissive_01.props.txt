@@ -1,0 +1,55 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Assets/Environment/Misc/NothernLights/Aurora_Noise.Aurora_Noise'
+    ReferencedTextures[1] = Texture2D'/Game/BluePrints/Base/UI/AssetsMenu/Btn_MainMenu_1100x120.Btn_MainMenu_1100x120'
+    ReferencedTextures[2] = Texture2D'/Game/Darwin/Graphics/Paint_01/T_GalvanizedNoise01_Normal.T_GalvanizedNoise01_Normal'
+}
+Expressions[16] =
+{
+    Expressions[1] = MaterialExpressionVectorParameter'/Game/Darwin/VFX/Characters/Invaders/CaptainDarwin/Materials/VFX_M_DarwinWingEmissive_01.MaterialExpressionVectorParameter_0'
+    Expressions[5] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Characters/Invaders/CaptainDarwin/Materials/VFX_M_DarwinWingEmissive_01.MaterialExpressionTextureSample_0'
+    Expressions[9] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Characters/Invaders/CaptainDarwin/Materials/VFX_M_DarwinWingEmissive_01.MaterialExpressionTextureSample_1'
+    Expressions[11] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Characters/Invaders/CaptainDarwin/Materials/VFX_M_DarwinWingEmissive_01.MaterialExpressionTextureSample_2'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.08127, G=10, B=5.82245, A=1 }
+        Name = None
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

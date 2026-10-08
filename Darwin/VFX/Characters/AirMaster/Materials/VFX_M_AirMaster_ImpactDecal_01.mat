@@ -1,0 +1,7 @@
+Diffuse=BurntBarkA_roughness
+Normal=BurntBarkA_normal
+SpecPower=BurntBarkA_specular
+Other[0]=VFX_T_BrokenGround_01
+Other[1]=VFX_T_BrokenGround_N_01
+Other[2]=T_TilingNoise06_N
+Other[3]=BurntBarkA_basecolor

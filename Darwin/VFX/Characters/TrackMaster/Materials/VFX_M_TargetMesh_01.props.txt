@@ -1,0 +1,90 @@
+TwoSided = false
+bDisableDepthTest = true
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/BluePrints/Character/UI/Champion/Card_drone_1.Card_drone_1'
+    ReferencedTextures[1] = Texture2D'/Game/Env/Materials/Textures/Utility/T_Environment_Utility_Window_Depth.T_Environment_Utility_Window_Depth'
+    ReferencedTextures[2] = Texture2D'/Game/BluePrints/Character/UI/Darwin2/ProgressBarUi/Cold_rounded_Background.Cold_rounded_Background'
+}
+Expressions[107] =
+{
+    Expressions[6] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_TargetMesh_01.MaterialExpressionTextureSample_0'
+    Expressions[7] = MaterialExpressionVectorParameter'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_TargetMesh_01.MaterialExpressionVectorParameter_0'
+    Expressions[37] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_TargetMesh_01.MaterialExpressionTextureSample_2'
+    Expressions[40] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_TargetMesh_01.MaterialExpressionTextureSample_3'
+    Expressions[49] = MaterialExpressionVectorParameter'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_TargetMesh_01.MaterialExpressionVectorParameter_2'
+    Expressions[55] = MaterialExpressionVectorParameter'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_TargetMesh_01.MaterialExpressionVectorParameter_3'
+    Expressions[57] = MaterialExpressionScalarParameter'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_TargetMesh_01.MaterialExpressionScalarParameter_3'
+    Expressions[60] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_TargetMesh_01.MaterialExpressionTextureSample_1'
+    Expressions[71] = MaterialExpressionScalarParameter'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_TargetMesh_01.MaterialExpressionScalarParameter_0'
+    Expressions[72] = MaterialExpressionVectorParameter'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_TargetMesh_01.MaterialExpressionVectorParameter_1'
+    Expressions[74] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_TargetMesh_01.MaterialExpressionTextureSample_4'
+    Expressions[80] = MaterialExpressionScalarParameter'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_TargetMesh_01.MaterialExpressionScalarParameter_2'
+    Expressions[86] = MaterialExpressionScalarParameter'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_TargetMesh_01.MaterialExpressionScalarParameter_4'
+    Expressions[88] = MaterialExpressionScalarParameter'/Game/Darwin/VFX/Characters/TrackMaster/Materials/VFX_M_TargetMesh_01.MaterialExpressionScalarParameter_5'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=-66, Name=OffsetPosition, Group=None }
+    CollectedScalarParameters[1] = { Value=-0.6, Name=ShineRotation, Group=None }
+    CollectedScalarParameters[2] = { Value=-0.6, Name=ShineRotation, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=VFX_FetchTimeStart, Group=None }
+    CollectedScalarParameters[4] = { Value=8, Name=Brightness, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.922436, G=1, B=0, A=0 }
+        Name = FalconColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.86, G=3.551, B=5, A=0 }
+        Name = FlashColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = ScreenSpaceOffset
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0.666667, B=1, A=0 }
+        Name = Param2
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
