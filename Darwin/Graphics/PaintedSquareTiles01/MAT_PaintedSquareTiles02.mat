@@ -1,0 +1,4 @@
+Diffuse=T_PaintedSquareTiles01_metallic
+Normal=T_PaintedSquareTiles01_normal
+Other[0]=T_PaintedSquareTiles01_roughness
+Other[1]=T_PaintedSquareTiles01_basecolor

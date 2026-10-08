@@ -1,0 +1,6 @@
+Diffuse=T_RoofTile_01_Halset01_Dirty01_basecolor
+Normal=T_RoofTile_01_Halset01_normal
+Other[0]=T_RoofTile_01_Halset01_basecolor
+Other[1]=T_RoofTile_01_Halset01_roughness
+Other[2]=T_RoofTile_01_Halset01_Dirty01_roughness
+Other[3]=T_RoofTile_01_Halset01_Dirty01_normal

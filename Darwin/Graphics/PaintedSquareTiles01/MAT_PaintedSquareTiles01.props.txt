@@ -1,0 +1,56 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Darwin/Graphics/PaintedSquareTiles01/T_PaintedSquareTiles01_basecolor.T_PaintedSquareTiles01_basecolor'
+    ReferencedTextures[1] = Texture2D'/Game/Darwin/Graphics/PaintedSquareTiles01/T_PaintedSquareTiles01_metallic.T_PaintedSquareTiles01_metallic'
+    ReferencedTextures[2] = Texture2D'/Game/Darwin/Graphics/PaintedSquareTiles01/T_PaintedSquareTiles01_roughness.T_PaintedSquareTiles01_roughness'
+    ReferencedTextures[3] = Texture2D'/Game/Darwin/Graphics/PaintedSquareTiles01/T_PaintedSquareTiles01_normal.T_PaintedSquareTiles01_normal'
+    ReferencedTextures[4] = Texture2D'/Game/Darwin/Graphics/PaintedMetalGeneric01/T_PaintedMetalGeneric01_basecolor.T_PaintedMetalGeneric01_basecolor'
+    ReferencedTextures[5] = Texture2D'/Game/Darwin/Graphics/PaintedMetalGeneric01/T_PaintedMetalGeneric01_mask.T_PaintedMetalGeneric01_mask'
+}
+Expressions[12] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/PaintedSquareTiles01/MAT_PaintedSquareTiles01.MaterialExpressionTextureSample_0'
+    Expressions[1] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/PaintedSquareTiles01/MAT_PaintedSquareTiles01.MaterialExpressionTextureSample_2'
+    Expressions[2] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/PaintedSquareTiles01/MAT_PaintedSquareTiles01.MaterialExpressionTextureSample_4'
+    Expressions[3] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/PaintedSquareTiles01/MAT_PaintedSquareTiles01.MaterialExpressionTextureSample_3'
+    Expressions[5] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/PaintedSquareTiles01/MAT_PaintedSquareTiles01.MaterialExpressionTextureSample_7'
+    Expressions[7] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/PaintedSquareTiles01/MAT_PaintedSquareTiles01.MaterialExpressionTextureSample_1'
+    Expressions[9] = MaterialExpressionScalarParameter'/Game/Darwin/Graphics/PaintedSquareTiles01/MAT_PaintedSquareTiles01.MaterialExpressionScalarParameter_0'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=None, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
