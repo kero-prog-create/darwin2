@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/WoodTreated_01/MAT_WoodTreated_01.MAT_WoodTreated_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/WoodTreated_01/MAT_WoodTreated_01.MAT_WoodTreated_01'
+        MaterialSlotName = 08 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 118.896, 705.109, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.193245, Y=0.431229, Z=142.839 }
+    BoxExtent = { X=96.7531, Y=32.865, Z=142.839 }
+    SphereRadius = 174.44
+}

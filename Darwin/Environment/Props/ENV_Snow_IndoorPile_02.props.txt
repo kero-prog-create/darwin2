@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Houses/SNOW_HOUSE_SHADER.SNOW_HOUSE_SHADER'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Houses/SNOW_HOUSE_SHADER.SNOW_HOUSE_SHADER'
+        MaterialSlotName = 19 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 175.639, 606.787, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=19.036, Y=26.614, Z=3.77154 }
+    BoxExtent = { X=346.129, Y=59.5893, Z=17.691 }
+    SphereRadius = 350.165
+}

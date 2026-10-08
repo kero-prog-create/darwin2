@@ -1,0 +1,4 @@
+Diffuse=T_teddy_SpecularRoughnessMetallic
+Normal=T_teddy_Normal
+SpecPower=T_teddy_SpecularRoughnessMetallic
+Other[0]=T_teddy_BaseColor

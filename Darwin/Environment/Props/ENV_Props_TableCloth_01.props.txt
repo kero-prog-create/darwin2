@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/TableCloth_01/ENV_Props_TableCloth_01_Mat.ENV_Props_TableCloth_01_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/TableCloth_01/ENV_Props_TableCloth_01_Mat.ENV_Props_TableCloth_01_Mat'
+        MaterialSlotName = 13 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 59.8293, 341.888, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.52298, Y=15.4356, Z=-55.5258 }
+    BoxExtent = { X=70.9637, Y=117.566, Z=55.864 }
+    SphereRadius = 144.95
+}

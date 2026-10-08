@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Props/M_TeddyBearAssetPole.M_TeddyBearAssetPole'
+    Materials[1] = Material3'/Game/Darwin/Environment/Props/M_TeddyBearAsset.M_TeddyBearAsset'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Props/M_TeddyBearAssetPole.M_TeddyBearAssetPole'
+        MaterialSlotName = T_TeddyBearAssetPole
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 199.774, 246.484, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Props/M_TeddyBearAsset.M_TeddyBearAsset'
+        MaterialSlotName = T_TeddyBearAsset
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 195.573, 245.901, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=8.21852, Y=-24.3011, Z=89.3431 }
+    BoxExtent = { X=19.3501, Y=53.916, Z=91.0463 }
+    SphereRadius = 101.611
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/WoodPlank_02/MAT_WoodPlank_02.MAT_WoodPlank_02'
+    Materials[1] = Material3'/Game/Darwin/Graphics/Metal_01/MAT_Metal_03.MAT_Metal_03'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/WoodPlank_02/MAT_WoodPlank_02.MAT_WoodPlank_02'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 181.946, 0, 363.769, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Metal_01/MAT_Metal_03.MAT_Metal_03'
+        MaterialSlotName = 01 - Default Slot #2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 26.2989, 0, 367.238, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.684372, Y=-1.82488, Z=68.3235 }
+    BoxExtent = { X=53.4678, Y=55.4265, Z=68.4155 }
+    SphereRadius = 81.0335
+}

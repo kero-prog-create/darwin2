@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/WoodTreated_01/MAT_WoodTreated_01.MAT_WoodTreated_01'
+    Materials[1] = Material3'/Game/Darwin/Environment/Props/ENV_Props_SnowShoe_01_Mat.ENV_Props_SnowShoe_01_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/WoodTreated_01/MAT_WoodTreated_01.MAT_WoodTreated_01'
+        MaterialSlotName = 08 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 58.7837, 187.648, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Props/ENV_Props_SnowShoe_01_Mat.ENV_Props_SnowShoe_01_Mat'
+        MaterialSlotName = 14 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 104.767, 146.238, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=12.702, Z=2 }
+    BoxExtent = { X=23.4555, Y=83.9514, Z=2 }
+    SphereRadius = 84.0046
+}

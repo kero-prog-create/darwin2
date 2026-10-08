@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Props/Low_Table_Shader.Low_Table_Shader'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Props/Low_Table_Shader.Low_Table_Shader'
+        MaterialSlotName = Low_Table_Shader
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 110.87, 170.325, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.26321, Y=-0.208467, Z=35.0832 }
+    BoxExtent = { X=62.9847, Y=28.0816, Z=35.0787 }
+    SphereRadius = 76.48
+}
