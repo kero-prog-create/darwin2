@@ -1,0 +1,4 @@
+Normal=T_DropPodSocket_01_Normal
+Emissive=T_DropPodSocket_01_Emissive
+Other[0]=T_DropPodSocket_01_OcclusionRougnessMetallic
+Other[1]=T_DropPodSocket_01_BaseColor
