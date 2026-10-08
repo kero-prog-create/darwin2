@@ -1,0 +1,89 @@
+TwoSided = false
+bDisableDepthTest = true
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/Holograms/Textures/T_Hologram_Text_01.T_Hologram_Text_01'
+    ReferencedTextures[1] = Texture2D'/Game/Textures/HoloMap/MediumBoldHoloMap1024px.MediumBoldHoloMap1024px'
+    ReferencedTextures[2] = Texture2D'/Game/Textures/HoloMap/MediumThinHoloMap1024px.MediumThinHoloMap1024px'
+    ReferencedTextures[3] = Texture2D'/Game/Textures/HoloMap/SmallThinHoloMap1024px.SmallThinHoloMap1024px'
+    ReferencedTextures[4] = Texture2D'/Game/Fx/Textures/concentric256.concentric256'
+}
+Expressions[160] =
+{
+    Expressions[0] = MaterialExpressionVectorParameter'/Game/Fx/Materials/M_WardRange_Decal.MaterialExpressionVectorParameter_2'
+    Expressions[20] = MaterialExpressionTextureSampleParameter2D'/Game/Fx/Materials/M_WardRange_Decal.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[21] = MaterialExpressionTextureSampleParameter2D'/Game/Fx/Materials/M_WardRange_Decal.MaterialExpressionTextureSampleParameter2D_7'
+    Expressions[22] = MaterialExpressionTextureSampleParameter2D'/Game/Fx/Materials/M_WardRange_Decal.MaterialExpressionTextureSampleParameter2D_14'
+    Expressions[34] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_WardRange_Decal.MaterialExpressionTextureSample_4'
+    Expressions[46] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_WardRange_Decal.MaterialExpressionTextureSample_7'
+    Expressions[63] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_WardRange_Decal.MaterialExpressionTextureSample_0'
+    Expressions[64] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_WardRange_Decal.MaterialExpressionTextureSample_1'
+    Expressions[71] = MaterialExpressionVectorParameter'/Game/Fx/Materials/M_WardRange_Decal.MaterialExpressionVectorParameter_0'
+    Expressions[148] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_WardRange_Decal.MaterialExpressionTextureSample_2'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Fx/Textures/T_FlareRound_Noise.T_FlareRound_Noise'
+        Name = Flare_Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/UI/OLD_TO_CLEAN/MiniMapDirector/MMDirectorHex.MMDirectorHex'
+        Name = Flare_Texture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Textures/HoloMap/LargeBoldHoloMap1024px.LargeBoldHoloMap1024px'
+        Name = Third
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=3, B=3, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=3, B=3, A=1 }
+        Name = Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
