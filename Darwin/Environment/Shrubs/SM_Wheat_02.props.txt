@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Darwin/Environment/Shrubs/MAT_SmallShrubs_01_Inst01.MAT_SmallShrubs_01_Inst01'
+    Materials[1] = MaterialInstanceConstant'/Game/Darwin/Environment/Shrubs/MAT_SmallShrubs_01_Inst02.MAT_SmallShrubs_01_Inst02'
+    Materials[2] = MaterialInstanceConstant'/Game/Darwin/Environment/Shrubs/MAT_SmallShrubs_01_Inst03.MAT_SmallShrubs_01_Inst03'
+    Materials[3] = MaterialInstanceConstant'/Game/Darwin/Environment/Shrubs/MAT_SmallShrubs_01_Inst04.MAT_SmallShrubs_01_Inst04'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Environment/Shrubs/MAT_SmallShrubs_01_Inst01.MAT_SmallShrubs_01_Inst01'
+        MaterialSlotName = LOD0
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 235.244, 672.68, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Environment/Shrubs/MAT_SmallShrubs_01_Inst02.MAT_SmallShrubs_01_Inst02'
+        MaterialSlotName = LOD1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 290.495, 807.322, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Environment/Shrubs/MAT_SmallShrubs_01_Inst03.MAT_SmallShrubs_01_Inst03'
+        MaterialSlotName = LOD2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 346.434, 967.206, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Environment/Shrubs/MAT_SmallShrubs_01_Inst04.MAT_SmallShrubs_01_Inst04'
+        MaterialSlotName = LOD3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 247.737, 700.791, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=6.90692, Y=-10.4172, Z=44.3952 }
+    BoxExtent = { X=140.189, Y=98.9068, Z=74.4323 }
+    SphereRadius = 159.973
+}

@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/Grass_01/MAT_Grass_01.MAT_Grass_01'
+    Materials[1] = Material3'/Game/Darwin/Environment/Trees/TEMPSnow_Opaque.TEMPSnow_Opaque'
+    Materials[2] = Material3'/Game/Darwin/Environment/Shrubs/MAT_HidingBush01.MAT_HidingBush01'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Grass_01/MAT_Grass_01.MAT_Grass_01'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 167.643, 42145.5, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Trees/TEMPSnow_Opaque.TEMPSnow_Opaque'
+        MaterialSlotName = Leaf
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1.4721, 41203.6, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Shrubs/MAT_HidingBush01.MAT_HidingBush01'
+        MaterialSlotName = Leaf
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 72.1149, 47112.2, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=10.5918, Y=-2.55267, Z=95.2972 }
+    BoxExtent = { X=190.044, Y=154.819, Z=151.369 }
+    SphereRadius = 219.527
+}

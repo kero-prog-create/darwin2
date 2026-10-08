@@ -1,0 +1,5 @@
+Diffuse=T_SmallShrubs_01_Basecolor
+Normal=T_SmallShrubs_01_Normal
+Other[0]=T_SmallShrubs_01_Mask
+Other[1]=T_SmallShrubs_01_Wind
+Other[2]=T_SmallShrubs_01_SSS

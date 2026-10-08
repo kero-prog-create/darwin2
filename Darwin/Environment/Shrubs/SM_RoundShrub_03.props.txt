@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Darwin/Environment/Shrubs/MAT_SmallShrubs_01_Inst01.MAT_SmallShrubs_01_Inst01'
+    Materials[1] = Material3'/Game/Darwin/Environment/Trees/TEMPSnow_Opaque.TEMPSnow_Opaque'
+    Materials[2] = MaterialInstanceConstant'/Game/Darwin/Environment/Shrubs/MAT_SmallShrubs_01_Inst02.MAT_SmallShrubs_01_Inst02'
+    Materials[3] = MaterialInstanceConstant'/Game/Darwin/Environment/Shrubs/MAT_SmallShrubs_01_Inst03.MAT_SmallShrubs_01_Inst03'
+    Materials[4] = MaterialInstanceConstant'/Game/Darwin/Environment/Shrubs/MAT_SmallShrubs_01_Inst04.MAT_SmallShrubs_01_Inst04'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Environment/Shrubs/MAT_SmallShrubs_01_Inst01.MAT_SmallShrubs_01_Inst01'
+        MaterialSlotName = LOD0
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 411.598, 729.693, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Trees/TEMPSnow_Opaque.TEMPSnow_Opaque'
+        MaterialSlotName = MAT_Snow_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 114.746, 715.454, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Environment/Shrubs/MAT_SmallShrubs_01_Inst02.MAT_SmallShrubs_01_Inst02'
+        MaterialSlotName = LOD1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Environment/Shrubs/MAT_SmallShrubs_01_Inst03.MAT_SmallShrubs_01_Inst03'
+        MaterialSlotName = LOD2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Environment/Shrubs/MAT_SmallShrubs_01_Inst04.MAT_SmallShrubs_01_Inst04'
+        MaterialSlotName = LOD3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.269974, Y=-1.53558, Z=86.5905 }
+    BoxExtent = { X=90.9603, Y=88.0068, Z=93.8543 }
+    SphereRadius = 107.574
+}

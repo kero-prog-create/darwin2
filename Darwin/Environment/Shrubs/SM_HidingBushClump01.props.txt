@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Darwin/Environment/Trees/M_FoliageImposter_HidingBush_Inst.M_FoliageImposter_HidingBush_Inst'
+    Materials[1] = Material3'/Game/Darwin/Graphics/Grass_01/MAT_Grass_01.MAT_Grass_01'
+    Materials[2] = Material3'/Game/Darwin/Environment/Trees/TEMPSnow_Opaque.TEMPSnow_Opaque'
+    Materials[3] = Material3'/Game/Darwin/Environment/Shrubs/MAT_HidingBush01.MAT_HidingBush01'
+    Materials[4] = MaterialInstanceConstant'/Game/Darwin/Environment/Trees/M_FoliageImposter_HidingBush_Inst.M_FoliageImposter_HidingBush_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Environment/Trees/M_FoliageImposter_HidingBush_Inst.M_FoliageImposter_HidingBush_Inst'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Grass_01/MAT_Grass_01.MAT_Grass_01'
+        MaterialSlotName = Base
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 226.014, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Trees/TEMPSnow_Opaque.TEMPSnow_Opaque'
+        MaterialSlotName = default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 741.331, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Shrubs/MAT_HidingBush01.MAT_HidingBush01'
+        MaterialSlotName = Leaf
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 97.4488, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Environment/Trees/M_FoliageImposter_HidingBush_Inst.M_FoliageImposter_HidingBush_Inst'
+        MaterialSlotName = M_FoliageImposter_HidingBush_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-16.5013, Y=-43.4049, Z=96.757 }
+    BoxExtent = { X=345.799, Y=362.223, Z=261.554 }
+    SphereRadius = 430.902
+}

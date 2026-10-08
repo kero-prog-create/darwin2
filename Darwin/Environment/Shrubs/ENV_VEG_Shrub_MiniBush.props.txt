@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Shrubs/ENV_VEG_Bush_HidingBush_Mat.ENV_VEG_Bush_HidingBush_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Shrubs/ENV_VEG_Bush_HidingBush_Mat.ENV_VEG_Bush_HidingBush_Mat'
+        MaterialSlotName = 15 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 317.943, 1540.64, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=19.5573, Y=22.6999, Z=36.7783 }
+    BoxExtent = { X=193.768, Y=203.978, Z=88.8863 }
+    SphereRadius = 250.731
+}

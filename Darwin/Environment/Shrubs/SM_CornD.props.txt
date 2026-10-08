@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Shrubs/M_CornPlant.M_CornPlant'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Shrubs/M_CornPlant.M_CornPlant'
+        MaterialSlotName = T_CornPlant
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 144.089, 171.168, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.916519, Y=1.31163, Z=7.1754 }
+    BoxExtent = { X=131.748, Y=121.14, Z=15.3986 }
+    SphereRadius = 174.777
+}
