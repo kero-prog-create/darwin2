@@ -1,0 +1,4 @@
+Diffuse=T_JailColumn01_BaseColor
+Normal=T_JailColumn01_Normal
+Emissive=T_JailColumn01_Emissive
+Other[0]=T_JailColumn01_OcclusionRoughnessMetallic

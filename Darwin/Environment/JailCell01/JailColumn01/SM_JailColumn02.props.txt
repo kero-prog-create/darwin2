@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/JailCell01/JailColumn01/MAT_JailColumn01.MAT_JailColumn01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/JailCell01/JailColumn01/MAT_JailColumn01.MAT_JailColumn01'
+        MaterialSlotName = 03 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 446.538, 376.569, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=18.6359, Y=18.8085, Z=330 }
+    BoxExtent = { X=54.6345, Y=54.6345, Z=330 }
+    SphereRadius = 334.926
+}

@@ -1,0 +1,61 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Darwin/Environment/JailCell01/JailColumn01/T_JailColumn01_BaseColor.T_JailColumn01_BaseColor'
+    ReferencedTextures[1] = Texture2D'/Game/Darwin/Environment/JailCell01/JailColumn01/T_JailColumn01_OcclusionRoughnessMetallic.T_JailColumn01_OcclusionRoughnessMetallic'
+    ReferencedTextures[2] = Texture2D'/Game/Darwin/Environment/JailCell01/JailColumn01/T_JailColumn01_Normal.T_JailColumn01_Normal'
+    ReferencedTextures[3] = Texture2D'/Game/Darwin/Environment/JailCell01/JailColumn01/T_JailColumn01_Emissive.T_JailColumn01_Emissive'
+}
+Expressions[8] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'/Game/Darwin/Environment/JailCell01/JailColumn01/MAT_JailColumn01.MaterialExpressionTextureSample_0'
+    Expressions[1] = MaterialExpressionTextureSample'/Game/Darwin/Environment/JailCell01/JailColumn01/MAT_JailColumn01.MaterialExpressionTextureSample_2'
+    Expressions[2] = MaterialExpressionTextureSample'/Game/Darwin/Environment/JailCell01/JailColumn01/MAT_JailColumn01.MaterialExpressionTextureSample_1'
+    Expressions[4] = MaterialExpressionTextureSample'/Game/Darwin/Environment/JailCell01/JailColumn01/MAT_JailColumn01.MaterialExpressionTextureSample_3'
+    Expressions[6] = MaterialExpressionVectorParameter'/Game/Darwin/Environment/JailCell01/JailColumn01/MAT_JailColumn01.MaterialExpressionVectorParameter_0'
+    Expressions[7] = MaterialExpressionScalarParameter'/Game/Darwin/Environment/JailCell01/JailColumn01/MAT_JailColumn01.MaterialExpressionScalarParameter_0'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=32, Name=None, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0.890791, B=1, A=24 }
+        Name = None
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

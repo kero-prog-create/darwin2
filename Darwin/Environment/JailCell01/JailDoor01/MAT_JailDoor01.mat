@@ -1,0 +1,4 @@
+Diffuse=T_JailDoor01_BaseColor
+Normal=T_JailDoor01_Normal
+Emissive=T_JailDoor01_Emissive
+Other[0]=T_JailDoor01_OcclusionRoughnessMetallic
