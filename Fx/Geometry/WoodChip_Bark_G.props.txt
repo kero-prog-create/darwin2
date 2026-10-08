@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Elemental/Effects/FX_Interaction_Effects/Materials/Fire/M_WoodChunk.M_WoodChunk'
+    Materials[1] = Material3'/Game/Elemental/Effects/FX_Interaction_Effects/Materials/Fire/M_WoodChunk.M_WoodChunk'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Elemental/Effects/FX_Interaction_Effects/Materials/Fire/M_WoodChunk.M_WoodChunk'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 8.62669, 19.9091, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Elemental/Effects/FX_Interaction_Effects/Materials/Fire/M_WoodChunk.M_WoodChunk'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 6.51426, 19.4521, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.813204, Y=0, Z=0.544108 }
+    BoxExtent = { X=4.01049, Y=5.61744, Z=1.81367 }
+    SphereRadius = 7.13646
+}

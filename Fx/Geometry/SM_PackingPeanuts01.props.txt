@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Fx/Materials/MAT_PackingPeanuts01.MAT_PackingPeanuts01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Fx/Materials/MAT_PackingPeanuts01.MAT_PackingPeanuts01'
+        MaterialSlotName = MAT_PackingPeanuts01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 8.46802, 29.7462, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=9.53674e-07, Y=-4.76837e-07, Z=-2.38419e-07 }
+    BoxExtent = { X=9.18938, Y=4.74896, Z=3.15051 }
+    SphereRadius = 9.6709
+}
