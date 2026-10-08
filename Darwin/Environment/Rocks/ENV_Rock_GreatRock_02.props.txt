@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Rocks/ENV_Rock_GreatRock_02_Mat.ENV_Rock_GreatRock_02_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Rocks/ENV_Rock_GreatRock_02_Mat.ENV_Rock_GreatRock_02_Mat'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2519.44, 2909.76, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=96.8058, Y=97.7688, Z=400.661 }
+    BoxExtent = { X=606.592, Y=686.662, Z=405.469 }
+    SphereRadius = 805.872
+}

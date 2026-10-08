@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Rocks/ENV_Rock_Stones_Mat.ENV_Rock_Stones_Mat'
+    Materials[1] = Material3'/Game/Darwin/Environment/Trees/TEMPSnow.TEMPSnow'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Rocks/ENV_Rock_Stones_Mat.ENV_Rock_Stones_Mat'
+        MaterialSlotName = 03 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 344.644, 860.315, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Trees/TEMPSnow.TEMPSnow'
+        MaterialSlotName = 07 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 259.878, 861.52, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.706024, Y=5.60873, Z=68.7066 }
+    BoxExtent = { X=104.16, Y=185.71, Z=89.4693 }
+    SphereRadius = 206.867
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/Cliff_02/MAT_Cliff_02_Mat1.MAT_Cliff_02_Mat1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Cliff_02/MAT_Cliff_02_Mat1.MAT_Cliff_02_Mat1'
+        MaterialSlotName = 20 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1307.18, 7037.05, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=6.61951, Y=-33.0035, Z=1349.14 }
+    BoxExtent = { X=894.302, Y=1123.78, Z=1605.71 }
+    SphereRadius = 1937.79
+}

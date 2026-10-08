@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Rocks/ENV_Rock_Stones_Mat.ENV_Rock_Stones_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Rocks/ENV_Rock_Stones_Mat.ENV_Rock_Stones_Mat'
+        MaterialSlotName = 03 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 325.529, 166.877, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.00117111, Y=-0.715645, Z=18.3033 }
+    BoxExtent = { X=29.3227, Y=45.5622, Z=20.7615 }
+    SphereRadius = 51.5085
+}

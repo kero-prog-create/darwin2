@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/Cliff_02/MAT_Concrete_Worn1.MAT_Concrete_Worn1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Cliff_02/MAT_Concrete_Worn1.MAT_Concrete_Worn1'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 760.901, 2872.69, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-98.8252, Y=-139.148, Z=537.321 }
+    BoxExtent = { X=352.747, Y=417.765, Z=697.401 }
+    SphereRadius = 759.424
+}

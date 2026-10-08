@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/Ground_01/MAT_Ground_03VariationA.MAT_Ground_03VariationA'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Ground_01/MAT_Ground_03VariationA.MAT_Ground_03VariationA'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 25103.1, 58.9317, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=-2.62783 }
+    BoxExtent = { X=17.2498, Y=16.821, Z=9.42779 }
+    SphereRadius = 22.6159
+}
