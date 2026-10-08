@@ -1,0 +1,57 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Effects/AnimatedBloodSprayDecals/Decal_blood/Blood09.Blood09'
+    ReferencedTextures[1] = Texture2D'/Game/FXVillesBloodVFXPack/Textures/T_Gib_Red_N.T_Gib_Red_N'
+}
+Expressions[18] =
+{
+    Expressions[8] = MaterialExpressionScalarParameter'/Game/Effects/AnimatedBloodSprayDecals/Decal_blood/B_mat_8.MaterialExpressionScalarParameter_24'
+    Expressions[10] = MaterialExpressionTextureSample'/Game/Effects/AnimatedBloodSprayDecals/Decal_blood/B_mat_8.MaterialExpressionTextureSample_1'
+    Expressions[11] = MaterialExpressionVectorParameter'/Game/Effects/AnimatedBloodSprayDecals/Decal_blood/B_mat_8.MaterialExpressionVectorParameter_0'
+    Expressions[17] = MaterialExpressionTextureSample'/Game/Effects/AnimatedBloodSprayDecals/Decal_blood/B_mat_8.MaterialExpressionTextureSample_0'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0.99, Name=Time_M, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.255, G=0.00409, B=0, A=0 }
+        Name = BloodColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
