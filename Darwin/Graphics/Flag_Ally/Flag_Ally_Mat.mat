@@ -1,7 +1,0 @@
-Diffuse=Flag_Ally_OcclusionRoughnessMetallic
-Normal=Flag_Ally_Normal
-Opacity=Flag_Ally_Alpha_02
-Emissive=Flag_Ally_Emissive
-Other[0]=Flag_Ally_BaseColor
-Other[1]=CamoIcon256px
-Other[2]=Flag_Ally_Alpha_01
