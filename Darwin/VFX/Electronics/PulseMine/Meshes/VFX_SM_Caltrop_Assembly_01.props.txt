@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/VFX/Electronics/PulseMine/Materials/VFX_M_WoodTreated_Reveal_01.VFX_M_WoodTreated_Reveal_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Electronics/PulseMine/Materials/VFX_M_WoodTreated_Reveal_01.VFX_M_WoodTreated_Reveal_01'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 68.1464, 75.9724, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=5.34323, Z=3.08623 }
+    BoxExtent = { X=24.5515, Y=21.3898, Z=3.28278 }
+    SphereRadius = 30.3716
+}

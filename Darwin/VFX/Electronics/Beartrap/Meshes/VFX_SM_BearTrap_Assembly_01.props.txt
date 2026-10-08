@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/VFX/Electronics/Beartrap/Materials/VFX_M_BearTrap_Reveal_01.VFX_M_BearTrap_Reveal_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Electronics/Beartrap/Materials/VFX_M_BearTrap_Reveal_01.VFX_M_BearTrap_Reveal_01'
+        MaterialSlotName = Trap_Shader
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 80.0177, 178.519, 176.331, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.597862, Y=8.74795, Z=2.4985 }
+    BoxExtent = { X=64.5224, Y=67.24, Z=20.7804 }
+    SphereRadius = 72.4992
+}

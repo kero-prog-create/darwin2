@@ -1,0 +1,47 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Darwin/VFX/Electronics/Textures/VFX_T_Twinkle_02.VFX_T_Twinkle_02'
+}
+Expressions[26] =
+{
+    Expressions[2] = MaterialExpressionStaticSwitchParameter'/Game/Darwin/VFX/Electronics/Materials/VFX_M_Sparkles_01.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[6] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Electronics/Materials/VFX_M_Sparkles_01.MaterialExpressionTextureSample_0'
+    Expressions[13] = MaterialExpressionScalarParameter'/Game/Darwin/VFX/Electronics/Materials/VFX_M_Sparkles_01.MaterialExpressionScalarParameter_0'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=3, Name=ParticleScale, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

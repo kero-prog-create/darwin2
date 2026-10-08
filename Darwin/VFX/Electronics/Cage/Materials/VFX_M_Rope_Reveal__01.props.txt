@@ -1,0 +1,92 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Darwin/Graphics/Rope_01/ropeYellow_basecolor.ropeYellow_basecolor'
+    ReferencedTextures[1] = Texture2D'/Game/Darwin/Graphics/Rope_01/ropeYellow_normal.ropeYellow_normal'
+    ReferencedTextures[2] = Texture2D'/Game/Darwin/Graphics/WoodBeam_01/T_WoodBeam_01_roughness.T_WoodBeam_01_roughness'
+    ReferencedTextures[3] = Texture2D'/Game/Darwin/Graphics/WoodBeam_02/T_WoodBeam_02_roughness.T_WoodBeam_02_roughness'
+}
+Expressions[35] =
+{
+    Expressions[3] = MaterialExpressionTextureSampleParameter2D'/Game/Darwin/VFX/Electronics/Cage/Materials/VFX_M_Rope_Reveal__01.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'/Game/Darwin/VFX/Electronics/Cage/Materials/VFX_M_Rope_Reveal__01.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[5] = MaterialExpressionTextureSampleParameter2D'/Game/Darwin/VFX/Electronics/Cage/Materials/VFX_M_Rope_Reveal__01.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[7] = MaterialExpressionTextureSampleParameter2D'/Game/Darwin/VFX/Electronics/Cage/Materials/VFX_M_Rope_Reveal__01.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[14] = MaterialExpressionStaticBoolParameter'/Game/Darwin/VFX/Electronics/Cage/Materials/VFX_M_Rope_Reveal__01.MaterialExpressionStaticBoolParameter_0'
+    Expressions[26] = MaterialExpressionVectorParameter'/Game/Darwin/VFX/Electronics/Cage/Materials/VFX_M_Rope_Reveal__01.MaterialExpressionVectorParameter_0'
+    Expressions[29] = MaterialExpressionScalarParameter'/Game/Darwin/VFX/Electronics/Cage/Materials/VFX_M_Rope_Reveal__01.MaterialExpressionScalarParameter_0'
+    Expressions[32] = MaterialExpressionScalarParameter'/Game/Darwin/VFX/Electronics/Cage/Materials/VFX_M_Rope_Reveal__01.MaterialExpressionScalarParameter_2'
+    Expressions[34] = MaterialExpressionScalarParameter'/Game/Darwin/VFX/Electronics/Cage/Materials/VFX_M_Rope_Reveal__01.MaterialExpressionScalarParameter_3'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Darwin/Graphics/Rope_01/ropeYellow_basecolor.ropeYellow_basecolor'
+        Name = basecolor
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Darwin/Graphics/WoodBeam_02/T_WoodBeam_02_roughness.T_WoodBeam_02_roughness'
+        Name = roughness
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Darwin/Graphics/Rope_01/ropeYellow_normal.ropeYellow_normal'
+        Name = normal
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Darwin/Graphics/WoodBeam_01/T_WoodBeam_01_roughness.T_WoodBeam_01_roughness'
+        Name = output
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=-5, Name=InitiateTime, Group=None }
+    CollectedScalarParameters[1] = { Value=850, Name=Scale, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Duration, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = InitiatorLocation
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

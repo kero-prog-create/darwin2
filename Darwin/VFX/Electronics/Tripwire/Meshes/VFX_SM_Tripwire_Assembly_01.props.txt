@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = Material3'/Game/Darwin/VFX/Electronics/Tripwire/Materials/VFX_M_Tripwire_WoodBark_Reveal_02.VFX_M_Tripwire_WoodBark_Reveal_02'
+    Materials[1] = Material3'/Game/Darwin/VFX/Electronics/Tripwire/Materials/VFX_M_Tripwire_WoodEnds_Reveal_01.VFX_M_Tripwire_WoodEnds_Reveal_01'
+    Materials[2] = Material3'/Game/Darwin/VFX/Electronics/Tripwire/Materials/VFX_M_Tripwire_Rope_Reveal_01.VFX_M_Tripwire_Rope_Reveal_01'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Electronics/Tripwire/Materials/VFX_M_Tripwire_WoodBark_Reveal_02.VFX_M_Tripwire_WoodBark_Reveal_02'
+        MaterialSlotName = MAT_WoodBark_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 651.33, 522.037, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Electronics/Tripwire/Materials/VFX_M_Tripwire_WoodEnds_Reveal_01.VFX_M_Tripwire_WoodEnds_Reveal_01'
+        MaterialSlotName = MAT_WoodEnds_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 399.868, 572.991, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Electronics/Tripwire/Materials/VFX_M_Tripwire_Rope_Reveal_01.VFX_M_Tripwire_Rope_Reveal_01'
+        MaterialSlotName = MAT_Rope_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 208.324, 1623.76, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-5.29981, Z=-142.117 }
+    BoxExtent = { X=1035.52, Y=34.6883, Z=257.883 }
+    SphereRadius = 1063
+}

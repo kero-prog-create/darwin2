@@ -1,0 +1,53 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Darwin/Graphics/WoodBark_02/T_WoodBark_02_basecolor.T_WoodBark_02_basecolor'
+    ReferencedTextures[1] = Texture2D'/Game/Darwin/Graphics/WoodBark_02/T_WoodBark_02_roughness.T_WoodBark_02_roughness'
+    ReferencedTextures[2] = Texture2D'/Game/Darwin/Graphics/WoodBark_02/T_WoodBark_02_normal.T_WoodBark_02_normal'
+}
+Expressions[21] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Electronics/Tripwire/Materials/VFX_M_Tripwire_WoodBark_Reveal_02.MaterialExpressionTextureSample_0'
+    Expressions[1] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Electronics/Tripwire/Materials/VFX_M_Tripwire_WoodBark_Reveal_02.MaterialExpressionTextureSample_2'
+    Expressions[2] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Electronics/Tripwire/Materials/VFX_M_Tripwire_WoodBark_Reveal_02.MaterialExpressionTextureSample_1'
+    Expressions[7] = MaterialExpressionStaticBoolParameter'/Game/Darwin/VFX/Electronics/Tripwire/Materials/VFX_M_Tripwire_WoodBark_Reveal_02.MaterialExpressionStaticBoolParameter_0'
+    Expressions[10] = MaterialExpressionScalarParameter'/Game/Darwin/VFX/Electronics/Tripwire/Materials/VFX_M_Tripwire_WoodBark_Reveal_02.MaterialExpressionScalarParameter_0'
+    Expressions[13] = MaterialExpressionScalarParameter'/Game/Darwin/VFX/Electronics/Tripwire/Materials/VFX_M_Tripwire_WoodBark_Reveal_02.MaterialExpressionScalarParameter_3'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=-5, Name=InitiateTime, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Duration, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

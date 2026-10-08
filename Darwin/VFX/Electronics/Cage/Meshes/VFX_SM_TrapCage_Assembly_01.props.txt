@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = Material3'/Game/Darwin/VFX/Electronics/Cage/Materials/VFX_M_WoodEnds_Reveal_01.VFX_M_WoodEnds_Reveal_01'
+    Materials[1] = Material3'/Game/Darwin/VFX/Electronics/Cage/Materials/VFX_M_WoodBeam_Reveal_02.VFX_M_WoodBeam_Reveal_02'
+    Materials[2] = Material3'/Game/Darwin/VFX/Electronics/Cage/Materials/VFX_M_Rope_Reveal__01.VFX_M_Rope_Reveal__01'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Electronics/Cage/Materials/VFX_M_WoodEnds_Reveal_01.VFX_M_WoodEnds_Reveal_01'
+        MaterialSlotName = MAT_WoodEnds_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 560.106, 7443.29, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Electronics/Cage/Materials/VFX_M_WoodBeam_Reveal_02.VFX_M_WoodBeam_Reveal_02'
+        MaterialSlotName = MAT_WoodBeam_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 417.724, 8878.75, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Electronics/Cage/Materials/VFX_M_Rope_Reveal__01.VFX_M_Rope_Reveal__01'
+        MaterialSlotName = MAT_Rope_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 307.803, 8957.25, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.05176e-05, Y=-10.0454, Z=-195.601 }
+    BoxExtent = { X=379.97, Y=395.091, Z=254.736 }
+    SphereRadius = 536.869
+}
