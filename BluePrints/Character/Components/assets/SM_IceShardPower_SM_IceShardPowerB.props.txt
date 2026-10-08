@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Ice/ENV_ICE_FrozenWave_01_NoSnow_Mat.ENV_ICE_FrozenWave_01_NoSnow_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Ice/ENV_ICE_FrozenWave_01_NoSnow_Mat.ENV_ICE_FrozenWave_01_NoSnow_Mat'
+        MaterialSlotName = T_IceShardPower
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 24.5008, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-4.76837e-07, Y=-2.38419e-07, Z=8.87807 }
+    BoxExtent = { X=2.71555, Y=2.51105, Z=8.76893 }
+    SphereRadius = 9.18531
+}
