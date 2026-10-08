@@ -1,0 +1,96 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Fx/Textures/ice_stylized_height.ice_stylized_height'
+    ReferencedTextures[1] = Texture2D'/Game/Assets/Texture/T_SandDunes_D.T_SandDunes_D'
+}
+Expressions[25] =
+{
+    Expressions[3] = MaterialExpressionTextureSampleParameter2D'/Game/Fx/Textures/sand_stylized_MAT.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[6] = MaterialExpressionTextureSampleParameter2D'/Game/Fx/Textures/sand_stylized_MAT.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[7] = MaterialExpressionTextureSampleParameter2D'/Game/Fx/Textures/sand_stylized_MAT.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[8] = MaterialExpressionTextureSampleParameter2D'/Game/Fx/Textures/sand_stylized_MAT.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[9] = MaterialExpressionTextureSample'/Game/Fx/Textures/sand_stylized_MAT.MaterialExpressionTextureSample_5'
+    Expressions[10] = MaterialExpressionScalarParameter'/Game/Fx/Textures/sand_stylized_MAT.MaterialExpressionScalarParameter_7'
+    Expressions[15] = MaterialExpressionScalarParameter'/Game/Fx/Textures/sand_stylized_MAT.MaterialExpressionScalarParameter_10'
+    Expressions[17] = MaterialExpressionVectorParameter'/Game/Fx/Textures/sand_stylized_MAT.MaterialExpressionVectorParameter_2'
+    Expressions[19] = MaterialExpressionVectorParameter'/Game/Fx/Textures/sand_stylized_MAT.MaterialExpressionVectorParameter_3'
+    Expressions[24] = MaterialExpressionTextureSample'/Game/Fx/Textures/sand_stylized_MAT.MaterialExpressionTextureSample_0'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Fx/Textures/ice_stylized_normal.ice_stylized_normal'
+        Name = normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Fx/Textures/ice_stylized_basecolor.ice_stylized_basecolor'
+        Name = basecolor
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Fx/Textures/ice_stylized_metallic.ice_stylized_metallic'
+        Name = metallic
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Fx/Textures/ice_stylized_roughness.ice_stylized_roughness'
+        Name = roughness
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=10, Name=Height, Group=None }
+    CollectedScalarParameters[1] = { Value=5, Name=Tiling, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.88, G=0.793682, B=0.5148, A=1 }
+        Name = SecondaryColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.03, G=0.0155038, B=0.00566309, A=1 }
+        Name = PrimaryColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
