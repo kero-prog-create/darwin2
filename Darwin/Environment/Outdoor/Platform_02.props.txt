@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Props/ENV_BRI_Broken_MAT.ENV_BRI_Broken_Mat'
+    Materials[1] = MaterialInstanceConstant'/Game/Darwin/Environment/Props/ENV_Rope_Mat.ENV_Rope_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Props/ENV_BRI_Broken_MAT.ENV_BRI_Broken_Mat'
+        MaterialSlotName = 03 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1415.97, 2253.06, 5148.35, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Environment/Props/ENV_Rope_Mat.ENV_Rope_Mat'
+        MaterialSlotName = ENV_Rope_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 153.263, 0.397652, 5705.9, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=36.8416, Y=-257.015, Z=-126.687 }
+    BoxExtent = { X=575.647, Y=469.617, Z=139.133 }
+    SphereRadius = 637.605
+}
