@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/Bricks_01/MAT_BricksHalset01_Damaged01.MAT_BricksHalset01_Damaged01'
+    Materials[1] = Material3'/Game/Darwin/Graphics/DamagedMetal01/MAT_DamagedMetal01.MAT_DamagedMetal01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Bricks_01/MAT_BricksHalset01_Damaged01.MAT_BricksHalset01_Damaged01'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 419.03, 849.172, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/DamagedMetal01/MAT_DamagedMetal01.MAT_DamagedMetal01'
+        MaterialSlotName = MAT_Metal01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1348.42, 995.514, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.505337, Y=6.99741, Z=183.345 }
+    BoxExtent = { X=63.911, Y=122.514, Z=243.345 }
+    SphereRadius = 274.402
+}
