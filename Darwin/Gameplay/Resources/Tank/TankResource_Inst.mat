@@ -1,0 +1,5 @@
+Diffuse=Tank_SpecularRoughnessMetallic
+Normal=Tank_Normal
+SpecPower=Tank_SpecularRoughnessMetallic
+Emissive=Tank_Emissive
+Other[0]=Tank_BaseColor

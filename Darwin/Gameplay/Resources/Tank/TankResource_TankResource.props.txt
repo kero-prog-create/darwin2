@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Darwin/Gameplay/Resources/Tank/TankResource_Inst.TankResource_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Gameplay/Resources/Tank/TankResource_Inst.TankResource_Inst'
+        MaterialSlotName = TankResource
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.632, 130.453, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=24.7844 }
+    BoxExtent = { X=28.4524, Y=28.4524, Z=24.7844 }
+    SphereRadius = 37.7591
+}

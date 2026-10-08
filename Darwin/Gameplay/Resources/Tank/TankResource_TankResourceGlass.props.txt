@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Darwin/Gameplay/Resources/Tank/M_TankGlass_Inst.M_TankGlass_Inst'
+    Materials[1] = MaterialInstanceConstant'/Game/Darwin/Gameplay/Resources/Tank/M_TankEmissiveGlass_Inst.M_TankEmissiveGlass_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Gameplay/Resources/Tank/M_TankGlass_Inst.M_TankGlass_Inst'
+        MaterialSlotName = TankResourceGlass
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 160.278, 129.942, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Gameplay/Resources/Tank/M_TankEmissiveGlass_Inst.M_TankEmissiveGlass_Inst'
+        MaterialSlotName = TankResourceInsideGlass
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 148.301, 128.959, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.90735e-06, Y=1.90735e-06, Z=33.229 }
+    BoxExtent = { X=18, Y=18, Z=22.1391 }
+    SphereRadius = 28.5332
+}

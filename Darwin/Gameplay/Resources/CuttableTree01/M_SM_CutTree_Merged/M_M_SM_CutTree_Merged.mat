@@ -1,0 +1,6 @@
+Diffuse=T_SM_CutTree_Merged_Diffuse
+Normal=T_SM_CutTree_Merged_Normal
+Other[0]=BaseFlattenDiffuseMap
+Other[1]=BaseFlattenEmissiveMap
+Other[2]=BaseFlattenGrayScaleMap
+Other[3]=BaseFlattenNormalMap

@@ -1,0 +1,4 @@
+Diffuse=Can_BaseColor
+Normal=Can_Normal
+SpecPower=Can_SpecularRoughnessMetallic
+Emissive=Can_Emissive

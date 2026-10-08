@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Gameplay/Resources/Tank/M_TankGlass.M_TankGlass'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Gameplay/Resources/Tank/M_TankGlass.M_TankGlass'
+        MaterialSlotName = TankResourceGlassBroken
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 126.111, 72.8266, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=1.90735e-06, Z=18.883 }
+    BoxExtent = { X=18, Y=18, Z=7.79309 }
+    SphereRadius = 19.6146
+}

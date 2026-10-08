@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Gameplay/Resources/Armchair01/MAT_Armchair01.MAT_Armchair01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Gameplay/Resources/Armchair01/MAT_Armchair01.MAT_Armchair01'
+        MaterialSlotName = MAT_Armchair01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 547.89, 405.819, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.701469, Y=0.821331, Z=62.5723 }
+    BoxExtent = { X=63.4887, Y=58.2677, Z=62.5144 }
+    SphereRadius = 96.5333
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Darwin/Gameplay/Resources/CuttableTree01/M_SM_CutTree_Merged.M_M_SM_CutTree_Merged'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Gameplay/Resources/CuttableTree01/M_SM_CutTree_Merged.M_M_SM_CutTree_Merged'
+        MaterialSlotName = M_M_SM_CutTree_Merged
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1453.8, 673.225, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=5.50342, Y=-0.558105, Z=2.25522 }
+    BoxExtent = { X=28.3418, Y=27.1235, Z=154.076 }
+    SphereRadius = 154.356
+}
