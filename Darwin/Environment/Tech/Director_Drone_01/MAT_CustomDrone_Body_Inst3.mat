@@ -1,0 +1,8 @@
+Diffuse=T_Body01_BaseColor
+Normal=T_Body01_Normal
+Emissive=T_Body01_Emissive
+Other[0]=T_Body01_OcclusionRoughnessMetallic
+Other[1]=T_LobbyDrone_01_Normal
+Other[2]=T_LobbyDrone_01_OcclusionRougnessMetallic
+Other[3]=T_LobbyDrone_01_Basecolor
+Other[4]=T_LobbyDrone_01_Emissive

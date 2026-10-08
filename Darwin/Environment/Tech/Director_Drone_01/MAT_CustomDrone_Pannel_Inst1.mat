@@ -1,0 +1,9 @@
+Diffuse=T_Panels01_BaseColor
+Normal=T_Panels01_Normal
+Emissive=T_Black_32
+Other[0]=T_Body01_BaseColor
+Other[1]=T_Panels01_OcclusionRoughnessMetallic
+Other[2]=T_LobbyDrone_01_Normal
+Other[3]=T_LobbyDrone_01_OcclusionRougnessMetallic
+Other[4]=T_LobbyDrone_01_Basecolor
+Other[5]=T_LobbyDrone_01_Emissive

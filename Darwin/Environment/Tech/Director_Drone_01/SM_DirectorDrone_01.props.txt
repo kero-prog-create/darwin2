@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Tech/Director_Drone_01/MAT_DDroneBody_01.MAT_DDroneBody_01'
+    Materials[1] = Material3'/Game/Darwin/Environment/Tech/Director_Drone_01/MAT_DDronePanels_01.MAT_DDronePanels_01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Tech/Director_Drone_01/MAT_DDroneBody_01.MAT_DDroneBody_01'
+        MaterialSlotName = T_Body01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 257.562, 693.561, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Tech/Director_Drone_01/MAT_DDronePanels_01.MAT_DDronePanels_01'
+        MaterialSlotName = T_Panels01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 354.296, 691.822, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.83227, Y=-7.45328, Z=31.1569 }
+    BoxExtent = { X=103.871, Y=80.494, Z=77.0288 }
+    SphereRadius = 134.337
+}

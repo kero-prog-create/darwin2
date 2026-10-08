@@ -1,0 +1,4 @@
+Diffuse=T_Body01_BaseColor
+Normal=T_Body01_Normal
+Emissive=T_Body01_Emissive
+Other[0]=T_Body01_OcclusionRoughnessMetallic
