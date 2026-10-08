@@ -1,0 +1,98 @@
+Materials[7] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/Bricks_01/MAT_BricksHalset01_Damaged01.MAT_BricksHalset01_Damaged01'
+    Materials[1] = Material3'/Game/Darwin/Graphics/RoofTile01/MAT_RoofTile01_Halset01.MAT_RoofTile01_Halset01'
+    Materials[2] = Material3'/Game/Darwin/Graphics/WoodBeam_02/MAT_WoodBeam_02.MAT_WoodBeam_02'
+    Materials[3] = Material3'/Game/Darwin/Graphics/WoodPaint_01/MAT_WoodPaint_05.MAT_WoodPaint_05'
+    Materials[4] = Material3'/Game/Darwin/Graphics/Glass_01/MAT_Glass_01.MAT_Glass_01'
+    Materials[5] = Material3'/Game/Darwin/Graphics/Bricks_01/MAT_Bricks_01_Halset01_Trim01.MAT_Bricks_01_Halset01_Trim01'
+    Materials[6] = Material3'/Game/Darwin/Graphics/Metal_01/MAT_Metal_04.MAT_Metal_04'
+}
+SourceModels[0] = {}
+StaticMaterials[7] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Bricks_01/MAT_BricksHalset01_Damaged01.MAT_BricksHalset01_Damaged01'
+        MaterialSlotName = 08 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 255.164, 2661.04, 4.12831, 4.12831 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/RoofTile01/MAT_RoofTile01_Halset01.MAT_RoofTile01_Halset01'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 331.293, 2671.51, 1.45247, 1.45247 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/WoodBeam_02/MAT_WoodBeam_02.MAT_WoodBeam_02'
+        MaterialSlotName = 13 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 141.441, 2703.04, 2.52605, 2.52605 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/WoodPaint_01/MAT_WoodPaint_05.MAT_WoodPaint_05'
+        MaterialSlotName = 09 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 118.449, 2828.03, 0.585612, 0.585612 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Glass_01/MAT_Glass_01.MAT_Glass_01'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 138.952, 2676.38, 0.255133, 0.255133 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Bricks_01/MAT_Bricks_01_Halset01_Trim01.MAT_Bricks_01_Halset01_Trim01'
+        MaterialSlotName = 03 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 530.624, 3096.49, 3.23077, 3.23077 }
+        }
+    }
+    StaticMaterials[6] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Metal_01/MAT_Metal_04.MAT_Metal_04'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 403.599, 2693.47, 4.48837, 4.48837 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-4.00195, Y=-617.563, Z=823.607 }
+    BoxExtent = { X=378.817, Y=378.817, Z=823.612 }
+    SphereRadius = 866.815
+}

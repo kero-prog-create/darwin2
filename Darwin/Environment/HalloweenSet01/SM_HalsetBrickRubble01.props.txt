@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/Bricks_02/MAT_Bricks_02_Halset05.MAT_Bricks_02_Halset05'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Bricks_02/MAT_Bricks_02_Halset05.MAT_Bricks_02_Halset05'
+        MaterialSlotName = MAT_Brick05
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1446.8, 2013.72, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.05176e-05, Y=0, Z=0 }
+    BoxExtent = { X=18.659, Y=36.022, Z=14.9208 }
+    SphereRadius = 40.4259
+}

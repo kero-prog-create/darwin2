@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/Plaster01/MAT_PlasterWall02.MAT_PlasterWall02'
+    Materials[1] = Material3'/Game/Darwin/Graphics/Windows01/MAT_Windows01.MAT_Windows01'
+    Materials[2] = Material3'/Game/Darwin/Graphics/WoodBeam_02/MAT_WoodBeam_02.MAT_WoodBeam_02'
+    Materials[3] = Material3'/Game/Darwin/Graphics/WoodPaint_01/MAT_WoodPaint_05.MAT_WoodPaint_05'
+    Materials[4] = MaterialInstanceConstant'/Game/Darwin/Graphics/Windows01/MAT_WindowsOff_Inst.MAT_WindowsOff_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Plaster01/MAT_PlasterWall02.MAT_PlasterWall02'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 237.778, 2270.6, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Windows01/MAT_Windows01.MAT_Windows01'
+        MaterialSlotName = MAT_Window01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 237.837, 2267.25, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/WoodBeam_02/MAT_WoodBeam_02.MAT_WoodBeam_02'
+        MaterialSlotName = 16 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 304.773, 2257.07, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/WoodPaint_01/MAT_WoodPaint_05.MAT_WoodPaint_05'
+        MaterialSlotName = MAT_WhiteMat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 216.642, 2349.45, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Graphics/Windows01/MAT_WindowsOff_Inst.MAT_WindowsOff_Inst'
+        MaterialSlotName = MAT_WindowOff
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 237.677, 2271.46, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.50186, Y=1.48338, Z=205.25 }
+    BoxExtent = { X=249.983, Y=252.668, Z=215.248 }
+    SphereRadius = 406.33
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/HalloweenSet01/MAT_HalPoster06.MAT_HalPoster06'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/HalloweenSet01/MAT_HalPoster06.MAT_HalPoster06'
+        MaterialSlotName = MAT_HalPoster06
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 334.339, 376.784, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-6.23933, Y=0, Z=9.32375 }
+    BoxExtent = { X=3.54251, Y=115.208, Z=144.794 }
+    SphereRadius = 185.069
+}
