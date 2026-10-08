@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/Ground_01/MAT_Ground_01VariationB.MAT_Ground_01VariationB'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Ground_01/MAT_Ground_01VariationB.MAT_Ground_01VariationB'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 372.109, 3770, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=-0.393127 }
+    BoxExtent = { X=1854.8, Y=1854.8, Z=19.6871 }
+    SphereRadius = 2541.15
+}

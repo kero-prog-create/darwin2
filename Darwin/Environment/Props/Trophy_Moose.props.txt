@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Props/Trophy_Shader.Trophy_Shader'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Props/Trophy_Shader.Trophy_Shader'
+        MaterialSlotName = Trophy_Shader
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 144.734, 189.544, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=3.7194, Z=52.5252 }
+    BoxExtent = { X=97.62, Y=11.4353, Z=45.9214 }
+    SphereRadius = 98.3591
+}

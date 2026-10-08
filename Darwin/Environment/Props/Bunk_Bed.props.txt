@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Props/Bunk_Bed_Mat.Bunk_Bed_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Props/Bunk_Bed_Mat.Bunk_Bed_Mat'
+        MaterialSlotName = Bunk_Bed_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 394.505, 778.364, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.919159, Y=1.89161, Z=100.938 }
+    BoxExtent = { X=141.058, Y=77.9879, Z=100.969 }
+    SphereRadius = 182.937
+}

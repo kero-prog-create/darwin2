@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Props/Chemney/Chemney_Mat.Chemney_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Props/Chemney/Chemney_Mat.Chemney_Mat'
+        MaterialSlotName = Chemney_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 288.853, 338.752, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-61.1499, Z=180.212 }
+    BoxExtent = { X=40.3897, Y=101.54, Z=180.212 }
+    SphereRadius = 206.849
+}

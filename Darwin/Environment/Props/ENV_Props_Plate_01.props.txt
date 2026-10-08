@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Props/ENV_Props_CabinMisc_01_Mat.ENV_Props_CabinMisc_01_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Props/ENV_Props_CabinMisc_01_Mat.ENV_Props_CabinMisc_01_Mat'
+        MaterialSlotName = 09 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 208.55, 75.7058, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.109188, Y=0.177025, Z=1.59207 }
+    BoxExtent = { X=20.5928, Y=19.9117, Z=1.59208 }
+    SphereRadius = 20.8025
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Props/MAT_PumpkinLantern.MAT_PumpkinLantern'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Props/MAT_PumpkinLantern.MAT_PumpkinLantern'
+        MaterialSlotName = MAT_PumpkinLantern
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 239.527, 241.731, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.491428, Y=0.991123, Z=141.364 }
+    BoxExtent = { X=39.2292, Y=37.7519, Z=143.496 }
+    SphereRadius = 143.739
+}
