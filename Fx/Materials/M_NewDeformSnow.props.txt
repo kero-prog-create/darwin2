@@ -1,0 +1,84 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Assets/Textures/T_SnowTop_N.T_SnowTop_N'
+}
+Expressions[51] =
+{
+    Expressions[4] = MaterialExpressionScalarParameter'/Game/Fx/Materials/M_NewDeformSnow.MaterialExpressionScalarParameter_4'
+    Expressions[7] = MaterialExpressionScalarParameter'/Game/Fx/Materials/M_NewDeformSnow.MaterialExpressionScalarParameter_5'
+    Expressions[8] = MaterialExpressionScalarParameter'/Game/Fx/Materials/M_NewDeformSnow.MaterialExpressionScalarParameter_7'
+    Expressions[11] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_NewDeformSnow.MaterialExpressionTextureSample_3'
+    Expressions[12] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_NewDeformSnow.MaterialExpressionTextureSample_4'
+    Expressions[16] = MaterialExpressionVectorParameter'/Game/Fx/Materials/M_NewDeformSnow.MaterialExpressionVectorParameter_4'
+    Expressions[17] = MaterialExpressionScalarParameter'/Game/Fx/Materials/M_NewDeformSnow.MaterialExpressionScalarParameter_9'
+    Expressions[19] = MaterialExpressionVectorParameter'/Game/Fx/Materials/M_NewDeformSnow.MaterialExpressionVectorParameter_5'
+    Expressions[29] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_NewDeformSnow.MaterialExpressionTextureSample_6'
+    Expressions[30] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_NewDeformSnow.MaterialExpressionTextureSample_5'
+    Expressions[38] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_NewDeformSnow.MaterialExpressionTextureSample_7'
+    Expressions[47] = MaterialExpressionVectorParameter'/Game/Fx/Materials/M_NewDeformSnow.MaterialExpressionVectorParameter_0'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=MultiplierDepth, Group=None }
+    CollectedScalarParameters[1] = { Value=3, Name=SnowDepthPower, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.333
+        Name = Snow Near Normal Intensity
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=0.333, Name=Substance_tiling, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.52549, G=0.972549, B=1, A=0.382 }
+        Name = Snow Spec Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.562376, G=0.622431, B=1, A=1 }
+        Name = SnowColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.000392, G=0.000392, B=0, A=0 }
+        Name = InvLandscapeResolution
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

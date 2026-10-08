@@ -1,0 +1,5 @@
+Diffuse=T_SnowFootprint
+Normal=T_SnowFootprint_n
+Emissive=T_SnowFootprint_e
+Other[0]=T_SnowFootprint_m
+Other[1]=T_SnowFootprint_r

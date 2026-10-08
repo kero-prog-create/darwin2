@@ -1,0 +1,93 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Elemental/Environment/Ice_Assets/Textures/T_IceVeins.T_IceVeins'
+    ReferencedTextures[1] = Texture2D'/Game/Environment/Textures/Ice/T_Cave_Ice_Noise_N.T_Cave_Ice_Noise_N'
+    ReferencedTextures[2] = Texture2D'/Game/Textures/Hex-1-01.Hex-1-01'
+    ReferencedTextures[3] = Texture2D'/Game/Fx/Textures/T_TilingNoise03.T_TilingNoise03'
+    ReferencedTextures[4] = Texture2D'/Game/Elemental/Effects/FX_Interaction_Effects/Textures/T_Thick_Smoke_Tile.T_Thick_Smoke_Tile'
+    ReferencedTextures[5] = Texture2D'/Game/Elemental/Effects/FX_Distortion/ParticleSystems/T_Fire_SmokeWisps_Tile_Dup.T_Fire_SmokeWisps_Tile_Dup'
+}
+Expressions[164] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_TurretHoloGlass.MaterialExpressionTextureSample_0'
+    Expressions[10] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_TurretHoloGlass.MaterialExpressionTextureSample_2'
+    Expressions[11] = MaterialExpressionScalarParameter'/Game/Fx/Materials/M_TurretHoloGlass.MaterialExpressionScalarParameter_4'
+    Expressions[14] = MaterialExpressionScalarParameter'/Game/Fx/Materials/M_TurretHoloGlass.MaterialExpressionScalarParameter_0'
+    Expressions[18] = MaterialExpressionScalarParameter'/Game/Fx/Materials/M_TurretHoloGlass.MaterialExpressionScalarParameter_6'
+    Expressions[19] = MaterialExpressionVectorParameter'/Game/Fx/Materials/M_TurretHoloGlass.MaterialExpressionVectorParameter_0'
+    Expressions[22] = MaterialExpressionScalarParameter'/Game/Fx/Materials/M_TurretHoloGlass.MaterialExpressionScalarParameter_7'
+    Expressions[29] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_TurretHoloGlass.MaterialExpressionTextureSample_1'
+    Expressions[48] = MaterialExpressionScalarParameter'/Game/Fx/Materials/M_TurretHoloGlass.MaterialExpressionScalarParameter_5'
+    Expressions[57] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_TurretHoloGlass.MaterialExpressionTextureSample_6'
+    Expressions[58] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_TurretHoloGlass.MaterialExpressionTextureSample_5'
+    Expressions[69] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_TurretHoloGlass.MaterialExpressionTextureSample_7'
+    Expressions[78] = MaterialExpressionScalarParameter'/Game/Fx/Materials/M_TurretHoloGlass.MaterialExpressionScalarParameter_13'
+    Expressions[79] = MaterialExpressionScalarParameter'/Game/Fx/Materials/M_TurretHoloGlass.MaterialExpressionScalarParameter_14'
+    Expressions[82] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_TurretHoloGlass.MaterialExpressionTextureSample_8'
+    Expressions[84] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_TurretHoloGlass.MaterialExpressionTextureSample_9'
+    Expressions[85] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_TurretHoloGlass.MaterialExpressionTextureSample_10'
+    Expressions[91] = MaterialExpressionScalarParameter'/Game/Fx/Materials/M_TurretHoloGlass.MaterialExpressionScalarParameter_15'
+    Expressions[92] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_TurretHoloGlass.MaterialExpressionTextureSample_11'
+    Expressions[101] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_TurretHoloGlass.MaterialExpressionTextureSample_12'
+    Expressions[120] = MaterialExpressionScalarParameter'/Game/Fx/Materials/M_TurretHoloGlass.MaterialExpressionScalarParameter_16'
+    Expressions[126] = MaterialExpressionVectorParameter'/Game/Fx/Materials/M_TurretHoloGlass.MaterialExpressionVectorParameter_1'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=OpacityMin, Group=None }
+    CollectedScalarParameters[1] = { Value=3.1415, Name=Refraction, Group=None }
+    CollectedScalarParameters[2] = { Value=10, Name=Tiling, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=EmissiveIntensity, Group=None }
+    CollectedScalarParameters[4] = { Value=0.5, Name=Opactiy, Group=None }
+    CollectedScalarParameters[5] = { Value=0.1459, Name=Min, Group=None }
+    CollectedScalarParameters[6] = { Value=0.84, Name=Max, Group=None }
+    CollectedScalarParameters[7] = { Value=99999, Name=Mul, Group=None }
+    CollectedScalarParameters[8] = { Value=7, Name=Tiling_1, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=21, B=618, A=0 }
+        Name = Color1
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.145924, G=89, B=233, A=0 }
+        Name = Color2
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

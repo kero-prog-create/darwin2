@@ -1,0 +1,75 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Elemental/Environment/Ice_Assets/Textures/T_IceVeins.T_IceVeins'
+    ReferencedTextures[1] = Texture2D'/Game/Environment/Textures/Ice/T_Cave_Ice_Noise_N.T_Cave_Ice_Noise_N'
+    ReferencedTextures[2] = Texture2D'/Game/Textures/Hex-1-01.Hex-1-01'
+    ReferencedTextures[3] = Texture2D'/Game/Textures/Noise.Noise'
+    ReferencedTextures[4] = Texture2D'/Game/Textures/noise_glitter.noise_glitter'
+}
+Expressions[87] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_ModelGlass.MaterialExpressionTextureSample_0'
+    Expressions[1] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_ModelGlass.MaterialExpressionTextureSample_2'
+    Expressions[3] = MaterialExpressionScalarParameter'/Game/Fx/Materials/M_ModelGlass.MaterialExpressionScalarParameter_4'
+    Expressions[10] = MaterialExpressionScalarParameter'/Game/Fx/Materials/M_ModelGlass.MaterialExpressionScalarParameter_0'
+    Expressions[11] = MaterialExpressionScalarParameter'/Game/Fx/Materials/M_ModelGlass.MaterialExpressionScalarParameter_1'
+    Expressions[15] = MaterialExpressionScalarParameter'/Game/Fx/Materials/M_ModelGlass.MaterialExpressionScalarParameter_6'
+    Expressions[16] = MaterialExpressionVectorParameter'/Game/Fx/Materials/M_ModelGlass.MaterialExpressionVectorParameter_0'
+    Expressions[19] = MaterialExpressionScalarParameter'/Game/Fx/Materials/M_ModelGlass.MaterialExpressionScalarParameter_7'
+    Expressions[51] = MaterialExpressionScalarParameter'/Game/Fx/Materials/M_ModelGlass.MaterialExpressionScalarParameter_2'
+    Expressions[52] = MaterialExpressionScalarParameter'/Game/Fx/Materials/M_ModelGlass.MaterialExpressionScalarParameter_3'
+    Expressions[63] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_ModelGlass.MaterialExpressionTextureSample_1'
+    Expressions[78] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_ModelGlass.MaterialExpressionTextureSample_3'
+    Expressions[79] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_ModelGlass.MaterialExpressionTextureSample_4'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=0.1459, Name=OpacityMin, Group=None }
+    CollectedScalarParameters[1] = { Value=1.618, Name=Refraction, Group=None }
+    CollectedScalarParameters[2] = { Value=10, Name=Opacity, Group=None }
+    CollectedScalarParameters[3] = { Value=2, Name=Tiling, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=EmissiveIntensity, Group=None }
+    CollectedScalarParameters[5] = { Value=0.618, Name=FlipBookIntensity, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=TimeScale, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0.1, B=1, A=0 }
+        Name = None
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
