@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/VFX/Environment/Architecture/Materials/VFX_M_Hover_FlameOutter_01.VFX_M_Hover_FlameOutter_01'
+    Materials[1] = Material3'/Game/Darwin/VFX/Characters/Invaders/CaptainDarwin/Materials/VFX_M_DarwinFlameInner_01.VFX_M_DarwinFlameInner_01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Environment/Architecture/Materials/VFX_M_Hover_FlameOutter_01.VFX_M_Hover_FlameOutter_01'
+        MaterialSlotName = diffuse
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 6.63117, 11.2728, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Characters/Invaders/CaptainDarwin/Materials/VFX_M_DarwinFlameInner_01.VFX_M_DarwinFlameInner_01'
+        MaterialSlotName = diffuse1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 4.51996, 11.2499, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2.38419e-07, Y=0, Z=1.87264 }
+    BoxExtent = { X=2, Y=1.73205, Z=1.87264 }
+    SphereRadius = 2.73985
+}

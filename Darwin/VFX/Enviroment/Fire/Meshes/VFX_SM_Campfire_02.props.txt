@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/VFX/Environment/Fire/Materials/VFX_M_Campfire_Interior_01.VFX_M_Campfire_Interior_01'
+    Materials[1] = Material3'/Game/Darwin/VFX/Environment/Fire/Materials/VFX_M_Campfire_Exterior_01.VFX_M_Campfire_Exterior_01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Environment/Fire/Materials/VFX_M_Campfire_Interior_01.VFX_M_Campfire_Interior_01'
+        MaterialSlotName = constant
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 97.6229, 156.578, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Environment/Fire/Materials/VFX_M_Campfire_Exterior_01.VFX_M_Campfire_Exterior_01'
+        MaterialSlotName = constant1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 110.683, 156.547, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.190992, Y=-0.0860577, Z=32.1523 }
+    BoxExtent = { X=20.4082, Y=20.8906, Z=34.0054 }
+    SphereRadius = 35.6922
+}

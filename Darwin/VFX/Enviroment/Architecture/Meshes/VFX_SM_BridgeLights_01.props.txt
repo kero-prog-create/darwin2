@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/VFX/Environment/Architecture/Materials/VFX_M_HighwayLights1.VFX_M_HighwayLights1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Environment/Architecture/Materials/VFX_M_HighwayLights1.VFX_M_HighwayLights1'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 918.482, 5293.79, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1934.42, Y=12967.3, Z=1357.24 }
+    BoxExtent = { X=14426, Y=7135.98, Z=1354.26 }
+    SphereRadius = 15226.2
+}
