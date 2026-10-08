@@ -1,0 +1,60 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[10] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Darwin/Graphics/PaintedMetalGeneric01/T_PaintedMetalGeneric01_basecolor.T_PaintedMetalGeneric01_basecolor'
+    ReferencedTextures[1] = Texture2D'/Game/Darwin/Graphics/PaintedMetalGeneric01/T_PaintedMetalGeneric01_metallic.T_PaintedMetalGeneric01_metallic'
+    ReferencedTextures[2] = Texture2D'/Game/Darwin/Graphics/PaintedMetalGeneric01/T_PaintedMetalGeneric01_normal.T_PaintedMetalGeneric01_normal'
+    ReferencedTextures[3] = Texture2D'/Game/Darwin/Graphics/PaintedMetalGeneric01/T_PaintedMetalGeneric01Damaged_normal.T_PaintedMetalGeneric01Damaged_normal'
+    ReferencedTextures[4] = Texture2D'/Game/Darwin/Graphics/PaintedMetalGeneric01/T_PaintedMetalGeneric01Damaged_metallic.T_PaintedMetalGeneric01Damaged_metallic'
+    ReferencedTextures[5] = Texture2D'/Game/Darwin/Graphics/PaintedMetalGeneric01/T_PaintedMetalGeneric01Damaged_basecolor.T_PaintedMetalGeneric01Damaged_basecolor'
+    ReferencedTextures[6] = Texture2D'/Game/Darwin/Graphics/PaintedMetalGeneric01/T_PaintedMetalGeneric01Damaged_roughness.T_PaintedMetalGeneric01Damaged_roughness'
+    ReferencedTextures[7] = Texture2D'/Game/Darwin/Graphics/PaintedMetalGeneric01/T_PaintedMetalGeneric01_roughness.T_PaintedMetalGeneric01_roughness'
+    ReferencedTextures[8] = Texture2D'/Game/Darwin/Graphics/PaintedMetalGeneric01/T_PaintedMetalGeneric01_mask.T_PaintedMetalGeneric01_mask'
+    ReferencedTextures[9] = Texture2D'/Game/Darwin/Graphics/PaintedMetalGeneric01/T_PaintedMetalGeneric01Damaged_mask.T_PaintedMetalGeneric01Damaged_mask'
+}
+Expressions[27] =
+{
+    Expressions[4] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric01.MaterialExpressionTextureSample_0'
+    Expressions[5] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric01.MaterialExpressionTextureSample_1'
+    Expressions[6] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric01.MaterialExpressionTextureSample_2'
+    Expressions[7] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric01.MaterialExpressionTextureSample_4'
+    Expressions[8] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric01.MaterialExpressionTextureSample_6'
+    Expressions[9] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric01.MaterialExpressionTextureSample_7'
+    Expressions[15] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric01.MaterialExpressionTextureSample_24'
+    Expressions[16] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric01.MaterialExpressionTextureSample_25'
+    Expressions[19] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric01.MaterialExpressionTextureSample_26'
+    Expressions[20] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric01.MaterialExpressionTextureSample_27'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

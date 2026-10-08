@@ -1,0 +1,5 @@
+Diffuse=T_MetalPlatesPainted01_basecolor
+Normal=T_MetalPlatesPainted01_normal
+Other[0]=T_MetalPlatesPainted01_metallic
+Other[1]=T_MetalPlatesPainted01_roughness
+Other[2]=T_MetalPlates01_height

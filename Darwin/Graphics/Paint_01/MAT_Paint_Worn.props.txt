@@ -1,0 +1,61 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Darwin/Graphics/Paint_01/Paint_Worn_basecolor.Paint_Worn_basecolor'
+    ReferencedTextures[1] = Texture2D'/Game/Darwin/Graphics/Paint_01/Paint_Worn_normal.Paint_Worn_normal'
+    ReferencedTextures[2] = Texture2D'/Game/Darwin/Graphics/Paint_01/Paint_Worn_roughness.Paint_Worn_roughness'
+    ReferencedTextures[3] = Texture2D'/Game/Darwin/Graphics/Paint_01/T_Paint_01_roughness.T_Paint_01_roughness'
+}
+Expressions[20] =
+{
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'/Game/Darwin/Graphics/Paint_01/MAT_Paint_Worn.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[5] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/Paint_01/MAT_Paint_Worn.MaterialExpressionTextureSample_4'
+    Expressions[6] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/Paint_01/MAT_Paint_Worn.MaterialExpressionTextureSample_5'
+    Expressions[9] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/Paint_01/MAT_Paint_Worn.MaterialExpressionTextureSample_7'
+    Expressions[10] = MaterialExpressionScalarParameter'/Game/Darwin/Graphics/Paint_01/MAT_Paint_Worn.MaterialExpressionScalarParameter_0'
+    Expressions[12] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/Paint_01/MAT_Paint_Worn.MaterialExpressionTextureSample_8'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Darwin/Graphics/Paint_01/T_GalvanizedNoise01_Normal.T_GalvanizedNoise01_Normal'
+        Name = normal
+        Group = None
+    }
+}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0.33, Name=Blend Contrast, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

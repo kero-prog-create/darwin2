@@ -1,0 +1,5 @@
+Diffuse=T_PaintedMetalGeneric01DamagedTrim_basecolor
+Normal=T_PaintedMetalGeneric01DamagedTrim_normal
+Other[0]=T_PaintedMetalGeneric01DamagedTrim_roughness
+Other[1]=T_PaintedMetalGeneric01DamagedTrim_metallic
+Other[2]=T_PaintedMetalGeneric01DamagedTrim_mask

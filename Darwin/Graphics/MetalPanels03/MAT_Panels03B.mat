@@ -1,0 +1,4 @@
+Diffuse=T_MetalPanels03_basecolor
+Normal=T_MetalPanels03_normal
+Other[0]=T_MetalPanels03_roughness
+Other[1]=T_MetalPanels03_metallic
