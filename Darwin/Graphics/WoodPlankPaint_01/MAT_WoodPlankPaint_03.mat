@@ -1,0 +1,4 @@
+Diffuse=T_WoodPlankPaint_01_roughness
+Normal=T_WoodPlankPaint_01_normal
+Other[0]=T_WoodPlankPaint_01_mask
+Other[1]=T_WoodPaint_01_basecolor
