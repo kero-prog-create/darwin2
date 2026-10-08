@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Logs/Log_02_Shader.Log_02_Shader'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Logs/Log_02_Shader.Log_02_Shader'
+        MaterialSlotName = Log_02_Shader
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 713.019, 693.084, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.204956, Y=-0.536964, Z=-2.93903 }
+    BoxExtent = { X=446.499, Y=66.399, Z=67.5932 }
+    SphereRadius = 451.086
+}

@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Assets/Landscape/MI_Landscape_Inst.MI_Landscape_Inst'
+    Materials[1] = Material3'/Game/Assets/Materials/M_Ice_VertPaint.M_Ice_VertPaint'
+    Materials[2] = Material3'/Game/Assets/Environment/Misc/Ice/SBS_FrozenLake01_MAT.SBS_FrozenLake01_MAT'
+    Materials[3] = Material3'/Game/Assets/Environment/Misc/Ice/SBS_FrozenLake01_MAT1.SBS_FrozenLake01_MAT1'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Assets/Landscape/MI_Landscape_Inst.MI_Landscape_Inst'
+        MaterialSlotName = MI_Landscape_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.031, 39032.8, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Assets/Materials/M_Ice_VertPaint.M_Ice_VertPaint'
+        MaterialSlotName = M_Ice_VertPaint
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.027, 39030.9, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Assets/Environment/Misc/Ice/SBS_FrozenLake01_MAT.SBS_FrozenLake01_MAT'
+        MaterialSlotName = SBS_FrozenLake01_MAT
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.027, 39069.6, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/Assets/Environment/Misc/Ice/SBS_FrozenLake01_MAT1.SBS_FrozenLake01_MAT1'
+        MaterialSlotName = SBS_FrozenLake01_MAT1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.043, 38965.2, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=0 }
+    BoxExtent = { X=10000, Y=10000, Z=2500 }
+    SphereRadius = 10354.7
+}

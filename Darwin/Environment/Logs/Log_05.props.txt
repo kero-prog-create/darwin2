@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Logs/Log_05_Shader.Log_05_Shader'
+    Materials[1] = Material3'/Game/Darwin/Environment/Logs/Branches_Shader.Branches_Shader'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Logs/Log_05_Shader.Log_05_Shader'
+        MaterialSlotName = Log_05_Shader
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 965.998, 1005.96, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Logs/Branches_Shader.Branches_Shader'
+        MaterialSlotName = Branches_Shader
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 238.693, 1046.45, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.25598, Y=-5.34477, Z=112.282 }
+    BoxExtent = { X=636.005, Y=189.922, Z=218.287 }
+    SphereRadius = 649.682
+}

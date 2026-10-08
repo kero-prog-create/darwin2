@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Logs/MAT_LogWall01.MAT_LogWall01'
+    Materials[1] = Material3'/Game/Darwin/Environment/Logs/Log_Platform_Snow.Log_Platform_Snow'
+    Materials[2] = Material3'/Game/Darwin/Environment/Logs/Log_Tower_Shader.Log_Tower_Shader'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Logs/MAT_LogWall01.MAT_LogWall01'
+        MaterialSlotName = Log_Wall_Shader
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 341.978, 5526.54, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Logs/Log_Platform_Snow.Log_Platform_Snow'
+        MaterialSlotName = Log_Platform_Snow
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 475.36, 5490.96, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Logs/Log_Tower_Shader.Log_Tower_Shader'
+        MaterialSlotName = Log_Platform_Snow
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 619.342, 5512.45, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=9.15527e-05, Y=0, Z=799.197 }
+    BoxExtent = { X=200.698, Y=216.219, Z=827.194 }
+    SphereRadius = 862.879
+}

@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Logs/MAT_LogWall01.MAT_LogWall01'
+    Materials[1] = Material3'/Game/Darwin/Environment/Logs/Log_Tower_Shader.Log_Tower_Shader'
+    Materials[2] = Material3'/Game/Darwin/Environment/Logs/Log_Platform_Snow.Log_Platform_Snow'
+    Materials[3] = Material3'/Game/Darwin/Environment/Logs/Log_Watch_Tower_Snow.Log_Watch_Tower_Snow'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Logs/MAT_LogWall01.MAT_LogWall01'
+        MaterialSlotName = Log_Wall_Shader
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 305.16, 7439.05, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Logs/Log_Tower_Shader.Log_Tower_Shader'
+        MaterialSlotName = Log_Tower_Shader
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 627.21, 7461.54, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Logs/Log_Platform_Snow.Log_Platform_Snow'
+        MaterialSlotName = Log_Platform_Snow
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 475.088, 7390.82, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Logs/Log_Watch_Tower_Snow.Log_Watch_Tower_Snow'
+        MaterialSlotName = Log_Watch_Tower_Snow
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 683.54, 7385.36, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-5.11981, Y=4.32312, Z=979.177 }
+    BoxExtent = { X=238.471, Y=261.031, Z=1151.47 }
+    SphereRadius = 1175.68
+}

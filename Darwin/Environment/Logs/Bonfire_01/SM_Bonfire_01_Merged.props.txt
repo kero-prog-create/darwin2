@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Darwin/Environment/Logs/Bonfire_01/M_SM_Bonfire_01_Merged.M_M_SM_Bonfire_01_Merged'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Environment/Logs/Bonfire_01/M_SM_Bonfire_01_Merged.M_M_SM_Bonfire_01_Merged'
+        MaterialSlotName = M_M_SM_Bonfire_01_Merged
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 192.288, 154.7, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.20996, Y=3.80701, Z=24.0119 }
+    BoxExtent = { X=38.9717, Y=36.3026, Z=25.975 }
+    SphereRadius = 47.1338
+}

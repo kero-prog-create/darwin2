@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Assets/Environment/Misc/Ice/SBS_FrozenLake01_MAT1.SBS_FrozenLake01_MAT1'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Assets/Environment/Misc/Ice/SBS_FrozenLake01_MAT1.SBS_FrozenLake01_MAT1'
+        MaterialSlotName = SBS_FrozenLake01_MAT1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.212, 30210.4, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=173.82, Y=1096.43, Z=0 }
+    BoxExtent = { X=13832.2, Y=15972.1, Z=0 }
+    SphereRadius = 15972.1
+}
