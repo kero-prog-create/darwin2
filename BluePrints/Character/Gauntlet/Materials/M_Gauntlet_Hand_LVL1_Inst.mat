@@ -1,0 +1,8 @@
+Diffuse=Gauntlet_lvl01_Hand_BaseColor
+Normal=Gauntlet_lvl01_Hand_Normal
+SpecPower=Gauntlet_lvl01_Hand_SpecularRoughnessMetallic
+Emissive=Gauntlet_lvl01_Hand_Emissive
+Other[0]=Gauntlet_lvl01_BaseColor
+Other[1]=Gauntlet_lvl01_Normal
+Other[2]=Gauntlet_lvl01_SpecularRoughnessMetallic
+Other[3]=Color_Black
