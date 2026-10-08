@@ -1,0 +1,134 @@
+Materials[10] =
+{
+    Materials[0] = Material3'/Game/Darwin/VFX/Environment/Architecture/Materials/VFX_PoliceLights_01.VFX_PoliceLights_01'
+    Materials[1] = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric04.MAT_BareMetalGeneric04'
+    Materials[2] = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric03.MAT_PaintedMetalGeneric03'
+    Materials[3] = Material3'/Game/Darwin/Graphics/Emissive_01/Mat_Emissive_01.Mat_Emissive_01'
+    Materials[4] = Material3'/Game/Darwin/Graphics/Rubber_01/MAT_RubberBlackChipped_01.MAT_RubberBlackChipped_01'
+    Materials[5] = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric06.MAT_BareMetalGeneric06'
+    Materials[6] = Material3'/Game/Darwin/Graphics/Windows01/MAT_Windows01.MAT_Windows01'
+    Materials[7] = MaterialInstanceConstant'/Game/Darwin/VFX/Environment/Architecture/Materials/VFX_PoliceLights_Blue_01_Inst.VFX_PoliceLights_Blue_01_Inst'
+    Materials[8] = MaterialInstanceConstant'/Game/Darwin/VFX/Environment/Architecture/Materials/VFX_PoliceLights_Red_01_Inst.VFX_PoliceLights_Red_01_Inst'
+    Materials[9] = Material3'/Game/Darwin/Environment/Skyscrapers/MAT_Truck01A_BaseColor.MAT_Truck01A_BaseColor'
+}
+SourceModels[0] = {}
+StaticMaterials[10] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Environment/Architecture/Materials/VFX_PoliceLights_01.VFX_PoliceLights_01'
+        MaterialSlotName = TrimsSheet01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 185.078, 1076.71, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric04.MAT_BareMetalGeneric04'
+        MaterialSlotName = BareMetalGeneric01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 268.274, 1432.97, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric03.MAT_PaintedMetalGeneric03'
+        MaterialSlotName = PaintedMetalGeneric02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 300.547, 1437.84, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Emissive_01/Mat_Emissive_01.Mat_Emissive_01'
+        MaterialSlotName = MAT_Emissive01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 246.708, 1427.19, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Rubber_01/MAT_RubberBlackChipped_01.MAT_RubberBlackChipped_01'
+        MaterialSlotName = Carbon01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 108.293, 1421.8, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric06.MAT_BareMetalGeneric06'
+        MaterialSlotName = BareMetalGeneric02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 274.341, 1425.47, 0, 0 }
+        }
+    }
+    StaticMaterials[6] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Windows01/MAT_Windows01.MAT_Windows01'
+        MaterialSlotName = SkyscraperGlass01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 287.942, 1427.17, 0, 0 }
+        }
+    }
+    StaticMaterials[7] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/VFX/Environment/Architecture/Materials/VFX_PoliceLights_Blue_01_Inst.VFX_PoliceLights_Blue_01_Inst'
+        MaterialSlotName = Material #4
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 273.408, 1419.41, 0, 0 }
+        }
+    }
+    StaticMaterials[8] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/VFX/Environment/Architecture/Materials/VFX_PoliceLights_Red_01_Inst.VFX_PoliceLights_Red_01_Inst'
+        MaterialSlotName = Material #5
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 928.719, 1423.8, 0, 0 }
+        }
+    }
+    StaticMaterials[9] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Skyscrapers/MAT_Truck01A_BaseColor.MAT_Truck01A_BaseColor'
+        MaterialSlotName = Truck01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1426.25, 1422.66, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.0303574, Y=1.4834, Z=174.023 }
+    BoxExtent = { X=92.9557, Y=150.99, Z=138.236 }
+    SphereRadius = 186.196
+}

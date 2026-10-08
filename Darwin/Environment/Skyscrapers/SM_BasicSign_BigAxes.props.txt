@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/Glass_01/MAT_SkyscraperGlass01.MAT_SkyscraperGlass01'
+    Materials[1] = Material3'/Game/Darwin/Graphics/Glass_01/MAT_Skyscraper_NeonSigns.MAT_Skyscraper_NeonSigns'
+    Materials[2] = Material3'/Game/Darwin/Graphics/Emissive_01/Mat_Emissive_04.Mat_Emissive_04'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Glass_01/MAT_SkyscraperGlass01.MAT_SkyscraperGlass01'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 748.571, 777.831, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Glass_01/MAT_Skyscraper_NeonSigns.MAT_Skyscraper_NeonSigns'
+        MaterialSlotName = MAT_TEXT
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 829.464, 776.063, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Emissive_01/Mat_Emissive_04.Mat_Emissive_04'
+        MaterialSlotName = MAT_Laser
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 776.311, 794.055, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=9.15527e-05, Y=2.38419e-06, Z=0 }
+    BoxExtent = { X=364.74, Y=7.5485, Z=101.08 }
+    SphereRadius = 374.044
+}

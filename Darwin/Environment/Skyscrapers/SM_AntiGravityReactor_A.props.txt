@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Skyscrapers/MAT_AntiGravityReactor.MAT_AntiGravityReactor'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Skyscrapers/MAT_AntiGravityReactor.MAT_AntiGravityReactor'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2320.96, 4418.9, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=8.25476, Y=-127.909, Z=-331.347 }
+    BoxExtent = { X=461.513, Y=581.168, Z=481.757 }
+    SphereRadius = 746.984
+}

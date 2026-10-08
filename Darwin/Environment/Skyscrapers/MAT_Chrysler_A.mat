@@ -1,0 +1,4 @@
+Diffuse=Chrysler_BaseColor
+Normal=Chrysler_Normal
+Emissive=Chrysler_Emissive
+Other[0]=Chrysler_OcclusionRoughnessMetallic

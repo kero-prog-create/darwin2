@@ -1,0 +1,48 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Darwin/Environment/Skyscrapers/T_Truck01A_BaseColor.T_Truck01A_BaseColor'
+    ReferencedTextures[1] = Texture2D'/Game/Darwin/Environment/Skyscrapers/T_Truck01A_Emissive.T_Truck01A_Emissive'
+    ReferencedTextures[2] = Texture2D'/Game/Darwin/Environment/Skyscrapers/T_Truck01A_Normal.T_Truck01A_Normal'
+    ReferencedTextures[3] = Texture2D'/Game/Darwin/Environment/Skyscrapers/T_Truck01A_SpecularRoughnessMetallic.T_Truck01A_SpecularRoughnessMetallic'
+}
+Expressions[4] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'/Game/Darwin/Environment/Skyscrapers/MAT_Truck01A_BaseColor.MaterialExpressionTextureSample_0'
+    Expressions[1] = MaterialExpressionTextureSample'/Game/Darwin/Environment/Skyscrapers/MAT_Truck01A_BaseColor.MaterialExpressionTextureSample_1'
+    Expressions[2] = MaterialExpressionTextureSample'/Game/Darwin/Environment/Skyscrapers/MAT_Truck01A_BaseColor.MaterialExpressionTextureSample_2'
+    Expressions[3] = MaterialExpressionTextureSample'/Game/Darwin/Environment/Skyscrapers/MAT_Truck01A_BaseColor.MaterialExpressionTextureSample_3'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

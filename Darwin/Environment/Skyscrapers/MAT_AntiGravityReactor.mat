@@ -1,0 +1,4 @@
+Diffuse=AntiGravityReactor_BaseColor
+Normal=AntiGravityReactor_Normal
+Emissive=AntiGravityReactor_Emissive
+Other[0]=AntiGravityReactor_OcclusionRoughnessMetallic
