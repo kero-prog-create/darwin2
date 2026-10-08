@@ -1,0 +1,206 @@
+Materials[16] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric12.MAT_PaintedMetalGeneric12'
+    Materials[1] = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric12.MAT_PaintedMetalGeneric12'
+    Materials[2] = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric07.MAT_PaintedMetalGeneric07'
+    Materials[3] = Material3'/Game/Darwin/Environment/DeerFactory01/Materials/BlueLed.BlueLed'
+    Materials[4] = Material3'/Game/Darwin/Graphics/MechanicalRug01/MAT_MechanicalRug01.MAT_MechanicalRug01'
+    Materials[5] = Material3'/Game/Darwin/Graphics/Windows01/MAT_Windows01.MAT_Windows01'
+    Materials[6] = MaterialInstanceConstant'/Game/Darwin/VFX/Environment/Architecture/Materials/VFX_PoliceLights_Red_01_Inst.VFX_PoliceLights_Red_01_Inst'
+    Materials[7] = Material3'/Game/Darwin/Environment/DeerFactory01/Materials/RedLed.RedLed'
+    Materials[8] = MaterialInstanceConstant'/Game/Darwin/VFX/Environment/Architecture/Materials/VFX_PoliceLights_Blue_01_Inst.VFX_PoliceLights_Blue_01_Inst'
+    Materials[9] = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric05.MAT_BareMetalGeneric05'
+    Materials[10] = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric04.MAT_BareMetalGeneric04'
+    Materials[11] = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric04.MAT_BareMetalGeneric04'
+    Materials[12] = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric04.MAT_BareMetalGeneric04'
+    Materials[13] = Material3'/Game/Darwin/Environment/DeerFactory01/Materials/YellowLed.YellowLed'
+    Materials[14] = Material3'/Game/Darwin/VFX/Environment/Architecture/Materials/VFX_PoliceLights_01.VFX_PoliceLights_01'
+    Materials[15] = Material3'/Game/Darwin/Environment/Skyscrapers/MAT_Truck01A_BaseColor.MAT_Truck01A_BaseColor'
+}
+SourceModels[0] = {}
+StaticMaterials[16] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric12.MAT_PaintedMetalGeneric12'
+        MaterialSlotName = SideColor
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 320.792, 2411.48, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric12.MAT_PaintedMetalGeneric12'
+        MaterialSlotName = sideColor_ncl1_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 319.84, 2414.31, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric07.MAT_PaintedMetalGeneric07'
+        MaterialSlotName = MAT_Steel
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 201.32, 2420.49, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/DeerFactory01/Materials/BlueLed.BlueLed'
+        MaterialSlotName = MAT_Laser
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 117.382, 2421.31, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/MechanicalRug01/MAT_MechanicalRug01.MAT_MechanicalRug01'
+        MaterialSlotName = BackFloor
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 618.133, 2412.91, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Windows01/MAT_Windows01.MAT_Windows01'
+        MaterialSlotName = Default_Material
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 275.237, 2431.78, 0, 0 }
+        }
+    }
+    StaticMaterials[6] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/VFX/Environment/Architecture/Materials/VFX_PoliceLights_Red_01_Inst.VFX_PoliceLights_Red_01_Inst'
+        MaterialSlotName = RedLights
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 233.765, 2487.15, 0, 0 }
+        }
+    }
+    StaticMaterials[7] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/DeerFactory01/Materials/RedLed.RedLed'
+        MaterialSlotName = backLight
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 313.564, 2407.38, 0, 0 }
+        }
+    }
+    StaticMaterials[8] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/VFX/Environment/Architecture/Materials/VFX_PoliceLights_Blue_01_Inst.VFX_PoliceLights_Blue_01_Inst'
+        MaterialSlotName = BlueLights
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 93.8038, 2489.86, 0, 0 }
+        }
+    }
+    StaticMaterials[9] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric05.MAT_BareMetalGeneric05'
+        MaterialSlotName = FUTURECOOLWHEEL01_BareMetalGeneric02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[10] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric04.MAT_BareMetalGeneric04'
+        MaterialSlotName = FUTURECOOLWHEEL01_BareMetalGeneric01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[11] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric04.MAT_BareMetalGeneric04'
+        MaterialSlotName = MAT_Steel1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 66.1022, 2451.92, 0, 0 }
+        }
+    }
+    StaticMaterials[12] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric04.MAT_BareMetalGeneric04'
+        MaterialSlotName = MAT_BlackPaint1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 48.7237, 2412.37, 0, 0 }
+        }
+    }
+    StaticMaterials[13] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/DeerFactory01/Materials/YellowLed.YellowLed'
+        MaterialSlotName = LaserA
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 148.318, 2407.91, 0, 0 }
+        }
+    }
+    StaticMaterials[14] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Environment/Architecture/Materials/VFX_PoliceLights_01.VFX_PoliceLights_01'
+        MaterialSlotName = white
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 321.518, 2466.44, 0, 0 }
+        }
+    }
+    StaticMaterials[15] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Skyscrapers/MAT_Truck01A_BaseColor.MAT_Truck01A_BaseColor'
+        MaterialSlotName = Truck01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1406.01, 2464.99, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.147644, Y=-266.652, Z=216.074 }
+    BoxExtent = { X=234.678, Y=407.692, Z=195.225 }
+    SphereRadius = 445.547
+}
