@@ -1,0 +1,5 @@
+Diffuse=ice_stylized_height
+Normal=T_Tech_Hex_Tile_N
+Other[0]=VFX_T_AxeTrail_02
+Other[1]=VFX_T_AxeTrail_01
+Other[2]=T_Tech_Hex_Tile_M

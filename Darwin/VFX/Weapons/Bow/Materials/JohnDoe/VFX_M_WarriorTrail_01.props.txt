@@ -1,0 +1,56 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Fx/Textures/T_TilingNoise03.T_TilingNoise03'
+}
+Expressions[110] =
+{
+    Expressions[25] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Weapons/Bow/Materials/JohnDoe/VFX_M_WarriorTrail_01.MaterialExpressionTextureSample_9'
+    Expressions[27] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Weapons/Bow/Materials/JohnDoe/VFX_M_WarriorTrail_01.MaterialExpressionTextureSample_10'
+    Expressions[29] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Weapons/Bow/Materials/JohnDoe/VFX_M_WarriorTrail_01.MaterialExpressionTextureSample_11'
+    Expressions[51] = MaterialExpressionScalarParameter'/Game/Darwin/VFX/Weapons/Bow/Materials/JohnDoe/VFX_M_WarriorTrail_01.MaterialExpressionScalarParameter_0'
+    Expressions[53] = MaterialExpressionScalarParameter'/Game/Darwin/VFX/Weapons/Bow/Materials/JohnDoe/VFX_M_WarriorTrail_01.MaterialExpressionScalarParameter_1'
+    Expressions[90] = MaterialExpressionScalarParameter'/Game/Darwin/VFX/Weapons/Bow/Materials/JohnDoe/VFX_M_WarriorTrail_01.MaterialExpressionScalarParameter_2'
+    Expressions[91] = MaterialExpressionScalarParameter'/Game/Darwin/VFX/Weapons/Bow/Materials/JohnDoe/VFX_M_WarriorTrail_01.MaterialExpressionScalarParameter_3'
+    Expressions[92] = MaterialExpressionScalarParameter'/Game/Darwin/VFX/Weapons/Bow/Materials/JohnDoe/VFX_M_WarriorTrail_01.MaterialExpressionScalarParameter_4'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Life, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[2] = { Value=2, Name=WaveFrequency, Group=None }
+    CollectedScalarParameters[3] = { Value=7.5, Name=WaveAmplitude, Group=None }
+    CollectedScalarParameters[4] = { Value=0.75, Name=WaveSpeed, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

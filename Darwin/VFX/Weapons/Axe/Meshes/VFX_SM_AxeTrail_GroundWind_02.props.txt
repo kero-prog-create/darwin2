@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/VFX/Weapons/Axe/Materials/VFX_M_AxeTrail_GroundWind_02.VFX_M_AxeTrail_GroundWind_02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Weapons/Axe/Materials/VFX_M_AxeTrail_GroundWind_02.VFX_M_AxeTrail_GroundWind_02'
+        MaterialSlotName = constant
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.32914, Y=-1.58311, Z=8.21749 }
+    BoxExtent = { X=49.7563, Y=50, Z=9.16752 }
+    SphereRadius = 56.0894
+}

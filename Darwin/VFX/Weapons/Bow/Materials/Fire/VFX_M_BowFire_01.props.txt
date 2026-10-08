@@ -1,0 +1,62 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Fx/Textures/ice_stylized_height.ice_stylized_height'
+    ReferencedTextures[1] = Texture2D'/Game/Darwin/VFX/Weapons/Bow/Textures/VFX_T_ArrowFire_01.VFX_T_ArrowFire_01'
+    ReferencedTextures[2] = Texture2D'/Game/Fx/Textures/T_TilingNoise16.T_TilingNoise16'
+}
+Expressions[83] =
+{
+    Expressions[6] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Weapons/Bow/Materials/Fire/VFX_M_BowFire_01.MaterialExpressionTextureSample_5'
+    Expressions[8] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Weapons/Bow/Materials/Fire/VFX_M_BowFire_01.MaterialExpressionTextureSample_3'
+    Expressions[67] = MaterialExpressionTextureSample'/Game/Darwin/VFX/Weapons/Bow/Materials/Fire/VFX_M_BowFire_01.MaterialExpressionTextureSample_0'
+    Expressions[81] = MaterialExpressionVectorParameter'/Game/Darwin/VFX/Weapons/Bow/Materials/Fire/VFX_M_BowFire_01.MaterialExpressionVectorParameter_0'
+    Expressions[82] = MaterialExpressionVectorParameter'/Game/Darwin/VFX/Weapons/Bow/Materials/Fire/VFX_M_BowFire_01.MaterialExpressionVectorParameter_1'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.8, G=0.041661, B=0.001029, A=1 }
+        Name = Outside Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=5, G=4.6467, B=0.880589, A=1 }
+        Name = Inside Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
