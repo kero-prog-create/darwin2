@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/VFX/Tests/Materials/VFX_M_ConstantVertexColor_01.VFX_M_ConstantVertexColor_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Tests/Materials/VFX_M_ConstantVertexColor_01.VFX_M_ConstantVertexColor_01'
+        MaterialSlotName = constant
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 23.7841, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=49.5, Y=49.5, Z=49.5 }
+    BoxExtent = { X=50.5, Y=50.5, Z=50.5 }
+    SphereRadius = 86.8951
+}
