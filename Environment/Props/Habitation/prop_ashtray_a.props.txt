@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Props/Habitation/prop_ashtray_a.prop_ashtray_a'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Props/Habitation/prop_ashtray_a.prop_ashtray_a'
+        MaterialSlotName = prop_ashtray_a
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 20.6016, 26.7813, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=2.62262 }
+    BoxExtent = { X=6.72311, Y=6.72685, Z=2.62877 }
+    SphereRadius = 9.86717
+}

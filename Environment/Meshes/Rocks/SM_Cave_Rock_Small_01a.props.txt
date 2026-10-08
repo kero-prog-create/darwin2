@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Assets/Landscape/MI_Cliff01.MI_Cliff01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Assets/Landscape/MI_Cliff01.MI_Cliff01'
+        MaterialSlotName = M_Cave_Rock_Small_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 442.14, 235.462, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=0 }
+    BoxExtent = { X=52.1411, Y=54.9719, Z=61.1747 }
+    SphereRadius = 74.5432
+}

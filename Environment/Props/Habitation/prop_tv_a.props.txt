@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Props/Habitation/prop_tv_a.prop_tv_a'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Props/Habitation/prop_tv_a.prop_tv_a'
+        MaterialSlotName = prop_tv_a
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 274.237, 282.657, 2437.3, 2437.3 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.52588e-05, Y=7.62939e-06, Z=4.57764e-05 }
+    BoxExtent = { X=62.541, Y=40.3179, Z=52.8159 }
+    SphereRadius = 90.0378
+}

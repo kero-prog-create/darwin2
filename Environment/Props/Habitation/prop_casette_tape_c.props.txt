@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Props/Habitation/prop_casettes_a.prop_casettes_a'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Props/Habitation/prop_casettes_a.prop_casettes_a'
+        MaterialSlotName = prop_casettes_a
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 45.1468, 25.7657, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-1.19209e-07, Z=-6.19888e-06 }
+    BoxExtent = { X=8.97952, Y=0.90807, Z=5.34032 }
+    SphereRadius = 10.3429
+}

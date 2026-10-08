@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Environment/Materials/Misc/M_Cave_SimpleSnow.M_Cave_SimpleSnow'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Environment/Materials/Misc/M_Cave_SimpleSnow.M_Cave_SimpleSnow'
+        MaterialSlotName = M_Cave_SimpleSnow
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 783.354, 721.111, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.830078, Y=-28.6743, Z=106.945 }
+    BoxExtent = { X=360.325, Y=293.056, Z=106.65 }
+    SphereRadius = 471.488
+}
