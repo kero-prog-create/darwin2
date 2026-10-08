@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/ConstructionSite/MAT_Container_Blue.MAT_Container_Blue'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/ConstructionSite/MAT_Container_Blue.MAT_Container_Blue'
+        MaterialSlotName = blinn4
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2812.52, 1016.5, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-14.9461, Y=-603.618, Z=299.913 }
+    BoxExtent = { X=401.725, Y=99.9277, Z=261.79 }
+    SphereRadius = 474.759
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/ConstructionSite/MAT_ConstructionFences01.MAT_ConstructionFences01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/ConstructionSite/MAT_ConstructionFences01.MAT_ConstructionFences01'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1123.66, 318.844, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.43323e-05, Y=0.000152588, Z=68.2235 }
+    BoxExtent = { X=47.1083, Y=47.1082, Z=68.4896 }
+    SphereRadius = 92.873
+}

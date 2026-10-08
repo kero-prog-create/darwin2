@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/ConstructionSite/MAT_ConstructionFences01.MAT_ConstructionFences01'
+    Materials[1] = Material3'/Game/Darwin/Environment/ConstructionSite/MAT_ChainlinkFence01.MAT_ChainlinkFence01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/ConstructionSite/MAT_ConstructionFences01.MAT_ConstructionFences01'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1617.42, 1675.1, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/ConstructionSite/MAT_ChainlinkFence01.MAT_ChainlinkFence01'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 56.3932, 1632.05, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=42.673, Y=-105.41, Z=288.674 }
+    BoxExtent = { X=420.832, Y=117.408, Z=345.925 }
+    SphereRadius = 542.907
+}

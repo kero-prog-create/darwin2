@@ -1,0 +1,4 @@
+Diffuse=Telescope_Light_BaseColor
+Normal=Telescope_Light_Normal
+Emissive=Telescope_Light_Emissive
+Other[0]=Telescope_Light_OcclusionRoughnessMetallic

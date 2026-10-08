@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/Concrete_01/MAT_Concrete_02.MAT_Concrete_02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Concrete_01/MAT_Concrete_02.MAT_Concrete_02'
+        MaterialSlotName = MAT_Concrete01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 71.7289, 253.757, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-9.15527e-05, Y=1.46185, Z=0 }
+    BoxExtent = { X=49.9527, Y=23.9355, Z=28.4528 }
+    SphereRadius = 60.9309
+}
