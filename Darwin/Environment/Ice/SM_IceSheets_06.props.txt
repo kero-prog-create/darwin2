@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Darwin/Environment/Ice/ENV_ICE_FrozenWave_01_Mat_Inst.ENV_ICE_FrozenWave_01_Mat_Inst'
+    Materials[1] = Material3'/Game/Darwin/Environment/Ice/MAT_IceSheetDecal_02.MAT_IceSheetDecal_02'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Environment/Ice/ENV_ICE_FrozenWave_01_Mat_Inst.ENV_ICE_FrozenWave_01_Mat_Inst'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 6134.17, 94.5175, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Ice/MAT_IceSheetDecal_02.MAT_IceSheetDecal_02'
+        MaterialSlotName = MAT_Icesheet02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 4846.23, 3448.46, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=54.2441, Y=509.425, Z=7.63697 }
+    BoxExtent = { X=1696.69, Y=836.937, Z=7.637 }
+    SphereRadius = 1891.9
+}

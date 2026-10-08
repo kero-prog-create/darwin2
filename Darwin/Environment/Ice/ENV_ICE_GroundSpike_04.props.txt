@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Ice/ENV_ICE_GroundSpike_04_Mat.ENV_ICE_GroundSpike_04_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Ice/ENV_ICE_GroundSpike_04_Mat.ENV_ICE_GroundSpike_04_Mat'
+        MaterialSlotName = Material #214
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1163.38, 1141.46, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.00452423, Y=0, Z=569.282 }
+    BoxExtent = { X=102.747, Y=156.173, Z=569.532 }
+    SphereRadius = 588.808
+}

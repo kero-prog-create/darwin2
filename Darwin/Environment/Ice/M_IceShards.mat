@@ -1,0 +1,6 @@
+Diffuse=ice_stylized_diffuse
+Normal=ice_stylized_normal
+Other[0]=ice_stylized_height
+Other[1]=ice_stylized_roughness
+Other[2]=M_Ice_Decal_Roughness
+Other[3]=T_FrozenLake01_basecolor
