@@ -1,0 +1,230 @@
+Parent = Material3'/Game/Env/Infil1_Courthouse/Material/Environment_Basic_Layered_MASTER.Environment_Basic_Layered_MASTER'
+ScalarParameterValues[15] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseMetalness }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=BaseNormalIntensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=BaseRoughnessMAX }
+        ParameterValue = 0.35
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=BaseRoughnessMIN }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=BaseTiling }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=DetailNormalIntensity }
+        ParameterValue = 0.4
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=DetailScale }
+        ParameterValue = 16
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Layer02Metalness }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=Layer02NormalIntensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Layer02RoughnessMAX }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Layer02Tiling }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=Layer03Metalness }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=Layer03RoughnessMAX }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=Layer03RoughnessMIN }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=Layer03Tiling }
+        ParameterValue = 1
+        ParameterName = None
+    }
+}
+TextureParameterValues[11] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=AO }
+        ParameterValue = Texture2D'/Game/Env/Infil1_Courthouse/Texture/T_Infil1_Courthouse_TilingTrim_D.T_Infil1_Courthouse_TilingTrim_D'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=BaseColorTexture }
+        ParameterValue = Texture2D'/Game/Env/Infil1_Courthouse/Texture/T_Infil1_Courthouse_TilingTrim_D.T_Infil1_Courthouse_TilingTrim_D'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=BaseNormal }
+        ParameterValue = Texture2D'/Game/Env/Infil1_Courthouse/Texture/T_Infil1_Courthouse_TilingTrim_N.T_Infil1_Courthouse_TilingTrim_N'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=DetailNormal }
+        ParameterValue = Texture2D'/Game/Env/Materials/Detail/T_DetailTexture01_N.T_DetailTexture01_N'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=EmissiveTexture }
+        ParameterValue = Texture2D'/Game/Env/Infil1_Courthouse/Texture/Mask.Mask'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=GlobalNormal }
+        ParameterValue = Texture2D'/Game/Env/Infil1_Hub/Walls/Texture/WarbleNormal.WarbleNormal'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=Mask }
+        ParameterValue = Texture2D'/Game/Env/Infil1_Courthouse/Texture/bake_front__baseTexBaked.bake_front__baseTexBaked'
+        ParameterName = None
+    }
+    TextureParameterValues[7] =
+    {
+        ParameterInfo = { Name=Layer02ColorTexture }
+        ParameterValue = Texture2D'/Game/Env/Infil1_Courthouse/Texture/bake_front__occlusion.bake_front__occlusion'
+        ParameterName = None
+    }
+    TextureParameterValues[8] =
+    {
+        ParameterInfo = { Name=Layer02Normal }
+        ParameterValue = Texture2D'/Game/Env/Infil1_Courthouse/Texture/bake_front__normals.bake_front__normals'
+        ParameterName = None
+    }
+    TextureParameterValues[9] =
+    {
+        ParameterInfo = { Name=Layer03ColorTexture }
+        ParameterValue = Texture2D'/Game/Env/Infil1_Courthouse/Texture/bake_front__occlusion.bake_front__occlusion'
+        ParameterName = None
+    }
+    TextureParameterValues[10] =
+    {
+        ParameterInfo = { Name=Layer03Normal }
+        ParameterValue = Texture2D'/Game/Env/Infil1_Courthouse/Texture/bake_front__normals.bake_front__normals'
+        ParameterName = None
+    }
+}
+VectorParameterValues[4] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseColor }
+        ParameterValue = { R=1, G=1, B=1, A=0.7 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=MaskIntensity }
+        ParameterValue = { R=1, G=0.4, B=1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Layer02Color }
+        ParameterValue = { R=1, G=1, B=1, A=0.1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Layer03Color }
+        ParameterValue = { R=1, G=1, B=1, A=-0.5 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0
+}
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseGlobalNormal }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseAO }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

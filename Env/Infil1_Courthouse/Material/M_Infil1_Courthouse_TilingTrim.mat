@@ -1,0 +1,11 @@
+Diffuse=T_Infil1_Courthouse_TilingTrim_D
+Normal=T_Infil1_Courthouse_TilingTrim_N
+Emissive=Mask
+Other[0]=T_DetailTexture01_N
+Other[1]=WarbleNormal
+Other[2]=bake_front__baseTexBaked
+Other[3]=bake_front__occlusion
+Other[4]=bake_front__normals
+Other[5]=DefaultDiffuse
+Other[6]=WhiteSquareTexture
+Other[7]=T_Metal_Tiling01_N

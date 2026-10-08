@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = Material3'/Game/Env/Infil1_Maglev/Materials_part2/M_Maglev_Master_pt1_test_New.M_Maglev_Master_pt1_test_New'
+    Materials[1] = Material3'/Game/Env/Infil1_Maglev/Materials_part2/M_Maglev_Master_pt2_test_New.M_Maglev_Master_pt2_test_New'
+    Materials[2] = Material3'/Game/Env/Infil1_Maglev/Materials_part2/M_Maglev_Master_Hose_test.M_Maglev_Master_Hose_test'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Env/Infil1_Maglev/Materials_part2/M_Maglev_Master_pt1_test_New.M_Maglev_Master_pt1_test_New'
+        MaterialSlotName = M_Maglev_Master_pt1_test_New
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 517.539, 12710.9, 1300.26, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Env/Infil1_Maglev/Materials_part2/M_Maglev_Master_pt2_test_New.M_Maglev_Master_pt2_test_New'
+        MaterialSlotName = M_Maglev_Master_pt2_test_New
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 582.949, 14380.8, 1290.84, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Env/Infil1_Maglev/Materials_part2/M_Maglev_Master_Hose_test.M_Maglev_Master_Hose_test'
+        MaterialSlotName = M_Maglev_Master_Hose_test
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 128.131, 3163.71, 1293.64, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=278.422 }
+    BoxExtent = { X=149.2, Y=348.28, Z=362.804 }
+    SphereRadius = 488.782
+}

@@ -1,0 +1,54 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Env/Infil1_Courthouse/Texture/T_Infil1_Courthouse_Pillar_N.T_Infil1_Courthouse_Pillar_N'
+    ReferencedTextures[1] = Texture2D'/Game/Env/Infil1_Courthouse/Texture/T_Infil1_Courthouse_Metal_Pillar_M.T_Infil1_Courthouse_Metal_Pillar_M'
+}
+Expressions[23] =
+{
+    Expressions[2] = MaterialExpressionTextureSample'/Game/Env/Infil1_Courthouse/Material/M_Infil1_Courthouse_Metal_Pillar_tile.MaterialExpressionTextureSample_61'
+    Expressions[4] = MaterialExpressionTextureSample'/Game/Env/Infil1_Courthouse/Material/M_Infil1_Courthouse_Metal_Pillar_tile.MaterialExpressionTextureSample_60'
+    Expressions[6] = MaterialExpressionTextureSample'/Game/Env/Infil1_Courthouse/Material/M_Infil1_Courthouse_Metal_Pillar_tile.MaterialExpressionTextureSample_21'
+    Expressions[10] = MaterialExpressionTextureSample'/Game/Env/Infil1_Courthouse/Material/M_Infil1_Courthouse_Metal_Pillar_tile.MaterialExpressionTextureSample_59'
+    Expressions[14] = MaterialExpressionScalarParameter'/Game/Env/Infil1_Courthouse/Material/M_Infil1_Courthouse_Metal_Pillar_tile.MaterialExpressionScalarParameter_36'
+    Expressions[16] = MaterialExpressionScalarParameter'/Game/Env/Infil1_Courthouse/Material/M_Infil1_Courthouse_Metal_Pillar_tile.MaterialExpressionScalarParameter_34'
+    Expressions[19] = MaterialExpressionTextureSample'/Game/Env/Infil1_Courthouse/Material/M_Infil1_Courthouse_Metal_Pillar_tile.MaterialExpressionTextureSample_66'
+    Expressions[22] = MaterialExpressionTextureSample'/Game/Env/Infil1_Courthouse/Material/M_Infil1_Courthouse_Metal_Pillar_tile.MaterialExpressionTextureSample_22'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=3, Name=Metal_2, Group=None }
+    CollectedScalarParameters[1] = { Value=3, Name=Metal_1, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

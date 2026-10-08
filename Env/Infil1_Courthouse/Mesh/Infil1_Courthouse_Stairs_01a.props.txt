@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Env/Infil1_City_Decos/Material/M_Infil1_City_Justice_Trims.M_Infil1_City_Justice_Trims'
+    Materials[1] = Material3'/Game/Env/Infrastructure/Concrete/Material/M_Infil1_Generic_Concrete_Sidewalk_DarkWet.M_Infil1_Generic_Concrete_Sidewalk_DarkWet'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Env/Infil1_City_Decos/Material/M_Infil1_City_Justice_Trims.M_Infil1_City_Justice_Trims'
+        MaterialSlotName = M_Infil1_City_Justice_Trims
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 312.329, 1534.12, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Env/Infrastructure/Concrete/Material/M_Infil1_Generic_Concrete_Sidewalk_DarkWet.M_Infil1_Generic_Concrete_Sidewalk_DarkWet'
+        MaterialSlotName = M_Infil1_Generic_Concrete_Sidewalk_DarkWet
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 935.962, 1529.12, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2000, Y=-349.636, Z=30.4661 }
+    BoxExtent = { X=2000, Y=350.426, Z=30.4661 }
+    SphereRadius = 2030.69
+}

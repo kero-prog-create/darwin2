@@ -1,0 +1,5 @@
+Normal=T_Maglev_Pt1_N
+Emissive=T_Maglev_ArmEmissive_01
+Other[0]=T_Maglev_Pt1_AO
+Other[1]=T_Maglev_2_Pt1_M
+Other[2]=T_TilingNoise03
