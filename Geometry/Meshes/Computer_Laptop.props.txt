@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Geometry/Meshes/Computer_Laptop_Screen.Computer_Laptop_Screen'
+    Materials[1] = Material3'/Game/Geometry/Meshes/Computer_Laptop2.Computer_Laptop2'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Geometry/Meshes/Computer_Laptop_Screen.Computer_Laptop_Screen'
+        MaterialSlotName = Computer_Laptop_Screen
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 86.9901, 421.743, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Geometry/Meshes/Computer_Laptop2.Computer_Laptop2'
+        MaterialSlotName = Computer_Laptop2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 246.84, 429.539, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=32.1924, Y=-22.9448, Z=58.9992 }
+    BoxExtent = { X=92.5056, Y=72.8697, Z=59.7431 }
+    SphereRadius = 125.787
+}

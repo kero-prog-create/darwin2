@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Fx/Materials/StylisedWireframe.StylisedWireframe'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Fx/Materials/StylisedWireframe.StylisedWireframe'
+        MaterialSlotName = MI_Pyramid_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 899.017, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=13.9958, Y=-7.62939e-06, Z=15.2661 }
+    BoxExtent = { X=66.923, Y=76.6247, Z=53.7522 }
+    SphereRadius = 113.327
+}

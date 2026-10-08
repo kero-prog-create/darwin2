@@ -1,0 +1,23 @@
+Materials[1] = { Material3'/Game/Fx/Materials/M_Glass.M_Glass' }
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Fx/Materials/M_Glass.M_Glass'
+        MaterialSlotName = M_Glass
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 115.373, 310.978, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=75 }
+    BoxExtent = { X=75, Y=2, Z=75 }
+    SphereRadius = 106.085
+}

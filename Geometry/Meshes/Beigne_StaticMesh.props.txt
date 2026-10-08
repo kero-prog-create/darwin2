@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Materials/Common/Metal/Metal_Glossy_A.Metal_Glossy_A'
+    Materials[1] = MaterialInstanceConstant'/Game/Materials/Common/Metal/Metal_Glossy_A.Metal_Glossy_A'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Common/Metal/Metal_Glossy_A.Metal_Glossy_A'
+        MaterialSlotName = BasicShapeMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 851.03, 9572.53, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Materials/Common/Metal/Metal_Glossy_A.Metal_Glossy_A'
+        MaterialSlotName = BasicShapeMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1112.81, 9542.34, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=0 }
+    BoxExtent = { X=2237.26, Y=300.002, Z=2225 }
+    SphereRadius = 2257.28
+}

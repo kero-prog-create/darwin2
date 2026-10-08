@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Effects/HoloMap/M_HoloLandscape.M_HoloLandscape'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Effects/HoloMap/M_HoloLandscape.M_HoloLandscape'
+        MaterialSlotName = M_HoloLandscape
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100, 101.587, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.471069, Y=-16.5324, Z=0 }
+    BoxExtent = { X=50, Y=50, Z=3.06162e-15 }
+    SphereRadius = 70.7107
+}
