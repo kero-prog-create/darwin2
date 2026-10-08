@@ -1,0 +1,6 @@
+Diffuse=Circle256px
+Normal=T_LargeWaves_N
+SpecPower=T_SplashDisc_A
+Opacity=T_SplashDisc_A
+Other[0]=T_MediumWaves_N
+Other[1]=T_MicroWaves_N
