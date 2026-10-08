@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/Alsphalt_01/MAT_Alsphalt.MAT_Alsphalt'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Alsphalt_01/MAT_Alsphalt.MAT_Alsphalt'
+        MaterialSlotName = BareMetalGeneric01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 535.786, 596.819, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=2.28882e-05, Y=-2.28882e-05, Z=28.491 }
+    BoxExtent = { X=110.351, Y=123.37, Z=27.578 }
+    SphereRadius = 162.128
+}
