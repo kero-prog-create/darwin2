@@ -1,0 +1,4 @@
+Diffuse=T_MetalFlooring01_roughness
+Normal=T_MetalFlooring01_normal
+Other[0]=T_MetalFlooring01_metallic
+Other[1]=T_MetalFlooring01_basecolor
