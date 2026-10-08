@@ -1,0 +1,63 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Elemental/Effects/FX_Distortion/ParticleSystems/T_Fire_SmokeWisps_Tile_Dup.T_Fire_SmokeWisps_Tile_Dup'
+    ReferencedTextures[1] = Texture2D'/Game/Elemental/Effects/FX_Interaction_Effects/Textures/T_Fire_Tile_03.T_Fire_Tile_03'
+}
+Expressions[93] =
+{
+    Expressions[30] = MaterialExpressionScalarParameter'/Game/Materials/M_PostProcess_StaminaGlitch.MaterialExpressionScalarParameter_4'
+    Expressions[35] = MaterialExpressionScalarParameter'/Game/Materials/M_PostProcess_StaminaGlitch.MaterialExpressionScalarParameter_0'
+    Expressions[39] = MaterialExpressionScalarParameter'/Game/Materials/M_PostProcess_StaminaGlitch.MaterialExpressionScalarParameter_5'
+    Expressions[57] = MaterialExpressionScalarParameter'/Game/Materials/M_PostProcess_StaminaGlitch.MaterialExpressionScalarParameter_1'
+    Expressions[62] = MaterialExpressionScalarParameter'/Game/Materials/M_PostProcess_StaminaGlitch.MaterialExpressionScalarParameter_2'
+    Expressions[63] = MaterialExpressionScalarParameter'/Game/Materials/M_PostProcess_StaminaGlitch.MaterialExpressionScalarParameter_3'
+    Expressions[64] = MaterialExpressionScalarParameter'/Game/Materials/M_PostProcess_StaminaGlitch.MaterialExpressionScalarParameter_6'
+    Expressions[65] = MaterialExpressionScalarParameter'/Game/Materials/M_PostProcess_StaminaGlitch.MaterialExpressionScalarParameter_7'
+    Expressions[67] = MaterialExpressionTextureSample'/Game/Materials/M_PostProcess_StaminaGlitch.MaterialExpressionTextureSample_0'
+    Expressions[68] = MaterialExpressionTextureSample'/Game/Materials/M_PostProcess_StaminaGlitch.MaterialExpressionTextureSample_1'
+    Expressions[78] = MaterialExpressionTextureSample'/Game/Materials/M_PostProcess_StaminaGlitch.MaterialExpressionTextureSample_2'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=NFBIntensity, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=NoiseIntensity, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Intensity, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Min, Group=None }
+    CollectedScalarParameters[4] = { Value=0.618, Name=Radius, Group=None }
+    CollectedScalarParameters[5] = { Value=2.2, Name=Density, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Desaturation, Group=None }
+    CollectedScalarParameters[7] = { Value=0.23066, Name=Darken, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

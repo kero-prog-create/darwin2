@@ -1,0 +1,63 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Elemental/Effects/FX_Distortion/ParticleSystems/T_Fire_SmokeWisps_Tile_Dup.T_Fire_SmokeWisps_Tile_Dup'
+    ReferencedTextures[1] = Texture2D'/Game/Env/Infil1_Background/Texture/Gischt.Gischt'
+}
+Expressions[95] =
+{
+    Expressions[3] = MaterialExpressionScalarParameter'/Game/Materials/M_PostProcess_Warmth.MaterialExpressionScalarParameter_1'
+    Expressions[5] = MaterialExpressionTextureSample'/Game/Materials/M_PostProcess_Warmth.MaterialExpressionTextureSample_8'
+    Expressions[6] = MaterialExpressionTextureSample'/Game/Materials/M_PostProcess_Warmth.MaterialExpressionTextureSample_9'
+    Expressions[16] = MaterialExpressionScalarParameter'/Game/Materials/M_PostProcess_Warmth.MaterialExpressionScalarParameter_2'
+    Expressions[17] = MaterialExpressionScalarParameter'/Game/Materials/M_PostProcess_Warmth.MaterialExpressionScalarParameter_3'
+    Expressions[18] = MaterialExpressionScalarParameter'/Game/Materials/M_PostProcess_Warmth.MaterialExpressionScalarParameter_6'
+    Expressions[19] = MaterialExpressionScalarParameter'/Game/Materials/M_PostProcess_Warmth.MaterialExpressionScalarParameter_7'
+    Expressions[44] = MaterialExpressionTextureSample'/Game/Materials/M_PostProcess_Warmth.MaterialExpressionTextureSample_14'
+    Expressions[45] = MaterialExpressionTextureSample'/Game/Materials/M_PostProcess_Warmth.MaterialExpressionTextureSample_15'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 1
+        Name = Post Process Blend Weight
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=0.7, Name=RadiusAdd, Group=None }
+    CollectedScalarParameters[2] = { Value=0.618, Name=RadiusMul, Group=None }
+    CollectedScalarParameters[3] = { Value=0.5, Name=DensityAdd, Group=None }
+    CollectedScalarParameters[4] = { Value=5, Name=DensityMul, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,68 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Assets/Texture/T_Sand_N.T_Sand_N'
+    ReferencedTextures[1] = Texture2D'/Game/Assets/Texture/T_SandDunes_N.T_SandDunes_N'
+}
+Expressions[187] =
+{
+    Expressions[2] = MaterialExpressionScalarParameter'/Game/Materials/M_PostProcess_Hot.MaterialExpressionScalarParameter_1'
+    Expressions[80] = MaterialExpressionScalarParameter'/Game/Materials/M_PostProcess_Hot.MaterialExpressionScalarParameter_0'
+    Expressions[117] = MaterialExpressionScalarParameter'/Game/Materials/M_PostProcess_Hot.MaterialExpressionScalarParameter_2'
+    Expressions[151] = MaterialExpressionScalarParameter'/Game/Materials/M_PostProcess_Hot.MaterialExpressionScalarParameter_3'
+    Expressions[153] = MaterialExpressionScalarParameter'/Game/Materials/M_PostProcess_Hot.MaterialExpressionScalarParameter_4'
+    Expressions[154] = MaterialExpressionScalarParameter'/Game/Materials/M_PostProcess_Hot.MaterialExpressionScalarParameter_5'
+    Expressions[155] = MaterialExpressionScalarParameter'/Game/Materials/M_PostProcess_Hot.MaterialExpressionScalarParameter_6'
+    Expressions[170] = MaterialExpressionScalarParameter'/Game/Materials/M_PostProcess_Hot.MaterialExpressionScalarParameter_7'
+    Expressions[176] = MaterialExpressionScalarParameter'/Game/Materials/M_PostProcess_Hot.MaterialExpressionScalarParameter_8'
+    Expressions[183] = MaterialExpressionScalarParameter'/Game/Materials/M_PostProcess_Hot.MaterialExpressionScalarParameter_9'
+    Expressions[184] = MaterialExpressionScalarParameter'/Game/Materials/M_PostProcess_Hot.MaterialExpressionScalarParameter_10'
+    Expressions[185] = MaterialExpressionScalarParameter'/Game/Materials/M_PostProcess_Hot.MaterialExpressionScalarParameter_11'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[12] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Intensity, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Offset, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=BlendDistPower, Group=None }
+    CollectedScalarParameters[3] = { Value=0.0333, Name=NoiseTiling, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=StartDistance, Group=None }
+    CollectedScalarParameters[5] = { Value=99999, Name=EndDistance, Group=None }
+    CollectedScalarParameters[6] = { Value=99999, Name=HeightMax, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=NoiseSpeed, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Mul, Group=None }
+    CollectedScalarParameters[9] = { Value=16180, Name=Dist1, Group=None }
+    CollectedScalarParameters[10] = { Value=38200, Name=Dist2, Group=None }
+    CollectedScalarParameters[11] = { Value=61800, Name=Dist3, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,87 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Materials/GodrayTexture.GodrayTexture'
+    ReferencedTextures[1] = Texture2D'/Game/Fx/Textures/T_TilingNoise03.T_TilingNoise03'
+    ReferencedTextures[2] = Texture2D'/Game/Assets/Environment/Misc/NothernLights/Aurora_Noise.Aurora_Noise'
+    ReferencedTextures[3] = Texture2D'/Game/Elemental/Effects/FX_Interaction_Effects/Textures/T_Thick_Smoke_Tile.T_Thick_Smoke_Tile'
+    ReferencedTextures[4] = Texture2D'/Game/Elemental/Effects/FX_Distortion/ParticleSystems/T_Fire_SmokeWisps_Tile_Dup.T_Fire_SmokeWisps_Tile_Dup'
+    ReferencedTextures[5] = Texture2D'/Game/Effects/Holograms/Textures/T_Hologram_Text_01.T_Hologram_Text_01'
+}
+Expressions[180] =
+{
+    Expressions[6] = MaterialExpressionTextureSample'/Game/Materials/PylonGodRays_Mat3.MaterialExpressionTextureSample_5'
+    Expressions[9] = MaterialExpressionScalarParameter'/Game/Materials/PylonGodRays_Mat3.MaterialExpressionScalarParameter_0'
+    Expressions[10] = MaterialExpressionScalarParameter'/Game/Materials/PylonGodRays_Mat3.MaterialExpressionScalarParameter_1'
+    Expressions[14] = MaterialExpressionTextureSample'/Game/Materials/PylonGodRays_Mat3.MaterialExpressionTextureSample_6'
+    Expressions[20] = MaterialExpressionTextureSample'/Game/Materials/PylonGodRays_Mat3.MaterialExpressionTextureSample_7'
+    Expressions[23] = MaterialExpressionTextureSample'/Game/Materials/PylonGodRays_Mat3.MaterialExpressionTextureSample_8'
+    Expressions[33] = MaterialExpressionScalarParameter'/Game/Materials/PylonGodRays_Mat3.MaterialExpressionScalarParameter_2'
+    Expressions[42] = MaterialExpressionTextureSample'/Game/Materials/PylonGodRays_Mat3.MaterialExpressionTextureSample_10'
+    Expressions[63] = MaterialExpressionTextureSample'/Game/Materials/PylonGodRays_Mat3.MaterialExpressionTextureSample_0'
+    Expressions[64] = MaterialExpressionTextureSample'/Game/Materials/PylonGodRays_Mat3.MaterialExpressionTextureSample_1'
+    Expressions[72] = MaterialExpressionTextureSample'/Game/Materials/PylonGodRays_Mat3.MaterialExpressionTextureSample_2'
+    Expressions[80] = MaterialExpressionScalarParameter'/Game/Materials/PylonGodRays_Mat3.MaterialExpressionScalarParameter_13'
+    Expressions[81] = MaterialExpressionScalarParameter'/Game/Materials/PylonGodRays_Mat3.MaterialExpressionScalarParameter_14'
+    Expressions[83] = MaterialExpressionTextureSample'/Game/Materials/PylonGodRays_Mat3.MaterialExpressionTextureSample_3'
+    Expressions[85] = MaterialExpressionTextureSample'/Game/Materials/PylonGodRays_Mat3.MaterialExpressionTextureSample_4'
+    Expressions[86] = MaterialExpressionTextureSample'/Game/Materials/PylonGodRays_Mat3.MaterialExpressionTextureSample_19'
+    Expressions[92] = MaterialExpressionScalarParameter'/Game/Materials/PylonGodRays_Mat3.MaterialExpressionScalarParameter_15'
+    Expressions[93] = MaterialExpressionTextureSample'/Game/Materials/PylonGodRays_Mat3.MaterialExpressionTextureSample_20'
+    Expressions[101] = MaterialExpressionTextureSample'/Game/Materials/PylonGodRays_Mat3.MaterialExpressionTextureSample_21'
+    Expressions[138] = MaterialExpressionTextureSample'/Game/Materials/PylonGodRays_Mat3.MaterialExpressionTextureSample_22'
+    Expressions[149] = MaterialExpressionScalarParameter'/Game/Materials/PylonGodRays_Mat3.MaterialExpressionScalarParameter_4'
+    Expressions[153] = MaterialExpressionScalarParameter'/Game/Materials/PylonGodRays_Mat3.MaterialExpressionScalarParameter_5'
+    Expressions[179] = MaterialExpressionVectorParameter'/Game/Materials/PylonGodRays_Mat3.MaterialExpressionVectorParameter_0'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=3333, Name=DepthFade, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=OpacityMax, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Intensity, Group=None }
+    CollectedScalarParameters[3] = { Value=0.23066, Name=Min, Group=None }
+    CollectedScalarParameters[4] = { Value=0.85, Name=Max, Group=None }
+    CollectedScalarParameters[5] = { Value=13, Name=Mul, Group=None }
+    CollectedScalarParameters[6] = { Value=144000, Name=MaxHeight, Group=None }
+    CollectedScalarParameters[7] = { Value=377, Name=Range, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=55, B=618, A=0 }
+        Name = Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
