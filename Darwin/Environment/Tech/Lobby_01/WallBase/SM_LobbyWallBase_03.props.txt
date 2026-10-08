@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/JailCell01/JailDoor01/MAT_JailDoor01.MAT_JailDoor01'
+    Materials[1] = Material3'/Game/Darwin/Graphics/Emissive_01/Mat_Emissive_03.Mat_Emissive_03'
+    Materials[2] = Material3'/Game/Darwin/Graphics/Paint_01/MAT_Paint_03.MAT_Paint_03'
+    Materials[3] = Material3'/Game/Darwin/Environment/Tech/Lobby_01/WallBase/MAT_LobbyWallBase_01.MAT_LobbyWallBase_01'
+    Materials[4] = Material3'/Game/Darwin/Environment/Tech/Lobby_01/WallBase/MAT_LobbyWallBase_01.MAT_LobbyWallBase_01'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/JailCell01/JailDoor01/MAT_JailDoor01.MAT_JailDoor01'
+        MaterialSlotName = MAT_JailDoor01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 306.079, 6269.15, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Emissive_01/Mat_Emissive_03.Mat_Emissive_03'
+        MaterialSlotName = MAT_JailDoor01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 375.438, 6149.68, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Paint_01/MAT_Paint_03.MAT_Paint_03'
+        MaterialSlotName = MAT_Emissive03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 156.871, 994.956, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Tech/Lobby_01/WallBase/MAT_LobbyWallBase_01.MAT_LobbyWallBase_01'
+        MaterialSlotName = Snow
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1382.89, 6167.18, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Tech/Lobby_01/WallBase/MAT_LobbyWallBase_01.MAT_LobbyWallBase_01'
+        MaterialSlotName = 14 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-1.52588e-05, Y=9.81982, Z=262.6 }
+    BoxExtent = { X=250.002, Y=182.382, Z=262.612 }
+    SphereRadius = 403.724
+}

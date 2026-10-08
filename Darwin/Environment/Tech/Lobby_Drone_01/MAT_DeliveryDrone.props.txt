@@ -1,0 +1,125 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Darwin/Environment/Tech/Lobby_Drone_01/T_LobbyDrone_01_Normal.T_LobbyDrone_01_Normal'
+    ReferencedTextures[1] = Texture2D'/Game/Darwin/Environment/Tech/Lobby_Drone_01/T_LobbyDrone_01_OcclusionRougnessMetallic.T_LobbyDrone_01_OcclusionRougnessMetallic'
+    ReferencedTextures[2] = Texture2D'/Game/Darwin/Environment/Tech/Lobby_Drone_01/T_LobbyDrone_01_Basecolor.T_LobbyDrone_01_Basecolor'
+    ReferencedTextures[3] = Texture2D'/Game/Darwin/Environment/Tech/Lobby_Drone_01/T_LobbyDrone_01_Emissive.T_LobbyDrone_01_Emissive'
+}
+Expressions[71] =
+{
+    Expressions[3] = MaterialExpressionTextureSample'/Game/Darwin/Environment/Tech/Lobby_Drone_01/MAT_DeliveryDrone.MaterialExpressionTextureSample_3'
+    Expressions[8] = MaterialExpressionTextureSample'/Game/Darwin/Environment/Tech/Lobby_Drone_01/MAT_DeliveryDrone.MaterialExpressionTextureSample_4'
+    Expressions[10] = MaterialExpressionTextureSample'/Game/Darwin/Environment/Tech/Lobby_Drone_01/MAT_DeliveryDrone.MaterialExpressionTextureSample_1'
+    Expressions[11] = MaterialExpressionTextureSample'/Game/Darwin/Environment/Tech/Lobby_Drone_01/MAT_DeliveryDrone.MaterialExpressionTextureSample_2'
+    Expressions[16] = MaterialExpressionVectorParameter'/Game/Darwin/Environment/Tech/Lobby_Drone_01/MAT_DeliveryDrone.MaterialExpressionVectorParameter_2'
+    Expressions[19] = MaterialExpressionStaticBoolParameter'/Game/Darwin/Environment/Tech/Lobby_Drone_01/MAT_DeliveryDrone.MaterialExpressionStaticBoolParameter_0'
+    Expressions[20] = MaterialExpressionScalarParameter'/Game/Darwin/Environment/Tech/Lobby_Drone_01/MAT_DeliveryDrone.MaterialExpressionScalarParameter_0'
+    Expressions[21] = MaterialExpressionScalarParameter'/Game/Darwin/Environment/Tech/Lobby_Drone_01/MAT_DeliveryDrone.MaterialExpressionScalarParameter_1'
+    Expressions[25] = MaterialExpressionVectorParameter'/Game/Darwin/Environment/Tech/Lobby_Drone_01/MAT_DeliveryDrone.MaterialExpressionVectorParameter_0'
+    Expressions[26] = MaterialExpressionStaticBoolParameter'/Game/Darwin/Environment/Tech/Lobby_Drone_01/MAT_DeliveryDrone.MaterialExpressionStaticBoolParameter_1'
+    Expressions[29] = MaterialExpressionVectorParameter'/Game/Darwin/Environment/Tech/Lobby_Drone_01/MAT_DeliveryDrone.MaterialExpressionVectorParameter_1'
+    Expressions[30] = MaterialExpressionScalarParameter'/Game/Darwin/Environment/Tech/Lobby_Drone_01/MAT_DeliveryDrone.MaterialExpressionScalarParameter_2'
+    Expressions[31] = MaterialExpressionScalarParameter'/Game/Darwin/Environment/Tech/Lobby_Drone_01/MAT_DeliveryDrone.MaterialExpressionScalarParameter_3'
+    Expressions[44] = MaterialExpressionVectorParameter'/Game/Darwin/Environment/Tech/Lobby_Drone_01/MAT_DeliveryDrone.MaterialExpressionVectorParameter_3'
+    Expressions[47] = MaterialExpressionVectorParameter'/Game/Darwin/Environment/Tech/Lobby_Drone_01/MAT_DeliveryDrone.MaterialExpressionVectorParameter_4'
+    Expressions[51] = MaterialExpressionVectorParameter'/Game/Darwin/Environment/Tech/Lobby_Drone_01/MAT_DeliveryDrone.MaterialExpressionVectorParameter_5'
+    Expressions[57] = MaterialExpressionVectorParameter'/Game/Darwin/Environment/Tech/Lobby_Drone_01/MAT_DeliveryDrone.MaterialExpressionVectorParameter_7'
+    Expressions[62] = MaterialExpressionVectorParameter'/Game/Darwin/Environment/Tech/Lobby_Drone_01/MAT_DeliveryDrone.MaterialExpressionVectorParameter_8'
+    Expressions[66] = MaterialExpressionVectorParameter'/Game/Darwin/Environment/Tech/Lobby_Drone_01/MAT_DeliveryDrone.MaterialExpressionVectorParameter_9'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=MetalicRoughness, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Metalic, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=SecondRoughness, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=SecondMetalic, Group=None }
+}
+CollectedVectorParameters[9] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.5, B=0, A=0 }
+        Name = NewColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = EmissiveColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0.5, B=1, A=0 }
+        Name = SecondColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.571429, G=0.552381, B=0, A=0 }
+        Name = None
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.12, G=0.24, B=0, A=0 }
+        Name = Param0
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = InitialLocation
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0.371429, G=0.828572, B=0, A=0 }
+        Name = Param2
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0.171429, G=0.44762, B=0, A=0 }
+        Name = Param3
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0.285714, G=0.680628, B=0, A=0 }
+        Name = Param4
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

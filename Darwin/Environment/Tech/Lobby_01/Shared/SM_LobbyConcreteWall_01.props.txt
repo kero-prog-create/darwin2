@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/Concrete_01/MAT_Concrete_01.MAT_Concrete_01'
+    Materials[1] = Material3'/Game/Darwin/Graphics/Concrete_01/MAT_Concrete_02.MAT_Concrete_02'
+    Materials[2] = Material3'/Game/MI_Snow_01.MI_Snow_01'
+    Materials[3] = Material3'/Game/Darwin/Graphics/Emissive_01/Mat_Emissive_02.Mat_Emissive_02'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Concrete_01/MAT_Concrete_01.MAT_Concrete_01'
+        MaterialSlotName = MAT_Metal01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 667.914, 36562.8, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Concrete_01/MAT_Concrete_02.MAT_Concrete_02'
+        MaterialSlotName = MAT_Concrete_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 714.078, 39364.1, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/MI_Snow_01.MI_Snow_01'
+        MaterialSlotName = Snow
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 134.318, 39482.6, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Emissive_01/Mat_Emissive_02.Mat_Emissive_02'
+        MaterialSlotName = BigTechSwatch
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1019.08, 42235.9, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0.000488281, Z=3493.04 }
+    BoxExtent = { X=3569.55, Y=3563.52, Z=3506.96 }
+    SphereRadius = 5020.12
+}

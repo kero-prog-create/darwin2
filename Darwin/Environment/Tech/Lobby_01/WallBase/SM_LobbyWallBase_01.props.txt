@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Tech/Lobby_01/WallBase/MAT_LobbyWallBase_01.MAT_LobbyWallBase_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Tech/Lobby_01/WallBase/MAT_LobbyWallBase_01.MAT_LobbyWallBase_01'
+        MaterialSlotName = MAT_LobbyWallBase_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1463.66, 1078.19, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.00012207, Y=85.9405, Z=296.669 }
+    BoxExtent = { X=250.002, Y=135.944, Z=296.669 }
+    SphereRadius = 400.953
+}

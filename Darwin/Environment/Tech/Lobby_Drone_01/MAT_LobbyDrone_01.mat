@@ -1,0 +1,4 @@
+Diffuse=T_LobbyDrone_01_Basecolor
+Normal=T_LobbyDrone_01_Normal
+Emissive=T_LobbyDrone_01_Emissive
+Other[0]=T_LobbyDrone_01_OcclusionRougnessMetallic

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Tech/Lobby_Drone_01/MAT_LobbyDrone_01.MAT_LobbyDrone_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Tech/Lobby_Drone_01/MAT_LobbyDrone_01.MAT_LobbyDrone_01'
+        MaterialSlotName = MAT_SmallSphereDrone_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 89.4386, 127.651, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-3.08957, Z=0.348251 }
+    BoxExtent = { X=16.4028, Y=17.8386, Z=16.6541 }
+    SphereRadius = 19.2568
+}

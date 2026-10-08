@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Darwin/Environment/Tech/Lobby_01/Shared/VFX_M_LobbyDrone_02_Forcefield_01_Inst.VFX_M_LobbyDrone_02_Forcefield_01_Inst'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Environment/Tech/Lobby_01/Shared/VFX_M_LobbyDrone_02_Forcefield_01_Inst.VFX_M_LobbyDrone_02_Forcefield_01_Inst'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.000244141, Y=0.000732422, Z=6149.21 }
+    BoxExtent = { X=3273.45, Y=3282.73, Z=164.444 }
+    SphereRadius = 3295.15
+}

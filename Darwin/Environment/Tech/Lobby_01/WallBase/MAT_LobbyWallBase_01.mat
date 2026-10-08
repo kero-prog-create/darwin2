@@ -1,0 +1,4 @@
+Diffuse=T_LobbyWallBase_01_BaseColor
+Normal=T_LobbyWallBase_01_Normal
+Emissive=T_LobbyWallBase_01_Emissive
+Other[0]=T_LobbyWallBase_01_OcclusionRoughnessMetallic

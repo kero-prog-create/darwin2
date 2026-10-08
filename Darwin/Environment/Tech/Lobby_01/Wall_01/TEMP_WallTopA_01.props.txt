@@ -1,0 +1,86 @@
+Materials[6] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Tech/Lobby_01/WallTopA/MAT_LobbyWallTopA_01.MAT_LobbyWallTopA_01'
+    Materials[1] = Material3'/Game/Darwin/Environment/Tech/Lobby_01/WallBase/MAT_LobbyWallBase_01.MAT_LobbyWallBase_01'
+    Materials[2] = Material3'/Game/Darwin/Environment/Tech/Lobby_01/WallTopB/MAT_LobbyWallTopB_01.MAT_LobbyWallTopB_01'
+    Materials[3] = Material3'/Game/Elemental/Environment/ThroneRoom_Surfaces02/Material/M_BigSnow.M_BigSnow'
+    Materials[4] = Material3'/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial'
+    Materials[5] = Material3'/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial'
+}
+SourceModels[0] = {}
+StaticMaterials[6] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Tech/Lobby_01/WallTopA/MAT_LobbyWallTopA_01.MAT_LobbyWallTopA_01'
+        MaterialSlotName = Mat_Emissive_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 3929.6, 6901.26, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Tech/Lobby_01/WallBase/MAT_LobbyWallBase_01.MAT_LobbyWallBase_01'
+        MaterialSlotName = Mat_Emissive_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1463.65, 6961.51, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Tech/Lobby_01/WallTopB/MAT_LobbyWallTopB_01.MAT_LobbyWallTopB_01'
+        MaterialSlotName = MAT_Banner_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1320.76, 6877.92, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/Elemental/Environment/ThroneRoom_Surfaces02/Material/M_BigSnow.M_BigSnow'
+        MaterialSlotName = Snow
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = Material3'/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial'
+        MaterialSlotName = 14 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = Material3'/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial'
+        MaterialSlotName = 13 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=22.0042, Y=1044.11, Z=1402.88 }
+    BoxExtent = { X=511.129, Y=1151.59, Z=1467.71 }
+    SphereRadius = 1834.84
+}
