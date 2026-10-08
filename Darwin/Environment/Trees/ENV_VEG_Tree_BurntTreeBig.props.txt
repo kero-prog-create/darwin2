@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/BurntBark01/BurntBark01.BurntBark01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BurntBark01/BurntBark01.BurntBark01'
+        MaterialSlotName = T_TreeBark
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 352.22, 5749.48, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-36.3926, Y=221.66, Z=1511.62 }
+    BoxExtent = { X=917.183, Y=1022.37, Z=1691.8 }
+    SphereRadius = 2069.16
+}

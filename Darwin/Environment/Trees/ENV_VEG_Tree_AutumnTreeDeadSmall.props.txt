@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/WoodBark_02/MAT_WoodBark_02.MAT_WoodBark_02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/WoodBark_02/MAT_WoodBark_02.MAT_WoodBark_02'
+        MaterialSlotName = T_TreeBark1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 331.805, 4668.28, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-44.1498, Y=234.405, Z=1130.78 }
+    BoxExtent = { X=1272.54, Y=1034.42, Z=1264.64 }
+    SphereRadius = 1409.75
+}

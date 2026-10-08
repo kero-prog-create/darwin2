@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_CocotteTree_Trunk_Mat.ENV_VEG_Tree_CocotteTree_Trunk_Mat'
+    Materials[1] = Material3'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_TheMagician_Branch_Mat.ENV_VEG_Tree_TheMagician_Branch_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_CocotteTree_Trunk_Mat.ENV_VEG_Tree_CocotteTree_Trunk_Mat'
+        MaterialSlotName = 08 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 903.969, 20045.9, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_TheMagician_Branch_Mat.ENV_VEG_Tree_TheMagician_Branch_Mat'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1858.75, 19474.1, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-88.8277, Y=8.84216, Z=1940.01 }
+    BoxExtent = { X=830.536, Y=892.546, Z=2991.91 }
+    SphereRadius = 2995.66
+}
