@@ -1,0 +1,5 @@
+Diffuse=T_Lava02_basecolor
+Other[0]=VFX_T_AssortedLUTs_01
+Other[1]=VFX_T_LavaNoise_02
+Other[2]=VFX_T_LavaNoise_01
+Other[3]=VFX_T_DistortionNoise_01

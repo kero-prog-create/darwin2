@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/VFX/Characters/ShowDirector/Materials/VFX_TEST_SBS_RisingLava01_MAT_01.VFX_TEST_SBS_RisingLava01_MAT_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Characters/ShowDirector/Materials/VFX_TEST_SBS_RisingLava01_MAT_01.VFX_TEST_SBS_RisingLava01_MAT_01'
+        MaterialSlotName = VFX_TEST_SBS_RisingLava01_MAT
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.005, 149278, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.00195313, Y=0, Z=-7500 }
+    BoxExtent = { X=25980.8, Y=30000, Z=7500 }
+    SphereRadius = 30923.3
+}

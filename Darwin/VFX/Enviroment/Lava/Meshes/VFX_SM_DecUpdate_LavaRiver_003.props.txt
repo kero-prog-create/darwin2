@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/VFX/Environment/Lava/Materials/VFX_M_Lava_01.VFX_M_Lava_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Environment/Lava/Materials/VFX_M_Lava_01.VFX_M_Lava_01'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 5839.51, 10860.6, 4976.79, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-2411.93, Y=15633.3, Z=-1021.77 }
+    BoxExtent = { X=3079.08, Y=2717.74, Z=2.31363 }
+    SphereRadius = 3986.17
+}

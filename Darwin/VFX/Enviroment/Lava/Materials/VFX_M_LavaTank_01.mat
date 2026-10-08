@@ -1,0 +1,7 @@
+Diffuse=T_LavaTank01_emissive
+Emissive=T_LavaTank01_emissive
+Other[0]=T_LavaTank01_roughness
+Other[1]=VFX_T_DistortionNoise_01
+Other[2]=VFX_T_LavaNoise_02
+Other[3]=VFX_T_LavaNoise_01
+Other[4]=VFX_T_AssortedLUTs_01

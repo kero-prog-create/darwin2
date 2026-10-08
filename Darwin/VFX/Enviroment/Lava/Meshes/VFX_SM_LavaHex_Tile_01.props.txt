@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = Material3'/Game/Darwin/VFX/Characters/ShowDirector/Materials/VFX_TEST_SBS_RisingLava01_MAT_01.VFX_TEST_SBS_RisingLava01_MAT_01'
+    Materials[1] = Material3'/Game/Darwin/VFX/Characters/ShowDirector/Materials/VFX_TEST_SBS_RisingLava01_MAT_02.VFX_TEST_SBS_RisingLava01_MAT_02'
+    Materials[2] = MaterialInstanceConstant'/Game/Fx/Materials/HexZoneRedMat2_InstLava.HexZoneRedMat2_InstLava'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Characters/ShowDirector/Materials/VFX_TEST_SBS_RisingLava01_MAT_01.VFX_TEST_SBS_RisingLava01_MAT_01'
+        MaterialSlotName = LavaTop
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.015, 105063, 122713, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Characters/ShowDirector/Materials/VFX_TEST_SBS_RisingLava01_MAT_02.VFX_TEST_SBS_RisingLava01_MAT_02'
+        MaterialSlotName = LavaSide
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.013, 105090, 122794, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Fx/Materials/HexZoneRedMat2_InstLava.HexZoneRedMat2_InstLava'
+        MaterialSlotName = WallSide
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 100.014, 105092, 122690, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.00195313, Y=0, Z=-13045 }
+    BoxExtent = { X=26101, Y=30138.7, Z=13055 }
+    SphereRadius = 32844.7
+}
