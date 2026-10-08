@@ -1,0 +1,4 @@
+Diffuse=Pipe_Lava_OcclusionRoughnessMetallic
+Normal=Pipe_Lava_Normal
+Emissive=Pipe_Lava_Emissive
+Other[0]=Pipe_Lava_BaseColor

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/PipeLava/Pipe_Lava_Mat.Pipe_Lava_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/PipeLava/Pipe_Lava_Mat.Pipe_Lava_Mat'
+        MaterialSlotName = Pipe_Lava_Mat
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1093.39, 1254.97, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=242.795, Z=0 }
+    BoxExtent = { X=147.671, Y=242.795, Z=569.171 }
+    SphereRadius = 618.728
+}
