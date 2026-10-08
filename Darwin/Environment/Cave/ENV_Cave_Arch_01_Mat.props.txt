@@ -1,0 +1,82 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Darwin/Environment/Cave/ENV_Cave_Arch_01_roughness.ENV_Cave_Arch_01_roughness'
+    ReferencedTextures[1] = Texture2D'/Game/Darwin/Environment/Cave/ENV_Cave_Arch_01_basecolor.ENV_Cave_Arch_01_basecolor'
+    ReferencedTextures[2] = Texture2D'/Game/Darwin/Environment/Cave/ENV_Cave_Arch_01_normal.ENV_Cave_Arch_01_normal'
+    ReferencedTextures[3] = Texture2D'/Game/Textures/snow_CO.snow_CO'
+}
+Expressions[24] =
+{
+    Expressions[1] = MaterialExpressionTextureSample'/Game/Darwin/Environment/Cave/ENV_Cave_Arch_01_Mat.MaterialExpressionTextureSample_3'
+    Expressions[2] = MaterialExpressionTextureSample'/Game/Darwin/Environment/Cave/ENV_Cave_Arch_01_Mat.MaterialExpressionTextureSample_0'
+    Expressions[3] = MaterialExpressionTextureSample'/Game/Darwin/Environment/Cave/ENV_Cave_Arch_01_Mat.MaterialExpressionTextureSample_1'
+    Expressions[4] = MaterialExpressionVectorParameter'/Game/Darwin/Environment/Cave/ENV_Cave_Arch_01_Mat.MaterialExpressionVectorParameter_14'
+    Expressions[5] = MaterialExpressionVectorParameter'/Game/Darwin/Environment/Cave/ENV_Cave_Arch_01_Mat.MaterialExpressionVectorParameter_13'
+    Expressions[8] = MaterialExpressionScalarParameter'/Game/Darwin/Environment/Cave/ENV_Cave_Arch_01_Mat.MaterialExpressionScalarParameter_19'
+    Expressions[9] = MaterialExpressionScalarParameter'/Game/Darwin/Environment/Cave/ENV_Cave_Arch_01_Mat.MaterialExpressionScalarParameter_18'
+    Expressions[12] = MaterialExpressionScalarParameter'/Game/Darwin/Environment/Cave/ENV_Cave_Arch_01_Mat.MaterialExpressionScalarParameter_17'
+    Expressions[16] = MaterialExpressionTextureSample'/Game/Darwin/Environment/Cave/ENV_Cave_Arch_01_Mat.MaterialExpressionTextureSample_10'
+    Expressions[18] = MaterialExpressionTextureSample'/Game/Darwin/Environment/Cave/ENV_Cave_Arch_01_Mat.MaterialExpressionTextureSample_9'
+    Expressions[21] = MaterialExpressionVectorParameter'/Game/Darwin/Environment/Cave/ENV_Cave_Arch_01_Mat.MaterialExpressionVectorParameter_12'
+    Expressions[22] = MaterialExpressionScalarParameter'/Game/Darwin/Environment/Cave/ENV_Cave_Arch_01_Mat.MaterialExpressionScalarParameter_16'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=5, Name=SnowBlendMultiplier, Group=None }
+    CollectedScalarParameters[1] = { Value=3.3, Name=SnowBlendPower, Group=None }
+    CollectedScalarParameters[2] = { Value=2, Name=SnowTiling, Group=None }
+    CollectedScalarParameters[3] = { Value=10, Name=Substance_tiling, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.562376, G=0.622431, B=1, A=1 }
+        Name = SnowColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.562376, G=0.622431, B=1, A=1 }
+        Name = Snow Spec Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.562376, G=0.622431, B=1, A=1 }
+        Name = SnowColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
