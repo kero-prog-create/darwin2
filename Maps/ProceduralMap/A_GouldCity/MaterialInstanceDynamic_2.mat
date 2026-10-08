@@ -1,0 +1,4 @@
+Normal=T_DropPodArms_01_Normal
+Emissive=T_DropPodArms_01_Emissive
+Other[0]=T_DropPodArms_01_OcclusionRoughnessMetallic
+Other[1]=T_DropPodArms_01_BaseColor
