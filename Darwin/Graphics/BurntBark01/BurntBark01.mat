@@ -1,0 +1,5 @@
+Diffuse=BurntBarkA_basecolor
+Normal=BurntBarkA_normal
+SpecPower=BurntBarkA_specular
+Emissive=BurntBarkA_emissive
+Other[0]=BurntBarkA_roughness

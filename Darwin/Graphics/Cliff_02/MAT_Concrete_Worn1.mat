@@ -1,0 +1,5 @@
+Diffuse=Rock_Ground_2_basecolor
+Normal=Rock_Ground_2_normal
+Other[0]=Rock_Cliff_roughness
+Other[1]=Rock_Ground_2_roughness
+Other[2]=Rock_Ground_height

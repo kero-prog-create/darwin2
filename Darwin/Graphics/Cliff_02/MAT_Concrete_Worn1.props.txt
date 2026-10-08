@@ -1,0 +1,70 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Darwin/Graphics/Cliff_02/Rock_Ground_2_basecolor.Rock_Ground_2_basecolor'
+    ReferencedTextures[1] = Texture2D'/Game/Darwin/Graphics/Cliff_02/Rock_Ground_2_normal.Rock_Ground_2_normal'
+    ReferencedTextures[2] = Texture2D'/Game/Darwin/Graphics/Cliff_02/Rock_Cliff_roughness.Rock_Cliff_roughness'
+    ReferencedTextures[3] = Texture2D'/Game/Darwin/Graphics/Cliff_02/Rock_Ground_2_roughness.Rock_Ground_2_roughness'
+    ReferencedTextures[4] = Texture2D'/Game/Darwin/Graphics/Cliff_02/Rock_Ground_height.Rock_Ground_height'
+}
+Expressions[14] =
+{
+    Expressions[3] = MaterialExpressionTextureSampleParameter2D'/Game/Darwin/Graphics/Cliff_02/MAT_Concrete_Worn1.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'/Game/Darwin/Graphics/Cliff_02/MAT_Concrete_Worn1.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[5] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/Cliff_02/MAT_Concrete_Worn1.MaterialExpressionTextureSample_4'
+    Expressions[6] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/Cliff_02/MAT_Concrete_Worn1.MaterialExpressionTextureSample_5'
+    Expressions[9] = MaterialExpressionScalarParameter'/Game/Darwin/Graphics/Cliff_02/MAT_Concrete_Worn1.MaterialExpressionScalarParameter_0'
+    Expressions[11] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/Cliff_02/MAT_Concrete_Worn1.MaterialExpressionTextureSample_8'
+    Expressions[12] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/Cliff_02/MAT_Concrete_Worn1.MaterialExpressionTextureSample_0'
+    Expressions[13] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/Cliff_02/MAT_Concrete_Worn1.MaterialExpressionTextureSample_1'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Darwin/Graphics/Cliff_02/Rock_Cliff_basecolor.Rock_Cliff_basecolor'
+        Name = basecolor
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Darwin/Graphics/Cliff_02/Rock_Cliff_normal.Rock_Cliff_normal'
+        Name = normal
+        Group = None
+    }
+}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0.33, Name=Blend Contrast, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

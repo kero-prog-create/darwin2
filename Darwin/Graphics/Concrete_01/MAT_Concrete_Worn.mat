@@ -1,0 +1,4 @@
+Diffuse=Concrete_Worn_basecolor
+Normal=Concrete_Worn_normal
+Other[0]=Concrete_Worn_roughness
+Other[1]=Concrete_Clean_Roughness

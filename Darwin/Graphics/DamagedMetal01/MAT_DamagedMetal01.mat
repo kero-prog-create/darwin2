@@ -1,0 +1,4 @@
+Diffuse=T_DamagedMetal01_roughness
+Normal=T_DamagedMetal01_normal
+Other[0]=T_DamagedMetal01_basecolor
+Other[1]=T_DamagedMetal01_metallic
