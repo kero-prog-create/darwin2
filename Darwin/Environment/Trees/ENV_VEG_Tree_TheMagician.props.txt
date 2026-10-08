@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Darwin/Environment/Trees/M_FoliageImposter_Magician_Inst.M_FoliageImposter_Magician_Inst'
+    Materials[1] = Material3'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_TheMagician_Trunk_Mat.ENV_VEG_Tree_TheMagician_Trunk_Mat'
+    Materials[2] = Material3'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_TheMagician_Branch_Mat.ENV_VEG_Tree_TheMagician_Branch_Mat'
+    Materials[3] = Material3'/Game/Darwin/Environment/Trees/TEMPSnow_FarTree.TEMPSnow_FarTree'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Environment/Trees/M_FoliageImposter_Magician_Inst.M_FoliageImposter_Magician_Inst'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_TheMagician_Trunk_Mat.ENV_VEG_Tree_TheMagician_Trunk_Mat'
+        MaterialSlotName = 21 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 466.889, 8501.41, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_TheMagician_Branch_Mat.ENV_VEG_Tree_TheMagician_Branch_Mat'
+        MaterialSlotName = 21 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1532.43, 8267.83, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Trees/TEMPSnow_FarTree.TEMPSnow_FarTree'
+        MaterialSlotName = TEMPSnow_Opaque
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-38.9772, Y=-67.3602, Z=1461.68 }
+    BoxExtent = { X=710.729, Y=655.073, Z=2212.04 }
+    SphereRadius = 2414
+}

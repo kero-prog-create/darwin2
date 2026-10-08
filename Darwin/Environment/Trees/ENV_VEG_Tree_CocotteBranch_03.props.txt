@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_CocotteTree_Trunk_Mat.ENV_VEG_Tree_CocotteTree_Trunk_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_CocotteTree_Trunk_Mat.ENV_VEG_Tree_CocotteTree_Trunk_Mat'
+        MaterialSlotName = 08 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 319.511, 2884.29, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-100.961, Y=46.1481, Z=186.19 }
+    BoxExtent = { X=922.399, Y=983.969, Z=1145.2 }
+    SphereRadius = 1491.69
+}

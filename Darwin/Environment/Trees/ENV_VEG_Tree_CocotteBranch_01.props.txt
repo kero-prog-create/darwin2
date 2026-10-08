@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_TheMagician_Branch_Mat.ENV_VEG_Tree_TheMagician_Branch_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_TheMagician_Branch_Mat.ENV_VEG_Tree_TheMagician_Branch_Mat'
+        MaterialSlotName = Standardmaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 3002.65, 18107.1, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-271.545, Y=39.3804, Z=143.176 }
+    BoxExtent = { X=2270.45, Y=2406.1, Z=1206.42 }
+    SphereRadius = 2537.19
+}

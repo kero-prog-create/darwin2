@@ -1,0 +1,74 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Textures/snow_CO.snow_CO'
+    ReferencedTextures[1] = Texture2D'/Game/Textures/snow_NM.snow_NM'
+}
+Expressions[26] =
+{
+    Expressions[1] = MaterialExpressionStaticSwitchParameter'/Game/Darwin/Environment/Trees/TEMPSnow.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[2] = MaterialExpressionScalarParameter'/Game/Darwin/Environment/Trees/TEMPSnow.MaterialExpressionScalarParameter_5'
+    Expressions[5] = MaterialExpressionTextureSample'/Game/Darwin/Environment/Trees/TEMPSnow.MaterialExpressionTextureSample_5'
+    Expressions[6] = MaterialExpressionTextureSample'/Game/Darwin/Environment/Trees/TEMPSnow.MaterialExpressionTextureSample_4'
+    Expressions[10] = MaterialExpressionVectorParameter'/Game/Darwin/Environment/Trees/TEMPSnow.MaterialExpressionVectorParameter_5'
+    Expressions[11] = MaterialExpressionScalarParameter'/Game/Darwin/Environment/Trees/TEMPSnow.MaterialExpressionScalarParameter_4'
+    Expressions[13] = MaterialExpressionVectorParameter'/Game/Darwin/Environment/Trees/TEMPSnow.MaterialExpressionVectorParameter_4'
+    Expressions[23] = MaterialExpressionScalarParameter'/Game/Darwin/Environment/Trees/TEMPSnow.MaterialExpressionScalarParameter_14'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 10
+        Name = Snow Near Normal Intensity
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=1, Name=Substance_tiling, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Opacity, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.52549, G=0.972549, B=1, A=0.382 }
+        Name = Snow Spec Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.562376, G=0.622431, B=1, A=1 }
+        Name = SnowColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

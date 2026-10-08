@@ -1,0 +1,77 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_ChristmasTree_Diffuse.ENV_VEG_Tree_ChristmasTree_Diffuse'
+    ReferencedTextures[1] = Texture2D'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_ChristmasTree_Normal.ENV_VEG_Tree_ChristmasTree_Normal'
+    ReferencedTextures[2] = Texture2D'/Game/Textures/snow_CO.snow_CO'
+}
+Expressions[39] =
+{
+    Expressions[2] = MaterialExpressionStaticSwitchParameter'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_Christmastree_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[5] = MaterialExpressionTextureSample'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_Christmastree_Mat.MaterialExpressionTextureSample_0'
+    Expressions[6] = MaterialExpressionTextureSample'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_Christmastree_Mat.MaterialExpressionTextureSample_1'
+    Expressions[7] = MaterialExpressionScalarParameter'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_Christmastree_Mat.MaterialExpressionScalarParameter_4'
+    Expressions[8] = MaterialExpressionScalarParameter'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_Christmastree_Mat.MaterialExpressionScalarParameter_5'
+    Expressions[11] = MaterialExpressionScalarParameter'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_Christmastree_Mat.MaterialExpressionScalarParameter_6'
+    Expressions[15] = MaterialExpressionTextureSample'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_Christmastree_Mat.MaterialExpressionTextureSample_2'
+    Expressions[17] = MaterialExpressionTextureSample'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_Christmastree_Mat.MaterialExpressionTextureSample_4'
+    Expressions[20] = MaterialExpressionScalarParameter'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_Christmastree_Mat.MaterialExpressionScalarParameter_7'
+    Expressions[23] = MaterialExpressionVectorParameter'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_Christmastree_Mat.MaterialExpressionVectorParameter_2'
+    Expressions[24] = MaterialExpressionVectorParameter'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_Christmastree_Mat.MaterialExpressionVectorParameter_3'
+    Expressions[29] = MaterialExpressionScalarParameter'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_Christmastree_Mat.MaterialExpressionScalarParameter_2'
+    Expressions[32] = MaterialExpressionStaticBoolParameter'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_Christmastree_Mat.MaterialExpressionStaticBoolParameter_0'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=10, Name=SnowBlendMultiplier, Group=None }
+    CollectedScalarParameters[1] = { Value=0.1, Name=SnowBlendPower, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=SnowTiling, Group=None }
+    CollectedScalarParameters[3] = { Value=10, Name=Substance_tiling, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Opacity, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.562376, G=0.622431, B=1, A=1 }
+        Name = Snow Spec Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.562376, G=0.622431, B=1, A=1 }
+        Name = SnowColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

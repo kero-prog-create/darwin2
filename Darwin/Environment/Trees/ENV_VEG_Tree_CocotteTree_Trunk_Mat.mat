@@ -1,0 +1,5 @@
+Diffuse=T_TreeBark_01_basecolor
+Normal=T_TreeBark_01_normal
+Other[0]=snow_CO
+Other[1]=T_TreeBark_01_height
+Other[2]=T_TreeBark_01_roughness

@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Darwin/Environment/Trees/M_FoliageImposter_FrozenFir_Inst.M_FoliageImposter_FrozenFir_Inst'
+    Materials[1] = Material3'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_FrozenFir_Mat.ENV_VEG_Tree_FrozenFir_Mat'
+    Materials[2] = Material3'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_FrozenFir_Trunk_Mat.ENV_VEG_Tree_FrozenFir_Trunk_Mat'
+    Materials[3] = Material3'/Game/Darwin/Environment/Shrubs/ENV_VEG_Bush_HidingBush_Mat.ENV_VEG_Bush_HidingBush_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Darwin/Environment/Trees/M_FoliageImposter_FrozenFir_Inst.M_FoliageImposter_FrozenFir_Inst'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_FrozenFir_Mat.ENV_VEG_Tree_FrozenFir_Mat'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1052.24, 11636.9, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_FrozenFir_Trunk_Mat.ENV_VEG_Tree_FrozenFir_Trunk_Mat'
+        MaterialSlotName = 15 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 312.575, 12113.5, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Shrubs/ENV_VEG_Bush_HidingBush_Mat.ENV_VEG_Bush_HidingBush_Mat'
+        MaterialSlotName = 15 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1072.13, 11426.6, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=34.7692, Y=-62.1719, Z=1907.12 }
+    BoxExtent = { X=910.348, Y=644.332, Z=2212.02 }
+    SphereRadius = 2261.15
+}

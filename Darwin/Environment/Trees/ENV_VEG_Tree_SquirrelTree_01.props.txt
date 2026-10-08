@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/WoodBark_02/MAT_WoodBark_02.MAT_WoodBark_02'
+    Materials[1] = Material3'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_SquirrelTree_Branch_Mat.ENV_VEG_Tree_SquirrelTree_Branch_Mat'
+    Materials[2] = Material3'/Game/Darwin/Environment/Trees/TEMPSnow.TEMPSnow'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/WoodBark_02/MAT_WoodBark_02.MAT_WoodBark_02'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 485.754, 9100.91, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Trees/ENV_VEG_Tree_SquirrelTree_Branch_Mat.ENV_VEG_Tree_SquirrelTree_Branch_Mat'
+        MaterialSlotName = 02 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 656.119, 8770.96, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Trees/TEMPSnow.TEMPSnow'
+        MaterialSlotName = 07 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 817.484, 8811.03, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-4.89761, Y=-4.32196, Z=866.753 }
+    BoxExtent = { X=417.44, Y=439.829, Z=1039.81 }
+    SphereRadius = 1042.92
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Trees/M_WillowA.M_WillowA'
+    Materials[1] = Material3'/Game/Darwin/Environment/Trees/M_WillowBranches.M_WillowBranches'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Trees/M_WillowA.M_WillowA'
+        MaterialSlotName = T_WillowA
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 233.307, 1099.72, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Trees/M_WillowBranches.M_WillowBranches'
+        MaterialSlotName = T_WillowBranches
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 255.627, 1120.27, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-71.3642, Y=-7.82643, Z=153.882 }
+    BoxExtent = { X=143.853, Y=148.685, Z=152.06 }
+    SphereRadius = 189.462
+}
