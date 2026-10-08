@@ -1,0 +1,71 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Darwin/Graphics/WoodBeam_02/T_WoodBeam_02_basecolor.T_WoodBeam_02_basecolor'
+    ReferencedTextures[1] = Texture2D'/Game/Darwin/Graphics/WoodBeam_02/T_WoodBeam_02_normal.T_WoodBeam_02_normal'
+    ReferencedTextures[2] = Texture2D'/Game/Darwin/Graphics/WoodBeam_02/T_WoodBeam_02_roughness.T_WoodBeam_02_roughness'
+}
+Expressions[12] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'/Game/Darwin/Graphics/WoodBeam_02/MAT_WoodBeam_02.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'/Game/Darwin/Graphics/WoodBeam_02/MAT_WoodBeam_02.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'/Game/Darwin/Graphics/WoodBeam_02/MAT_WoodBeam_02.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[8] = MaterialExpressionStaticBoolParameter'/Game/Darwin/Graphics/WoodBeam_02/MAT_WoodBeam_02.MaterialExpressionStaticBoolParameter_0'
+    Expressions[10] = MaterialExpressionScalarParameter'/Game/Darwin/Graphics/WoodBeam_02/MAT_WoodBeam_02.MaterialExpressionScalarParameter_1'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Darwin/Graphics/WoodBeam_02/T_WoodBeam_02_basecolor.T_WoodBeam_02_basecolor'
+        Name = basecolor
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Darwin/Graphics/WoodBeam_02/T_WoodBeam_02_roughness.T_WoodBeam_02_roughness'
+        Name = roughness
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Darwin/Graphics/WoodBeam_02/T_WoodBeam_02_normal.T_WoodBeam_02_normal'
+        Name = normal
+        Group = None
+    }
+}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Opacity, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

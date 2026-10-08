@@ -1,0 +1,3 @@
+Diffuse=WallTile_01_BaseColor
+Normal=WallTile_01_Normal
+Other[0]=WallTile_01_OcclusionRoughnessMetallic

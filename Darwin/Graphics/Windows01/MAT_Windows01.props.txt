@@ -1,0 +1,79 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Env/Materials/Textures/T_RB_Glasstest_SoftAlpha_01.T_RB_Glasstest_SoftAlpha_01'
+    ReferencedTextures[1] = Texture2D'/Game/KiteDemo/Environments/Textures/T_Water_Screen_Noise_Soft.T_Water_Screen_Noise_Soft'
+}
+Expressions[48] =
+{
+    Expressions[6] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/Windows01/MAT_Windows01.MaterialExpressionTextureSample_0'
+    Expressions[9] = MaterialExpressionScalarParameter'/Game/Darwin/Graphics/Windows01/MAT_Windows01.MaterialExpressionScalarParameter_0'
+    Expressions[10] = MaterialExpressionScalarParameter'/Game/Darwin/Graphics/Windows01/MAT_Windows01.MaterialExpressionScalarParameter_1'
+    Expressions[13] = MaterialExpressionScalarParameter'/Game/Darwin/Graphics/Windows01/MAT_Windows01.MaterialExpressionScalarParameter_2'
+    Expressions[14] = MaterialExpressionScalarParameter'/Game/Darwin/Graphics/Windows01/MAT_Windows01.MaterialExpressionScalarParameter_3'
+    Expressions[16] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/Windows01/MAT_Windows01.MaterialExpressionTextureSample_7'
+    Expressions[22] = MaterialExpressionScalarParameter'/Game/Darwin/Graphics/Windows01/MAT_Windows01.MaterialExpressionScalarParameter_5'
+    Expressions[25] = MaterialExpressionScalarParameter'/Game/Darwin/Graphics/Windows01/MAT_Windows01.MaterialExpressionScalarParameter_6'
+    Expressions[26] = MaterialExpressionScalarParameter'/Game/Darwin/Graphics/Windows01/MAT_Windows01.MaterialExpressionScalarParameter_7'
+    Expressions[29] = MaterialExpressionScalarParameter'/Game/Darwin/Graphics/Windows01/MAT_Windows01.MaterialExpressionScalarParameter_8'
+    Expressions[33] = MaterialExpressionScalarParameter'/Game/Darwin/Graphics/Windows01/MAT_Windows01.MaterialExpressionScalarParameter_14'
+    Expressions[37] = MaterialExpressionScalarParameter'/Game/Darwin/Graphics/Windows01/MAT_Windows01.MaterialExpressionScalarParameter_15'
+    Expressions[40] = MaterialExpressionScalarParameter'/Game/Darwin/Graphics/Windows01/MAT_Windows01.MaterialExpressionScalarParameter_16'
+    Expressions[42] = MaterialExpressionScalarParameter'/Game/Darwin/Graphics/Windows01/MAT_Windows01.MaterialExpressionScalarParameter_17'
+    Expressions[44] = MaterialExpressionScalarParameter'/Game/Darwin/Graphics/Windows01/MAT_Windows01.MaterialExpressionScalarParameter_18'
+    Expressions[45] = MaterialExpressionScalarParameter'/Game/Darwin/Graphics/Windows01/MAT_Windows01.MaterialExpressionScalarParameter_4'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[14] =
+{
+    CollectedScalarParameters[0] = { Value=1.618, Name=MetallicMul, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=MetallicPow, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=RoughnessMul, Group=None }
+    CollectedScalarParameters[3] = { Value=0.1459, Name=RoughnessPow, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Intensity, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=DiffuseMul, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=DiffusePow, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=RoughnessOffset, Group=None }
+    CollectedScalarParameters[8] = { Value=0.77, Name=MetallicOffset, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=DiffuseOffset, Group=None }
+    CollectedScalarParameters[10] = { Value=0.09, Name=DiffuseMul_Final, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=MetallicMul_Final, Group=None }
+    CollectedScalarParameters[12] =
+    {
+        Value = 0.1459
+        Name = RoughnessMul_Final
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=0.85, Name=EmissiveIntensity, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
