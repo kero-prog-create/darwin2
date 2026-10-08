@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/Emissive_01/Mat_Emissive_05.Mat_Emissive_05'
+    Materials[1] = Material3'/Game/Darwin/Graphics/Glass_01/MAT_SkyscraperGlass01.MAT_SkyscraperGlass01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Emissive_01/Mat_Emissive_05.Mat_Emissive_05'
+        MaterialSlotName = MAT_Emissive01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 131.795, 338.602, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Glass_01/MAT_SkyscraperGlass01.MAT_SkyscraperGlass01'
+        MaterialSlotName = Carbon01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 122.118, 324.154, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=6.86646e-05, Y=155.647, Z=28.7613 }
+    BoxExtent = { X=23.9968, Y=155.647, Z=109.895 }
+    SphereRadius = 190.678
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric05.MAT_BareMetalGeneric05'
+    Materials[1] = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric04.MAT_BareMetalGeneric04'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric05.MAT_BareMetalGeneric05'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 81.1302, 141.706, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric04.MAT_BareMetalGeneric04'
+        MaterialSlotName = Default_Material
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 22.3437, 140.531, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.995827, Y=0.00561142, Z=0 }
+    BoxExtent = { X=10.1011, Y=10.101, Z=50.1945 }
+    SphereRadius = 51.7989
+}

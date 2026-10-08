@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric01.MAT_BareMetalGeneric01'
+    Materials[1] = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric04.MAT_BareMetalGeneric04'
+    Materials[2] = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric01.MAT_PaintedMetalGeneric01'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric01.MAT_BareMetalGeneric01'
+        MaterialSlotName = Carbon01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1104.31, 1953.37, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric04.MAT_BareMetalGeneric04'
+        MaterialSlotName = BareMetalGeneric01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 870.332, 1955.81, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric01.MAT_PaintedMetalGeneric01'
+        MaterialSlotName = MAT_Rubber
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1094.75, 1834.17, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-0.0358887, Z=0.0358887 }
+    BoxExtent = { X=561.089, Y=561.089, Z=88.657 }
+    SphereRadius = 779.619
+}

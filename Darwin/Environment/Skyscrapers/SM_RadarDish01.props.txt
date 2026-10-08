@@ -1,0 +1,74 @@
+Materials[5] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Skyscrapers/01_-_Default.01_-_Default'
+    Materials[1] = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric04.MAT_BareMetalGeneric04'
+    Materials[2] = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric07.MAT_PaintedMetalGeneric07'
+    Materials[3] = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric07.MAT_PaintedMetalGeneric07'
+    Materials[4] = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric05.MAT_BareMetalGeneric05'
+}
+SourceModels[0] = {}
+StaticMaterials[5] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Skyscrapers/01_-_Default.01_-_Default'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0, 0, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric04.MAT_BareMetalGeneric04'
+        MaterialSlotName = BareMetalGeneric01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1208.9, 17989.5, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric07.MAT_PaintedMetalGeneric07'
+        MaterialSlotName = PaintedMetalGeneric01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1146.43, 18060, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric07.MAT_PaintedMetalGeneric07'
+        MaterialSlotName = PaintedMetalGeneric02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1120.3, 18016.3, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric05.MAT_BareMetalGeneric05'
+        MaterialSlotName = BareMetalGeneric02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 711.342, 18327.5, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-60.9548, Y=2.04309, Z=742.553 }
+    BoxExtent = { X=506.043, Y=477.893, Z=754.665 }
+    SphereRadius = 971.701
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric03_TRIM.MAT_BareMetalGeneric03_TRIM'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric03_TRIM.MAT_BareMetalGeneric03_TRIM'
+        MaterialSlotName = BareMetalGeneric01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 209.045, 110.9, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-7.17574, Y=3.24249e-05, Z=51.6936 }
+    BoxExtent = { X=14.7844, Y=10.9781, Z=51.6936 }
+    SphereRadius = 54.4884
+}

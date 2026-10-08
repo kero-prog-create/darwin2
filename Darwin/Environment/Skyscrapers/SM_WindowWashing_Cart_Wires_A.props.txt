@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/Rubber_01/MAT_RubberBlackChipped_01.MAT_RubberBlackChipped_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Rubber_01/MAT_RubberBlackChipped_01.MAT_RubberBlackChipped_01'
+        MaterialSlotName = MAT_Rubber
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2072.37, 2030.59, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.52859e-05, Y=3.62396e-05, Z=496.896 }
+    BoxExtent = { X=8.66989, Y=19.0111, Z=530.512 }
+    SphereRadius = 530.863
+}

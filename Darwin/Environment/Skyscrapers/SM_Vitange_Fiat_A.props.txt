@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Skyscrapers/MAT_Vitange_Fiat_A.MAT_Vitange_Fiat_A'
+    Materials[1] = Material3'/Game/Darwin/Graphics/Glass_01/MAT_Glass_01.MAT_Glass_01'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Skyscrapers/MAT_Vitange_Fiat_A.MAT_Vitange_Fiat_A'
+        MaterialSlotName = blinn3
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 724.609, 1167.44, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Glass_01/MAT_Glass_01.MAT_Glass_01'
+        MaterialSlotName = lambert2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 705.193, 1160.54, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=3.79022, Z=109.036 }
+    BoxExtent = { X=108.24, Y=177.397, Z=109.036 }
+    SphereRadius = 200.89
+}

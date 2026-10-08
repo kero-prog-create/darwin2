@@ -1,0 +1,170 @@
+Materials[13] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric04.MAT_BareMetalGeneric04'
+    Materials[1] = Material3'/Game/Darwin/Graphics/Glass_01/MAT_SkyscraperGlass01.MAT_SkyscraperGlass01'
+    Materials[2] = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric04.MAT_BareMetalGeneric04'
+    Materials[3] = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric02.MAT_BareMetalGeneric02'
+    Materials[4] = Material3'/Game/Darwin/Graphics/Emissive_01/Mat_Emissive_05.Mat_Emissive_05'
+    Materials[5] = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric08.MAT_PaintedMetalGeneric08'
+    Materials[6] = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric09.MAT_PaintedMetalGeneric09'
+    Materials[7] = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric01.MAT_BareMetalGeneric01'
+    Materials[8] = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_FlatBlack.MAT_FlatBlack'
+    Materials[9] = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric02.MAT_BareMetalGeneric02'
+    Materials[10] = Material3'/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial'
+    Materials[11] = Material3'/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial'
+    Materials[12] = Material3'/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial'
+}
+SourceModels[0] = {}
+StaticMaterials[13] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric04.MAT_BareMetalGeneric04'
+        MaterialSlotName = BareMetalGeneric08
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2657.28, 8047.48, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Glass_01/MAT_SkyscraperGlass01.MAT_SkyscraperGlass01'
+        MaterialSlotName = MAT_Rubber
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 771.15, 6410.52, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric04.MAT_BareMetalGeneric04'
+        MaterialSlotName = Carbon02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 345.037, 6982.03, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric02.MAT_BareMetalGeneric02'
+        MaterialSlotName = Carbon01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2.20505e+06, 350980, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Emissive_01/Mat_Emissive_05.Mat_Emissive_05'
+        MaterialSlotName = MAT_Laser
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1029.67, 6664.18, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric08.MAT_PaintedMetalGeneric08'
+        MaterialSlotName = MAT_BlackPaint
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1776.05, 6782.12, 0, 0 }
+        }
+    }
+    StaticMaterials[6] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric09.MAT_PaintedMetalGeneric09'
+        MaterialSlotName = BareMetalGeneric09
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2170.75, 6715.25, 0, 0 }
+        }
+    }
+    StaticMaterials[7] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric01.MAT_BareMetalGeneric01'
+        MaterialSlotName = lambert1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1114.11, 6741.31, 0, 0 }
+        }
+    }
+    StaticMaterials[8] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_FlatBlack.MAT_FlatBlack'
+        MaterialSlotName = MAT_Steel
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2613.26, 8267.88, 0, 0 }
+        }
+    }
+    StaticMaterials[9] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric02.MAT_BareMetalGeneric02'
+        MaterialSlotName = Carbon07
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 907.486, 7488.17, 0, 0 }
+        }
+    }
+    StaticMaterials[10] =
+    {
+        MaterialInterface = Material3'/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial'
+        MaterialSlotName = BareMetalGeneric08
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 272.734, 6319.81, 0, 0 }
+        }
+    }
+    StaticMaterials[11] =
+    {
+        MaterialInterface = Material3'/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial'
+        MaterialSlotName = MAT_Steel1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 109.862, 6749.22, 0, 0 }
+        }
+    }
+    StaticMaterials[12] =
+    {
+        MaterialInterface = Material3'/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial'
+        MaterialSlotName = MAT_Concrete_03
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 770.389, 6292.95, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=6.10352e-05, Z=563.684 }
+    BoxExtent = { X=404.762, Y=701.396, Z=565.806 }
+    SphereRadius = 940.498
+}
