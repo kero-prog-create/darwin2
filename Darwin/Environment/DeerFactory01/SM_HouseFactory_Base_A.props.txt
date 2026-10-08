@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/TrimsSheet01/MAT_TrimsSheet01.MAT_TrimsSheet01'
+    Materials[1] = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric03_TRIM.MAT_BareMetalGeneric03_TRIM'
+    Materials[2] = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric04.MAT_PaintedMetalGeneric04'
+    Materials[3] = Material3'/Game/Darwin/Graphics/MetalFlooring01/MAT_Flooring01.MAT_Flooring01'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/TrimsSheet01/MAT_TrimsSheet01.MAT_TrimsSheet01'
+        MaterialSlotName = MAT_TrimSheet01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 828.563, 3868.62, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric03_TRIM.MAT_BareMetalGeneric03_TRIM'
+        MaterialSlotName = RUST_DARK
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 661.224, 3598.23, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric04.MAT_PaintedMetalGeneric04'
+        MaterialSlotName = metalFlooring
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 975.091, 3611.54, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/MetalFlooring01/MAT_Flooring01.MAT_Flooring01'
+        MaterialSlotName = metalFlooring
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 383.175, 3602.6, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-10.1318, Y=-22.1763, Z=50.1331 }
+    BoxExtent = { X=954.802, Y=717.046, Z=134.352 }
+    SphereRadius = 1198.27
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/DeerFactory01/Materials/MAT_FactoryPoster01.MAT_FactoryPoster01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/DeerFactory01/Materials/MAT_FactoryPoster01.MAT_FactoryPoster01'
+        MaterialSlotName = T_FactorySign01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 258.428, 358.428, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-9.51821, Y=1.01299, Z=8.36115 }
+    BoxExtent = { X=13.5583, Y=142.888, Z=113.55 }
+    SphereRadius = 182.698
+}

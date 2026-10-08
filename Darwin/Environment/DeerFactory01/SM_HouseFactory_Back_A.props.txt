@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric01_TRIM.MAT_BareMetalGeneric01_TRIM'
+    Materials[1] = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric04_TRIM.MAT_PaintedMetalGeneric04_TRIM'
+    Materials[2] = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric02_TRIM.MAT_BareMetalGeneric02_TRIM'
+    Materials[3] = Material3'/Game/Darwin/Graphics/MetalPanels02/MAT_Panels02.MAT_Panels02'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric01_TRIM.MAT_BareMetalGeneric01_TRIM'
+        MaterialSlotName = RUSTB
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 223.211, 1351.2, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric04_TRIM.MAT_PaintedMetalGeneric04_TRIM'
+        MaterialSlotName = GREEN_YELLOW
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 995.324, 1432.17, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric02_TRIM.MAT_BareMetalGeneric02_TRIM'
+        MaterialSlotName = RUST
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 552.929, 1402.35, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/MetalPanels02/MAT_Panels02.MAT_Panels02'
+        MaterialSlotName = PANELS
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 566.406, 1390.83, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-817.246, Y=-21.8766, Z=280.147 }
+    BoxExtent = { X=49.108, Y=675.192, Z=157.456 }
+    SphereRadius = 692.358
+}

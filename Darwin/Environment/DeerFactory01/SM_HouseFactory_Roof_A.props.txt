@@ -1,0 +1,110 @@
+Materials[8] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/TrimsSheet01/MAT_TrimsSheet01.MAT_TrimsSheet01'
+    Materials[1] = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric04.MAT_PaintedMetalGeneric04'
+    Materials[2] = Material3'/Game/Darwin/Graphics/MetalPanelsWavy01/MAT_PanelsWavy01.MAT_PanelsWavy01'
+    Materials[3] = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric02_TRIM.MAT_PaintedMetalGeneric02_TRIM'
+    Materials[4] = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric01_TRIM.MAT_BareMetalGeneric01_TRIM'
+    Materials[5] = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric02_TRIM.MAT_BareMetalGeneric02_TRIM'
+    Materials[6] = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric01_TRIM.MAT_PaintedMetalGeneric01_TRIM'
+    Materials[7] = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_FlatBlack.MAT_FlatBlack'
+}
+SourceModels[0] = {}
+StaticMaterials[8] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/TrimsSheet01/MAT_TrimsSheet01.MAT_TrimsSheet01'
+        MaterialSlotName = TRIMSHEET
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1025.31, 10434.9, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric04.MAT_PaintedMetalGeneric04'
+        MaterialSlotName = YELLOW
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 601.877, 8738.83, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/MetalPanelsWavy01/MAT_PanelsWavy01.MAT_PanelsWavy01'
+        MaterialSlotName = PanelWavy
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1541.92, 10456.5, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric02_TRIM.MAT_PaintedMetalGeneric02_TRIM'
+        MaterialSlotName = GREEN_TRIM
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 547.307, 11036.1, 0, 0 }
+        }
+    }
+    StaticMaterials[4] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric01_TRIM.MAT_BareMetalGeneric01_TRIM'
+        MaterialSlotName = RUST
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1410.25, 10620.7, 0, 0 }
+        }
+    }
+    StaticMaterials[5] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric02_TRIM.MAT_BareMetalGeneric02_TRIM'
+        MaterialSlotName = RUST_DARK
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 970.179, 10512.8, 0, 0 }
+        }
+    }
+    StaticMaterials[6] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/PaintedMetalGeneric01/MAT_PaintedMetalGeneric01_TRIM.MAT_PaintedMetalGeneric01_TRIM'
+        MaterialSlotName = RED_TRIM
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1454.46, 10216.3, 0, 0 }
+        }
+    }
+    StaticMaterials[7] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_FlatBlack.MAT_FlatBlack'
+        MaterialSlotName = BLACK
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 2551.33, 10482.9, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-15.338, Z=994.56 }
+    BoxExtent = { X=1076.02, Y=788.627, Z=649.156 }
+    SphereRadius = 1374.28
+}

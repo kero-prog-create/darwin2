@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/Wiring_01/Mat_Wiring_02.Mat_Wiring_02'
+    Materials[1] = Material3'/Game/BluePrints/Character/Textures/Bows/BowBLTRCH01/MAT_BLTRCH02_Tree.MAT_BLTRCH02_Tree'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Wiring_01/Mat_Wiring_02.Mat_Wiring_02'
+        MaterialSlotName = 07 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 0.521436, 2186.07, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/BluePrints/Character/Textures/Bows/BowBLTRCH01/MAT_BLTRCH02_Tree.MAT_BLTRCH02_Tree'
+        MaterialSlotName = 13 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 353.513, 410.809, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=876.934, Y=0.505671, Z=-140.242 }
+    BoxExtent = { X=878.583, Y=7.8105, Z=143.241 }
+    SphereRadius = 889.31
+}

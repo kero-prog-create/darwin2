@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/WoodPlank_01/MAT_WoodPlankBurnt_02.MAT_WoodPlankBurnt_02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/WoodPlank_01/MAT_WoodPlankBurnt_02.MAT_WoodPlankBurnt_02'
+        MaterialSlotName = 08 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 68.3968, 479.99, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=3.91441, Y=23.1806, Z=19.5485 }
+    BoxExtent = { X=70.4037, Y=147.028, Z=26.1267 }
+    SphereRadius = 151.734
+}

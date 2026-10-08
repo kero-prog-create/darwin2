@@ -1,0 +1,48 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Darwin/Environment/DeerFactory01/Materials/T_RobotDeer_BaseColor.T_RobotDeer_BaseColor'
+    ReferencedTextures[1] = Texture2D'/Game/Darwin/Environment/DeerFactory01/Materials/T_RobotDeer_Emissive.T_RobotDeer_Emissive'
+    ReferencedTextures[2] = Texture2D'/Game/Darwin/Environment/DeerFactory01/Materials/T_RobotDeer_Normal.T_RobotDeer_Normal'
+    ReferencedTextures[3] = Texture2D'/Game/Darwin/Environment/DeerFactory01/Materials/T_RobotDeer_SpecularRoughnessMetallic.T_RobotDeer_SpecularRoughnessMetallic'
+}
+Expressions[4] =
+{
+    Expressions[0] = MaterialExpressionTextureSample'/Game/Darwin/Environment/DeerFactory01/Materials/MAT_RobotDeer.MaterialExpressionTextureSample_7'
+    Expressions[1] = MaterialExpressionTextureSample'/Game/Darwin/Environment/DeerFactory01/Materials/MAT_RobotDeer.MaterialExpressionTextureSample_8'
+    Expressions[2] = MaterialExpressionTextureSample'/Game/Darwin/Environment/DeerFactory01/Materials/MAT_RobotDeer.MaterialExpressionTextureSample_9'
+    Expressions[3] = MaterialExpressionTextureSample'/Game/Darwin/Environment/DeerFactory01/Materials/MAT_RobotDeer.MaterialExpressionTextureSample_11'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
