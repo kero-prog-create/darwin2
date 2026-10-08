@@ -1,0 +1,50 @@
+Materials[3] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Flags/RedFlag_Mat.RedFlag_Mat'
+    Materials[1] = Material3'/Game/Darwin/Environment/Flags/Flag_Rope_Mat.Flag_Rope_Mat'
+    Materials[2] = Material3'/Game/Darwin/Environment/Flags/WhiteFlag_Mat.WhiteFlag_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[3] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Flags/RedFlag_Mat.RedFlag_Mat'
+        MaterialSlotName = MAT_Flag_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 67.388, 2735.23, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Flags/Flag_Rope_Mat.Flag_Rope_Mat'
+        MaterialSlotName = MAT_Rope_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1.48595, 2746.9, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Flags/WhiteFlag_Mat.WhiteFlag_Mat'
+        MaterialSlotName = MAT_Flag_02
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 70.7145, 2721.35, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.000488281, Y=0, Z=1419.44 }
+    BoxExtent = { X=1380.29, Y=2260.75, Z=1309.17 }
+    SphereRadius = 2950.73
+}
