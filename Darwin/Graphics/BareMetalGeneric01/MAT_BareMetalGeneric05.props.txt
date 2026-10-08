@@ -1,0 +1,56 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Darwin/Graphics/BareMetalGeneric01/T_BareMetalGeneric01_basecolor.T_BareMetalGeneric01_basecolor'
+    ReferencedTextures[1] = Texture2D'/Game/Darwin/Graphics/BareMetalGeneric01/T_BareMetalGeneric01_metallic.T_BareMetalGeneric01_metallic'
+    ReferencedTextures[2] = Texture2D'/Game/Darwin/Graphics/BareMetalGeneric01/T_BareMetalGeneric01_normal.T_BareMetalGeneric01_normal'
+    ReferencedTextures[3] = Texture2D'/Game/Darwin/Graphics/BareMetalGeneric01/T_BareMetalGeneric01Rust_normal.T_BareMetalGeneric01Rust_normal'
+    ReferencedTextures[4] = Texture2D'/Game/Darwin/Graphics/BareMetalGeneric01/T_BareMetalGeneric01Rust_metallic.T_BareMetalGeneric01Rust_metallic'
+    ReferencedTextures[5] = Texture2D'/Game/Darwin/Graphics/BareMetalGeneric01/T_BareMetalGeneric01Rust_basecolor.T_BareMetalGeneric01Rust_basecolor'
+    ReferencedTextures[6] = Texture2D'/Game/Darwin/Graphics/BareMetalGeneric01/T_BareMetalGeneric01Rust_roughness.T_BareMetalGeneric01Rust_roughness'
+    ReferencedTextures[7] = Texture2D'/Game/Darwin/Graphics/BareMetalGeneric01/T_BareMetalGeneric01_roughness.T_BareMetalGeneric01_roughness'
+}
+Expressions[23] =
+{
+    Expressions[5] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric05.MaterialExpressionTextureSample_3'
+    Expressions[6] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric05.MaterialExpressionTextureSample_5'
+    Expressions[7] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric05.MaterialExpressionTextureSample_8'
+    Expressions[8] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric05.MaterialExpressionTextureSample_9'
+    Expressions[9] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric05.MaterialExpressionTextureSample_10'
+    Expressions[10] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric05.MaterialExpressionTextureSample_11'
+    Expressions[15] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric05.MaterialExpressionTextureSample_12'
+    Expressions[16] = MaterialExpressionTextureSample'/Game/Darwin/Graphics/BareMetalGeneric01/MAT_BareMetalGeneric05.MaterialExpressionTextureSample_13'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

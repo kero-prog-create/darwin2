@@ -1,0 +1,8 @@
+Diffuse=T_BareMetalGeneric01_basecolor
+Normal=T_BareMetalGeneric01_normal
+Other[0]=T_BareMetalGeneric01_metallic
+Other[1]=T_BareMetalGeneric01Rust_normal
+Other[2]=T_BareMetalGeneric01Rust_metallic
+Other[3]=T_BareMetalGeneric01Rust_basecolor
+Other[4]=T_BareMetalGeneric01Rust_roughness
+Other[5]=T_BareMetalGeneric01_roughness
