@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Env/Infil1_City_Decos/M_City_Deco_YTrashCan.M_City_Deco_YTrashCan'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Env/Infil1_City_Decos/M_City_Deco_YTrashCan.M_City_Deco_YTrashCan'
+        MaterialSlotName = M_City_Deco_YTrashCan
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 202.596, 334.884, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.00265884, Y=0.00284195, Z=50.9138 }
+    BoxExtent = { X=36.5514, Y=36.5514, Z=51.0865 }
+    SphereRadius = 62.6636
+}

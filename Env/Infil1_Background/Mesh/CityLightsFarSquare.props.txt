@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Env/Infil1_Background/Material/BuildingLights_Mat_In_Hot.BuildingLights_Mat_In_Hot'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Env/Infil1_Background/Material/BuildingLights_Mat_In_Hot.BuildingLights_Mat_In_Hot'
+        MaterialSlotName = BuildingLights_Mat_In_Hot
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 17865.8, 18029.6, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=52.3704, Y=-63.9925, Z=2418.89 }
+    BoxExtent = { X=2247.44, Y=55.072, Z=2386.27 }
+    SphereRadius = 3278.45
+}

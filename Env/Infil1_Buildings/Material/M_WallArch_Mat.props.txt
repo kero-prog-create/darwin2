@@ -1,0 +1,63 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Env/Infil1_Buildings/Texture/T_WallArch_M.T_WallArch_M'
+    ReferencedTextures[1] = Texture2D'/Game/Env/Infil1_Buildings/Texture/T_WallArch_N.T_WallArch_N'
+    ReferencedTextures[2] = Texture2D'/Game/Env/Materials/Textures/Wet/T_Environment_Materials_Wet_Wall.T_Environment_Materials_Wet_Wall'
+    ReferencedTextures[3] = Texture2D'/Game/Env/Infil1_City_Decos/Texture/T_Concrete_Dirty.T_Concrete_Dirty'
+}
+Expressions[49] =
+{
+    Expressions[1] = MaterialExpressionTextureSample'/Game/Env/Infil1_Buildings/Material/M_WallArch_Mat.MaterialExpressionTextureSample_2'
+    Expressions[3] = MaterialExpressionTextureSample'/Game/Env/Infil1_Buildings/Material/M_WallArch_Mat.MaterialExpressionTextureSample_0'
+    Expressions[10] = MaterialExpressionTextureSample'/Game/Env/Infil1_Buildings/Material/M_WallArch_Mat.MaterialExpressionTextureSample_58'
+    Expressions[19] = MaterialExpressionTextureSample'/Game/Env/Infil1_Buildings/Material/M_WallArch_Mat.MaterialExpressionTextureSample_55'
+    Expressions[32] = MaterialExpressionTextureSample'/Game/Env/Infil1_Buildings/Material/M_WallArch_Mat.MaterialExpressionTextureSample_52'
+    Expressions[33] = MaterialExpressionScalarParameter'/Game/Env/Infil1_Buildings/Material/M_WallArch_Mat.MaterialExpressionScalarParameter_11'
+    Expressions[38] = MaterialExpressionStaticSwitchParameter'/Game/Env/Infil1_Buildings/Material/M_WallArch_Mat.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[41] = MaterialExpressionScalarParameter'/Game/Env/Infil1_Buildings/Material/M_WallArch_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[42] = MaterialExpressionScalarParameter'/Game/Env/Infil1_Buildings/Material/M_WallArch_Mat.MaterialExpressionScalarParameter_14'
+    Expressions[45] = MaterialExpressionScalarParameter'/Game/Env/Infil1_Buildings/Material/M_WallArch_Mat.MaterialExpressionScalarParameter_16'
+    Expressions[46] = MaterialExpressionTextureSample'/Game/Env/Infil1_Buildings/Material/M_WallArch_Mat.MaterialExpressionTextureSample_53'
+    Expressions[47] = MaterialExpressionTextureSample'/Game/Env/Infil1_Buildings/Material/M_WallArch_Mat.MaterialExpressionTextureSample_56'
+    Expressions[48] = MaterialExpressionTextureSample'/Game/Env/Infil1_Buildings/Material/M_WallArch_Mat.MaterialExpressionTextureSample_59'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=AmbientOcc, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=UVChannel, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=TextureTile2, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=TextureTile1, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

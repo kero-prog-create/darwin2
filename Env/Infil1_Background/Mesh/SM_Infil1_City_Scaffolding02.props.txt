@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Env/Infrastructure/Metals/Materials/M_Infil1_Metal_Base_Dark.M_Infil1_Metal_Base_Dark'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Env/Infrastructure/Metals/Materials/M_Infil1_Metal_Base_Dark.M_Infil1_Metal_Base_Dark'
+        MaterialSlotName = M_Infil1_Metal_Base_Dark
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1036.53, 4591.53, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-298.408, Y=0, Z=1549.9 }
+    BoxExtent = { X=1536.75, Y=324, Z=1549.9 }
+    SphereRadius = 2206.18
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Env/Infil1_Buildings/Material/M_WallArch_Mat_Inst.M_WallArch_Mat_Inst'
+    Materials[1] = MaterialInstanceConstant'/Game/Env/Materials/MaterialLayers/GridMaterials/Glass/MI_GlassGrid_2layers_Superglow.MI_GlassGrid_2layers_Superglow'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Env/Infil1_Buildings/Material/M_WallArch_Mat_Inst.M_WallArch_Mat_Inst'
+        MaterialSlotName = M_WallArch_Mat_Inst
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 869.4, 3045.73, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Env/Materials/MaterialLayers/GridMaterials/Glass/MI_GlassGrid_2layers_Superglow.MI_GlassGrid_2layers_Superglow'
+        MaterialSlotName = MI_GlassGrid_2layers_Superglow
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 4139.53, 3185.62, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=500, Y=-77.3219, Z=2000 }
+    BoxExtent = { X=500, Y=82.6782, Z=2000 }
+    SphereRadius = 2063
+}

@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = Material3'/Game/Env/Infil1_Courthouse/Material/M_Infil1_Courthouse_Roof_Tin_Trim.M_Infil1_Courthouse_Roof_Tin_Trim'
+    Materials[1] = Material3'/Game/Env/Infil1_City_Decos/Material/M_Infil1_City_Justice_Trims_Emissive.M_Infil1_City_Justice_Trims_Emissive'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Env/Infil1_Courthouse/Material/M_Infil1_Courthouse_Roof_Tin_Trim.M_Infil1_Courthouse_Roof_Tin_Trim'
+        MaterialSlotName = M_Infil1_Courthouse_Roof_Tin_Trim
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 990.016, 1794.1, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Env/Infil1_City_Decos/Material/M_Infil1_City_Justice_Trims_Emissive.M_Infil1_City_Justice_Trims_Emissive'
+        MaterialSlotName = M_Infil1_City_Justice_Trims_Emissive
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 965.082, 1249.95, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-297.683, Y=-4.57764e-05, Z=312.063 }
+    BoxExtent = { X=298.122, Y=184.023, Z=1729.37 }
+    SphereRadius = 1753.63
+}

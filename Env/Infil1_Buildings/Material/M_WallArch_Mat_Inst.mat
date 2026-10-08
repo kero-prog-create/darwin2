@@ -1,0 +1,4 @@
+Diffuse=T_Concrete_Dirty
+Normal=T_WallArch_N
+Other[0]=T_WallArch_M
+Other[1]=T_Environment_Materials_Wet_Wall
