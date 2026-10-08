@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Elemental/Effects/Fx_Volcano/Materials/M_Lightnging_01.M_Lightnging_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Elemental/Effects/Fx_Volcano/Materials/M_Lightnging_01.M_Lightnging_01'
+        MaterialSlotName = M_Lightnging_01
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 160.043, 0, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=17.2357, Y=5.47192, Z=-17.8872 }
+    BoxExtent = { X=32.0508, Y=27.0508, Z=45.3077 }
+    SphereRadius = 55.1247
+}

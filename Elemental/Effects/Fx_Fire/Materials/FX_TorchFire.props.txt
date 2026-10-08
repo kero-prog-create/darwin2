@@ -1,0 +1,48 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Elemental/Effects/Fx_Fire/Textures/T_TorchFire.T_TorchFire'
+}
+Expressions[19] =
+{
+    Expressions[4] = MaterialExpressionTextureSample'/Game/Elemental/Effects/Fx_Fire/Materials/FX_TorchFire.MaterialExpressionTextureSample_0'
+    Expressions[7] = MaterialExpressionScalarParameter'/Game/Elemental/Effects/Fx_Fire/Materials/FX_TorchFire.MaterialExpressionScalarParameter_0'
+    Expressions[8] = MaterialExpressionScalarParameter'/Game/Elemental/Effects/Fx_Fire/Materials/FX_TorchFire.MaterialExpressionScalarParameter_1'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=AlphaDetail, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=EmissiveMultiplier, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

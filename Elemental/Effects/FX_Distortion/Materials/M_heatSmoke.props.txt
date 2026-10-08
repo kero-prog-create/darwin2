@@ -1,0 +1,54 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Elemental/Effects/FX_Distortion/ParticleSystems/T_Fire_SmokeWisps_Tile_Dup.T_Fire_SmokeWisps_Tile_Dup'
+    ReferencedTextures[1] = Texture2D'/Game/Elemental/Effects/FX_Distortion/ParticleSystems/T_Soft_Smoke2_Dup.T_Soft_Smoke2_Dup'
+    ReferencedTextures[2] = Texture2D'/Game/Elemental/Effects/FX_Distortion/ParticleSystems/T_Effect_Goo_BG.T_Effect_Goo_BG'
+    ReferencedTextures[3] = Texture2D'/Game/Elemental/Effects/FX_Distortion/ParticleSystems/T_Smooth_tile_Dup.T_Smooth_tile_Dup'
+}
+Expressions[17] =
+{
+    Expressions[4] = MaterialExpressionTextureSample'/Game/Elemental/Effects/FX_Distortion/Materials/M_heatSmoke.MaterialExpressionTextureSample_0'
+    Expressions[6] = MaterialExpressionTextureSample'/Game/Elemental/Effects/FX_Distortion/Materials/M_heatSmoke.MaterialExpressionTextureSample_4'
+    Expressions[8] = MaterialExpressionTextureSample'/Game/Elemental/Effects/FX_Distortion/Materials/M_heatSmoke.MaterialExpressionTextureSample_5'
+    Expressions[9] = MaterialExpressionTextureSample'/Game/Elemental/Effects/FX_Distortion/Materials/M_heatSmoke.MaterialExpressionTextureSample_6'
+    Expressions[15] = MaterialExpressionScalarParameter'/Game/Elemental/Effects/FX_Distortion/Materials/M_heatSmoke.MaterialExpressionScalarParameter_0'
+    Expressions[16] = MaterialExpressionScalarParameter'/Game/Elemental/Effects/FX_Distortion/Materials/M_heatSmoke.MaterialExpressionScalarParameter_1'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=emissiveContribution, Group=None }
+    CollectedScalarParameters[1] = { Value=0.1, Name=diffuseContribution, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
