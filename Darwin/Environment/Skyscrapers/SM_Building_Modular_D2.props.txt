@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/Concrete_01/MAT_Concrete_Worn.MAT_Concrete_Worn'
+    Materials[1] = Material3'/Game/Darwin/Graphics/WallTiles_02/MAT_WallTile_02.MAT_WallTile_02'
+    Materials[2] = Material3'/Game/Darwin/Graphics/WallTiles_01/MAT_WallTile_01.MAT_WallTile_01'
+    Materials[3] = Material3'/Game/Darwin/Graphics/Concrete_01/MAT_Concrete_03.MAT_Concrete_03'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Concrete_01/MAT_Concrete_Worn.MAT_Concrete_Worn'
+        MaterialSlotName = Material #457
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 321.639, 2304.1, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/WallTiles_02/MAT_WallTile_02.MAT_WallTile_02'
+        MaterialSlotName = Material #14
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 1080.09, 2274.62, 0, 0 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/WallTiles_01/MAT_WallTile_01.MAT_WallTile_01'
+        MaterialSlotName = Material #2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 590.87, 2284.59, 0, 0 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Concrete_01/MAT_Concrete_03.MAT_Concrete_03'
+        MaterialSlotName = Material #52
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 205.149, 2284.97, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=1029.81, Y=0, Z=603.012 }
+    BoxExtent = { X=139.352, Y=1100, Z=596.988 }
+    SphereRadius = 1162.6
+}

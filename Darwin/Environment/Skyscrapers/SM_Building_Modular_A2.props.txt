@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/WallTiles_01/MAT_WallTile_01.MAT_WallTile_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/WallTiles_01/MAT_WallTile_01.MAT_WallTile_01'
+        MaterialSlotName = Material #2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 595.63, 3142.56, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.00012207, Y=0.00012207, Z=100 }
+    BoxExtent = { X=1249.13, Y=1236.73, Z=100 }
+    SphereRadius = 1594.29
+}
