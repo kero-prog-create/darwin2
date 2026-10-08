@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/VFX/Generic/Materials/VFX_M_StylizedDustPuff_02.VFX_M_StylizedDustPuff_02'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Generic/Materials/VFX_M_StylizedDustPuff_02.VFX_M_StylizedDustPuff_02'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 175.154, 209.195, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=4.84561, Y=-0.0796394, Z=-2.1046 }
+    BoxExtent = { X=50, Y=41.8187, Z=42.4358 }
+    SphereRadius = 58.8476
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/VFX/Weapons/Bow/Materials/Knockback/VFX_M_MeshForcefieldOn_01.VFX_M_MeshForcefieldOn_01'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/VFX/Weapons/Bow/Materials/Knockback/VFX_M_MeshForcefieldOn_01.VFX_M_MeshForcefieldOn_01'
+        MaterialSlotName = WorldGridMaterial
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 147.361, 262.692, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=0, Z=0 }
+    BoxExtent = { X=50, Y=50, Z=49.2404 }
+    SphereRadius = 50
+}
