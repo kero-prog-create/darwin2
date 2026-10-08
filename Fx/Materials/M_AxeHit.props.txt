@@ -1,0 +1,48 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Fx/Textures/T_AxeHit.T_AxeHit'
+}
+Expressions[24] =
+{
+    Expressions[3] = MaterialExpressionTextureSample'/Game/Fx/Materials/M_AxeHit.MaterialExpressionTextureSample_0'
+    Expressions[20] = MaterialExpressionScalarParameter'/Game/Fx/Materials/M_AxeHit.MaterialExpressionScalarParameter_0'
+    Expressions[21] = MaterialExpressionScalarParameter'/Game/Fx/Materials/M_AxeHit.MaterialExpressionScalarParameter_1'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=2.618, Name=TilingMin, Group=None }
+    CollectedScalarParameters[1] = { Value=3.333, Name=TilingMax, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

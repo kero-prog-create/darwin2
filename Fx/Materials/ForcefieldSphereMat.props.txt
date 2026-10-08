@@ -1,0 +1,61 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Textures/Hex-1-01.Hex-1-01'
+    ReferencedTextures[1] = Texture2D'/Game/Fx/Textures/T_TilingNoise03.T_TilingNoise03'
+}
+Expressions[69] =
+{
+    Expressions[7] = MaterialExpressionTextureSample'/Game/Fx/Materials/ForcefieldSphereMat.MaterialExpressionTextureSample_1'
+    Expressions[8] = MaterialExpressionScalarParameter'/Game/Fx/Materials/ForcefieldSphereMat.MaterialExpressionScalarParameter_1'
+    Expressions[15] = MaterialExpressionTextureSample'/Game/Fx/Materials/ForcefieldSphereMat.MaterialExpressionTextureSample_11'
+    Expressions[38] = MaterialExpressionTextureSample'/Game/Fx/Materials/ForcefieldSphereMat.MaterialExpressionTextureSample_9'
+    Expressions[40] = MaterialExpressionTextureSample'/Game/Fx/Materials/ForcefieldSphereMat.MaterialExpressionTextureSample_8'
+    Expressions[42] = MaterialExpressionTextureSample'/Game/Fx/Materials/ForcefieldSphereMat.MaterialExpressionTextureSample_7'
+    Expressions[48] = MaterialExpressionTextureSample'/Game/Fx/Materials/ForcefieldSphereMat.MaterialExpressionTextureSample_12'
+    Expressions[62] = MaterialExpressionVectorParameter'/Game/Fx/Materials/ForcefieldSphereMat.MaterialExpressionVectorParameter_0'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0.1, Name=Opacity, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0.5, B=1, A=1 }
+        Name = SphereColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

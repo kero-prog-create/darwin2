@@ -1,0 +1,99 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Textures/Hex-1-01.Hex-1-01'
+    ReferencedTextures[1] = Texture2D'/Game/Effects/Holograms/Textures/T_Hologram_Text_01.T_Hologram_Text_01'
+    ReferencedTextures[2] = Texture2D'/Game/Fx/Textures/T_TilingNoise03.T_TilingNoise03'
+}
+Expressions[219] =
+{
+    Expressions[28] = MaterialExpressionScalarParameter'/Game/Fx/Materials/HexZoneRedMat2.MaterialExpressionScalarParameter_1'
+    Expressions[40] = MaterialExpressionTextureSample'/Game/Fx/Materials/HexZoneRedMat2.MaterialExpressionTextureSample_17'
+    Expressions[56] = MaterialExpressionTextureSample'/Game/Fx/Materials/HexZoneRedMat2.MaterialExpressionTextureSample_3'
+    Expressions[74] = MaterialExpressionTextureSample'/Game/Fx/Materials/HexZoneRedMat2.MaterialExpressionTextureSample_22'
+    Expressions[76] = MaterialExpressionTextureSample'/Game/Fx/Materials/HexZoneRedMat2.MaterialExpressionTextureSample_23'
+    Expressions[78] = MaterialExpressionTextureSample'/Game/Fx/Materials/HexZoneRedMat2.MaterialExpressionTextureSample_24'
+    Expressions[90] = MaterialExpressionTextureSample'/Game/Fx/Materials/HexZoneRedMat2.MaterialExpressionTextureSample_18'
+    Expressions[109] = MaterialExpressionVectorParameter'/Game/Fx/Materials/HexZoneRedMat2.MaterialExpressionVectorParameter_3'
+    Expressions[111] = MaterialExpressionTextureSample'/Game/Fx/Materials/HexZoneRedMat2.MaterialExpressionTextureSample_0'
+    Expressions[124] = MaterialExpressionVectorParameter'/Game/Fx/Materials/HexZoneRedMat2.MaterialExpressionVectorParameter_0'
+    Expressions[126] = MaterialExpressionStaticBoolParameter'/Game/Fx/Materials/HexZoneRedMat2.MaterialExpressionStaticBoolParameter_0'
+    Expressions[127] = MaterialExpressionScalarParameter'/Game/Fx/Materials/HexZoneRedMat2.MaterialExpressionScalarParameter_0'
+    Expressions[137] = MaterialExpressionScalarParameter'/Game/Fx/Materials/HexZoneRedMat2.MaterialExpressionScalarParameter_2'
+    Expressions[139] = MaterialExpressionScalarParameter'/Game/Fx/Materials/HexZoneRedMat2.MaterialExpressionScalarParameter_3'
+    Expressions[140] = MaterialExpressionScalarParameter'/Game/Fx/Materials/HexZoneRedMat2.MaterialExpressionScalarParameter_4'
+    Expressions[141] = MaterialExpressionScalarParameter'/Game/Fx/Materials/HexZoneRedMat2.MaterialExpressionScalarParameter_5'
+    Expressions[142] = MaterialExpressionScalarParameter'/Game/Fx/Materials/HexZoneRedMat2.MaterialExpressionScalarParameter_6'
+    Expressions[156] = MaterialExpressionScalarParameter'/Game/Fx/Materials/HexZoneRedMat2.MaterialExpressionScalarParameter_7'
+    Expressions[171] = MaterialExpressionVectorParameter'/Game/Fx/Materials/HexZoneRedMat2.MaterialExpressionVectorParameter_1'
+    Expressions[187] = MaterialExpressionTextureSample'/Game/Fx/Materials/HexZoneRedMat2.MaterialExpressionTextureSample_1'
+    Expressions[202] = MaterialExpressionScalarParameter'/Game/Fx/Materials/HexZoneRedMat2.MaterialExpressionScalarParameter_8'
+    Expressions[213] = MaterialExpressionScalarParameter'/Game/Fx/Materials/HexZoneRedMat2.MaterialExpressionScalarParameter_9'
+    Expressions[217] = MaterialExpressionScalarParameter'/Game/Fx/Materials/HexZoneRedMat2.MaterialExpressionScalarParameter_10'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[11] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[1] = { Value=5, Name=MiniHexTiling, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=SuddenDeath, Group=None }
+    CollectedScalarParameters[3] = { Value=618, Name=FadeStartDist, Group=None }
+    CollectedScalarParameters[4] = { Value=6180, Name=FadeEndDist, Group=None }
+    CollectedScalarParameters[5] = { Value=55555, Name=FadeEndDistSD, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=FadeStartDistSD, Group=None }
+    CollectedScalarParameters[7] = { Value=0.00333, Name=BorderWidth, Group=None }
+    CollectedScalarParameters[8] = { Value=0.23, Name=None, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=MinOpacity, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=MinColor, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=2, G=1, B=1, A=1 }
+        Name = TexScale
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=377, G=1, B=0.145098, A=0 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=144, G=5, B=1, A=0 }
+        Name = ColorSD
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
