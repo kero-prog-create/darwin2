@@ -1,0 +1,48 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Materials/GodrayTexture.GodrayTexture'
+    ReferencedTextures[1] = Texture2D'/Game/ExampleContent/AnimationDemo/Effects/T_Effects_Trails.T_Effects_Trails'
+}
+Expressions[69] =
+{
+    Expressions[13] = MaterialExpressionTextureSample'/Game/MyParticleSystems/AnimTrails/Mat_SpeedTrails.MaterialExpressionTextureSample_15'
+    Expressions[27] = MaterialExpressionTextureSample'/Game/MyParticleSystems/AnimTrails/Mat_SpeedTrails.MaterialExpressionTextureSample_14'
+    Expressions[30] = MaterialExpressionTextureSample'/Game/MyParticleSystems/AnimTrails/Mat_SpeedTrails.MaterialExpressionTextureSample_13'
+    Expressions[36] = MaterialExpressionTextureSample'/Game/MyParticleSystems/AnimTrails/Mat_SpeedTrails.MaterialExpressionTextureSample_12'
+    Expressions[40] = MaterialExpressionTextureSample'/Game/MyParticleSystems/AnimTrails/Mat_SpeedTrails.MaterialExpressionTextureSample_11'
+    Expressions[44] = MaterialExpressionTextureSample'/Game/MyParticleSystems/AnimTrails/Mat_SpeedTrails.MaterialExpressionTextureSample_2'
+}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] = { ParameterInfos[0]={} }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[0] = {}
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[0] = {}
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
