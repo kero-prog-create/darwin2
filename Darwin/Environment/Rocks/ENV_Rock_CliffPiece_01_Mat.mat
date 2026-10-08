@@ -1,0 +1,4 @@
+Diffuse=ENV_Rock_CliffPiece_01_Diffuse
+Normal=ENV_Rock_CliffPiece_01_Normals
+Other[0]=ENV_Rock_CliffPiece_01_roughness
+Other[1]=snow_CO

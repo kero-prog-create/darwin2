@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = Material3'/Game/Darwin/Environment/Rocks/ENV_Rock_CliffPiece_01_Mat.ENV_Rock_CliffPiece_01_Mat'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Rocks/ENV_Rock_CliffPiece_01_Mat.ENV_Rock_CliffPiece_01_Mat'
+        MaterialSlotName = 08 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 4057.93, 4246.52, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0, Y=-0.000488281, Z=0.00012207 }
+    BoxExtent = { X=583.176, Y=778.798, Z=1806.15 }
+    SphereRadius = 1848.2
+}
