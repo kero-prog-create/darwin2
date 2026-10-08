@@ -1,0 +1,62 @@
+Materials[4] =
+{
+    Materials[0] = Material3'/Game/Darwin/Graphics/WoodBeam_02/MAT_WoodBeam_02.MAT_WoodBeam_02'
+    Materials[1] = Material3'/Game/Darwin/Graphics/Rope_01/MAT_Rope_01.MAT_Rope_01'
+    Materials[2] = Material3'/Game/Darwin/Environment/Flags/MAT_Flag_01.MAT_Flag_01'
+    Materials[3] = Material3'/Game/Darwin/Environment/Flags/MAT_Flag_02.MAT_Flag_02'
+}
+SourceModels[0] = {}
+StaticMaterials[4] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/WoodBeam_02/MAT_WoodBeam_02.MAT_WoodBeam_02'
+        MaterialSlotName = 01 - Default
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 154.153, 348.587, 12.8056, 12.8056 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Graphics/Rope_01/MAT_Rope_01.MAT_Rope_01'
+        MaterialSlotName = 01 - Default Slot #2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 63.4461, 341.91, 26.2256, 26.2787 }
+        }
+    }
+    StaticMaterials[2] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Flags/MAT_Flag_01.MAT_Flag_01'
+        MaterialSlotName = Material #38
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 319.025, 348.993, 422.411, 422.411 }
+        }
+    }
+    StaticMaterials[3] =
+    {
+        MaterialInterface = Material3'/Game/Darwin/Environment/Flags/MAT_Flag_02.MAT_Flag_02'
+        MaterialSlotName = Material #38
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 351.357, 347.301, 465.221, 465.221 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=6.45282, Y=-3.07743, Z=88.6503 }
+    BoxExtent = { X=280.216, Y=19.4906, Z=88.6503 }
+    SphereRadius = 289.215
+}
